@@ -1,0 +1,82 @@
+---
+title: "Ghost in the shell et cyberpunk"
+date: 2025-03-31T17:00:18.765Z
+draft: false
+tags: ["review", "anime", "video_game"]
+---
+
+---
+
+On y suit l’histoire de major motoko, une cyborg. Membre d’une brigade anti criminelle, qui s’interroge sur ses origines et les implications d’un corp artificiel. 
+
+Et ça veut dire que c’est le moment parfait pour parler de mon thème préféré en sciences fiction mais aussi en général: 
+Les modifications corporelles…
+Bon en gros vous aller vous taper mon rant ultime sur l’identité, l’humanité… et l’avenir des ses notions.
+
+Bon pour essayer d’organiser un peu, et donner un fil directeur, je vais faire un peu comme en cour de philo, et essayer d’exposer le problème. Oui je sais ça ne me ressemble pas d’avoir un propos organisé, et c’est marrant d’écrire à chaud sur un anime à peine fini, mais j’ai trop réfléchi sur le sujet, et c’est assez confus dans ma tête pour que j’ai moi même besoin d’organisation.
+
+Aujourd’hui on s’interrogera, en hommage à ghost in the shell, sur les implications de “l’amélioration” du corp humain par la technique.
+L’objectif étant bien évidemment de déterminer si l’amélioration du corp est souhaitable, ou à éviter au maximum.
+Ou bien c’est une simple évolution de notre corp, qui, dans la continuité de la médecine peut être rendu plus résistant, plus fort, plus beau… ne changeant donc pas fondamentalement notre rapport à notre corp
+Cependant, cette vision peine à expliquer les réticences à l’égard de ces modifications, et le caractère artificiel d’une telle l’évolution tend à la contredire, en effet, cette évolution n’est pas simple, ou naturelle, bien au contraire.
+Ou bien ces améliorations sont en réalité une transition dans la notion d’outil, qui quittent la place traditionnelle qu’ils ont d’extension du corp pour en devenir une composante. Le corp devient donc un réel outil pouvant se spécialisé tout autant qu’il est le moyen d’expression de l’esprit dans le monde physique. Cependant, on pourrait faire valoir que le corp est déjà un outil pouvant se spécialisé en témoigne les différentes musculature en fonction des sports. Ce n’est donc pas un changement radical mais l’accélération d’une évolution naturelle.
+
+Bon après ce magnifique pavé, je vais un peu partir en roue libre et vous parler de mon premier exemple, celui qui m’a fait tomber dans le terrier du lapin comme Alice (like Alice down the rabbit hole, Ken ashkorp dans touch fluffy tails…) la creation de nouveaux sens, et de nouveaux membres. Je suis tombé au hasard de mes perigrations sur l’impression 3d, sur un groupe de recherche fabriquant un deuxième pouce. Oui, un deuxième pouce, à fixé sur la paume de main à l’aide d’un harnais et contrôlé avec ses doigts de pied.
+
+https://www.daniclodedesign.com/thethirdthumb
+
+Cette découverte pour le moi intriguante m’a littéralement fait tomber dans le monde des prothèses, de l’interface homme machine etc… avec des prothèses comme forme d’art et d’expression, et aussi l’inverse de cette expérimentation… la création de nouveaux sens. Et cela dans une forme toute particulière: l’utilisation dans VRchat de moteur fixé sur le cul pour vibrer lorsque quelqu’un touche la queue de l’avatar.
+
+Pont commun des ces deux projets pourtant opposés par l’objectif et la forme : ils me mettent très mal à l’aise, et je pense que c’est parce qu’au fond de moi j’ai envie d’essayer.
+
+Et c’est cette relation ambiguë avec l’augmentation du corp humain qui m’a conduit à m’intéresser au genre cyberpunk ou les cyborgs sont monnaie courantes. Tout d’abord dans cyberpunk 2077, ou j’espérais voire une analyse intéressante de la question, et j’ai été satisfait, mais pas comme je me l’attendais. En fait de cp2077, à de nombreuses reprises, tu est confronté as des situations à des situations où les améliorations corporelles sont aux centre d'événements horrible. En particulier : 
+
+- l’histoire cursed de deux jumelles qui participent à une émission de télé-réalité, l’une prend la place de l’autre auprès de son amant, et implante à sa sœur, je cite “tout les implants de combat les plus moches du marché”. Ces événements sont théoriquement “scripté” vu la moralité des corpos on peut se poser des questions. Sauf que problème, au réveil de l’opération, elle as oublié et elle est furieuse, elle bute tout le monde et devient cyberpsycho.
+
+Vous vous en doutez je ne vous raconte pas ça pour rien, je vous le raconte parceque je trouve ça très stylé et fascinant… par contre euh bah jsp quoi dire de plus sur cet exemple.
+
+Nan plus sérieusement, cyberpunk 2077 ne se mouille pas trop, et préfère explorer ce qui pourrait mal tourner, comment la société ultra capitaliste de night city peut faire de ces augmentations un enfer, on parle de potentiels dysfonctionnement, à bec l’exemple de cette homme dont l’organe genital explose littéralement sous nos yeux, paix à son âme… de comment elle peuvent affecter notre santé mentale, avec la cyberpsycose qui si elle est intéressante, ne parvient pas réellement à montrer des effets potentiels de ces augmentations je trouve. J’aurais aimé plus voir imagé une forme de perte de sentiment de complétude, au d'autres des effet secondaire que pourraient réellement avoir l'augmentation sur nous, après, je demande beaucoup, et en avoir une version même si elle est un peu fantasmée, c'est déjà bien.
+
+
+Petite parenthèse, le sentiment de complétude je ne sais pas vraiment comment le traduire, ça vient de wholeness en anglais, en gros c’est le fait d’être complet, par exemple, une personne perdant un bras ou la fonction de ce bras peut ressentir un manque, il ne se sent pas complet.
+
+Un autre aspect du cyberware de cyberpunk que j’aime c’est son aspect esthétique, si certains implants sont utilitaires, d’autres sont purement décoratifs, et j’ai été très déçu que l’on ne puisse pas en équiper notre personnage. Je parle des bras dorés, des tenues littéralement agrafés sur le corp
+
+![cyberpunk_fashion](/images/IMG_0173.png)
+
+Vous l’aurez compris, cyberpunk as plus une esthétique futuriste que réellement un fond d’œuvre philosophique de SF, comme le dit stellar jay, c’est le sirop d’érable et pas du pancake.
+
+Je reviens un peu sur ce que j’ai dit, (vous avez pas les timestamps, mais c’est 4 jours après l’avoir écrit.) 
+Je voulais tout d’abord parler de comment dans cyberpunk 2077, le cyberware rend dépendant, sauf que en réfléchissant au jeux, j’ai eu l’impression que c’était faux, V (le/la protagoniste) utilise ses implants de manière autonome, et ils ne lui donnent aucun inconvénient, au niveau du gameplay, rien n’indique cette dépendance a part le besoin d’aller au ripperdoc. Sauf que par ce raisonnement, j’oubliais complètement l’univers de cyberpunk qui lui va complètement dans cette direction, la production d’implants est dominée par trois compagnies : Arasaka, Miltech et Akashi (pas sûr pour le dernier) qui sont, coïncidences je ne crois pas les trois plus grosses corporation.
+Le fait est que dans cyberpunk 2077, personne n’a de cyberware parceque qu’il en veut à pars V et les plus riches. Les gens ont du cyberware, parce qu’ils en ont besoins. Ces implants ne sont là que pour une raison, sans implant une personne ne vaut rien sur le marché du travail. Et donc la société leur propose une solution, faire un emprunt et acheter des nouvelles jambes hors de prix, et en même temps, livrer sa capacité de marché au bon vouloir d’Arasaka. 
+
+La réponse de cyberpunk à notre question sur les implants est : c’est un outil, non seulement c’est un outil qui fusionne avec ton corp, mais ça n’est pas pour autant que cet outil t’appartient, et c’est un outils sur lequel tu n’a quasiment pas de contrôle, quelqu’un peut simplement hacker tes implants, te faire faire des choses contre ton gré, te tuer à distance… et ça pour le coup, ça fait partie intégrante du gameplay.
+
+Et c’est la qu’on arrive à la vidéo de DJ peach cobbler
+
+Deja cet homme est une légende, mais surtout dans cette vidéo 
+
+https://youtu.be/BeWpW0YG7dQ
+
+Dans cette vidéo, il parle d’une controverse dont je n’avais pas entendu avant, le choix de la voix différent du choix du sexe durant la création de personnage (ou un truc du genre…) et il faut reconnaître, que c’est une idée génial. Le jeux le montre déjà, dans une moindre mesure, mais modifier son corp, ça brouille vraiment beaucoup cette limite, et en tout cas pour moi et bcp de monde vue les réactions, ça n’est pas confortable, comme le 3 eme pouce, comme le truc à vibrer sur le cul, on se demande pourquoi, on ce demande qu’est ce que ça fait, on aimerais bien ressentir peut être, en tout les cas on est pas indifférent. Je dis tout ça sans discours politique derrière, j’espère que vous en êtes conscient… ce que je veux juste dire, c’est que c’est exactement le genre de choses qu’on imagine pas immédiatement lorsqu’on pense amélioration du corp, mais qui existeront, et qui font réfléchir. Parceque si on va au bout du raisonnement, un jour plus rien ne m’empêchera de m’identifier à un T-34 et d’effectivement transférer ma conscience dans un T-34. Qu’est ce qu’on ressentirait si notre corp était un tank ?
+Est-ce que ça serait un peu comme cyberpunk, juste un extension de nous, une envelope qui interprète notre volonté ? Ou alors de nouveaux sens complètement ? 
+
+Et Ducou on se retrouve avec une vision partagée, d’un côté les implants sont des outils, mais ils sont aussi une évolution, mais pas la ou on s’y attend. Si personne n’achète de sa propre intention des bras plus puissants, les modifications corporelles « légères » sont devenues courantes, et elles deviennent une révolution dans la mode et dans l’identité notamment.
+
+Bref, cyberpunk est un peu maladroit mais il ouvre la porte, il essaye, et c’est tant mieux ! Au loin ce n’est pas juste une merde signée Ubisoft sans aucune visée autre que la thune.
+
+Même édit que plus haut, oui cyberpunk est un peu maladroit, mais pas tant que ça en fait. Il arrive à offrir une vraie perspective réaliste et probable. (oui je crois à ce que je dis)
+
+Mais surtout je n’ai pas fini avec cyberpunk 2077, car ce qu’il y as de plus intéressant dans le jeux ce sont les personnages. Je vous laisse Bangor sur le sujet, il est très bon.
+
+https://www.google.com/url?q=https://www.youtube.com/watch%3Fv%3D2C8q0LAnTS0&sa=U&sqi=2&ved=2ahUKEwivjurp4a2MAxXrfqQEHQiVFIYQwqsBegQIFxAF&zccpm=epi&usg=AOvVaw1JyZ0Mi6OmpxN748mF84zD
+
+Ce qu’il faut retenir, c’est qu’on écrit aujourd’hui des histoires tellement prenantes que l’on peut s’attacher à des personnages fictifs de manière il semblerait irraisonné. Et que l’IA, promet de rendre ces personnages fictifs indistinguables de personnes réelles. Et à partir de là on est dans le territoire de Serial Experiment Lain
+
+[[Serial experiment lain]]
+
+Bon je ne sais plus si je l’explique à fond dans ce post, mais SEL (Serial Experiment Lain) montre une chose à laquelle je crois, un homme est défini par sa capacité à convaincre un autre homme qu’il en est un. Et ces IA de Bangor, bah elles répondent à la description. Et ducou on arrive a la seconde question que l’on se pose, même si j’y ai déjà en parti répondu, est-ce que les IA sont humaines ? devraient avoir les mêmes droits que nous ? Nous remplacer dans les tâches où elles sont meilleures ? Et la ça devient très compliqué. Je pense que la réponse est oui, oui, oui.
+
+J’aimerais parler de Soma et du WAU parceque Soma, parmis toutes les question existentielles sur l’humanité, la valeur de la vie etc qu’il pose, nous demande de manière très discrète si un intelligence artificielle, as le droit de vivre. En effet, le choix nous est donné de détruire le WAU, un IA, qui après la chute de l’humanité a « réincarné » des consciences humaines dans des robots afin de préserver la vie ou jsp quoi. Au moment du choix, le jeux est très pernicieux, car ce n’est pas explicite, et que le WAU, n’a pas pour l’instant été très gentils avec nous, il as en effet été à l’origine de la plus part des monstres du jeux, et de nombreux dilemmes moraux. Mais la vrai question de cette destruction n’est plus pour la survie du joueur, en réalité  seule raison de le détruire, c’est car il est mauvais. Mais l’est il vraiment ? Qui sommes nous pour décider que cette IA a tort, que ses esssais a la création de vie sont vains ou mauvais. Il est même probable que si une vie rejaillisse sur terre, ce soit grâce au WAU, grâce à l’évolution qui crée une nouvelle form d’humanité. J’ai tue le WAU, et je ne m’en remet pas. Comme les sœurs d’izalith, le WAU joue au jeu le plus dur du monde celui de la création de vie, et même si les démons qui sont né sont intrinsèquement différents de nous, sont ils de ce fait mauvais par nature ? Non. Les démons sont l’une des plus belle créations de Dark soul, et le WAU a le droit d’essayer maintenant que l’homme as échoué à survivre.
+
+De retour à Ghost in the shell. Dans ghost in the shell, nous sommes à la croisée de ces deux questions, le moment où la question de l’artificialité du corp se mêle à l’artificialité de l’esprit. En effet san ghost in the shell est atteint la separation effective de l’esprit et du corp appelés ghost et sûrement Shell, et c’est une porte ouverte vers les enfers. On as la de vraies implications contrairement à cp2077. Est tu réellement propriétaire de ton propre corp ? Non le gouvernement en est propriétaire puisqu’il t’a fournis ce corp ultra avancé pour ta misssion de police. Est tu propriétaire de ton esprit ? Plus depuis que le ghost peut être analysé, tu connaît des secrets qui sont propriétés de l’état, l’état possède donc ta mémoire. Dans ce monde plus rien n’est certains à part une chose, j’existe car je pense, et si je ne tue pas ce Gogol, c’est lui qui me tuera. Sauf que la plus part des personnages n’en sont pas conscients, ou refuse d’y penser. Et puis tout ça rencontre à pleine balle (littéralement) une intelligence née du réseau. Et l’objectif, évoluer, créer une nouvelle génération. Ghost in the shell n’est pas complètement nihiliste, si on peut acheter des corps d’enfant au marché noir, le monde continue de tourner, et peut-être que le nouvel être qui vient de naitre changera l’histoire pour le mieux. En attendant, soit on s’impatiente pour l’arrivée des cyber dongs, et on rêve devant les designs de night city, soit on espère que notre corp ne périme pas trop vite.

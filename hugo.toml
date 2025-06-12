@@ -68,22 +68,22 @@ refLinksNotFoundURL = "/not-here-yet"
     weight = 20
     
   [[menu.main]]
-    identifier = "lainring" # An unique identifier for the button
-    name = "Lainring"       # A display name for the button
-    url = "/lainring/"      # The path to the content. It can lead to a single page (like here)
-    weight = 30          # A number to order the buttons in the navbar
+    identifier = "lainring"
+    name = "Lainring"
+    url = "/lainring/"
+    weight = 30
 
   [[menu.main]]
-    identifier = "9b9tgoals" # An unique identifier for the button
-    name = "9b9t achievements"       # A display name for the button
-    url = "/9b9tgoal/"      # The path to the content. It can lead to a single page (like here)
-    weight = 40          # A number to order the buttons in the navbar
+    identifier = "9b9tgoals"
+    name = "9b9t achievements"
+    url = "/9b9tgoal/"
+    weight = 40
 
   [[menu.main]]
-    identifier = "guestbook" # An unique identifier for the button
-    name = "livre d'or/guestbook"       # A display name for the button
-    url = "http://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab"      # The path to the content. It can lead to a single page (like here)
-    weight = 50          # A number to order the buttons in the navbar
+    identifier = "guestbook"
+    name = "livre d'or/guestbook"
+    url = "http://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab"
+    weight = 50
     
 [taxonomies]
     tag = "tags"

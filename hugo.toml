@@ -2,7 +2,7 @@ baseURL = 'https://gand-elf.neocities.org/'
 languageCode = 'en-us'
 title = 'gand_elf place'
 theme = 'hugo.386'
-description = "Welcome to Gandalf's place, a magical world where the forces of good and evil coexist."
+description = "Welcome to gand_elf's place, a magical world where i talk a lot."
 
 DefaultContentLanguage = "en" # Change this to change the site's language
 

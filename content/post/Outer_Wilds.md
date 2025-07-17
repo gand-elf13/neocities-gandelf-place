@@ -1,5 +1,5 @@
 ---
-title: "Outer_Wilds"
+title: "Pourquoi Je n'aime pas Outer_Wilds"
 date: 2025-03-19T17:37:06.126Z
 draft: false
 tags: ["video_game", "review", "space"]

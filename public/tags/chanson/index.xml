@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chanson on gand_elf place</title>
-    <link>https://gand-elf.neocities.org/tags/chanson/</link>
+    <link>http://localhost:1313/tags/chanson/</link>
     <description>Recent content in Chanson on gand_elf place</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Apr 2025 09:47:59 +0000</lastBuildDate>
-    <atom:link href="https://gand-elf.neocities.org/tags/chanson/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Mar 2026 18:00:19 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/chanson/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quand la neige a recouvert la plaine</title>
-      <link>https://gand-elf.neocities.org/post/quand-la-neige-a-recouvert-la-plaine/</link>
-      <pubDate>Sat, 05 Apr 2025 09:47:59 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/quand-la-neige-a-recouvert-la-plaine/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;p&gt;Quand la neige a recouvert la plaine&#xA;Je prend mon cheval et mon traîneau&lt;/p&gt;&#xA;&lt;p&gt;Et mon chant s’élève a perdre haleine&#xA;Non jamais le monde fut si beau&lt;/p&gt;&#xA;&lt;p&gt;Et mon chant s’élève a perdre haleine&#xA;Non jamais le monde ne fis si beau&lt;/p&gt;&#xA;&lt;p&gt;Au matin dans la brise glaciale&#xA;Je m’en vais au gré de mon traîneau&lt;/p&gt;&#xA;&lt;p&gt;Et le ciel peu a peu se dévoile&#xA;Non jamais le monde ne fus si beau&lt;/p&gt;</description>
+      <link>http://localhost:1313/post/quand-la-neige-a-recouvert-la-plaine/</link>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/quand-la-neige-a-recouvert-la-plaine/</guid>
+      <description>&lt;p&gt;Quand la neige a recouvert la plaine&lt;br&gt;&#xA;Je prend mon cheval et mon traîneau&lt;/p&gt;&#xA;&lt;p&gt;Et mon chant s’élève a perdre haleine&lt;br&gt;&#xA;Non jamais le monde fut si beau&lt;/p&gt;&#xA;&lt;p&gt;Et mon chant s’élève a perdre haleine&lt;br&gt;&#xA;Non jamais le monde ne fis si beau&lt;/p&gt;&#xA;&lt;p&gt;Au matin dans la brise glaciale&lt;br&gt;&#xA;Je m’en vais au gré de mon traîneau&lt;/p&gt;&#xA;&lt;p&gt;Et le ciel peu a peu se dévoile&lt;br&gt;&#xA;Non jamais le monde ne fus si beau&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

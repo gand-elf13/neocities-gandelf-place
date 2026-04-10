@@ -51,7 +51,7 @@ refLinksNotFoundURL = "/not-here-yet"
     prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
-    suffix = "inside Lainring soon (i hope)"
+    suffix = "inside Lainring"
 
 [menu]
   # This displays buttons in the navbar to access your contents
@@ -66,7 +66,13 @@ refLinksNotFoundURL = "/not-here-yet"
     name = "All posts"
     url = "/post/"       # The path can lead to a content folder too.
     weight = 20
-    
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"       # The path can lead to a content folder too.
+    weight = 25
+
   [[menu.main]]
     identifier = "lainring"
     name = "Lainring"
@@ -90,3 +96,9 @@ refLinksNotFoundURL = "/not-here-yet"
 
 [markup.goldmark.renderer] 
     unsafe=true
+
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']

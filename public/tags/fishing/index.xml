@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fishing on gand_elf place</title>
-    <link>https://gand-elf.neocities.org/tags/fishing/</link>
+    <link>http://localhost:1313/tags/fishing/</link>
     <description>Recent content in Fishing on gand_elf place</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Mar 2025 17:08:23 +0000</lastBuildDate>
-    <atom:link href="https://gand-elf.neocities.org/tags/fishing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Mar 2026 18:00:19 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/fishing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dredge</title>
-      <link>https://gand-elf.neocities.org/post/dredge/</link>
-      <pubDate>Tue, 25 Mar 2025 17:08:23 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/dredge/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;p&gt;Comme au fur et à mesure de mes pérégrinations intellectuelles, j’ai réalisé que l’image mentale qu’on a d’une chose influe énormément sur la manière dont on voit ladite chose,&lt;/p&gt;&#xA;&lt;p&gt;Je vous livre maintenant ce que je pensais savoir sur Dredge avant même d’y jouer.&lt;/p&gt;&#xA;&lt;p&gt;Dans sa vidéo sur le GOTY 2023 (ou 24, je sais plus), DJ Peach Cobbler a cité Dredge comme étant compétiteur.&lt;/p&gt;&#xA;&lt;p&gt;Le comparant à un enfant qui te montre tout fier un oiseau mort dans ses mains, Dredge te montre ses horreurs avec excitation et enthousiasme, ce qui les rend peu effrayantes à la longue. C’est la seule « critique » que j’ai entendue dessus, tout le reste était de l’ordre de « c’est trop bien 🤩 ».&lt;/p&gt;</description>
+      <link>http://localhost:1313/post/dredge/</link>
+      <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/dredge/</guid>
+      <description>&lt;p&gt;Comme j’ai pris la mauvaise habitude d’analyser ce que je vois et de l’écrire, eh bien, je&lt;br&gt;&#xA;suis de retour et, aujourd’hui, on parle de Dredge.&lt;/p&gt;&#xA;&lt;p&gt;Comme au fur et à mesure de mes pérégrinations intellectuelles, j’ai réalisé que l’image&lt;br&gt;&#xA;mentale qu’on a d’une chose influe énormément sur la manière dont on voit ladite chose,&lt;/p&gt;&#xA;&lt;p&gt;Je vous livre maintenant ce que je pensais savoir sur Dredge avant même d’y jouer.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

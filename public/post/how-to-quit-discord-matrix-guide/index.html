@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>gand_elf place</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#000084" />
+    <link rel="icon" href="http://localhost:1313//favicon.ico">
+    <link rel="canonical" href="http://localhost:1313/">
+    
+    
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"></button>
+            <a class="brand" href="http://localhost:1313/">gand_elf place</a>
+            <div class="nav-collapse collapse">
+                <ul class="nav">
+                    
+                    
+                        
+                            <li>
+                                <a href="/about/">
+                                    
+                                    <span>About</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/post/">
+                                    
+                                    <span>All posts</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/tags/">
+                                    
+                                    <span>Tags</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/lainring/">
+                                    
+                                    <span>Lainring</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="/9b9tgoal/">
+                                    
+                                    <span>9b9t achievements</span>
+                                </a>
+                            </li>
+                        
+                    
+                        
+                            <li>
+                                <a href="http://users4.smartgb.com/g/g.php?a=s&amp;i=g44-82905-ab">
+                                    
+                                    <span>livre d&#39;or/guestbook</span>
+                                </a>
+                            </li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav><div id="content" class="container">
+
+<div class="row-fluid navmargin">
+    <div class="page-header">
+        <h1>How To Quit Discord (Matrix guide) - Fri, Mar 27, 2026</h1>
+    </div>
+    <p class="lead"></p>
+    <p>Page récupérée de [@JoinMatrixGuide][1]<br>
+j&rsquo;y ajoute mes choix comme je suis un nouvel utilisateur de matrix.<br>
+j&rsquo;ai crée mon compte sur federated.nexus qui est ouvert aux inscriptions<br>
+j&rsquo;utilise cinny sur mon ordinateur dans sa version web car il ressemble bcp a discord<br>
+sur mobile j&rsquo;ai element X que je n&rsquo;aime aps je cherche une alternative.</p>
+<h2 id="the-join-matrix-guide-basics">The “Join Matrix!” Guide: Basics</h2>
+<p>Welcome! This website aims to be a beginner-friendly guide to Matrix (sometimes <a href="#is-it-matrix-or-element">mistakenly known</a> as Element). Matrix is an open federated communication protocol that strives to be a viable alternative to various centralized proprietary platforms. But those are very big words, and unfortunately, they do confuse people sometimes, so this guide aims to introduce you to the chatting aspect of it in somewhat simpler terms. We’ll start by the “why” and then the “how.” This part is for people who have never used Matrix before, so if you’re looking for more advanced material, check out the sidebar.</p>
+<h2 id="why-matrix">Why Matrix?</h2>
+<p>Matrix is the long-awaited middleground between one-to-one messaging platforms (Facebook Messenger, WhatsApp, iMessages, SMS…) and social/collaborative messaging platforms (Discord, Slack, Telegram…): it offers an appropriate degree of privacy while allowing you to socialize/collaborate with others. Generally, the merits that make Matrix stand out from others can be boiled down to two categories:</p>
+<ul>
+<li><strong>Freedom.</strong> You get to choose how to use the platform and how your data is treated.
+<ul>
+<li>Conversations can be end-to-end encrypted<a href="#fn:1">1</a>. This is enabled by default for direct and group messages<a href="#fn:2">2</a></li>
+<li>Automatic collection of data is minimized: no address book syncing<a href="#fn:3">3</a>, no “are you human?” checks beyond registration, phone numbers are optional, even email addresses are optional (on select homeservers)!</li>
+<li>You can host your own server, or you can join <a href="https://joinmatrix.org/servers">an existing public homeserver</a> that suits you. Either way, your access to the Matrix federation is the same<a href="#fn:4">4</a>!</li>
+<li><a href="https://joinmatrix.org/guide/features/#all-about-bridges">Bridges</a> allow you to chat with users on other platforms, minimizing the social cost of moving to Matrix!</li>
+<li>Since Matrix is an open protocol, it is extensible and can be used for purposes beyond just chatting. For example: <a href="https://www.safesupport.chat/">help desk</a>, <a href="https://minestrix.henri2h.fr/">social media</a>, real-time collaboration…</li>
+</ul>
+</li>
+<li><strong>Trust.</strong> You get to actually trust the software you use.
+<ul>
+<li>Matrix is an open protocol, and most<a href="#fn:5">5</a> of its <a href="#what-app-should-i-use">apps</a> and servers<a href="#fn:6">6</a> are both open source, which you may contribute to!</li>
+<li>Matrix is federated, just like email: Unlike conventional platforms which are <a href="https://joinmatrix.org/guide/matrix-vs-al/#centralized-platforms">centralized</a>, no single specific entity can control the entirety of the Matrix federation, where homeservers, operated independently from each other, communicate with each other using an agreed-upon protocol.
+<ul>
+<li>Furthermore, while individual homeservers may experience outage, the entire federation <em>cannot</em> go offline.</li>
+</ul>
+</li>
+<li>You are welcomed to improve Matrix by creating new apps around it, or by <a href="https://spec.matrix.org/unstable/proposals/">reviewing or submitting</a> proposals. You can shape your platform towards a better direction!</li>
+<li>Matrix is backed by the public sector, most notably by the Germans (<a href="https://matrix.org/blog/2021/07/21/germanys-national-healthcare-system-adopts-matrix">healthcare</a>, <a href="https://element.io/case-studies/bundeswehr">army</a>, <a href="https://doc.matrix.tu-dresden.de/en/why/">universities</a>) as well as <a href="https://element.io/case-studies/tchap">the French</a>.</li>
+</ul>
+</li>
+</ul>
+<p>And of course, Matrix has everything that a modern messaging platform offers: cross-platform, real-time, usefulness, etc. But that’s not the point. Matrix shows that it is <strong>possible</strong> to have a decent chat platform that actually <strong>respects you</strong>.</p>
+<p>If these reasons did not convince you, how about comparing Matrix <a href="https://joinmatrix.org/guide/matrix-vs-al">with other platforms</a> like <a href="https://joinmatrix.org/guide/matrix-vs-discord">Discord</a> and <a href="https://joinmatrix.org/guide/matrix-vs-telegram">Telegram</a>?</p>
+<p>Matrix is not spotless, but it is constantly improving! You can also follow <a href="https://matrix.org/blog/posts">the Matrix.org blog</a> for all the news around Matrix!</p>
+<h2 id="get-started">Get Started</h2>
+<p>Ready to try Matrix? Here we go:</p>
+<h3 id="is-it-matrix-or-element">Is it Matrix or Element?</h3>
+<ul>
+<li>Matrix is the protocol, developed by the UK-registered non-profit <a href="https://matrix.org/foundation/">The Matrix.org Foundation C.I.C.</a>. It can also refer to the entire Matrix federation that contains all the users and rooms.</li>
+<li>Element (previously known as Riot.im) is the flagship app of Matrix, developed by the UK-registered for-profit <a href="https://element.io/about">Element Creations Ltd</a>. It can also refer to commercial services that the company offers, such as <a href="https://element.io/matrix-services">Element Matrix Services</a>.</li>
+</ul>
+<p><a href="#what-app-should-i-use">As touched upon later</a>, Element is just one of the apps that accesses Matrix. It is therefore correct to refer to the platform as just “Matrix.” Though, nobody is stopping you from calling it <em><a href="https://en.wikipedia.org/wiki/The_Matrix">The Matrix</a></em>.</p>
+<h3 id="set-up-your-own-homeserver-or-join-an-existing-homeserver">Set up your own homeserver, or join an existing homeserver?</h3>
+<p>If you have the infrastructure and the technical skills required to host an internet-facing program, then you can try setting up your own homeserver<a href="#fn:6">6</a>. The dominant homeserver implementation is <a href="https://github.com/matrix-org/synapse/">Synapse</a>. See <a href="https://matrix.org/docs/guides/installing-synapse">installation instructions</a>. It may be possible to run a homeserver for free <a href="https://matrix.org/docs/guides/free-small-matrix-server">with Oracle Cloud</a>.</p>
+<p>However, hosting is still undesirable for many. In that case, you can…</p>
+<ul>
+<li>Join an existing homeserver by picking one from <a href="https://joinmatrix.org/servers">our public homeserver list</a>, or</li>
+<li>Reaching out to a friend who hosts a homeserver, or</li>
+<li>Purchase <a href="https://matrix.org/hosting/">managed homeserver hosting</a>.</li>
+</ul>
+<p>The &ldquo;default&rdquo; Matrix homeserver is <code>matrix.org</code>, which is used by 35% of all Matrix users <a href="https://matrix.org/blog/2020/01/02/on-privacy-versus-freedom">as estimated in 2020</a>. Although it is okay to use it (and you can try out Matrix quickly with it), it is highly encouraged to choose a different homeserver (including running your own) for long-term usage, as it serves the spirit of decentralization promoted by the Matrix protocol, and also because <code>matrix.org</code> is occasionally overloaded (though performance has improved in recent times) and behind Cloudflare (which is a security risk).</p>
+<h3 id="register-an-account">Register an account</h3>
+<p>This part does not cover cases where a homeserver uses its own authentication tools. In such cases, please consult your homeserver&rsquo;s instructions.</p>
+<p>For simplicity, the guide is prepared in such a way that recommends registration on a PC browser, even though many servers allow you to do so from native PC/mobile apps. Regardless, once registered, you can use the account everywhere!</p>
+<ol>
+<li>If you’re using our homeserver list which has provided you with a link to the homeserver’s in-house Element client, then you may use that. Otherwise, use the official <a href="https://app.element.io/">Element Web client</a> to register.</li>
+<li>Click “Create Account”.</li>
+<li>On the top of the registration dialog, verify that you are registering on the correct server. If necessary, click “edit” and enter the appropriate domain (consult your public/private/managed homeserver’s instructions, or the “Registration method” column of the <a href="https://joinmatrix.org/servers">homeserver list</a>). Once verified, <strong>note the domain down.</strong> You will need it to login<a href="#fn:7">7</a>.</li>
+<li>Fill out the required information.</li>
+<li>If you did not enter an email address, then you’re in. Otherwise, verify your email, after which you will be prompted to <a href="#log-into-an-existing-account">login</a>.</li>
+</ol>
+<p>Users are uniquely identified by their MXID. Your MXID is your username plus your server name (not necessarily domain). For example, <code>@austin:tchncs.de</code> is my MXID, where <code>austin</code> is my username and <code>tchncs.de</code> is the name of the server I’m on. <strong>You cannot change it later</strong>, as using a new username or a different homeserver requires registering a new account (you may <a href="https://ems.element.io/tools/matrix-migration">migrate data</a>, however). Furthermore, if you deactivate the account, no one else can have this MXID again! You can, however, change the display name, as well as your avatar.</p>
+<p>Remember to <a href="#set-up-key-backup">set up key backup</a>, and don’t log out from the browser just yet!</p>
+<h3 id="log-into-an-existing-account">Log into an existing account</h3>
+<p>Now it’s time to log into your new account! Get <a href="#what-app-should-i-use">your preferred app</a> and do the following:</p>
+<ol>
+<li>Enter the login dialog, if necessary.</li>
+<li>Verify that you are logging onto the correct server. This is usually shown on top of the dialog. If necessary, click “edit” and enter the appropriate domain (see Step 3 of registration).</li>
+<li>Enter your login details.</li>
+</ol>
+<h3 id="encryption">Encryption</h3>
+<p>When you log into a new device, you will be prompted to verify it using your existing device (by scanning a QR code or by comparing emojis). Your new device will then retrieve the room keys from your existing device, thereby enabling it to read your encrypted messages. This prevents anyone else - including your homeserver operator - to read encrypted content<a href="#fn:1">1</a>.</p>
+<p>It is <strong>strongly recommended</strong> to check for new sessions. (Note that Element does notify you on new sessions.) If you do not recognize the session, then <strong>you must remove it immediately!</strong> Not doing so can <a href="https://blog.erethon.com/blog/2022/07/13/what-a-malicious-matrix-homeserver-admin-can-do/#headline-4">compromise your future encrypted messages</a>.</p>
+<p>However, a Security Key is required to access encrypted messages if:</p>
+<ul>
+<li>You have logged out of <em>all</em> your sessions prior to this login (note that you cannot recover messages during the time when your account has no session), or</li>
+<li>You are unable to verify interactively from another session.</li>
+</ul>
+<p>It is <strong>strongly recommended</strong> to do this step to prevent accidentally losing all of your encrypted messages.</p>
+<p>You can set up a Security Key with the following steps:</p>
+<ol>
+<li>On your first login, a bubble on the top-left will ask you to “set up secure backup”. Click “Continue”. If that is not the case, click your avatar, then “Settings” -&gt; “Security &amp; Privacy” -&gt; “Secure Backup” -&gt; click “Set up”.</li>
+<li>“Generate a Security Key” is enough.</li>
+<li>Save the generated security key in a safe place (like in a password manager).</li>
+</ol>
+<p>A graphic tutorial is available <a href="https://www.ubuntubuzz.com/2021/01/element-made-easy-setup-security-phrase-and-key.html">here</a>.</p>
+<p>Once you’ve logged into your new device, you can safely log out of the browser.</p>
+<h2 id="get-familiar">Get Familiar</h2>
+<h3 id="what-app-should-i-use">What app should I use?</h3>
+<p>There exists <a href="https://matrix.org/clients/">many different apps</a> that can access Matrix. Because Matrix is an open protocol, you can even implement Matrix in your own app, if you got the skills. But for most people, here are some recommendations:</p>
+<ul>
+<li>Element (<a href="https://app.element.io/">browser</a>, <a href="https://element.io/download">app</a>): The flagship app.
+<ul>
+<li>Bleeding edge builds are available <a href="https://develop.element.io/">on browser</a> and <a href="https://element.io/download#nightly">as an app</a>.</li>
+</ul>
+</li>
+<li><a href="https://cinny.in/">Cinny</a>: for browser; also available <a href="https://github.com/cinnyapp/cinny-desktop">as an app</a>. Appears to be inspired by Slack.</li>
+<li><a href="https://github.com/Nheko-Reborn/nheko">Nheko</a>: for PC. Simpler, without compromising features. Recommended if Element is too heavy for you.</li>
+<li><a href="https://apps.kde.org/neochat/">NeoChat</a>: KDE’s Matrix client.</li>
+<li><a href="https://gitlab.gnome.org/GNOME/fractal">Fractal</a>: GNOME’s Matrix client.</li>
+<li><a href="https://hydrogen.element.io/">Hydrogen</a>: Fast and adaptable to mobile browsers, at the cost of missing some optional features.</li>
+</ul>
+<p>For those living on the edge: <a href="https://github.com/tulir/gomuks">gomuks</a> and <a href="https://syphon.org/">Syphon</a>.</p>
+<p>For PC users, if you want a better experience when using Element Desktop or SchildiChat, place <a href="https://joinmatrix.org/assets/config.json">this config file</a> in your <a href="https://github.com/vector-im/element-desktop#user-specified-configjson">configuration folder</a>, where <code>$NAME</code> is either &ldquo;Element&rdquo;, &ldquo;Element Nightly&rdquo; or &ldquo;SchildiChat&rdquo;. The config file enables the &ldquo;Labs&rdquo; tab in settings, enables custom themes, preloads <a href="https://github.com/aaronraimist/element-themes">a few custom themes</a>, and preloads a few homeservers for room directory searches.</p>
+<h3 id="what-rooms-can-i-join">What rooms can I join?</h3>
+<p>Each Matrix homeserver has a public room directory, which is accessible to the users of that homeserver or, if enabled, users of other homeservers as well.</p>
+<ul>
+<li>On PC, for Element and SchildiChat, click the “Explore Rooms” button on the top-left.</li>
+<li>For FluffyChat, and for Element and SchildiChat on phone, click the search button.</li>
+<li><a href="https://matrixrooms.info/">MatrixRooms.info</a> allows you to search public room directories of various homeservers on the web.</li>
+</ul>
+<p>In any case mentioned above, you can enter the room address to directly join a room, or you can enter keywords to search for rooms<a href="#fn:8">8</a>. However, the directory may be unintuitive to use as it orders rooms by member count<a href="#fn:9">9</a>. The author of this guide recommends joining <a href="https://matrix.to/#/#offtopic-space:matrix.org">this Space</a> (<code>#offtopic-space:matrix.org</code>), which contains a list of active off-topic or no-topic discussion rooms.</p>
+<h4 id="hold-on-whats-a-space">Hold on, what’s a Space?</h4>
+<p>Discord users may be familiar with this format, but Spaces are not exactly the same as a Discord “server.” A Space<a href="#fn:10">10</a> is a list that can include other rooms and Spaces. It can be used to organize your own rooms, or for a community to organize all its rooms. Joining a Space does not imply joining all of its rooms (however, rooms can choose to require users to join a Space first), nor does leaving a Space imply leaving all of its rooms (by default).</p>
+<p>On Element and SchildiChat, Spaces show up on the left of your room list. Selecting one will filter your room list to DMs with members of the Space and joined rooms within the Space. To see rooms that you have not yet joined, click the Explore button (see above).</p>
+<h3 id="i-want-to-create-my-own-rooms">I want to create my own rooms!</h3>
+<p>Great! Most clients allow you to create rooms and spaces. Decorate them to your heart’s desire, and don’t forget to set your <a href="https://joinmatrix.org/guide/features#promotion">room address</a> and tell that to others!</p>
+<p>Room-based moderation on Matrix is a bit tricky. Most large rooms use <a href="https://joinmatrix.org/guide/features#moderation">moderation bots</a>; consider setting up one for your rooms.</p>
+<p>Don’t want to lose connections to your friends at other platforms? You don’t have to! Set up <a href="https://joinmatrix.org/guide/features#all-about-bridges">bridges</a> to connect your communities together.</p>
+<h2 id="go-deeper">Go Deeper</h2>
+<p>The names of your sessions are public, which enable others to know what OS you&rsquo;re using (it used to be accurate to devices but that is no longer the case). You can rename them, however (as long as you know which is which):</p>
+<ul>
+<li>In Element/SchildiChat, go to user settings, then &ldquo;Security &amp; Privacy.&rdquo; Rename the sessions as needed.</li>
+<li>In FluffyChat, go to settings, then &ldquo;devices.&rdquo; Click the sessions to rename them.</li>
+</ul>
+<p>If you’re using Element or SchildiChat, then keep the <a href="https://element.io/user-guide">Element User Guide</a> handy for a quick reference to the interface!</p>
+<ul>
+<li><a href="https://joinmatrix.org/guide/features">More Features of Matrix</a>: An introduction to more of Matrix’s features!</li>
+<li><a href="https://joinmatrix.org/servers">Public homeserver list</a></li>
+<li><a href="https://joinmatrix.org/guide/qna">Questions &amp; Answers</a></li>
+</ul>
+<h2 id="footnotes">Footnotes</h2>
+<ol>
+<li>
+<p>Only text contents and file attachments of messages are encrypted. Currently, Matrix does not prevent metadata leakage, mainly due to its federated nature. This will change, however, when Matrix starts rolling out <a href="https://archive.fosdem.org/2021/schedule/event/matrix_pinecones/">Pinecone</a>, allowing p2p connections. Currently, it <em>can</em> be mitigated if all participants of an E2EE conversation are running their own homeserver (so to eliminate third parties). <a href="#fnref:1">↩</a> <a href="#fnref:1:1">↩2</a></p>
+</li>
+<li>
+<p>Exception: Some bots do not support end-to-end encrypted messaging. Furthermore, when creating an empty private room, you will be prompted (but not by default) to enable encryption. <a href="#fnref:2">↩</a></p>
+</li>
+<li>
+<p>Element allows you to opt into (not enabled by default as of late 2021) using an “identity server” - think of it as a big online address book. This allows users to share their email addresses and username, which can be looked up manually by other users. However, here “address book” means that Matrix will not store the one locally on your phone; homeservers <em>can</em> see who you are talking to, as such information are not encrypted. There is <a href="https://github.com/matrix-org/matrix-doc/pull/3414">a proposal</a> to address this. See also footnote 1. <a href="#fnref:3">↩</a></p>
+</li>
+<li>
+<p>Note that public rooms may block certain servers - just like banning individual users - due to prevalence of unacceptable content (spam, hate speech, etc.). If you’re not running your own homeserver, don’t join homeservers that are known to harbour such content. This does not apply to homeservers listed on <a href="https://joinmatrix.org/servers">our public list</a> as they are vetted against any presence of bad reputation. In any case, behave yourselves, remember the human. <a href="#fnref:4">↩</a></p>
+</li>
+<li>
+<p>This includes all clients and servers that an average user uses. <a href="#fnref:5">↩</a></p>
+</li>
+<li>
+<p><a href="https://github.com/matrix-org/synapse/">Synapse</a> is the only stable homeserver implementation as of now. If you are living on the edge, you can try out <a href="https://github.com/matrix-org/dendrite/">Dendrite</a> and <a href="https://conduit.rs/">Conduit</a>, both of which aim to support p2p eventually (see footnote 1). <a href="#fnref:6">↩</a> <a href="#fnref:6:1">↩2</a></p>
+</li>
+<li>
+<p>In most cases, it is equivalent to the server part of your MXID. The exceptions are where homeservers did not set up <code>.well-known</code> autodiscovery properly… <a href="#fnref:7">↩</a></p>
+</li>
+<li>
+<p>Title and description. <a href="#fnref:8">↩</a></p>
+</li>
+<li>
+<p>Which is not a reasonable gauge of activity. First, accounts can be inactive. Second, if a room uses <a href="https://joinmatrix.org/guide/features/#all-about-bridges">bridges</a>, then these accounts are counted as well, even if their activity is mostly not from Matrix (you can still interact with them, however). <a href="#fnref:9">↩</a></p>
+</li>
+<li>
+<p>Which, to be exact, is a special type of rooms. Other than that you can list rooms (and Spaces) instead of sending messages, there are no differences between a Space and a room. <a href="#fnref:10">↩</a></p>
+</li>
+</ol>
+<h5 id="this-page-is-open-source">This page is open source</h5>
+<p><a href="https://github.com/austinhuang0131/joinmatrix/edit/main/guide.md">Help improve its content by opening a Pull Request on GitHub</a>.</p>
+<p>[1]</p>
+<p>“The ‘Join Matrix!’ Guide,” Join Matrix! Accessed: Feb. 13, 2026. [Online]. Available: <a href="https://joinmatrix.org/guide/">https://joinmatrix.org/guide/</a></p>
+
+    <h4><a href="http://localhost:1313/">Back to Home</a></h4>
+</div>
+
+
+        </div><footer class="container">
+    <hr class="soften">
+    <p>
+    <a href="https://gitlab.com/maxlefou/hugo.386">hugo.386 theme by Max le Fou</a> | 
+
+&copy; 
+
+    gand_elf
+
+<span id="thisyear">2026</span>
+
+    | inside Lainring
+
+
+        | Built on <a href="//gohugo.io" target="_blank">Hugo</a>
+
+</p>
+    <p class="text-center">
+        
+        
+        
+        
+        
+    </p>
+</footer>
+
+</body><link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+<link rel="stylesheet" href="/css/style.css">
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap-386.js"></script>
+<script src="/js/bootstrap-transition.js"></script>
+<script src="/js/bootstrap-alert.js"></script>
+<script src="/js/bootstrap-modal.js"></script>
+<script src="/js/bootstrap-dropdown.js"></script>
+<script src="/js/bootstrap-scrollspy.js"></script>
+<script src="/js/bootstrap-tab.js"></script>
+<script src="/js/bootstrap-tooltip.js"></script>
+<script src="/js/bootstrap-popover.js"></script>
+<script src="/js/bootstrap-button.js"></script>
+<script src="/js/bootstrap-collapse.js"></script>
+<script src="/js/bootstrap-carousel.js"></script>
+<script src="/js/bootstrap-typeahead.js"></script>
+<script src="/js/bootstrap-affix.js"></script>
+<script>
+    _386 = { 
+        fastLoad: false ,
+        onePass: false , 
+        speedFactor: 2 
+    };
+
+    
+    function ThisYear() {
+        document.getElementById('thisyear').innerHTML = new Date().getFullYear();
+    };
+</script>
+</html>

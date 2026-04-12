@@ -22,10 +22,10 @@ refLinksNotFoundURL = "/not-here-yet"
 
 
     # The name to display in the copyright section in the footer
-    #copyrightname = "gand_elf"
+    copyrightname = "gand_elf"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    #copyrighturl = "http://jmf-portfolio.netlify.com"
+    copyrighturl = "[RSS](https://gand-elf.neocities.org/post/index.xml)"
 
     # Show the "built on Hugo" disclaimer
     showhugo = true
@@ -85,6 +85,12 @@ refLinksNotFoundURL = "/not-here-yet"
     url = "/9b9tgoal/"
     weight = 40
 
+  [[menu.main]]
+    identifier = "rss"
+    name = "RSS"
+    url = "https://gand-elf.neocities.org/post/index.xml"
+    weight = 45
+ 
   [[menu.main]]
     identifier = "guestbook"
     name = "livre d'or/guestbook"

@@ -2,178 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gand_elf place</title>
-    <link>https://gand-elf.neocities.org/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on gand_elf place</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Apr 2026 08:47:41 +0000</lastBuildDate>
-    <atom:link href="https://gand-elf.neocities.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Apr 2026 14:40:35 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cowboy bebop</title>
-      <link>https://gand-elf.neocities.org/post/cowboy-bebop/</link>
+      <link>http://localhost:1313/post/cowboy-bebop/</link>
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/cowboy-bebop/</guid>
-      <description>&lt;p&gt;PS de debut de lecture regarder cowboy bebop dedans je spoil un episode &lt;strong&gt;ENORME&lt;/strong&gt; (je préviendrais mais ne m&amp;rsquo;en voulez pas après)&lt;/p&gt;&#xA;&lt;p&gt;Bon il faut bien le faire un jour… et la j’ai de plus en plus envie.&lt;/p&gt;&#xA;&lt;p&gt;Je suis en train de regarde &lt;a href=&#34;https://gand-elf.neocities.org/shoushimin&#34;&gt;shoushimin&lt;/a&gt;, sur les conseils avisé d’un mec sur YouTube à l’accent tout à fait charmant. Et ça me donne d’énorme vibes cowboy bebop. Alors ducou j’y repense, et je m’interroge.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/cowboy-bebop/</guid>
+      <description>&lt;p&gt;PS de debut de lecture regarder cowboy bebop dedans je spoil un episode &lt;strong&gt;ENORME&lt;/strong&gt; (je préviendrais mais ne m&amp;rsquo;en voulez pas après)&lt;/p&gt;&#xA;&lt;p&gt;Bon il faut bien le faire un jour… et la j’ai de plus en plus envie.&lt;/p&gt;&#xA;&lt;p&gt;Je suis en train de regarde &lt;a href=&#34;http://localhost:1313/post/shoushimin&#34;&gt;shoushimin&lt;/a&gt;, sur les conseils avisé d’un mec sur YouTube à l’accent tout à fait charmant. Et ça me donne d’énorme vibes cowboy bebop. Alors ducou j’y repense, et je m’interroge.&lt;/p&gt;</description>
     </item>
     <item>
       <title>about</title>
-      <link>https://gand-elf.neocities.org/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;p&gt;Bonjour je suis gand_elf.&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;aime le jeux vidéo, le manga les animé, la bande dessinée, les romans et bien plus…&lt;/p&gt;&#xA;&lt;p&gt;J&amp;rsquo;ai crée ce site apres avoir vu une une vidéo de Bangor invitant a partager nos expériences, j&amp;rsquo;écrivait déjà, mais pour un cercle très privé de moi et un amis.&lt;/p&gt;&#xA;&lt;p&gt;ca fait pas longtemps que j&amp;rsquo;écrit tout de même et je pense que ca se voit, soyez indulgent et si vous avez des commentaire intelligents a faire n&amp;rsquo;hésitez pas.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lainring</title>
-      <link>https://gand-elf.neocities.org/lainring/</link>
+      <link>http://localhost:1313/lainring/</link>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/lainring/</guid>
+      <guid>http://localhost:1313/lainring/</guid>
       <description>&lt;h2 id=&#34;lainchan-webring&#34;&gt;Lainchan Webring&lt;/h2&gt;&#xA;&lt;p&gt;Lainring is a decentralized webring created by the users of &lt;a href=&#34;https://www.lainchan.org&#34;&gt;Lainchan&lt;/a&gt;, an anonymous image board. If you want to be added, go to the &lt;a href=&#34;https://lainchan.org/%CE%A9/res/76893.html&#34;&gt;Lainchan thread&lt;/a&gt; and post your website there, together with a 240x60 button image.&lt;/p&gt;&#xA;&lt;p&gt;I added this website to the &lt;a href=&#34;https://gand-elf.neocities.org/lainring/lainring.json&#34;&gt;json&lt;/a&gt; file and the picture folder, huge thanks to &lt;a href=&#34;https://otherdemons.com/&#34;&gt;otherdemons&lt;/a&gt; from who i took the json file and the images, if you see this i guess you can take the json to update yours, i tried no to screw up too much. and i got no idea of how to share the image folder.&lt;/p&gt;</description>
     </item>
     <item>
       <title>not-here-yet</title>
-      <link>https://gand-elf.neocities.org/not-here-yet/</link>
+      <link>http://localhost:1313/not-here-yet/</link>
       <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/not-here-yet/</guid>
+      <guid>http://localhost:1313/not-here-yet/</guid>
       <description>&lt;p&gt;Cette page n&amp;rsquo;a pas encore été crée, ca viendra… ou pas. je fais de mon mieux.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Lockpicking for dummies</title>
-      <link>https://gand-elf.neocities.org/post/lockpicking-for-dummies/</link>
+      <link>http://localhost:1313/post/lockpicking-for-dummies/</link>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/lockpicking-for-dummies/</guid>
+      <guid>http://localhost:1313/post/lockpicking-for-dummies/</guid>
       <description>&lt;p&gt;Un petit guide pour crocheter des serrures comme j&amp;rsquo;ai eu la joie de m&amp;rsquo;y initier&amp;hellip; je ne suis bien évidemment ni professionnel ni meme très bon. J&amp;rsquo;ai simplement vu une porte que j&amp;rsquo;avais très envie d&amp;rsquo;ouvrir, et je l&amp;rsquo;ai ouverte.&lt;/p&gt;&#xA;&lt;h2 id=&#34;comprendre-comment-ca-marche&#34;&gt;Comprendre Comment Ca Marche&lt;/h2&gt;&#xA;&lt;p&gt;Avant de se mettre dans une position ambiguë sans experience, on va s&amp;rsquo;informer un peu&amp;hellip;&lt;br&gt;&#xA;Connaitre le fonctionnement d&amp;rsquo;une serrure est primordial pour l&amp;rsquo;ouvrir et plus encore pour l&amp;rsquo;ouvrir efficacement.&lt;/p&gt;</description>
     </item>
     <item>
       <title>GPFRS</title>
-      <link>https://gand-elf.neocities.org/post/gpfrs/</link>
+      <link>http://localhost:1313/post/gpfrs/</link>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/gpfrs/</guid>
+      <guid>http://localhost:1313/post/gpfrs/</guid>
       <description>&lt;h2 id=&#34;le-gpfrs&#34;&gt;Le GPFRS:&lt;/h2&gt;&#xA;&lt;p&gt;Gand_elf Perfectly Flawed Rating System, on va jeter les bases d’une manière de juger les oeuvres d’art que j’experience, sans donner aucun moyen d’établir un classement (a part un tableau), et permettant de mettre en avant ce qui fait la qualité de l’oeuvre. C’est stupide, les seuls critères objectifs seront sûrement subjectifs, mais c’est marrant.&lt;/p&gt;&#xA;&lt;p&gt;Je déconne, c’est aussi pratique ca permet de décrire succinctement la qualité d’une oeuvre.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Helltaker…</title>
-      <link>https://gand-elf.neocities.org/post/helltaker/</link>
+      <link>http://localhost:1313/post/helltaker/</link>
       <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/helltaker/</guid>
+      <guid>http://localhost:1313/post/helltaker/</guid>
       <description>&lt;p&gt;Impossible de parler de Helltaker sans parler de la raison de son existence.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;a short game about sharply dressed &lt;a href=&#34;https://en.wikipedia.org/wiki/Demon&#34;&gt;demon&lt;/a&gt; girls.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;La raison de Helltaker, c’est qu’il n’y a pas assez de fille démon sexy sur internet.&lt;/p&gt;&#xA;&lt;p&gt;Pas directement une citation du créateur, mais pas loin…&lt;/p&gt;&#xA;&lt;p&gt;Helltaker, c’est du fan service par essence, le but du jeu, créer son harem de fille démon avec un gameplay base sur le puzzle, mais qui est pour autant nerveux rapide et satisfaisant, la mécanique de dating est drôle, punchline de gigachad ou amorce pas ouf… ça dépend… au final le jeu montre ses dents, il peut être dur, il essaye (un peu) de faire culpabiliser, il y a des plots twist cachés drôles, car absurde. Et au final, on peut se demander s&amp;rsquo;il n&amp;rsquo;y a pas un tout petit peu de critique de la dépravation.&lt;/p&gt;</description>
     </item>
     <item>
       <title>sweet memories</title>
-      <link>https://gand-elf.neocities.org/post/sweet-memories/</link>
+      <link>http://localhost:1313/post/sweet-memories/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/sweet-memories/</guid>
-      <description>&lt;p&gt;Le générique de &lt;a href=&#34;https://gand-elf.neocities.org/shoushimin&#34;&gt;shoushimin&lt;/a&gt; s’appelle &lt;em&gt;sweet memories&lt;/em&gt; et je trouve ce nom incroyable :&lt;/p&gt;&#xA;&lt;p&gt;Tout d&amp;rsquo;abord, car les ce qu&amp;rsquo;on retient de shoushimin, c&amp;rsquo;est tout d&amp;rsquo;abord de bons souvenirs, malgré le caractère sérieux que prend l&amp;rsquo;histoire, c&amp;rsquo;est principalement la magie de l&amp;rsquo;été, des vacances qui m&amp;rsquo;ont marqué, comment tout devient possible.&lt;/p&gt;&#xA;&lt;p&gt;Mais surtout, puisque que toutes les aventures prennent places autour où du moins pas très loin des sucreries d&amp;rsquo;Osanai, ce sont des souvenirs du sucré de manière très littéral au cours de l&amp;rsquo;histoire.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/sweet-memories/</guid>
+      <description>&lt;p&gt;Le générique de &lt;a href=&#34;http://localhost:1313/post/shoushimin&#34;&gt;shoushimin&lt;/a&gt; s’appelle &lt;em&gt;sweet memories&lt;/em&gt; et je trouve ce nom incroyable :&lt;/p&gt;&#xA;&lt;p&gt;Tout d&amp;rsquo;abord, car les ce qu&amp;rsquo;on retient de shoushimin, c&amp;rsquo;est tout d&amp;rsquo;abord de bons souvenirs, malgré le caractère sérieux que prend l&amp;rsquo;histoire, c&amp;rsquo;est principalement la magie de l&amp;rsquo;été, des vacances qui m&amp;rsquo;ont marqué, comment tout devient possible.&lt;/p&gt;&#xA;&lt;p&gt;Mais surtout, puisque que toutes les aventures prennent places autour où du moins pas très loin des sucreries d&amp;rsquo;Osanai, ce sont des souvenirs du sucré de manière très littéral au cours de l&amp;rsquo;histoire.&lt;/p&gt;</description>
     </item>
     <item>
       <title>vocabulaire pirate</title>
-      <link>https://gand-elf.neocities.org/post/vocabulaire-pirate/</link>
+      <link>http://localhost:1313/post/vocabulaire-pirate/</link>
       <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/vocabulaire-pirate/</guid>
+      <guid>http://localhost:1313/post/vocabulaire-pirate/</guid>
       <description>&lt;p&gt;Petite liste de vocabulaire utilisé au piratage comme Kyrkos m’a agacé ; ), peut etre un jour un tuto jsp si j&amp;rsquo;ai le droit&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;C’est presque plus un guide qu’un dictionnaire d’ailleurs en voici un vrai et sûrement meilleur &lt;a href=&#34;https://rentry.org/The-Piracy-Glossary/&#34;&gt;https://rentry.org/The-Piracy-Glossary/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Torrent&lt;/strong&gt; abréviation de BitTorrent, un protocole de communication, ce protocole permet uniquement de transférer des fichiers,&lt;/p&gt;&#xA;&lt;p&gt;Cependant il présente de nombreux avantages qui expliquent sa popularité parmi les pirates.&lt;/p&gt;&#xA;&lt;p&gt;Il est &lt;strong&gt;P2P&lt;/strong&gt; cet à dire peer to peer, les seuls personne qui voient le fichier transféré sont ceux qui envoient et reçoivent, pas d’intermédiaire.&lt;/p&gt;</description>
     </item>
     <item>
       <title>love death and robots</title>
-      <link>https://gand-elf.neocities.org/post/love-death-and-robots/</link>
+      <link>http://localhost:1313/post/love-death-and-robots/</link>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/love-death-and-robots/</guid>
+      <guid>http://localhost:1313/post/love-death-and-robots/</guid>
       <description>&lt;p&gt;Comme souvent vous allez avoir le droit à un dump a chaud…&lt;/p&gt;&#xA;&lt;p&gt;Je viens de regarder l’épisode 8 de la saison un et si les autres avants étaient très bon, aucun ne m’a fait cet effet.&lt;/p&gt;&#xA;&lt;p&gt;Tout d’abord regarder le il dure moins de 15 min je peux vous le fournir si vous avez pas Netflix ;) et c’est juste une dinguerie.&lt;/p&gt;&#xA;&lt;p&gt;Bref ce “good hunt”&lt;/p&gt;&#xA;&lt;p&gt;Tout d’abord l’univers et son évolution est fascinant, voir le train arriver dans la campagne et une société steam punk ce construire bah c’est cool.&lt;/p&gt;</description>
     </item>
     <item>
       <title>losing you</title>
-      <link>https://gand-elf.neocities.org/post/losing-you/</link>
+      <link>http://localhost:1313/post/losing-you/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/losing-you/</guid>
+      <guid>http://localhost:1313/post/losing-you/</guid>
       <description>&lt;hr&gt;&#xA;&lt;p&gt;losing you, une magnifique video de 45 minutes maintenant lost media jusqu’à nouvel ordre voici le lien d&amp;rsquo;origine &lt;a href=&#34;https://www.youtube.com/watch?v=om6uhLs75Bk&#34;&gt;https://www.youtube.com/watch?v=om6uhLs75Bk&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;j&amp;rsquo;ai récupérer les sous titres généré par YouTube et fait de mon mieux pour les rendres intelligibles cependant je ne says pas a quel points ils sont fidèles a l&amp;rsquo;original.&lt;/p&gt;&#xA;&lt;p&gt;J&amp;rsquo;ai fait encore un peu de nettoyage manuel, jusqu’à la moitié a peu près, je ferais le reste après.&lt;/p&gt;&#xA;&lt;p&gt;Nettoyage &lt;em&gt;terminé&lt;/em&gt; j&amp;rsquo;ai just formaté correctement et corrigé les grosses incohérences, ca n&amp;rsquo;est pas parfait mais c&amp;rsquo;est déjà correcte&lt;/p&gt;</description>
     </item>
     <item>
       <title>Se repérer sur terre grace aux étoiles</title>
-      <link>https://gand-elf.neocities.org/post/se-rep%C3%A9rer-sur-terre-grace-aux-%C3%A9toiles/</link>
+      <link>http://localhost:1313/post/se-rep%C3%A9rer-sur-terre-grace-aux-%C3%A9toiles/</link>
       <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/se-rep%C3%A9rer-sur-terre-grace-aux-%C3%A9toiles/</guid>
+      <guid>http://localhost:1313/post/se-rep%C3%A9rer-sur-terre-grace-aux-%C3%A9toiles/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;Ceci est mon deuxième sujet de grand oral, celui sur lequel je suis passé. Là encore pas de LaTeX jusqu’à nouvel ordre et sujet très simplifié, bonne lecture.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;déterminer-sa-position-grâce-aux-étoiles&#34;&gt;Déterminer Sa Position Grâce Aux Étoiles&lt;/h2&gt;&#xA;&lt;p&gt;Bonjour, je vais vous expliquer les bases de la navigation astronomique, c&amp;rsquo;est-à-dire comment se repérer sur Terre grâce aux étoiles.&lt;/p&gt;&#xA;&lt;p&gt;On verra tout d&amp;rsquo;abord avec l&amp;rsquo;exemple de l&amp;rsquo;étoile polaire quelles sont les information que l&amp;rsquo;on peut obtenir en observant une étoile.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quand la neige a recouvert la plaine</title>
-      <link>https://gand-elf.neocities.org/post/quand-la-neige-a-recouvert-la-plaine/</link>
+      <link>http://localhost:1313/post/quand-la-neige-a-recouvert-la-plaine/</link>
       <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/quand-la-neige-a-recouvert-la-plaine/</guid>
+      <guid>http://localhost:1313/post/quand-la-neige-a-recouvert-la-plaine/</guid>
       <description>&lt;p&gt;Quand la neige a recouvert la plaine&lt;br&gt;&#xA;Je prend mon cheval et mon traîneau&lt;/p&gt;&#xA;&lt;p&gt;Et mon chant s’élève a perdre haleine&lt;br&gt;&#xA;Non jamais le monde fut si beau&lt;/p&gt;&#xA;&lt;p&gt;Et mon chant s’élève a perdre haleine&lt;br&gt;&#xA;Non jamais le monde ne fis si beau&lt;/p&gt;&#xA;&lt;p&gt;Au matin dans la brise glaciale&lt;br&gt;&#xA;Je m’en vais au gré de mon traîneau&lt;/p&gt;&#xA;&lt;p&gt;Et le ciel peu a peu se dévoile&lt;br&gt;&#xA;Non jamais le monde ne fus si beau&lt;/p&gt;</description>
     </item>
     <item>
       <title>shoushimin</title>
-      <link>https://gand-elf.neocities.org/post/shoushimin/</link>
+      <link>http://localhost:1313/post/shoushimin/</link>
       <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/shoushimin/</guid>
+      <guid>http://localhost:1313/post/shoushimin/</guid>
       <description>&lt;p&gt;Les cigales… comme evangelion&lt;/p&gt;&#xA;&lt;p&gt;Shoushimin… man…&lt;/p&gt;&#xA;&lt;p&gt;Shoushimin déjà c’est génial. Pour faire simple c’est un misters anime, donc les protagonistes résolvent des mystères. Pourquoi est-ce que c’est bien ? Déjà les mystères en eux même soient bien pensés, c’est pas des trucs bidon classiques, mais de vrais question dans lesquelles on s’engage, même si elles semblent triviales. Chaque épisode est en quelque sorte un puzzle, suivi de sa résolution et c’est trop bien. On réfléchit en même temps que les protagonistes, fait de théories et c’est juste hyper satisfaisant.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ghost in the shell et cyberpunk</title>
-      <link>https://gand-elf.neocities.org/post/ghost-in-the-shell-et-cyberpunk/</link>
+      <link>http://localhost:1313/post/ghost-in-the-shell-et-cyberpunk/</link>
       <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/ghost-in-the-shell-et-cyberpunk/</guid>
-      <description>&lt;p&gt;Ghost in the shell est bizarre. Une resemblance frappante avec &lt;a href=&#34;https://gand-elf.neocities.org/Serial%20experiment%20lain&#34;&gt;Serial experiment lain&lt;/a&gt;, sans surprise.&lt;/p&gt;&#xA;&lt;p&gt;On y suit l’histoire de major Motoko, une cyborg. Membre d’une brigade anti criminelle, qui s’interroge sur ses origines et les implications d’un corp artificiel.&lt;/p&gt;&#xA;&lt;p&gt;Et ça veut dire que c’est le moment parfait pour parler de mon thème préféré en sciences fiction mais aussi en général:&lt;br&gt;&#xA;Les modifications corporelles…&lt;br&gt;&#xA;Bon en gros vous aller vous taper mon rant ultime sur l’identité, l’humanité… et l’avenir des ses notions.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/ghost-in-the-shell-et-cyberpunk/</guid>
+      <description>&lt;p&gt;Ghost in the shell est bizarre. Une resemblance frappante avec &lt;a href=&#34;http://localhost:1313/post/serial-experiment-lain&#34;&gt;Serial experiment lain&lt;/a&gt;, sans surprise.&lt;/p&gt;&#xA;&lt;p&gt;On y suit l’histoire de major Motoko, une cyborg. Membre d’une brigade anti criminelle, qui s’interroge sur ses origines et les implications d’un corp artificiel.&lt;/p&gt;&#xA;&lt;p&gt;Et ça veut dire que c’est le moment parfait pour parler de mon thème préféré en sciences fiction mais aussi en général:&lt;br&gt;&#xA;Les modifications corporelles…&lt;br&gt;&#xA;Bon en gros vous aller vous taper mon rant ultime sur l’identité, l’humanité… et l’avenir des ses notions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>9b9t</title>
-      <link>https://gand-elf.neocities.org/9b9tgoals/</link>
+      <link>http://localhost:1313/9b9tgoals/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/9b9tgoals/</guid>
+      <guid>http://localhost:1313/9b9tgoals/</guid>
       <description>&lt;h2 id=&#34;-9b9t-collectibles-mapart--trading---achievement-checklist&#34;&gt;✅ 9b9t Collectibles, Mapart &amp;amp; Trading - Achievement Checklist&lt;/h2&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-achievement-list&#34;&gt;📜 Achievement List&lt;/h3&gt;&#xA;&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;[x] 9b9t &lt;em&gt;– Join 9b9t&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] Escape Spawn &lt;em&gt;– Manage to escape spawn… around 7.5k–10k blocks away&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Getting started &lt;em&gt;– Say the n word&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Oldest trick in the book &lt;em&gt;– Do &lt;code&gt;/kill achievement&lt;/code&gt; or &lt;code&gt;/kill count&lt;/code&gt;&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] No angels in Hell &lt;em&gt;– Try going over nether roof and get teleported back&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Da rules &lt;em&gt;– Do /rules&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] jj u must leave &lt;em&gt;– Hold 2YA sword / bedrock / end portal frame in your inventory&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] In Da Million &lt;em&gt;– Reach 1 million blocks in any axis&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] The Far Lands &lt;em&gt;– Unknown. Help us hunt it!&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Overworld Border &lt;em&gt;– Reach the Overworld border in any axis&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Overworld Corner &lt;em&gt;– Reach the Overworld corner in any axis&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Nether Border &lt;em&gt;– Reach the nether border in any axis&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Nether Corner &lt;em&gt;– Reach the nether corner in any axis&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] End border &lt;em&gt;– Reach the end border in any axis&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] End corner &lt;em&gt;– Reach the end corner in any axis&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] D0ugslike &lt;em&gt;– Fish in the nether&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Go to sleep &lt;em&gt;– Skip the night through sleeping&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Highway Repairman &lt;em&gt;– Break a lot of netherrack (normally achieved while tunneling through nether)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] ez cookle snookle &lt;em&gt;– Break a reverted unbreakable helmet (enchanted diamond helmets without mending)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] Backdoored Pumpkins &lt;em&gt;– Have a Backdoored pumpkin in your inventory&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] Literally Hitler &lt;em&gt;– Burn a carpet-made mapart&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] Map artist &lt;em&gt;– Place the same amount of carpets as tiles a map has&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Lagged Own Base Award &lt;em&gt;– Set your local TPS to &amp;lt;0.4&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] ez log &lt;em&gt;– Get a few totems popped and log out to survive!&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] So Joever &lt;em&gt;– Place crystals at spawn&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] Crystal Fail &lt;em&gt;– Get killed by a crystal you placed&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Never Surrender &lt;em&gt;– Unknown. Help us hunt it!&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] Unaxeptable &lt;em&gt;– Break a sign that contains a date&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Random Pyramid &lt;em&gt;– Build a really big pyramid and put a beacon on the top&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Maggut&amp;rsquo;s apprentice &lt;em&gt;– Place 20 withers on a Highway&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] The Seed of 9b9t &lt;em&gt;– Do /seed&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Riga&amp;rsquo;s dream &lt;em&gt;– Obtain a Knowledge book&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Taking it up a Notch &lt;em&gt;– Say the n word 50000 times (To be confirmed)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Homies &lt;em&gt;– Sleep next to another player&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Loaf Lover &lt;em&gt;– Unknown. Help us hunt it!&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Professional Janitor &lt;em&gt;– Break 10000 obsidian in nhub&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Aspiring Turk &lt;em&gt;– Placing a high amount of obsidian in nhub (To be confirmed)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] Spawn kill &lt;em&gt;– Kill a naked player under the 500 radius&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] Travel Log &lt;em&gt;– Put a sign with your IGN on the first row, &amp;ldquo;was here&amp;rdquo; on the second row, and the actual date on the third row like this: DD/MM/YYYY&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] History Fraudster &lt;em&gt;– Write on a sign a date years older than today&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Epic Portal Fail &lt;em&gt;– Use a nether portal further than 3,750,000&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] I&amp;rsquo;m friendly! &lt;em&gt;– Shift while naked to a geared player&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Betrayal &lt;em&gt;– Kill a naked player who did shift in front of you&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[x] NaN &lt;em&gt;– Have an enderchest full of shulkers&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] full irin &lt;em&gt;– Wear an iron armor in nhub in front of full geared players (To be confirmed)&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Crab Mentality &lt;em&gt;– Unknown. Help us hunt it!&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Bedtrapped &lt;em&gt;– Unknown. Help us hunt it!&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Good Content &lt;em&gt;– Get /ignore&amp;rsquo;d by another player&lt;/em&gt;&lt;/li&gt;&#xA;&lt;li&gt;[ ] Blackface &lt;em&gt;– Unknown. Help us hunt it!&lt;/em&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Darling in the franXX 2(3, stfu)</title>
-      <link>https://gand-elf.neocities.org/post/darling-in-the-franxx-23-stfu/</link>
+      <link>http://localhost:1313/post/darling-in-the-franxx-23-stfu/</link>
       <pubDate>Thu, 27 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/darling-in-the-franxx-23-stfu/</guid>
-      <description>&lt;p&gt;Retour à la case Départ, il faut qu’on parle.&lt;/p&gt;&#xA;&lt;p&gt;J’ai adoré l’anime (man… ). Et comme à chaque fois, quand j’aime quelque chose, je regarde pour voir si les autres sont d’accord. Et bon, j’ai l’habitude, hein&amp;hellip; &lt;a href=&#34;https://gand-elf.neocities.org/Kill%20la%20Kill&#34;&gt;Kill la Kill&lt;/a&gt;, ça a été une claque de se rendre compte que 90 % des gens pensent que c’est juste un prétexte pour mater des culs mineurs…&lt;/p&gt;&#xA;&lt;p&gt;Bah là, j’ai l’impression que c’est similaire. Tout le monde crache dessus, en particulier épisode 19/20.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/darling-in-the-franxx-23-stfu/</guid>
+      <description>&lt;p&gt;Retour à la case Départ, il faut qu’on parle.&lt;/p&gt;&#xA;&lt;p&gt;J’ai adoré l’anime (man… ). Et comme à chaque fois, quand j’aime quelque chose, je regarde pour voir si les autres sont d’accord. Et bon, j’ai l’habitude, hein&amp;hellip; &lt;a href=&#34;http://localhost:1313/post/kill-la-kill&#34;&gt;Kill la Kill&lt;/a&gt;, ça a été une claque de se rendre compte que 90 % des gens pensent que c’est juste un prétexte pour mater des culs mineurs…&lt;/p&gt;&#xA;&lt;p&gt;Bah là, j’ai l’impression que c’est similaire. Tout le monde crache dessus, en particulier épisode 19/20.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Darling in the FranXX</title>
-      <link>https://gand-elf.neocities.org/post/darling-in-the-franxx/</link>
+      <link>http://localhost:1313/post/darling-in-the-franxx/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/darling-in-the-franxx/</guid>
+      <guid>http://localhost:1313/post/darling-in-the-franxx/</guid>
       <description>&lt;p&gt;J’ai eu une idée pour commencer cette chose, puis une autre, et une autre. Donc je vais écrire les 3 à la suite, comme c’est clairement la chose rationnelle à faire.&lt;/p&gt;&#xA;&lt;p&gt;Je suis un vrai psychopathe. Je viens à peine de commencer une nouvelle série (épisode 6), et me voilà à nouveau en train d’écrire. Je n’ai pas fini ce que j’ai fait sur Dredge et je ne peux pas y jouer avant 6 jours. Et pourtant j’écris, c’est plus fort que moi. Donc, pourquoi est-ce que j’écris ? Car, depuis peu, quand je regarde un film (ou tout, en fait), je me demande quel est le message ? , comment ça se fait que je veux pleurer ? Pourquoi est-ce que ces flics sont vraiment très sexistes ? Et là, quand j’ai trouvé la réponse, j’ai eu envie de le dire à tout le monde. Comme dirait Eri (j’ai pas prise le bouquin avec moi, donc c’est de tête…), « je déteste quand on parle pendant qu’on regarde un film », et pourtant je me retrouve à casser les pieds de ma famille et de ceux qui regardent avec moi avec des commentaires… Bon, du coup, on fait quoi ? Bah, on écrit et on se retient sur le moment, mais aussi on s’interroge sur mon expérience : est-ce que je ne gache pas ces œuvres en les analysant à peine sorties ? Il y a une vidéo de Daryl Talk Game dessus, il faut que je la reregarde, j’ai tout oublié, mais la conclusion doit être qu&amp;rsquo;il faut lâcher prise et se laisser aller. Petite lueur d’espoir d’ailleurs, je suis une sentimentale, et parfois, quand une histoire génère assez d’émotions, j’arrête de faire le con dans ma tête et je profite pour méditer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dredge</title>
-      <link>https://gand-elf.neocities.org/post/dredge/</link>
+      <link>http://localhost:1313/post/dredge/</link>
       <pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/dredge/</guid>
+      <guid>http://localhost:1313/post/dredge/</guid>
       <description>&lt;p&gt;Comme j’ai prise la mauvaise habitude d’analyser ce que je vois et de l’écrire, eh bien, je&lt;br&gt;&#xA;suis de retour et, aujourd’hui, on parle de Dredge.&lt;/p&gt;&#xA;&lt;p&gt;Comme au fur et à measure de mes pérégrinations intellectuelles, j’ai réalisé que l’image&lt;br&gt;&#xA;mentale qu’on a d’une chose influe énormément sur la manière dont on voit ladite chose,&lt;/p&gt;&#xA;&lt;p&gt;Je vous livre maintenant ce que je pensais savoir sur Dredge avant même d’y jouer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Serial experiment lain</title>
-      <link>https://gand-elf.neocities.org/post/serial-experiment-lain/</link>
+      <link>http://localhost:1313/post/serial-experiment-lain/</link>
       <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/serial-experiment-lain/</guid>
+      <guid>http://localhost:1313/post/serial-experiment-lain/</guid>
       <description>&lt;h2 id=&#34;serial-experiment-lain&#34;&gt;Serial Experiment Lain&lt;/h2&gt;&#xA;&lt;p&gt;Diffusé pour la première fois en 1998, Serial Experiment Lain est un animé présentant l’histoire d’une jeune fille nommée Lain. Elle est introvertie et réservée jusqu’au jour où, comme tous les élèves de son école, elle reçoit un e-mail d’une autre jeune fille qui s’était suicidée quelques jours auparavant. Elle explique que son âme a pu s’échapper dans le « Wired » équivalent d’Internet, et qu’elle a trouvé Dieu. À partir de ce moment, on suit l’aventure de Lain, tandis qu’elle explore le Wired et transcende sa condition humaine.&lt;br&gt;&#xA;Cet animé est extrêmement avant-gardiste. Car, bien que produit en 1998, il aborde des sujets très actuels. La limit entre la réalité et le virtuel ou celle entre un homme et une machine.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arcane</title>
-      <link>https://gand-elf.neocities.org/post/arcane/</link>
+      <link>http://localhost:1313/post/arcane/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/arcane/</guid>
+      <guid>http://localhost:1313/post/arcane/</guid>
       <description>&lt;p&gt;Man&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;La manière dont ils montrent l’histoire de magicien, la grandeur de la ville, c’est merveilleux, car on ne veut pas le voir.&lt;/p&gt;&#xA;&lt;p&gt;On veut voir Powder, on veut savoir, et pourtant cet Ark est là et il dégoûte.&lt;/p&gt;&#xA;&lt;p&gt;Trauma&lt;/p&gt;&#xA;&lt;p&gt;Discours de merde&lt;/p&gt;&#xA;&lt;p&gt;Pourquoi je le mets à écrire en boucle ? Le mec renonce, fausse joie.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;faites pas attention a tout ça, je prenait des notes en même temps que je regardais&amp;hellip;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Before your eyes</title>
-      <link>https://gand-elf.neocities.org/post/before-your-eyes/</link>
+      <link>http://localhost:1313/post/before-your-eyes/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/before-your-eyes/</guid>
+      <guid>http://localhost:1313/post/before-your-eyes/</guid>
       <description>&lt;p&gt;Man…&lt;/p&gt;&#xA;&lt;p&gt;Que dire&lt;/p&gt;&#xA;&lt;p&gt;Jeux monstrueux&lt;/p&gt;&#xA;&lt;p&gt;Fantastique.&lt;/p&gt;&#xA;&lt;p&gt;Incroyable&lt;/p&gt;&#xA;&lt;p&gt;JPP&lt;/p&gt;&#xA;&lt;p&gt;On va quand même essayer…&lt;/p&gt;&#xA;&lt;p&gt;As-tu déjà fait un choix moral dans un jeu ? T’es-tu déjà investi dans une histoire… Les jeux vidéo sont incroyables, ils permettent de ressentir (avec toutes les formes d’art, mais anyway) des émotions.&lt;/p&gt;&#xA;&lt;p&gt;Ce jeu est un jeu sur la mémoire en partie. Je n’ai pas vu de réel choix moral, sûrement car ils étaient trop bien posés, mais ce jeu, comme d’autres, nous fait explorer la vie de quelqu’un qui, rapidement, devient nous. Rien de nouveau, en un sens : la plupart des histoires de jeux vidéo sont comme cela, on vit l’histoire d’un personnage dont la conclusion est déjà écrite, quoique inconnue. D’autres jeux proposent d’explorer les souvenirs, je pense à To the Moon qui en a une très bonne approach.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Outer Wilds</title>
-      <link>https://gand-elf.neocities.org/post/outer-wilds/</link>
+      <link>http://localhost:1313/post/outer-wilds/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/outer-wilds/</guid>
+      <guid>http://localhost:1313/post/outer-wilds/</guid>
       <description>&lt;p&gt;On parle d’outer wilds…&lt;/p&gt;&#xA;&lt;p&gt;Et oui forcement, j’ai ecrit de la merde sur helltaker et j’ai bitché sur gladius (dedicace a maxime mon seul lecteur) aujourd’hui je parle d’un vrai classique.&lt;/p&gt;&#xA;&lt;p&gt;J’ai jouer au jeu et j’ai enchaine avec la video de the great review car elle m’interressait et que je m’en etait prive jusque la.&lt;/p&gt;&#xA;&lt;p&gt;Jsp si on on parle du bien en premier et du reste apres ou l’inverse ?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sekiro</title>
-      <link>https://gand-elf.neocities.org/post/sekiro/</link>
+      <link>http://localhost:1313/post/sekiro/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://gand-elf.neocities.org/post/sekiro/</guid>
+      <guid>http://localhost:1313/post/sekiro/</guid>
       <description>&lt;p&gt;J’ai l’impression que je commence à aimer écrire. Ca fait bizarre…&lt;/p&gt;&#xA;&lt;p&gt;Je me demande si mes professeur de francais n’avaient pas la mauvaise approach quand a l’ecriture ? Peut etre que stimuler l’imagination d’un enfant en lui racontant des histoires c’est le meilleur moyen de lui donner envie d’en ecrire des nouvelles plutot que de lui donner le debut et de lui demander d’ecrire la suite…&lt;/p&gt;&#xA;&lt;p&gt;Ou alors je suis juste un connard mystique qui parcequ’il vien de decouvrir qu’il aime ecrire sous certaines conditions pense que le système en profondément cassé.&lt;/p&gt;</description>
     </item>
   </channel>

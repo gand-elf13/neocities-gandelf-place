@@ -29,7 +29,7 @@ Les man… c’est ces oeuvres qui laissent perdu. Ces ce genre de jeux ou quand
 
 Bon ça c’est comment l’identifier, mais c’est vague, ~~si vous ne connaissez pas le meme~~ Now You Know, vous ne vous êtes peut être jamais posé devant votre fenêtre à défaut d’ocean à proximité, et pleins d'un sentiment d'immensité, mis a pleurer. Mais peut-être vous avez déjà pensé au chemin parcouru, par vous ou par un personnage, au roller coaster émotionnel, peut être vous vous êtes déjà demande après un jeux comment allait être votre vie après.
 
-Vous n’avez pas aimé cet anime, car vous ne l’avez pas vu vous l’avez vécu. Vous vous réveillez la tête chaude d’une session qui devait durer trente minute et qui roule les credit sur 6 heures non stop… ([Darling in the FranXX](/Darling%20in%20the%20FranXX)) c’est un anime que a peine fini, vous écoutez l’opening en boucle.
+Vous n’avez pas aimé cet anime, car vous ne l’avez pas vu vous l’avez vécu. Vous vous réveillez la tête chaude d’une session qui devait durer trente minute et qui roule les credit sur 6 heures non stop… ([Darling in the FranXX](/post/darling-in-the-franxx)) c’est un anime que a peine fini, vous écoutez l’opening en boucle.
 
 Ca c’est un man… quelque chose qui marque, quelque chose que vous n’oublierez pas facilement.
 

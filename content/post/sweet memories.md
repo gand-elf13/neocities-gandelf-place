@@ -7,7 +7,7 @@ date created: 2026-03-13
 title: sweet memories
 lastmod: 2026-04-10T08:40:01.284Z
 ---
-Le générique de [shoushimin](/shoushimin) s’appelle *sweet memories* et je trouve ce nom incroyable :
+Le générique de [shoushimin](/post/shoushimin) s’appelle *sweet memories* et je trouve ce nom incroyable :
 
 Tout d'abord, car les ce qu'on retient de shoushimin, c'est tout d'abord de bons souvenirs, malgré le caractère sérieux que prend l'histoire, c'est principalement la magie de l'été, des vacances qui m'ont marqué, comment tout devient possible.
 

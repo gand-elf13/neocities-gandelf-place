@@ -64,7 +64,7 @@ UNO reverse !! Le manager robotique de l’incinérateur a le droit aux détails
 
 Il y a clairement qq chose en plus chez l’androïde partagé par Saya et Ku que ce robot n’a pas.
 
-Je vous invite à lire [Serial experiment lain](/Serial%20experiment%20lain) pour un spoiler
+Je vous invite à lire [Serial experiment lain](/post/serial-experiment-lain) pour un spoiler
 
 Saya, Ku et l’androïde sont humains.\
 Le lecteur durant sa lecture les a considérés (au moins Ku et Saya) comme tels mêmes si la question Saya n’est-elle pas un robot m’a effleuré, je n’ai jamais douté qu’elle était néanmoins humaine. Ku c’est plus dur, mais au fur et à measure, on comprend qu’il est conscient et as juste une forme différente, et l’androïde, c’est une manière pour nous dire : « *elle aussi, elle est humaine* »

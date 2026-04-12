@@ -1,0 +1,67 @@
+
+{{ define "main" }}
+<main>
+  <section class="markdown-content" style="margin-top: 2rem;">
+    {{ .Content }}
+  </section>
+  <h1>{{ .Title }}</h1>
+  <p><strong>Last updated:</strong> {{ .Site.Data.lainring.updated }}</p>
+
+  {{/* Category order and labels */}}
+  {{ $categories := slice "working" "not-english" "bad-size" "probably-dead" }}
+  {{ $labels := dict 
+    "working" "✅ Working" 
+    "not-english" "🌐 Non-English" 
+    "bad-size" "⚠️ Bad Size" 
+    "probably-dead" "💀 Probably Dead" 
+  }}
+
+  {{/* Loop over each group */}}
+  {{ range $group := .Site.Data.lainring.groups }}
+    <section style="margin-bottom: 3rem;">
+      <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">{{ $group.name }}</h2>
+
+      {{/* Create per-category link scratch for this group */}}
+      {{ range $categories }}
+        {{ $.Scratch.Set (print $group.name "-" .) (slice) }}
+      {{ end }}
+
+      {{/* Categorize the links within this group */}}
+      {{ range $link := $group.links }}
+        {{ if (index $link "probably-dead") }}
+          {{ $.Scratch.Add (print $group.name "-probably-dead") (slice $link) }}
+        {{ else if (index $link "bad-size") }}
+          {{ $.Scratch.Add (print $group.name "-bad-size") (slice $link) }}
+        {{ else if (index $link "not-english") }}
+          {{ $.Scratch.Add (print $group.name "-not-english") (slice $link) }}
+        {{ else }}
+          {{ $.Scratch.Add (print $group.name "-working") (slice $link) }}
+        {{ end }}
+      {{ end }}
+
+      {{/* Render links by category within this group */}}
+      {{ range $category := $categories }}
+        {{ $key := print $group.name "-" $category }}
+        {{ $links := $.Scratch.Get $key }}
+        {{ if gt (len $links) 0 }}
+          <section style="margin-bottom: 1.5rem;">
+            <h3>{{ index $labels $category }}</h3>
+            <div class="links-grid" style="display: flex; flex-wrap: wrap; gap: 1rem;">
+              {{ range $link := $links }}
+                <a href="{{ $link.href }}" target="_blank" rel="noopener noreferrer" style="display: block;">
+                  <img 
+                    src="/lainring/img/{{ $link.src }}" 
+                    alt="{{ $link.alt }}" 
+                    style="max-width: 100%; height: auto; display: block;"
+                  />
+                </a>
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+      {{ end }}
+    </section>
+  {{ end }}
+</main>
+{{ end }}
+

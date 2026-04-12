@@ -1,0 +1,8 @@
+{{- $title := .Title -}}
+{{- $found := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- if strings.Contains .RawContent (printf "[%s]" $title) -}}
+    {{- $found = $found | append (dict "permalink" .Permalink "title" .Title) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $found -}}

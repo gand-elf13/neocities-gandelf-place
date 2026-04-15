@@ -8,7 +8,7 @@ window.VINE_CFG = {
   /* ── GRID & APPEARANCE ───────────────────────────────────── */
   px:           4,      // pixel grid size in CSS px. 3=fine  4=chunky  6=coarse
   turnChance:   0.11,   // 0–1 prob of a 90° turn each step.  0=straight  0.3=zigzag
-  wanderChance: 0.10,   // 0–1 lateral drift each step.       0=rigid  0.15=organic
+  wanderChance: 0.50,   // 0–1 lateral drift each step.       0=rigid  0.15=organic
   leafInterval: 7,      // draw a leaf cluster every N steps
   leafCountMin: 2,      // min leaf pixels per cluster
   leafCountMax: 5,      // max leaf pixels per cluster

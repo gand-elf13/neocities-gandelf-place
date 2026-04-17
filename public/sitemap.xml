@@ -2,14 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://gand-elf.neocities.org/</loc>
+    <lastmod>2026-04-17T16:01:58+00:00</lastmod>
+  </url><url>
+    <loc>https://gand-elf.neocities.org/post/les-gouts-et-les-couleurs/</loc>
+    <lastmod>2026-04-17T16:01:58+00:00</lastmod>
+  </url><url>
+    <loc>https://gand-elf.neocities.org/post/</loc>
+    <lastmod>2026-04-17T16:01:58+00:00</lastmod>
+  </url><url>
+    <loc>https://gand-elf.neocities.org/tags/syst%C3%A8me/</loc>
+    <lastmod>2026-04-17T16:01:58+00:00</lastmod>
+  </url><url>
+    <loc>https://gand-elf.neocities.org/tags/</loc>
+    <lastmod>2026-04-17T16:01:58+00:00</lastmod>
+  </url><url>
     <loc>https://gand-elf.neocities.org/tags/anime/</loc>
     <lastmod>2026-04-10T08:47:41+00:00</lastmod>
   </url><url>
     <loc>https://gand-elf.neocities.org/post/cowboy-bebop/</loc>
     <lastmod>2026-04-10T08:47:41+00:00</lastmod>
-  </url><url>
-    <loc>https://gand-elf.neocities.org/</loc>
-    <lastmod>2026-04-12T13:59:30+00:00</lastmod>
   </url><url>
     <loc>https://gand-elf.neocities.org/tags/gpfrs/</loc>
     <lastmod>2026-04-10T08:47:41+00:00</lastmod>
@@ -17,13 +29,7 @@
     <loc>https://gand-elf.neocities.org/tags/man/</loc>
     <lastmod>2026-04-10T08:47:41+00:00</lastmod>
   </url><url>
-    <loc>https://gand-elf.neocities.org/post/</loc>
-    <lastmod>2026-04-10T08:47:41+00:00</lastmod>
-  </url><url>
     <loc>https://gand-elf.neocities.org/tags/review/</loc>
-    <lastmod>2026-04-10T08:47:41+00:00</lastmod>
-  </url><url>
-    <loc>https://gand-elf.neocities.org/tags/</loc>
     <lastmod>2026-04-10T08:47:41+00:00</lastmod>
   </url><url>
     <loc>https://gand-elf.neocities.org/about/</loc>
@@ -42,9 +48,6 @@
     <lastmod>2026-04-10T08:40:01+00:00</lastmod>
   </url><url>
     <loc>https://gand-elf.neocities.org/post/gpfrs/</loc>
-    <lastmod>2026-04-10T08:40:01+00:00</lastmod>
-  </url><url>
-    <loc>https://gand-elf.neocities.org/tags/syst%C3%A8me/</loc>
     <lastmod>2026-04-10T08:40:01+00:00</lastmod>
   </url><url>
     <loc>https://gand-elf.neocities.org/tags/deep/</loc>

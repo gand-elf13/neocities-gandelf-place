@@ -6,7 +6,7 @@ date modified: 2026-04-17
 draft: false
 date created: 2026-04-09
 title: Les Gouts et les Couleurs
-lastmod: 2026-04-17T16:01:58.418Z
+lastmod: 2026-04-17T16:04:00.903Z
 ---
 Y as il un critère pour juger l'art, ou plus largement le divertissement que nous consommons ?\
 La doxa nous dit que chacun est libre d'aimer ce qu'il veux et que c'est purement subjectif, j'aime le rugby toi le foot... J'aime les films d'horreur tu préfère la romance, c'est les goûts et les couleurs !\
@@ -14,7 +14,7 @@ Mais cela ne me semble pas très satisfaisant... Bien sur chacun est libre d'aim
 
 ## Un Constat :
 
-tout ceci part d'un constat, il y as des films objectivement mauvais.\
+Tout ceci part d'un constat, il y as des films objectivement mauvais.\
 des merdes\
 des infamies telles que toutes personnes l'aimant prouverait qu'elle as des goûts de merdes.\
 des choses que l'on ne peut pas pardonner, si je suis croyais être d'accord avec la relativité des goûts, il me semble après réflexion, qu'il y as au moins une part d'absolue dans le sens ou :\

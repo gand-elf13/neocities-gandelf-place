@@ -6,7 +6,7 @@ date modified: 2026-04-17
 draft: false
 date created: 2026-04-09
 title: Les Gouts et les Couleurs
-lastmod: 2026-04-17T16:04:00.903Z
+lastmod: 2026-04-17T16:06:30.534Z
 ---
 Y as il un critère pour juger l'art, ou plus largement le divertissement que nous consommons ?\
 La doxa nous dit que chacun est libre d'aimer ce qu'il veux et que c'est purement subjectif, j'aime le rugby toi le foot... J'aime les films d'horreur tu préfère la romance, c'est les goûts et les couleurs !\
@@ -16,30 +16,32 @@ Mais cela ne me semble pas très satisfaisant... Bien sur chacun est libre d'aim
 
 Tout ceci part d'un constat, il y as des films objectivement mauvais.\
 des merdes\
-des infamies telles que toutes personnes l'aimant prouverait qu'elle as des goûts de merdes.\
-des choses que l'on ne peut pas pardonner, si je suis croyais être d'accord avec la relativité des goûts, il me semble après réflexion, qu'il y as au moins une part d'absolue dans le sens ou :\
-meme si quelque-chose dont la qualité est manifeste peut ne pas plaire\
+Des infamies telles que toutes personnes l'aimant prouverait qu'elle as des goûts de merdes.\
+Des choses que l'on ne peut pas pardonner, si je suis croyais être d'accord avec la relativité des goûts, il me semble après réflexion, qu'il y as au moins une part d'absolue dans le sens ou :\
+Meme si quelque-chose dont la qualité est manifeste peut ne pas plaire\
 quelque-chose dont l'absence de qualité est tout aussi manifeste ne devrait pas plaire.\
-J'invoquerais ici pour le cinéma le cas extrême de la pornographie, meme medium, mais personne de sensé ne dirait : "On peut aimer la pornographie enfin !! c'est les goûts et les couleurs" Non on ne devrait pas aimer la pornographie, on la consomme par addition, on en est dépendant, mais ce n'est pas une excuse, aucune qualité n'est ici, c'est de la simple exploitation des biais de notre cerveau pour faire de l'argent.
+J'invoquerais ici pour le cinéma le cas extrême de la pornographie, meme medium, mais personne de sensé ne dirait : "On peut aimer la pornographie enfin !! c'est les goûts et les couleurs".\
+Non on ne devrait pas aimer la pornographie, on la consomme par addition, on en est dépendant, mais ce n'est pas une excuse, aucune qualité n'est ici, c'est de la simple exploitation des biais de notre cerveau pour faire de l'argent.
 
 ![IMG\_1981.png](/ob/attachements/IMG_1981.png)\
 *joli meme qui représente cette idée plutôt pas mal*
 
-Pour être moins extrême mais toujours caricatural, les séries Netflix random en sont un autres très bon example, toute personne qui dit les aimer est surement sévèrement atteinte, as des goûts de merdes disons le. Aucun pardon !  c'est de la merde, si elle pense aimer elle aime la merde mais plus probablement elle ne connait pas mieux / a la flemme de trouver mieux
+Pour être moins extrême mais toujours caricatural, les séries Netflix random en sont un autres très bon example, toute personne qui dit les aimer est surement sévèrement atteinte, as des goûts de merdes disons le.\
+Aucun pardon !  c'est de la merde, si elle pense aimer elle aime la merde mais plus probablement elle ne connait pas mieux / a la flemme de trouver mieux
 
 ## Pourquoi
 
-j’espère que vous êtes convaincu, tout les supports audio visuels ne se valent pas...\
-mais maintenant il faut faire le tri... qu'est-ce qui est bien qu'est ce qu'il ne l'est pas ? qu'avez vous le droit de regarder en toute sérénité, et pour quel film v'ai-je vous mépriser ?
+J’espère que vous êtes convaincu, tout les supports audio visuels ne se valent pas...\
+Mais maintenant il faut faire le tri... qu'est-ce qui est bien qu'est ce qu'il ne l'est pas ? qu'avez vous le droit de regarder en toute sérénité, et pour quel film v'ai-je vous mépriser ?
 
-On peut tout d'abord noter que des critères objectifs existent sur la qualité d'un film, est-ce que l'histoire as du sens ? est-ce que les plans sont bien réalisés ? est-ce que les acteurs jouent bien ?
+On peut tout d'abord noter que des critères objectifs existent sur la qualité d'un film, est-ce que l'histoire as du sens ? Est-ce que les plans sont bien réalisés ? Est-ce que les acteurs jouent bien ?
 
 On peut juger de la réalisation technique, décors réaliste oui ou non ?
 
 Mais on pourra objecter, il y as des merveilleux films dont le décors est nul !\
 Et puis si l’histoire ne fait aucun sens, c’est peut être fait exprès, ça communique un message ?\
 Les caractéristiques techniques ne permettent pas de définir la qualité d’un film puisque ce sont des aspects sur lesquels ont peut jouer pour créer ce qui serait considéré comme plus artistique encore.\
-Mais alors quand est-ce qu’un mauvais jeu d’acteur est bon ? Quand est-ce qu’un décors affreux prend du sens ? Comme dans planète B ?
+Mais alors quand est-ce qu’un mauvais jeu d’acteur est bon ? Quand est-ce qu’un décors affreux prend du sens Comme dans [planete B](planete%20B) ?
 
 ## Tout Est Question d’intention
 

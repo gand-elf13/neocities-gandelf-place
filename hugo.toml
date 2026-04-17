@@ -15,10 +15,15 @@ refLinksNotFoundURL = "/not-here-yet"
     mainpagetitle = "gand_elf place"
 
     # The subtitle to display under the title in the home page
-    mainpagesubtitle = "gand_elf place !! Le meilleur endroit pour lire mon avis, qui vous interresse surement... \n en ce moment je transfére ce que j'ai déjà écrit donc je vais être plutot actif. Autre info, je reflechis a un designe de naiére animée comme celle du Lainring, si vous avez des idées, @gand_elf sur discord" 
+    mainpagesubtitle = """La nature semble reprendre ses doits"""
 
     # The description of your website. It will be displayed in the home page
-    mainpagedesc = "Bienvenue ici... je melange un peu le francais et l'anglais partout sur le site mais oklm, ce que j'écrit est en francais normalement. \n A part le bazard d'unification, je raconte mes experience sur le jeux vidéo, et autre. peut être que je rajouterais d'autres choses plus tard... qui sait ? \n Aussi mon orthographe est surement pas ouf, je fait de mon mieu xpour rendre tout ca intelligible, n'hesitez pas a me le dire (jsp comment...) je serais juste un petit peu vexé."
+    mainpagedesc = """Bienvenue ici... je melange un peu le francais et l'anglais partout sur le site mais oklm
+    Ce que j'écrit est en francais normalement.
+    A part le bazard d'unification, je raconte mes experience sur le jeux vidéo, et autre.
+    Peut être que je rajouterais d'autres choses plus tard... qui sait ?
+    Aussi mon orthographe est surement pas ouf, je fait de mon mieux pour rendre tout ca intelligible.
+    Parlez moi sur Matrix : @gand_elf:federated.nexus"""
 
 
     # The name to display in the copyright section in the footer
@@ -45,10 +50,10 @@ refLinksNotFoundURL = "/not-here-yet"
     name = "gand_elf"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    #url = "http://jmf-portfolio.netlify.com"
+    url = "https://matrix.to/#/@gandelf:federated.nexus"
 
     # Text to go before copyright information
-    prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
+    prefix = "[Source available on github (gitlab maybe some day)](https://github.com/gand-elf13/neocities-gandelf-place)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
     suffix = "inside Lainring"

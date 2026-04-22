@@ -715,6 +715,61 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     replayVines();
   }, 400);
 
+  /* ── TEST AUTO-RESET (EVERY 60s) ── */
+  setInterval(() => {
+    console.log('[VINES] FULL test reset (including generation + type)');
+
+    /* ── 1. CLEAR PERSISTED DATA ── */
+    localStorage.removeItem('vines_events_v5');
+
+    sessionStorage.removeItem('vines_rng_seed_v5');
+    sessionStorage.removeItem('vines_session_cfg_v5');
+
+    /* ── 2. RESET IN-MEMORY STATE ── */
+    eventLog = [];
+    vines = [];
+
+    /* ── 3. RESET DECORATION / GENERATION STATE ── */
+    sessionCfg = null;          // IMPORTANT: forces re-roll
+    activeDecoKey = null;       // wipe current vine type
+    decoPlugin = null;
+
+    /* ── 4. CLEAR CANVAS ── */
+    clearCanvas();
+
+    /* ── 5. FORCE NEW RNG SEED ── */
+    const newSeed = (Date.now() + Math.random() * 1e6) | 0;
+    sessionStorage.setItem('vines_rng_seed_v5', String(newSeed));
+
+    /* ── 6. REGENERATE SESSION CONFIG (NEW TYPE + VARIANCE) ── */
+    const picked = {};
+    for (const key in CFG.sessionVariance) {
+      const { min, max } = CFG.sessionVariance[key];
+      picked[key] = (Number.isInteger(min) && Number.isInteger(max))
+        ? min + Math.floor(Math.random() * (max - min + 1))
+        : min + Math.random() * (max - min);
+    }
+
+    const pool = (CFG.decorationPool || Object.keys(window.VINE_DECORATION_TYPES))
+      .filter(k => window.VINE_DECORATION_TYPES[k]);
+
+    const rndType = pool[Math.floor(Math.random() * pool.length)];
+
+    sessionCfg = {
+      variance: picked,
+      decoType: CFG.forceDecorationType || rndType
+    };
+
+    sessionStorage.setItem('vines_session_cfg_v5', JSON.stringify(sessionCfg));
+
+    /* ── 7. RESTART CLEAN STATE ── */
+    eventLog.push({ trigger: 'onLoad' });
+    saveEventLog();
+
+    replayVines();
+
+  }, 24 * 3600 * 1000);
+
   /* ── PERSISTENCE ── */
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') saveEventLog();

@@ -425,23 +425,18 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     }, 200);
   });
 
-  function bufSet(x, y, r, g, b) {
-    /* Clamp to the *recorded* viewport (RW/RH) so coveredPixels
-       counts the same region regardless of the current window size.
-       Also guard against writing outside the actual allocated buffer. */
-    if (x < 0 || y < 0 || x >= RW() || y >= RH()) return;
+  function bufSet(x, y, r, g, b, vw, vh) {
+    const _vw = vw || RW(), _vh = vh || RH();
+    if (x < 0 || y < 0 || x >= _vw || y >= _vh) return;
     if (x >= W || y >= H) return;
     const i = (y * W + x) * 4;
     pixelBuf[i]=r; pixelBuf[i+1]=g; pixelBuf[i+2]=b; pixelBuf[i+3]=255;
   }
 
-  function isCapped() {
-    /* During replay use the frozen recorded dimensions so the cap
-       threshold is identical regardless of current window size. */
-    return (coveredPixels / (RW() * RH())) >= CFG.maxCoverageRatio;
-  }
+  /* coverage cap is now checked inline in stepVine using per-vine vw/vh */
 
-  function drawPixel(x, y, size, r, g, b) {
+  function drawPixel(x, y, size, r, g, b, vw, vh) {
+    const _vw = vw || RW(), _vh = vh || RH();
     const sx = Math.round(x / CFG.px) * CFG.px;
     const sy = Math.round(y / CFG.px) * CFG.px;
     const s  = Math.max(1, Math.round(size));
@@ -449,30 +444,29 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     ctx.fillRect(sx, sy, s, s);
     for (let row = sy; row < sy+s; row++) {
       for (let col = sx; col < sx+s; col++) {
-        /* RW/RH: only count pixels inside the recorded viewport */
-        if (col >= 0 && col < RW() && row >= 0 && row < RH()) {
+        if (col >= 0 && col < _vw && row >= 0 && row < _vh) {
           if (col < W && row < H) {
             const i = (row*W+col)*4;
             if (pixelBuf[i+3] === 0) coveredPixels++;
           }
-          bufSet(col, row, r, g, b);
+          bufSet(col, row, r, g, b, _vw, _vh);
         }
       }
     }
   }
 
-  function pxFill(x, y, w, h, r, g, b) {
+  function pxFill(x, y, w, h, r, g, b, vw, vh) {
+    const _vw = vw || RW(), _vh = vh || RH();
     ctx.fillStyle = `rgb(${r},${g},${b})`;
     ctx.fillRect(x, y, w, h);
     for (let row = y; row < y+h; row++) {
       for (let col = x; col < x+w; col++) {
-        /* RW/RH: only count pixels inside the recorded viewport */
-        if (col >= 0 && col < RW() && row >= 0 && row < RH()) {
+        if (col >= 0 && col < _vw && row >= 0 && row < _vh) {
           if (col < W && row < H) {
             const i = (row*W+col)*4;
             if (pixelBuf[i+3] === 0) coveredPixels++;
           }
-          bufSet(col, row, r, g, b);
+          bufSet(col, row, r, g, b, _vw, _vh);
         }
       }
     }
@@ -486,13 +480,11 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   } catch (e) {}
 
   /* ── REPLAY VIEWPORT ─────────────────────────────────────────
-   *  During replay, W/H must be the same values that were in
-   *  effect when the events were originally recorded.  We store
-   *  them alongside the event log so edgeAnchors(), isCapped(),
-   *  and stepVine() all see a frozen, consistent canvas size.
-   *
-   *  replayW / replayH are only non-null while replayVines() is
-   *  running; everywhere else W and H are the live viewport.
+   *  replayW/replayH are set per-event during spawnFromTrigger so
+   *  edgeAnchors() uses the exact recorded viewport for each event.
+   *  Each spawned vine then carries its own vw/vh for the entire
+   *  growth phase, so stepVine() is fully viewport-independent.
+   *  RW()/RH() fall back to live W/H when replayW/H are null.
    * ─────────────────────────────────────────────────────────── */
   let replayW = null, replayH = null;
 
@@ -527,23 +519,35 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   let vines = [];
   let turboMode = false;
 
-  function mkVine(x, y, dx, dy, depth, delay, isLeft) {
+  function mkVine(x, y, dx, dy, depth, delay, isLeft, vw, vh) {
     let sMin = CFG.segLenMin, sMax = CFG.segLenMax;
     if (isLeft) { sMin *= CFG.leftEdge.segLenScale; sMax *= CFG.leftEdge.segLenScale; }
     const len = snap(
       sMin + seededRng() * (sMax - sMin)
     ) / PX;
+    /* vw/vh: the viewport that was active when this vine was spawned.
+       Carried through branching so child vines use the same dims as
+       their parent, keeping the entire tree viewport-consistent. */
     return {
       x: snap(x), y: snap(y), dx, dy, depth,
       rgb: pickRgb(), life: 0, delay: delay||0,
       ms: len, done: false, branchCount: 1, isLeft: !!isLeft,
+      vw: vw || RW(), vh: vh || RH(),
     };
   }
 
   function stepVine(v) {
     if (v.done) return;
     if (v.delay > 0) { v.delay--; return; }
-    if (isCapped()) { v.done = true; return; }
+
+    /* Use this vine's own recorded viewport for all geometry decisions.
+       This means vines from different events (recorded at different sizes)
+       each stay consistent with their own spawn context, even when growing
+       simultaneously in the same frame. */
+    const VW = v.vw, VH = v.vh;
+
+    /* Coverage cap: compare against the area this vine was recorded in */
+    if (coveredPixels / (VW * VH) >= CFG.maxCoverageRatio) { v.done = true; return; }
 
     let nx = v.x, ny = v.y;
     if (seededRng() < CFG.turnChance) {
@@ -557,14 +561,16 @@ function _thorn(drawPixel, x, y, px, rng, col) {
       else            nx += seededRng()<0.5 ? -PX : PX;
     }
 
-    nx = clamp(snap(nx), 0, RW()-PX);
-    ny = clamp(snap(ny), 0, RH()-PX);
+    nx = clamp(snap(nx), 0, VW-PX);
+    ny = clamp(snap(ny), 0, VH-PX);
 
     const thick = Math.round(PX * (CFG.thickBase + Math.max(0, v.depth) * CFG.thickPerDepth));
-    pxFill(snap(v.x), snap(v.y), thick, thick, v.rgb[0], v.rgb[1], v.rgb[2]);
+    pxFill(snap(v.x), snap(v.y), thick, thick, v.rgb[0], v.rgb[1], v.rgb[2], VW, VH);
 
+    /* Wrap drawPixel with per-vine bounds for the decoration callback */
+    const _drawPixel = (x, y, size, r, g, b) => drawPixel(x, y, size, r, g, b, VW, VH);
     if (v.life % CFG.leafInterval === 0)
-      decoPlugin.clusters(drawPixel, snap(v.x), snap(v.y), PX, v.rgb, CFG, seededRng);
+      decoPlugin.clusters(_drawPixel, snap(v.x), snap(v.y), PX, v.rgb, CFG, seededRng);
 
     v.x = nx; v.y = ny; v.life++;
 
@@ -572,8 +578,9 @@ function _thorn(drawPixel, x, y, px, rng, col) {
       v.done = true;
       if (v.depth > 0) {
         for (let i = 0; i < v.branchCount; i++) {
-          const dir = inwardDir(v.x, v.y);
-          const child = mkVine(v.x, v.y, dir[0], dir[1], v.depth-1, i*5, v.isLeft);
+          /* inwardDir needs VW/VH too — pass them directly */
+          const dir = inwardDir(v.x, v.y, VW, VH);
+          const child = mkVine(v.x, v.y, dir[0], dir[1], v.depth-1, i*5, v.isLeft, VW, VH);
           child.branchCount = v.branchCount;
           vines.push(child);
         }
@@ -581,8 +588,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     }
   }
 
-  function inwardDir(x, y) {
-    const tx = x < RW()/2 ? 1 : -1, ty = y < RH()/2 ? 1 : -1;
+  function inwardDir(x, y, vw, vh) {
+    const tx = x < vw/2 ? 1 : -1, ty = y < vh/2 ? 1 : -1;
     const pool = [[tx,0],[0,ty],[1,0],[-1,0],[0,1],[0,-1],[tx,ty]];
     return pool[0|Math.floor(seededRng()*pool.length)];
   }
@@ -617,12 +624,15 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     if (!t || t.clusters===0) return;
 
     const depth = t.depth != null ? t.depth : CFG.maxDepth;
+    /* Capture the viewport at this exact moment — either the recorded
+       value (during replay) or the live window (during live firing). */
+    const spawnVW = RW(), spawnVH = RH();
 
     edgeAnchors(t.clusters, isMobile).forEach((a, i) => {
       const isLeft  = a.left;
       const d       = isLeft ? Math.max(1, Math.round(depth * CFG.leftEdge.depthScale)) : depth;
       const density = Math.max(1, Math.round(Math.min(3, t.clusters) * (isLeft ? CFG.leftEdge.clusterScale : 1)));
-      const v = mkVine(a.x, a.y, a.dx, a.dy, d, i*4, isLeft);
+      const v = mkVine(a.x, a.y, a.dx, a.dy, d, i*4, isLeft, spawnVW, spawnVH);
       v.branchCount = density;
       vines.push(v);
     });

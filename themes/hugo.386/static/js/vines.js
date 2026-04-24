@@ -426,13 +426,19 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   });
 
   function bufSet(x, y, r, g, b) {
-    if (x < 0 || y < 0 || x >= W || y >= H) return;
+    /* Clamp to the *recorded* viewport (RW/RH) so coveredPixels
+       counts the same region regardless of the current window size.
+       Also guard against writing outside the actual allocated buffer. */
+    if (x < 0 || y < 0 || x >= RW() || y >= RH()) return;
+    if (x >= W || y >= H) return;
     const i = (y * W + x) * 4;
     pixelBuf[i]=r; pixelBuf[i+1]=g; pixelBuf[i+2]=b; pixelBuf[i+3]=255;
   }
 
   function isCapped() {
-    return (coveredPixels / (W * H)) >= CFG.maxCoverageRatio;
+    /* During replay use the frozen recorded dimensions so the cap
+       threshold is identical regardless of current window size. */
+    return (coveredPixels / (RW() * RH())) >= CFG.maxCoverageRatio;
   }
 
   function drawPixel(x, y, size, r, g, b) {
@@ -443,9 +449,12 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     ctx.fillRect(sx, sy, s, s);
     for (let row = sy; row < sy+s; row++) {
       for (let col = sx; col < sx+s; col++) {
-        if (col >= 0 && col < W && row >= 0 && row < H) {
-          const i = (row*W+col)*4;
-          if (pixelBuf[i+3] === 0) coveredPixels++;
+        /* RW/RH: only count pixels inside the recorded viewport */
+        if (col >= 0 && col < RW() && row >= 0 && row < RH()) {
+          if (col < W && row < H) {
+            const i = (row*W+col)*4;
+            if (pixelBuf[i+3] === 0) coveredPixels++;
+          }
           bufSet(col, row, r, g, b);
         }
       }
@@ -457,9 +466,12 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     ctx.fillRect(x, y, w, h);
     for (let row = y; row < y+h; row++) {
       for (let col = x; col < x+w; col++) {
-        if (col >= 0 && col < W && row >= 0 && row < H) {
-          const i = (row*W+col)*4;
-          if (pixelBuf[i+3] === 0) coveredPixels++;
+        /* RW/RH: only count pixels inside the recorded viewport */
+        if (col >= 0 && col < RW() && row >= 0 && row < RH()) {
+          if (col < W && row < H) {
+            const i = (row*W+col)*4;
+            if (pixelBuf[i+3] === 0) coveredPixels++;
+          }
           bufSet(col, row, r, g, b);
         }
       }
@@ -472,6 +484,21 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     const saved = localStorage.getItem(STORAGE_EVENTS);
     if (saved) eventLog = JSON.parse(saved);
   } catch (e) {}
+
+  /* ── REPLAY VIEWPORT ─────────────────────────────────────────
+   *  During replay, W/H must be the same values that were in
+   *  effect when the events were originally recorded.  We store
+   *  them alongside the event log so edgeAnchors(), isCapped(),
+   *  and stepVine() all see a frozen, consistent canvas size.
+   *
+   *  replayW / replayH are only non-null while replayVines() is
+   *  running; everywhere else W and H are the live viewport.
+   * ─────────────────────────────────────────────────────────── */
+  let replayW = null, replayH = null;
+
+  /* Shadow W/H reads through these getters during replay */
+  function RW() { return replayW !== null ? replayW : W; }
+  function RH() { return replayH !== null ? replayH : H; }
 
   function saveEventLog() {
     try {
@@ -530,8 +557,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
       else            nx += seededRng()<0.5 ? -PX : PX;
     }
 
-    nx = clamp(snap(nx), 0, W-PX);
-    ny = clamp(snap(ny), 0, H-PX);
+    nx = clamp(snap(nx), 0, RW()-PX);
+    ny = clamp(snap(ny), 0, RH()-PX);
 
     const thick = Math.round(PX * (CFG.thickBase + Math.max(0, v.depth) * CFG.thickPerDepth));
     pxFill(snap(v.x), snap(v.y), thick, thick, v.rgb[0], v.rgb[1], v.rgb[2]);
@@ -555,7 +582,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }
 
   function inwardDir(x, y) {
-    const tx = x < W/2 ? 1 : -1, ty = y < H/2 ? 1 : -1;
+    const tx = x < RW()/2 ? 1 : -1, ty = y < RH()/2 ? 1 : -1;
     const pool = [[tx,0],[0,ty],[1,0],[-1,0],[0,1],[0,-1],[tx,ty]];
     return pool[0|Math.floor(seededRng()*pool.length)];
   }
@@ -577,10 +604,10 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     for (let i = 0; i < n; i++) {
       const side = validSides[Math.floor(seededRng() * validSides.length)];
 
-      if      (side===0) arr.push({x:0,    y:snap(seededRng()*(H-160)+80), dx:1, dy:0,  left:true });
-      else if (side===1) arr.push({x:W-PX, y:snap(seededRng()*(H-160)+80), dx:-1,dy:0,  left:false});
-      else if (side===2) arr.push({x:snap(seededRng()*W), y:0,    dx:0, dy:1,  left:false});
-      else               arr.push({x:snap(seededRng()*W), y:H-PX, dx:0, dy:-1, left:false});
+      if      (side===0) arr.push({x:0,       y:snap(seededRng()*(RH()-160)+80), dx:1, dy:0,  left:true });
+      else if (side===1) arr.push({x:RW()-PX,  y:snap(seededRng()*(RH()-160)+80), dx:-1,dy:0,  left:false});
+      else if (side===2) arr.push({x:snap(seededRng()*RW()), y:0,       dx:0, dy:1,  left:false});
+      else               arr.push({x:snap(seededRng()*RW()), y:RH()-PX,  dx:0, dy:-1, left:false});
     }
     return arr;
   }
@@ -619,8 +646,14 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     if (replayAnimationId) cancelAnimationFrame(replayAnimationId);
 
     for (const event of eventLog) {
+      /* Freeze W/H to the values recorded when this event fired.
+         Fall back to current viewport for old logs without vw/vh. */
+      replayW = event.vw || W;
+      replayH = event.vh || H;
       spawnFromTrigger(event.trigger);
     }
+    /* stepVine also needs frozen dims — keep last event's viewport
+       for the entire growth phase (all events share one recorded run). */
 
     const targetMs      = CFG.replayAnimationMs;
     const stepsPerFrame = CFG.replayStepsPerFrame;
@@ -640,6 +673,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
         replayAnimationId = requestAnimationFrame(animateGrowth);
       } else {
         while (vines.some(v => !v.done)) vines.forEach(stepVine);
+        replayW           = null;
+        replayH           = null;
         isReplaying       = false;
         replayAnimationId = null;
         saveEventLog();
@@ -670,7 +705,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
     if (vines.filter(v => !v.done).length >= CFG.maxVines) return;
 
-    eventLog.push({ trigger: triggerKey });
+    eventLog.push({ trigger: triggerKey, vw: W, vh: H });
     saveEventLog();
 
     spawnFromTrigger(triggerKey);
@@ -726,7 +761,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   lastH = H;
 
   if (!eventLog.length) {
-    eventLog.push({ trigger: 'onLoad' });
+    eventLog.push({ trigger: 'onLoad', vw: W, vh: H });
     saveEventLog();
   }
 
@@ -785,7 +820,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
     sessionStorage.setItem('vines_session_cfg_v5', JSON.stringify(sessionCfg));
 
-    eventLog.push({ trigger: 'onLoad' });
+    eventLog.push({ trigger: 'onLoad', vw: W, vh: H });
     saveEventLog();
 
     replayVines();

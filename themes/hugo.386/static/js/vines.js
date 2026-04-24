@@ -233,10 +233,10 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 (function (CFG, TYPES) {
   'use strict';
 
-  const STORAGE_SEED = 'vines_seed_v5';
+  const STORAGE_SEED   = 'vines_seed_v5';
   const STORAGE_EVENTS = 'vines_events_v5';
-  const SESSION_KEY = 'vines_session_cfg_v5';
-  const RNG_SEED = 'vines_rng_seed_v5';
+  const SESSION_KEY    = 'vines_session_cfg_v5';
+  const RNG_SEED       = 'vines_rng_seed_v5';
 
   const clamp = (v,lo,hi) => Math.max(lo,Math.min(hi,v));
 
@@ -332,8 +332,26 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   const activePalettes = (decoPlugin.stemPalettes && decoPlugin.stemPalettes.length)
     ? decoPlugin.stemPalettes : CFG.palettes;
 
-  /* ── GLOBAL RNG STATE ── */
-  const seed0 = parseInt(sessionStorage.getItem(RNG_SEED) || String(Date.now() & 0x7fffffff), 10);
+  /* ── RNG — TWO SEPARATE STREAMS ─────────────────────────────
+   *
+   *  seededRng()  — deterministic, seeded from sessionStorage.
+   *                 Used ONLY for vine geometry (positions,
+   *                 colours, turns, branches).  resetRng()
+   *                 brings it back to seed0 so replay always
+   *                 produces identical output.
+   *
+   *  liveRng()    — uses Math.random(), never touches the
+   *                 seeded stream.  Used for chance checks
+   *                 (should this trigger fire?) and cooldown
+   *                 decisions that must NOT affect geometry.
+   *
+   *  Rule: anything that happens during replay uses seededRng.
+   *        Anything that only happens in live / event-binding
+   *        code uses liveRng.
+   * ─────────────────────────────────────────────────────────── */
+  const seed0 = parseInt(
+    sessionStorage.getItem(RNG_SEED) || String(Date.now() & 0x7fffffff), 10
+  );
   try { sessionStorage.setItem(RNG_SEED, String(seed0)); } catch (e) {}
   let _rngState = seed0;
 
@@ -345,6 +363,9 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   function resetRng() {
     _rngState = seed0;
   }
+
+  /* Convenience alias — keeps intent clear at call sites */
+  const liveRng = Math.random.bind(Math);
 
   /* ── CANVAS SETUP ── */
   let W = 0, H = 0;
@@ -375,7 +396,6 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     H = newH;
 
     if (isMobile && !isFirst) {
-      // Mobile: only update CSS size, never blank the canvas or touch the buffer
       canvas.style.width  = W + 'px';
       canvas.style.height = H + 'px';
       return;
@@ -404,6 +424,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
       }
     }, 200);
   });
+
   function bufSet(x, y, r, g, b) {
     if (x < 0 || y < 0 || x >= W || y >= H) return;
     const i = (y * W + x) * 4;
@@ -541,28 +562,25 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   function edgeAnchors(n, forMobile = false) {
     const arr = [];
-    
-    // Determine which edges are valid for this device
-    let validSides = [0, 1, 2, 3];  // all: left, right, top, bottom
-    
+
+    let validSides = [0, 1, 2, 3];
+
     if (forMobile && CFG.mobileVinesOnly && CFG.mobileGrowthAreas) {
-      // On mobile, only use specified growth areas
       validSides = [];
       const areas = CFG.mobileGrowthAreas;
-      if (areas.includes('left')) validSides.push(0);
-      if (areas.includes('right')) validSides.push(1);
-      if (areas.includes('top')) validSides.push(2);
+      if (areas.includes('left'))   validSides.push(0);
+      if (areas.includes('right'))  validSides.push(1);
+      if (areas.includes('top'))    validSides.push(2);
       if (areas.includes('bottom')) validSides.push(3);
     }
-    
+
     for (let i = 0; i < n; i++) {
-      // Pick random side from valid sides only
       const side = validSides[Math.floor(seededRng() * validSides.length)];
-      
-      if      (side===0) arr.push({x:0, y:snap(seededRng()*(H-160)+80), dx:1,dy:0,left:true});
-      else if (side===1) arr.push({x:W-PX, y:snap(seededRng()*(H-160)+80), dx:-1,dy:0,left:false});
-      else if (side===2) arr.push({x:snap(seededRng()*W), y:0, dx:0,dy:1,left:false});
-      else               arr.push({x:snap(seededRng()*W), y:H-PX, dx:0,dy:-1,left:false});
+
+      if      (side===0) arr.push({x:0,    y:snap(seededRng()*(H-160)+80), dx:1, dy:0,  left:true });
+      else if (side===1) arr.push({x:W-PX, y:snap(seededRng()*(H-160)+80), dx:-1,dy:0,  left:false});
+      else if (side===2) arr.push({x:snap(seededRng()*W), y:0,    dx:0, dy:1,  left:false});
+      else               arr.push({x:snap(seededRng()*W), y:H-PX, dx:0, dy:-1, left:false});
     }
     return arr;
   }
@@ -583,34 +601,34 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     });
   }
 
-  /* 🔑 REPLAY: regenerate all vines from event log with smooth animation */
+  /* ── REPLAY ─────────────────────────────────────────────────
+   *  Wipes canvas, resets the seeded RNG to seed0, then replays
+   *  every logged event through spawnFromTrigger (which only
+   *  uses seededRng).  Live triggers / chance checks are NOT
+   *  re-run, so the sequence is always identical.
+   * ─────────────────────────────────────────────────────────── */
   let isReplaying = false;
   let replayAnimationId = null;
 
   function replayVines() {
     clearCanvas();
     vines = [];
-    resetRng();
+    resetRng();           // ← back to seed0, no live calls have touched it
     isReplaying = true;
 
     if (replayAnimationId) cancelAnimationFrame(replayAnimationId);
 
-    // Execute all logged events to spawn vines
     for (const event of eventLog) {
       spawnFromTrigger(event.trigger);
     }
 
-    // Calculate animation parameters
-    const targetMs = CFG.replayAnimationMs;
+    const targetMs      = CFG.replayAnimationMs;
     const stepsPerFrame = CFG.replayStepsPerFrame;
-    const frameMs = 1000 / 60;  // ~16.67ms per frame at 60fps
-    const maxFrames = Math.ceil(targetMs / frameMs);
-
-    // Animate the growth frame by frame
-    let frameCount = 0;
+    const frameMs       = 1000 / 60;
+    const maxFrames     = Math.ceil(targetMs / frameMs);
+    let   frameCount    = 0;
 
     function animateGrowth() {
-      // Step all vines multiple times per frame for smooth progression
       for (let i = 0; i < stepsPerFrame; i++) {
         vines.forEach(stepVine);
         if (!vines.some(v => !v.done)) break;
@@ -621,11 +639,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
       if (vines.some(v => !v.done) && frameCount < maxFrames) {
         replayAnimationId = requestAnimationFrame(animateGrowth);
       } else {
-        // Finish any remaining vines instantly
-        while (vines.some(v => !v.done)) {
-          vines.forEach(stepVine);
-        }
-        isReplaying = false;
+        while (vines.some(v => !v.done)) vines.forEach(stepVine);
+        isReplaying       = false;
         replayAnimationId = null;
         saveEventLog();
       }
@@ -634,12 +649,20 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     replayAnimationId = requestAnimationFrame(animateGrowth);
   }
 
+  /* ── TRIGGER FIRING ─────────────────────────────────────────
+   *  Chance check and cooldown use liveRng / Date.now() only.
+   *  seededRng is NOT called here, so the geometry stream stays
+   *  clean and replay-safe.
+   * ─────────────────────────────────────────────────────────── */
   const _cd = {};
 
   function fire(triggerKey) {
     const t = CFG.triggers[triggerKey];
     if (!t || t.clusters===0) return;
-    if (seededRng() > t.chance) return;
+
+    /* ← was seededRng() — now uses liveRng so it never pollutes
+       the deterministic geometry stream */
+    if (liveRng() > t.chance) return;
 
     const now = Date.now();
     if (t.cooldownMs && _cd[triggerKey] && now - _cd[triggerKey] < t.cooldownMs) return;
@@ -647,17 +670,15 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
     if (vines.filter(v => !v.done).length >= CFG.maxVines) return;
 
-    // Log event
     eventLog.push({ trigger: triggerKey });
     saveEventLog();
 
-    // Spawn immediately (live mode)
     spawnFromTrigger(triggerKey);
   }
 
   function bindTagLinks() {
     document.querySelectorAll('a[href*="/tags/"]').forEach(a => {
-      a.addEventListener('click', () => fire('onTagClick'));
+      a.addEventListener('click',      () => fire('onTagClick'));
       a.addEventListener('mouseenter', () => fire('onTagHover'));
     });
   }
@@ -686,12 +707,12 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }
 
   const S = CFG.selectors;
-  on(S.nav,'click','onNavClick');
-  on(S.postTitle,'click','onPostTitleClick');
-  on(S.postTitle,'mouseenter','onPostTitleHover');
-  on(S.sidebar,'click','onSidebarClick');
-  on(S.sidebar,'mouseenter','onSidebarHover');
-  on(S.footer,'mouseenter','onFooterHover');
+  on(S.nav,       'click',      'onNavClick');
+  on(S.postTitle, 'click',      'onPostTitleClick');
+  on(S.postTitle, 'mouseenter', 'onPostTitleHover');
+  on(S.sidebar,   'click',      'onSidebarClick');
+  on(S.sidebar,   'mouseenter', 'onSidebarHover');
+  on(S.footer,    'mouseenter', 'onFooterHover');
 
   window.addEventListener('scroll', () => fire('onScroll'), {passive:true});
 
@@ -704,7 +725,6 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   lastW = W;
   lastH = H;
 
-  /* ensure onLoad is part of deterministic history BEFORE replay */
   if (!eventLog.length) {
     eventLog.push({ trigger: 'onLoad' });
     saveEventLog();
@@ -714,61 +734,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     replayVines();
   }, 400);
 
-  /* ── TEST AUTO-RESET (EVERY 60s) ── */
-  setInterval(() => {
-    console.log('[VINES] FULL test reset (including generation + type)');
-
-    /* ── 1. CLEAR PERSISTED DATA ── */
-    localStorage.removeItem('vines_events_v5');
-
-    sessionStorage.removeItem('vines_rng_seed_v5');
-    sessionStorage.removeItem('vines_session_cfg_v5');
-
-    /* ── 2. RESET IN-MEMORY STATE ── */
-    eventLog = [];
-    vines = [];
-
-    /* ── 3. RESET DECORATION / GENERATION STATE ── */
-    sessionCfg = null;          // IMPORTANT: forces re-roll
-    activeDecoKey = null;       // wipe current vine type
-    decoPlugin = null;
-
-    /* ── 4. CLEAR CANVAS ── */
-    clearCanvas();
-
-    /* ── 5. FORCE NEW RNG SEED ── */
-    const newSeed = (Date.now() + Math.random() * 1e6) | 0;
-    sessionStorage.setItem('vines_rng_seed_v5', String(newSeed));
-
-    /* ── 6. REGENERATE SESSION CONFIG (NEW TYPE + VARIANCE) ── */
-    const picked = {};
-    for (const key in CFG.sessionVariance) {
-      const { min, max } = CFG.sessionVariance[key];
-      picked[key] = (Number.isInteger(min) && Number.isInteger(max))
-        ? min + Math.floor(Math.random() * (max - min + 1))
-        : min + Math.random() * (max - min);
-    }
-
-    const pool = (CFG.decorationPool || Object.keys(window.VINE_DECORATION_TYPES))
-      .filter(k => window.VINE_DECORATION_TYPES[k]);
-
-    const rndType = pool[Math.floor(Math.random() * pool.length)];
-
-    sessionCfg = {
-      variance: picked,
-      decoType: CFG.forceDecorationType || rndType
-    };
-
-    sessionStorage.setItem('vines_session_cfg_v5', JSON.stringify(sessionCfg));
-
-    /* ── 7. RESTART CLEAN STATE ── */
-    eventLog.push({ trigger: 'onLoad' });
-    saveEventLog();
-
-    replayVines();
-
-  }, 24 * 60 * 60 * 1000);
- 
+  /* ── DAILY RESET ── */
   const DAY_MS = 24 * 60 * 60 * 1000;
   const last = localStorage.getItem('vines_last_reset_time');
 
@@ -778,6 +744,54 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     sessionStorage.removeItem('vines_session_cfg_v5');
     localStorage.setItem('vines_last_reset_time', String(Date.now()));
   }
+
+  /* ── TEST AUTO-RESET ── */
+  setInterval(() => {
+    console.log('[VINES] FULL test reset (including generation + type)');
+
+    localStorage.removeItem('vines_events_v5');
+    sessionStorage.removeItem('vines_rng_seed_v5');
+    sessionStorage.removeItem('vines_session_cfg_v5');
+
+    eventLog = [];
+    vines    = [];
+
+    sessionCfg    = null;
+    activeDecoKey = null;
+    decoPlugin    = null;
+
+    clearCanvas();
+
+    const newSeed = (Date.now() + liveRng() * 1e6) | 0;
+    sessionStorage.setItem('vines_rng_seed_v5', String(newSeed));
+
+    const picked = {};
+    for (const key in CFG.sessionVariance) {
+      const { min, max } = CFG.sessionVariance[key];
+      picked[key] = (Number.isInteger(min) && Number.isInteger(max))
+        ? min + Math.floor(liveRng() * (max - min + 1))
+        : min + liveRng() * (max - min);
+    }
+
+    const pool = (CFG.decorationPool || Object.keys(window.VINE_DECORATION_TYPES))
+      .filter(k => window.VINE_DECORATION_TYPES[k]);
+
+    const rndType = pool[Math.floor(liveRng() * pool.length)];
+
+    sessionCfg = {
+      variance: picked,
+      decoType: CFG.forceDecorationType || rndType
+    };
+
+    sessionStorage.setItem('vines_session_cfg_v5', JSON.stringify(sessionCfg));
+
+    eventLog.push({ trigger: 'onLoad' });
+    saveEventLog();
+
+    replayVines();
+
+  }, 24 * 60 * 60 * 1000);
+
   /* ── PERSISTENCE ── */
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') saveEventLog();

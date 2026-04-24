@@ -245,7 +245,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
   const isMobile = isIOS ||
     /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
-    (window.matchMedia('(pointer: coarse)').matches && window.innerWidth <= 1024);
+    window.innerWidth <= 768;
   console.log('[VINES] isMobile:', isMobile, 'UA:', navigator.userAgent);
 
   /* ── VIEWPORT (iOS compatible) ── */

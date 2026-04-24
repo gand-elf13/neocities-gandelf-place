@@ -241,8 +241,12 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   const clamp = (v,lo,hi) => Math.max(lo,Math.min(hi,v));
 
   /* ── DEVICE DETECTION ── */
-  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
-  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+    (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const isMobile = isIOS ||
+    /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+    (window.matchMedia('(pointer: coarse)').matches && window.innerWidth <= 1024);
+  console.log('[VINES] isMobile:', isMobile, 'UA:', navigator.userAgent);
 
   /* ── VIEWPORT (iOS compatible) ── */
   function getViewport() {

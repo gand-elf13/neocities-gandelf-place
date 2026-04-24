@@ -768,8 +768,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
     replayVines();
 
-  }, 10 * 1000);
-
+  }, 24 * 60 * 60 * 1000);
+ 
   const DAY_MS = 24 * 60 * 60 * 1000;
   const last = localStorage.getItem('vines_last_reset_time');
 

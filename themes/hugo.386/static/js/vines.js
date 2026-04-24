@@ -780,7 +780,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }, 400);
 
   /* ── DAILY RESET ── */
-  const DAY_MS = 24 * 60 * 60 * 1000;
+  const DAY_MS = 60 * 60 * 1000;
   const last = localStorage.getItem('vines_last_reset_time');
 
   if (!last || Date.now() - Number(last) > DAY_MS) {
@@ -835,7 +835,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
     replayVines();
 
-  }, 24 * 60 * 60 * 1000);
+  }, 60 * 60 * 1000);
 
   /* ── PERSISTENCE ── */
   document.addEventListener('visibilitychange', () => {

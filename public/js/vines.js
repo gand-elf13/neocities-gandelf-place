@@ -385,15 +385,19 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }
 
   let resizeTimeout = null;
+  let lastW = 0, lastH = 0;
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-      resize();
+      const vp = getViewport();
+      if (isMobile && Math.abs(vp.w - lastW) < 50 && Math.abs(vp.h - lastH) < 50) return;
+      lastW = vp.w;
+      lastH = vp.h;
 
+      resize();
       if (!isMobile) {
         replayVines();
       }
-
     }, 200);
   });
   function bufSet(x, y, r, g, b) {
@@ -692,6 +696,9 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   /* ── INITIALIZATION ── */
   resize();
+
+  lastW = W;
+  lastH = H;
 
   /* ensure onLoad is part of deterministic history BEFORE replay */
   if (!eventLog.length) {

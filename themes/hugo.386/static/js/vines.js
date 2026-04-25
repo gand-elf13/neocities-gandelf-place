@@ -238,6 +238,36 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   const SESSION_KEY    = 'vines_session_cfg_v5';
   const RNG_SEED       = 'vines_rng_seed_v5';
 
+  /* ── SESSION-BASED RESET ─────────────────────────────────────
+   *
+   *  Goal: vines are fresh every time the user *reopens* the site,
+   *  but persist across same-session page navigations.
+   *
+   *  Signal used: sessionStorage.  Browsers (including iOS Safari)
+   *  clear sessionStorage when a tab is closed or the browser is
+   *  quit.  If SESSION_ALIVE_KEY is absent we are in a new session
+   *  → wipe localStorage vine history so replay starts clean.
+   *
+   *  This block runs FIRST — before any data is loaded or used —
+   *  so the rest of the engine always sees a consistent state.
+   * ─────────────────────────────────────────────────────────── */
+  const SESSION_ALIVE_KEY = 'vines_session_alive_v5';
+  const isNewSession = !sessionStorage.getItem(SESSION_ALIVE_KEY);
+
+  if (isNewSession) {
+    /* Mark alive immediately so navigations within the tab skip reset. */
+    try { sessionStorage.setItem(SESSION_ALIVE_KEY, '1'); } catch (e) {}
+
+    /* Wipe persisted vine history. */
+    try { localStorage.removeItem(STORAGE_EVENTS); } catch (e) {}
+
+    /* Clear any stale RNG seed so a fresh one is generated below. */
+    try { sessionStorage.removeItem(RNG_SEED); } catch (e) {}
+
+    /* Clear stale session config so variance + deco type are re-rolled. */
+    try { sessionStorage.removeItem(SESSION_KEY); } catch (e) {}
+  }
+
   const clamp = (v,lo,hi) => Math.max(lo,Math.min(hi,v));
 
   /* ── DEVICE DETECTION ── */
@@ -433,8 +463,6 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     pixelBuf[i]=r; pixelBuf[i+1]=g; pixelBuf[i+2]=b; pixelBuf[i+3]=255;
   }
 
-  /* coverage cap is now checked inline in stepVine using per-vine vw/vh */
-
   function drawPixel(x, y, size, r, g, b, vw, vh) {
     const _vw = vw || RW(), _vh = vh || RH();
     const sx = Math.round(x / CFG.px) * CFG.px;
@@ -525,9 +553,6 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     const len = snap(
       sMin + seededRng() * (sMax - sMin)
     ) / PX;
-    /* vw/vh: the viewport that was active when this vine was spawned.
-       Carried through branching so child vines use the same dims as
-       their parent, keeping the entire tree viewport-consistent. */
     return {
       x: snap(x), y: snap(y), dx, dy, depth,
       rgb: pickRgb(), life: 0, delay: delay||0,
@@ -540,13 +565,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     if (v.done) return;
     if (v.delay > 0) { v.delay--; return; }
 
-    /* Use this vine's own recorded viewport for all geometry decisions.
-       This means vines from different events (recorded at different sizes)
-       each stay consistent with their own spawn context, even when growing
-       simultaneously in the same frame. */
     const VW = v.vw, VH = v.vh;
 
-    /* Coverage cap: compare against the area this vine was recorded in */
     if (coveredPixels / (VW * VH) >= CFG.maxCoverageRatio) { v.done = true; return; }
 
     let nx = v.x, ny = v.y;
@@ -567,7 +587,6 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     const thick = Math.round(PX * (CFG.thickBase + Math.max(0, v.depth) * CFG.thickPerDepth));
     pxFill(snap(v.x), snap(v.y), thick, thick, v.rgb[0], v.rgb[1], v.rgb[2], VW, VH);
 
-    /* Wrap drawPixel with per-vine bounds for the decoration callback */
     const _drawPixel = (x, y, size, r, g, b) => drawPixel(x, y, size, r, g, b, VW, VH);
     if (v.life % CFG.leafInterval === 0)
       decoPlugin.clusters(_drawPixel, snap(v.x), snap(v.y), PX, v.rgb, CFG, seededRng);
@@ -578,7 +597,6 @@ function _thorn(drawPixel, x, y, px, rng, col) {
       v.done = true;
       if (v.depth > 0) {
         for (let i = 0; i < v.branchCount; i++) {
-          /* inwardDir needs VW/VH too — pass them directly */
           const dir = inwardDir(v.x, v.y, VW, VH);
           const child = mkVine(v.x, v.y, dir[0], dir[1], v.depth-1, i*5, v.isLeft, VW, VH);
           child.branchCount = v.branchCount;
@@ -624,8 +642,6 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     if (!t || t.clusters===0) return;
 
     const depth = t.depth != null ? t.depth : CFG.maxDepth;
-    /* Capture the viewport at this exact moment — either the recorded
-       value (during replay) or the live window (during live firing). */
     const spawnVW = RW(), spawnVH = RH();
 
     edgeAnchors(t.clusters, isMobile).forEach((a, i) => {
@@ -638,32 +654,23 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     });
   }
 
-  /* ── REPLAY ─────────────────────────────────────────────────
-   *  Wipes canvas, resets the seeded RNG to seed0, then replays
-   *  every logged event through spawnFromTrigger (which only
-   *  uses seededRng).  Live triggers / chance checks are NOT
-   *  re-run, so the sequence is always identical.
-   * ─────────────────────────────────────────────────────────── */
+  /* ── REPLAY ── */
   let isReplaying = false;
   let replayAnimationId = null;
 
   function replayVines() {
     clearCanvas();
     vines = [];
-    resetRng();           // ← back to seed0, no live calls have touched it
+    resetRng();
     isReplaying = true;
 
     if (replayAnimationId) cancelAnimationFrame(replayAnimationId);
 
     for (const event of eventLog) {
-      /* Freeze W/H to the values recorded when this event fired.
-         Fall back to current viewport for old logs without vw/vh. */
       replayW = event.vw || W;
       replayH = event.vh || H;
       spawnFromTrigger(event.trigger);
     }
-    /* stepVine also needs frozen dims — keep last event's viewport
-       for the entire growth phase (all events share one recorded run). */
 
     const targetMs      = CFG.replayAnimationMs;
     const stepsPerFrame = CFG.replayStepsPerFrame;
@@ -694,19 +701,13 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     replayAnimationId = requestAnimationFrame(animateGrowth);
   }
 
-  /* ── TRIGGER FIRING ─────────────────────────────────────────
-   *  Chance check and cooldown use liveRng / Date.now() only.
-   *  seededRng is NOT called here, so the geometry stream stays
-   *  clean and replay-safe.
-   * ─────────────────────────────────────────────────────────── */
+  /* ── TRIGGER FIRING ── */
   const _cd = {};
 
   function fire(triggerKey) {
     const t = CFG.triggers[triggerKey];
     if (!t || t.clusters===0) return;
 
-    /* ← was seededRng() — now uses liveRng so it never pollutes
-       the deterministic geometry stream */
     if (liveRng() > t.chance) return;
 
     const now = Date.now();
@@ -778,64 +779,6 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   setTimeout(() => {
     replayVines();
   }, 400);
-
-  /* ── DAILY RESET ── */
-  const DAY_MS = 60 * 60 * 1000;
-  const last = localStorage.getItem('vines_last_reset_time');
-
-  if (!last || Date.now() - Number(last) > DAY_MS) {
-    localStorage.removeItem('vines_events_v5');
-    sessionStorage.removeItem('vines_rng_seed_v5');
-    sessionStorage.removeItem('vines_session_cfg_v5');
-    localStorage.setItem('vines_last_reset_time', String(Date.now()));
-  }
-
-  /* ── TEST AUTO-RESET ── */
-  setInterval(() => {
-    console.log('[VINES] FULL test reset (including generation + type)');
-
-    localStorage.removeItem('vines_events_v5');
-    sessionStorage.removeItem('vines_rng_seed_v5');
-    sessionStorage.removeItem('vines_session_cfg_v5');
-
-    eventLog = [];
-    vines    = [];
-
-    sessionCfg    = null;
-    activeDecoKey = null;
-    decoPlugin    = null;
-
-    clearCanvas();
-
-    const newSeed = (Date.now() + liveRng() * 1e6) | 0;
-    sessionStorage.setItem('vines_rng_seed_v5', String(newSeed));
-
-    const picked = {};
-    for (const key in CFG.sessionVariance) {
-      const { min, max } = CFG.sessionVariance[key];
-      picked[key] = (Number.isInteger(min) && Number.isInteger(max))
-        ? min + Math.floor(liveRng() * (max - min + 1))
-        : min + liveRng() * (max - min);
-    }
-
-    const pool = (CFG.decorationPool || Object.keys(window.VINE_DECORATION_TYPES))
-      .filter(k => window.VINE_DECORATION_TYPES[k]);
-
-    const rndType = pool[Math.floor(liveRng() * pool.length)];
-
-    sessionCfg = {
-      variance: picked,
-      decoType: CFG.forceDecorationType || rndType
-    };
-
-    sessionStorage.setItem('vines_session_cfg_v5', JSON.stringify(sessionCfg));
-
-    eventLog.push({ trigger: 'onLoad', vw: W, vh: H });
-    saveEventLog();
-
-    replayVines();
-
-  }, 60 * 60 * 1000);
 
   /* ── PERSISTENCE ── */
   document.addEventListener('visibilitychange', () => {

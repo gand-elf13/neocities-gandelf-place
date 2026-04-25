@@ -228,66 +228,67 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   'use strict';
 
   /* ── STORAGE KEYS ── */
-  const STORAGE_EVENTS  = 'vines_events_v5';
-  const SESSION_KEY     = 'vines_session_cfg_v5';
-  const RNG_SEED        = 'vines_rng_seed_v5';
-  /* Written to localStorage on pagehide/visibilitychange:hidden.
-     Read on load and compared to now — if the gap is large enough
-     the browser was genuinely closed between visits.            */
-  const LS_HIDE_TIME    = 'vines_hide_ts_v5';
-  /* Written to sessionStorage on first load of a tab.
-     Used as a secondary cross-check and to distinguish
-     navigations-within-tab from fresh opens.                   */
-  const SS_LOAD_TIME    = 'vines_load_ts_v5';
+  const STORAGE_EVENTS = 'vines_events_v5';
+  const SESSION_KEY    = 'vines_session_cfg_v5';
+  const RNG_SEED       = 'vines_rng_seed_v5';
+
+  /* Heartbeat: written to sessionStorage every HEARTBEAT_INTERVAL ms
+     while the page is alive.  On load we read it and check its age.
+     sessionStorage is used (not localStorage) so it is tab-scoped —
+     two tabs of the same site each have their own heartbeat.         */
+  const SS_HEARTBEAT   = 'vines_heartbeat_v5';
+  const HEARTBEAT_INTERVAL = 5000;   // write every 5 s
+  const HEARTBEAT_TIMEOUT  = 12000;  // if older than 12 s → new session
 
   /* ── NEW-SESSION DETECTION ───────────────────────────────────
    *
-   *  sessionStorage alone is unreliable:
-   *    • iOS Safari suspends (not kills) background tabs, keeping
-   *      sessionStorage alive across what the user perceives as
-   *      a "close and reopen".
-   *    • Chromium's "restore last session" or ctrl-shift-t also
-   *      restores sessionStorage for closed tabs.
+   *  Problem: every event-based approach (pagehide, visibilitychange,
+   *  beforeunload) is unreliable on iOS — the OS can kill the app
+   *  from the App Switcher with zero JS notification.  There is no
+   *  reliable "tab was closed" event we can write a timestamp from.
    *
-   *  Robust two-signal approach:
+   *  Solution — detect CONTINUATION instead of closure:
    *
-   *  A) sessionStorage has no load-timestamp  → definitely new tab.
+   *  While the page is alive we write a heartbeat timestamp to
+   *  sessionStorage every 5 s.  On load we read the last heartbeat:
    *
-   *  B) sessionStorage HAS a load-timestamp but localStorage
-   *     hide-timestamp is NEWER than that load-timestamp.
-   *     This means the tab was hidden (user left / closed browser)
-   *     AFTER the tab last loaded → treat as new session.
-   *     Threshold: 5 s grace period to ignore same-page nav blur.
+   *    • No heartbeat   → definitely a new tab / first visit.
+   *    • Heartbeat age > HEARTBEAT_TIMEOUT (12 s) → the page was
+   *      inactive long enough that the user left; treat as new session.
+   *    • Heartbeat age ≤ 12 s → same tab, navigating within site;
+   *      preserve all vine state.
    *
-   *  Either condition → wipe all persisted vine state.
-   *  Within-tab page navigations: SS_LOAD_TIME already exists and
-   *  LS_HIDE_TIME is from before or during the current session,
-   *  so the B-check won't fire.
+   *  12 s is safely larger than the 5 s write interval, so a live
+   *  tab navigating to a new page always has a fresh-enough stamp.
+   *  It's also small enough that closing a browser and reopening it
+   *  will always exceed the window (the minimum gap would be however
+   *  long it takes to close + reopen, which is several seconds at
+   *  minimum but practically always >12 s).
    *
    *  This block runs FIRST — before any vine data is loaded.
    * ─────────────────────────────────────────────────────────── */
-  const now         = Date.now();
-  const ssLoadTime  = parseInt(sessionStorage.getItem(SS_LOAD_TIME) || '0', 10);
-  const lsHideTime  = parseInt(localStorage.getItem(LS_HIDE_TIME)   || '0', 10);
-
-  const noLoadStamp  = ssLoadTime === 0;                      // signal A
-  const hiddenAfter  = lsHideTime > ssLoadTime + 5000;       // signal B
-
-  const isNewSession = noLoadStamp || hiddenAfter;
+  const now          = Date.now();
+  const lastBeat     = parseInt(sessionStorage.getItem(SS_HEARTBEAT) || '0', 10);
+  const beatAge      = now - lastBeat;
+  const isNewSession = lastBeat === 0 || beatAge > HEARTBEAT_TIMEOUT;
 
   if (isNewSession) {
-    /* Stamp this load so same-tab navigations are recognised. */
-    try { sessionStorage.setItem(SS_LOAD_TIME, String(now)); } catch (e) {}
-
-    /* Wipe ALL persisted vine state — events, seed, session cfg. */
-    try { localStorage.removeItem(STORAGE_EVENTS); }  catch (e) {}
-    try { sessionStorage.removeItem(RNG_SEED); }      catch (e) {}
-    try { sessionStorage.removeItem(SESSION_KEY); }   catch (e) {}
-
-    console.log('[VINES] New session detected — state cleared.',
-      noLoadStamp ? '(no load stamp)' : '(hidden after load)');
+    try { localStorage.removeItem(STORAGE_EVENTS); }  catch(e){}
+    try { sessionStorage.removeItem(RNG_SEED); }      catch(e){}
+    try { sessionStorage.removeItem(SESSION_KEY); }   catch(e){}
+    console.log('[VINES] New session — state cleared. Beat age:', beatAge, 'ms');
+  } else {
+    console.log('[VINES] Continuing session. Beat age:', beatAge, 'ms');
   }
-  /* else: same tab, navigating within site — keep everything */
+
+  /* Write the first heartbeat immediately so the next page in the
+     same tab navigation sees a fresh stamp.                       */
+  try { sessionStorage.setItem(SS_HEARTBEAT, String(now)); } catch(e){}
+
+  /* Keep the heartbeat alive while the page is open. */
+  setInterval(() => {
+    try { sessionStorage.setItem(SS_HEARTBEAT, String(Date.now())); } catch(e){}
+  }, HEARTBEAT_INTERVAL);
 
   const clamp = (v,lo,hi) => Math.max(lo,Math.min(hi,v));
 
@@ -297,15 +298,11 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   const isMobile = isIOS ||
     /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
     window.innerWidth <= 768;
-  console.log('[VINES] isMobile:', isMobile, 'isNewSession:', isNewSession);
 
   /* ── VIEWPORT (iOS compatible) ── */
   function getViewport() {
     if (window.visualViewport) {
-      return {
-        w: Math.round(window.visualViewport.width),
-        h: Math.round(window.visualViewport.height),
-      };
+      return { w: Math.round(window.visualViewport.width), h: Math.round(window.visualViewport.height) };
     }
     return { w: window.innerWidth, h: window.innerHeight };
   }
@@ -349,7 +346,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   /* ── SESSION CONFIG ── */
   let sessionCfg = null;
-  try { sessionCfg = JSON.parse(sessionStorage.getItem(SESSION_KEY)); } catch (e) {}
+  try { sessionCfg = JSON.parse(sessionStorage.getItem(SESSION_KEY)); } catch(e){}
 
   if (!sessionCfg) {
     const picked = {};
@@ -362,7 +359,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     const pool    = (CFG.decorationPool || Object.keys(TYPES)).filter(k => TYPES[k]);
     const rndType = pool[Math.floor(Math.random() * pool.length)];
     sessionCfg = { variance: picked, decoType: CFG.forceDecorationType || rndType };
-    try { sessionStorage.setItem(SESSION_KEY, JSON.stringify(sessionCfg)); } catch (e) {}
+    try { sessionStorage.setItem(SESSION_KEY, JSON.stringify(sessionCfg)); } catch(e){}
   }
 
   for (const key in sessionCfg.variance) CFG[key] = sessionCfg.variance[key];
@@ -371,26 +368,21 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   let activeDecoKey = pageTagDeco || sessionCfg.decoType;
   if (!TYPES[activeDecoKey]) activeDecoKey = Object.keys(TYPES)[0];
 
-  let decoPlugin = Object.assign({}, TYPES[activeDecoKey]);
-
-  const activePalettes = (decoPlugin.stemPalettes && decoPlugin.stemPalettes.length)
+  const decoPlugin      = Object.assign({}, TYPES[activeDecoKey]);
+  const activePalettes  = (decoPlugin.stemPalettes && decoPlugin.stemPalettes.length)
     ? decoPlugin.stemPalettes : CFG.palettes;
 
-  /* ── RNG — TWO SEPARATE STREAMS ─────────────────────────────
-   *  seededRng() — deterministic geometry, resets to seed0 on replay.
-   *  liveRng()   — Math.random(), used for chance/cooldown only.
-   * ─────────────────────────────────────────────────────────── */
+  /* ── RNG — TWO SEPARATE STREAMS ── */
   const seed0 = parseInt(
     sessionStorage.getItem(RNG_SEED) || String(Date.now() & 0x7fffffff), 10
   );
-  try { sessionStorage.setItem(RNG_SEED, String(seed0)); } catch (e) {}
+  try { sessionStorage.setItem(RNG_SEED, String(seed0)); } catch(e){}
   let _rngState = seed0;
 
   function seededRng() {
     _rngState = (Math.imul(1664525, _rngState) + 1013904223) | 0;
     return ((_rngState >>> 0) / 0xffffffff);
   }
-
   function resetRng() { _rngState = seed0; }
 
   const liveRng = Math.random.bind(Math);
@@ -400,14 +392,13 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   const canvas = document.createElement('canvas');
   canvas.id = 'vine-canvas';
   Object.assign(canvas.style, {
-    position: 'fixed', top: '0', left: '0',
-    pointerEvents: 'none', zIndex: '9999', imageRendering: 'pixelated',
+    position:'fixed', top:'0', left:'0',
+    pointerEvents:'none', zIndex:'9999', imageRendering:'pixelated',
   });
   document.body.appendChild(canvas);
   const ctx = canvas.getContext('2d');
 
-  let pixelBuf = null;
-  let coveredPixels = 0;
+  let pixelBuf = null, coveredPixels = 0;
 
   function initBuffer() {
     pixelBuf = new Uint8ClampedArray(W * H * 4);
@@ -416,49 +407,42 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   function resize() {
     const vp = getViewport();
-    const isFirst = (W === 0 && H === 0);
+    const isFirst = (W===0 && H===0);
     W = vp.w; H = vp.h;
-
     if (isMobile && !isFirst) {
-      canvas.style.width  = W + 'px';
-      canvas.style.height = H + 'px';
+      canvas.style.width = W+'px'; canvas.style.height = H+'px';
       return;
     }
-
-    canvas.width  = W;
-    canvas.height = H;
-    canvas.style.width  = W + 'px';
-    canvas.style.height = H + 'px';
+    canvas.width = W; canvas.height = H;
+    canvas.style.width = W+'px'; canvas.style.height = H+'px';
     initBuffer();
   }
 
-  let resizeTimeout = null;
-  let lastW = 0, lastH = 0;
+  let resizeTimeout=null, lastW=0, lastH=0;
   window.addEventListener('resize', () => {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
       const vp = getViewport();
-      if (isMobile && Math.abs(vp.w - lastW) < 50 && Math.abs(vp.h - lastH) < 50) return;
-      lastW = vp.w; lastH = vp.h;
+      if (isMobile && Math.abs(vp.w-lastW)<50 && Math.abs(vp.h-lastH)<50) return;
+      lastW=vp.w; lastH=vp.h;
       resize();
       if (!isMobile) replayVines();
     }, 200);
   });
 
-  function bufSet(x, y, r, g, b, vw, vh) {
-    const _vw = vw||RW(), _vh = vh||RH();
+  function bufSet(x,y,r,g,b,vw,vh) {
+    const _vw=vw||RW(),_vh=vh||RH();
     if (x<0||y<0||x>=_vw||y>=_vh||x>=W||y>=H) return;
     const i=(y*W+x)*4;
     pixelBuf[i]=r; pixelBuf[i+1]=g; pixelBuf[i+2]=b; pixelBuf[i+3]=255;
   }
 
-  function drawPixel(x, y, size, r, g, b, vw, vh) {
-    const _vw=vw||RW(), _vh=vh||RH();
+  function drawPixel(x,y,size,r,g,b,vw,vh) {
+    const _vw=vw||RW(),_vh=vh||RH();
     const sx=Math.round(x/CFG.px)*CFG.px, sy=Math.round(y/CFG.px)*CFG.px;
     const s=Math.max(1,Math.round(size));
-    ctx.fillStyle=`rgb(${r},${g},${b})`;
-    ctx.fillRect(sx,sy,s,s);
-    for (let row=sy; row<sy+s; row++) for (let col=sx; col<sx+s; col++) {
+    ctx.fillStyle=`rgb(${r},${g},${b})`; ctx.fillRect(sx,sy,s,s);
+    for (let row=sy;row<sy+s;row++) for (let col=sx;col<sx+s;col++) {
       if (col>=0&&col<_vw&&row>=0&&row<_vh) {
         if (col<W&&row<H) { const i=(row*W+col)*4; if(pixelBuf[i+3]===0) coveredPixels++; }
         bufSet(col,row,r,g,b,_vw,_vh);
@@ -466,11 +450,10 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     }
   }
 
-  function pxFill(x, y, w, h, r, g, b, vw, vh) {
-    const _vw=vw||RW(), _vh=vh||RH();
-    ctx.fillStyle=`rgb(${r},${g},${b})`;
-    ctx.fillRect(x,y,w,h);
-    for (let row=y; row<y+h; row++) for (let col=x; col<x+w; col++) {
+  function pxFill(x,y,w,h,r,g,b,vw,vh) {
+    const _vw=vw||RW(),_vh=vh||RH();
+    ctx.fillStyle=`rgb(${r},${g},${b})`; ctx.fillRect(x,y,w,h);
+    for (let row=y;row<y+h;row++) for (let col=x;col<x+w;col++) {
       if (col>=0&&col<_vw&&row>=0&&row<_vh) {
         if (col<W&&row<H) { const i=(row*W+col)*4; if(pixelBuf[i+3]===0) coveredPixels++; }
         bufSet(col,row,r,g,b,_vw,_vh);
@@ -483,25 +466,22 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   try {
     const saved = localStorage.getItem(STORAGE_EVENTS);
     if (saved) eventLog = JSON.parse(saved);
-  } catch (e) {}
+  } catch(e){}
 
   function saveEventLog() {
-    try { localStorage.setItem(STORAGE_EVENTS, JSON.stringify(eventLog)); } catch (e) {}
+    try { localStorage.setItem(STORAGE_EVENTS, JSON.stringify(eventLog)); } catch(e){}
   }
 
   /* ── REPLAY VIEWPORT ── */
-  let replayW = null, replayH = null;
-  function RW() { return replayW !== null ? replayW : W; }
-  function RH() { return replayH !== null ? replayH : H; }
+  let replayW=null, replayH=null;
+  function RW() { return replayW!==null ? replayW : W; }
+  function RH() { return replayH!==null ? replayH : H; }
 
-  function clearCanvas() {
-    ctx.clearRect(0, 0, W, H);
-    initBuffer();
-  }
+  function clearCanvas() { ctx.clearRect(0,0,W,H); initBuffer(); }
 
   /* ── VINE SYSTEM ── */
-  const PX   = CFG.px;
-  const snap = v => Math.round(v / PX) * PX;
+  const PX = CFG.px;
+  const snap = v => Math.round(v/PX)*PX;
 
   function hexToRgb(hex) {
     return [parseInt(hex.slice(1,3),16), parseInt(hex.slice(3,5),16), parseInt(hex.slice(5,7),16)];
@@ -514,10 +494,10 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   let vines = [];
 
-  function mkVine(x, y, dx, dy, depth, delay, isLeft, vw, vh) {
+  function mkVine(x,y,dx,dy,depth,delay,isLeft,vw,vh) {
     let sMin=CFG.segLenMin, sMax=CFG.segLenMax;
     if (isLeft) { sMin*=CFG.leftEdge.segLenScale; sMax*=CFG.leftEdge.segLenScale; }
-    const len = snap(sMin + seededRng()*(sMax-sMin)) / PX;
+    const len = snap(sMin+seededRng()*(sMax-sMin))/PX;
     return {
       x:snap(x), y:snap(y), dx, dy, depth,
       rgb:pickRgb(), life:0, delay:delay||0,
@@ -530,7 +510,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     if (v.done) return;
     if (v.delay>0) { v.delay--; return; }
     const VW=v.vw, VH=v.vh;
-    if (coveredPixels/(VW*VH) >= CFG.maxCoverageRatio) { v.done=true; return; }
+    if (coveredPixels/(VW*VH)>=CFG.maxCoverageRatio) { v.done=true; return; }
 
     let nx=v.x, ny=v.y;
     if (seededRng()<CFG.turnChance) {
@@ -546,7 +526,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     const thick=Math.round(PX*(CFG.thickBase+Math.max(0,v.depth)*CFG.thickPerDepth));
     pxFill(snap(v.x),snap(v.y),thick,thick,v.rgb[0],v.rgb[1],v.rgb[2],VW,VH);
 
-    const _dp=(x,y,size,r,g,b)=>drawPixel(x,y,size,r,g,b,VW,VH);
+    const _dp=(x,y,sz,r,g,b)=>drawPixel(x,y,sz,r,g,b,VW,VH);
     if (v.life%CFG.leafInterval===0)
       decoPlugin.clusters(_dp,snap(v.x),snap(v.y),PX,v.rgb,CFG,seededRng);
 
@@ -555,7 +535,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     if (v.life>=v.ms) {
       v.done=true;
       if (v.depth>0) {
-        for (let i=0; i<v.branchCount; i++) {
+        for (let i=0;i<v.branchCount;i++) {
           const dir=inwardDir(v.x,v.y,VW,VH);
           const child=mkVine(v.x,v.y,dir[0],dir[1],v.depth-1,i*5,v.isLeft,VW,VH);
           child.branchCount=v.branchCount;
@@ -565,7 +545,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     }
   }
 
-  function inwardDir(x, y, vw, vh) {
+  function inwardDir(x,y,vw,vh) {
     const tx=x<vw/2?1:-1, ty=y<vh/2?1:-1;
     const pool=[[tx,0],[0,ty],[1,0],[-1,0],[0,1],[0,-1],[tx,ty]];
     return pool[0|Math.floor(seededRng()*pool.length)];
@@ -582,7 +562,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
       if (areas.includes('top'))    validSides.push(2);
       if (areas.includes('bottom')) validSides.push(3);
     }
-    for (let i=0; i<n; i++) {
+    for (let i=0;i<n;i++) {
       const side=validSides[Math.floor(seededRng()*validSides.length)];
       if      (side===0) arr.push({x:0,       y:snap(seededRng()*(RH()-160)+80), dx:1, dy:0,  left:true });
       else if (side===1) arr.push({x:RW()-PX,  y:snap(seededRng()*(RH()-160)+80), dx:-1,dy:0,  left:false});
@@ -611,15 +591,11 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   let isReplaying=false, replayAnimationId=null;
 
   function replayVines() {
-    clearCanvas();
-    vines=[];
-    resetRng();
-    isReplaying=true;
+    clearCanvas(); vines=[]; resetRng(); isReplaying=true;
     if (replayAnimationId) cancelAnimationFrame(replayAnimationId);
 
     for (const event of eventLog) {
-      replayW=event.vw||W;
-      replayH=event.vh||H;
+      replayW=event.vw||W; replayH=event.vh||H;
       spawnFromTrigger(event.trigger);
     }
 
@@ -627,7 +603,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     let frameCount=0;
 
     function animateGrowth() {
-      for (let i=0; i<CFG.replayStepsPerFrame; i++) {
+      for (let i=0;i<CFG.replayStepsPerFrame;i++) {
         vines.forEach(stepVine);
         if (!vines.some(v=>!v.done)) break;
       }
@@ -661,7 +637,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }
 
   function bindTagLinks() {
-    document.querySelectorAll('a[href*="/tags/"]').forEach(a => {
+    document.querySelectorAll('a[href*="/tags/"]').forEach(a=>{
       a.addEventListener('click',      ()=>fire('onTagClick'));
       a.addEventListener('mouseenter', ()=>fire('onTagHover'));
     });
@@ -707,18 +683,5 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }
 
   setTimeout(()=>replayVines(), 400);
-
-  /* ── HIDE TIMESTAMP — the key to reliable reset detection ────
-   *
-   *  Written to localStorage (survives tab close) on every hide
-   *  event so the next load can compare it against the session's
-   *  load timestamp.  Uses both pagehide and visibilitychange for
-   *  maximum cross-browser / iOS coverage.
-   * ─────────────────────────────────────────────────────────── */
-  function stampHide() {
-    try { localStorage.setItem(LS_HIDE_TIME, String(Date.now())); } catch(e){}
-  }
-  window.addEventListener('pagehide',          stampHide);
-  window.addEventListener('visibilitychange', ()=>{ if(document.visibilityState==='hidden') stampHide(); });
 
 })(window.VINE_CFG, window.VINE_DECORATION_TYPES);

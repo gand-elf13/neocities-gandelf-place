@@ -320,18 +320,9 @@ function _thorn(drawPixel, x, y, px, rng, col) {
       }
       if (raw) {
         raw.split(',').map(s=>s.trim().toLowerCase()).filter(Boolean).forEach(t=>tags.add(t));
-        if (tags.size > 0) return tags;
       }
+      return tags;
     }
-    const onHomepage = (location.pathname==='/' || location.pathname==='/index.html');
-    if (onHomepage) return tags;
-    document.querySelectorAll('a[href*="/tags/"]').forEach(a => {
-      const m = a.href.match(/\/tags\/([^/?#]+)/);
-      if (m) tags.add(decodeURIComponent(m[1]).toLowerCase());
-      const t = (a.textContent||'').trim().toLowerCase();
-      if (t) tags.add(t);
-    });
-    return tags;
   }
 
   const pageTags = resolvePageTags();

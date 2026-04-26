@@ -3,13 +3,12 @@ tags:
   - anime
   - GPFRS
   - man
-  - review
   - video_game
 date: 2025-03-31
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2025-03-31
 title: Ghost in the shell et cyberpunk
-lastmod: 2026-04-10T08:41:48.377Z
+lastmod: 2026-04-26T09:32:33.269Z
 ---
 Ghost in the shell est bizarre. Une resemblance frappante avec [Serial experiment lain](/post/serial-experiment-lain), sans surprise.
 

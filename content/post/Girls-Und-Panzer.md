@@ -2,13 +2,12 @@
 tags:
   - anime
   - GPFRS
-  - review
   - technique
 date: 2026-06-12
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: Girls-Und-Panzer
-lastmod: 2026-04-10T08:40:01.472Z
+lastmod: 2026-04-26T09:32:41.189Z
 ---
 Grils and panzer, c'est trop bien !!
 

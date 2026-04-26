@@ -1,15 +1,13 @@
 ---
 tags:
   - flawed
-  - game
   - GPFRS
-  - review
   - video_game
 date: 2025-03-19
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: Sekiro
-lastmod: 2026-04-10T08:40:01.318Z
+lastmod: 2026-04-26T09:35:18.124Z
 ---
 J’ai l’impression que je commence à aimer écrire. Ca fait bizarre…
 

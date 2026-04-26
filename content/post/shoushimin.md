@@ -3,12 +3,11 @@ tags:
   - anime
   - GPFRS
   - man
-  - review
 date: 2025-04-05
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-13
 title: shoushimin
-lastmod: 2026-04-10T08:40:01.287Z
+lastmod: 2026-04-26T09:33:35.555Z
 ---
 Les cigales… comme evangelion
 

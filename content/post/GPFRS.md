@@ -1,13 +1,11 @@
 ---
 tags:
   - GPFRS
-  - review
-  - système
 date: 2026-03-27
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: GPFRS
-lastmod: 2026-04-10T08:40:01.569Z
+lastmod: 2026-04-26T09:32:51.264Z
 ---
 ## Le GPFRS:
 

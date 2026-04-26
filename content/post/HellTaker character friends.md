@@ -1,13 +1,10 @@
 ---
-tags:
-  - drifting
-  - opsec_mistake
-  - private_joke
+tags: []
 date: 2026-06-12
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: HellTaker character friends
-lastmod: 2026-04-10T08:40:01.461Z
+lastmod: 2026-04-26T09:37:43.711Z
 ---
 Archangel Michael: Charles
 

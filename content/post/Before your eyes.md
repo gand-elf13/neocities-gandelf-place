@@ -2,13 +2,12 @@
 tags:
   - GPFRS
   - man
-  - review
   - video_game
 date: 2025-03-19
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: Before your eyes
-lastmod: 2026-04-10T08:40:01.618Z
+lastmod: 2026-04-26T09:32:07.909Z
 ---
 Man…
 

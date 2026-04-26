@@ -3,12 +3,11 @@ tags:
   - anime
   - GPFRS
   - man
-  - review
 date: 2025-03-19
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: Arcane
-lastmod: 2026-04-10T08:40:01.643Z
+lastmod: 2026-04-26T09:32:04.924Z
 ---
 Man...
 

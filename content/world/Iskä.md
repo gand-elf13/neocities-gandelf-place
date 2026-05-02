@@ -10,9 +10,9 @@ tags:
   - Enclave de Tarinth
   - Système Barius
   - Planète
-draft: true
+draft: false
 date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T17:43:38.418Z
+lastmod: 2026-05-02T21:56:29.964Z
 ---
 **Iskä** est la 5e planète tellurique du système [Barius](Syst%C3%A8me%20Barius%20), situé dans le sous-secteur de l'[Enclave de Tarinth](/world/enclave-de-tarinth), dans le [Secteur Noctis](/world/secteur-noctis) de l'Ultima Segmentum.
 

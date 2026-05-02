@@ -11,9 +11,9 @@ tags:
   - Système Barius
   - Planète
   - Questor Imperialis
-draft: true
+draft: false
 date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T17:43:46.231Z
+lastmod: 2026-05-02T21:56:32.149Z
 ---
 Quortiss est un monde chevalier, régit par un système féodal composée de différentes classes et dirigé par différentes maisons de chevaliers de diverses tailles. Ce monde chevalier est l'un des plus atout de l'Impérium dans le sous-secteur de l'<a href="Secteur_Noctis/Enclave_de_Tarinth" class="wikilink" title="Enclave de Tarinth">Enclave de Tarinth</a>, situé dans le [Secteur Noctis](/world/secteur-noctis) de l'Ultima Segmentum.
 

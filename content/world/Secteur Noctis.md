@@ -11,9 +11,9 @@ auteurprincipal: KYRKOS
 infobox: Propriété
 imperium: "1"
 ultima segmentum: "1"
-draft: true
+draft: false
 date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T17:44:05.343Z
+lastmod: 2026-05-02T21:56:36.374Z
 ---
 Le Secteur Noctis est un secteur réculé de l'Imperium Nihilius, situé en bordure la galaxie dans le segmentum Ultima.
 

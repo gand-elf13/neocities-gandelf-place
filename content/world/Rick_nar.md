@@ -10,9 +10,9 @@ tags:
   - Enclave de Tarinth
   - Système Barius
   - Planète
-draft: true
+draft: false
 date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T17:43:57.720Z
+lastmod: 2026-05-02T21:56:34.128Z
 ---
 Rick'nar est la quatrième planète du système <a href="Secteur_Noctis/Système_Barius" class="wikilink" title="Barius">Barius</a>, situé dans le sous-secteur de l'<a href="Secteur_Noctis/Enclave_de_Tarinth" class="wikilink" title="Enclave de Tarinth">Enclave de Tarinth</a> qui appartient au [Secteur Noctis](/world/secteur-noctis) dans l'Ultima Segmentum. Ce monde primitif est situé dans la partie extérieure du système. Sa position explique ainsi le faible intérêt que l'intérieur porte à cette planète pauvre en ressources.
 

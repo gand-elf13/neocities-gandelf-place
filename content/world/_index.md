@@ -2,9 +2,9 @@
 tags: []
 date:
 date modified:
-draft: true
+draft: false
 title: _index
-lastmod: 2026-05-02T21:47:04.309Z
+lastmod: 2026-05-02T21:56:10.789Z
 ---
 The following text was written by KYRKOS, and not gandelf. Draw your own conclusions…\
 Oh yeah… By the way, it's definitely a fanfiction, but I well written I guess ?

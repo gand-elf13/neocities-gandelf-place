@@ -10,9 +10,9 @@ tags:
   - Secteur Noctis
   - Enclave de Tarinth
   - Système Barius
-draft: true
+draft: false
 date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T17:44:12.075Z
+lastmod: 2026-05-02T21:56:38.502Z
 ---
 **Barius** est système stellaire situé dans **l'Ultima Segmentum**. Présent dans un secteur éloigné et plutôt isolé sur la frontière galactique, le **[Secteur Noctis](/world/secteur-noctis)**, dans un sous secteur encore plus isolé : **l'[Enclave de Tarinth](/world/enclave-de-tarinth)**. Système le **plus important** de l'Enclave, il fait office de **point de passage obligatoire** pour toute personne désireuse **d'entrer ou sortir** de **l'Enclave de Tarinth**. Il est conséquence assez lourdement défendu.
 

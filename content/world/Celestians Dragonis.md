@@ -36,9 +36,9 @@ monde origine primarque: Maccrage
 monde chapitral: Célestia
 monde de recrutement: Célestia
 forteresse-monastère: « les Bics Brumeux »
-draft: true
+draft: false
 date: 2026-05-02T17:42:40.465Z
-lastmod: 2026-05-02T17:43:20.051Z
+lastmod: 2026-05-02T21:56:24.657Z
 ---
 <figure style="float: right; width: 250px;">
   <img src="/ob/world/Fan-fluffs/First-Born.png" style="width: 100%;">

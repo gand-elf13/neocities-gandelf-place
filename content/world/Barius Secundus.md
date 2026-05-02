@@ -25,9 +25,9 @@ Type de Monde: Capitale Sous-Sectorielle
 gravité: identique à celle de Terra
 période rotation: 24 h
 inclinaison axe: 23.43°
-draft: true
+draft: false
 date: 2026-05-02T17:42:40.464Z
-lastmod: 2026-05-02T17:42:57.654Z
+lastmod: 2026-05-02T21:56:15.259Z
 ---
 **Barius Secundus** est un monde ruche du **[Secteur Noctis](/world/secteur-noctis)**. La planète est la **deuxième planète** la plus proche de l'étoile [Système Barius](/world/syst%C3%A8me-barius), située dans le **système** du même nom. Capitale du **sous-secteur** de [l'Enclave de Tarinth](Enclave%20de%20Tarinth%20), c'est un monde **majeur économiquement et politiquement** au sein de ce sous-secteur. De part l'isolement et la **difficulté d'accès** du sous-secteur, les planètes au sein de **[l'Enclave de Tarinth](Enclave%20de%20Tarinth%20)** ne peuvent compter que sur elles-mêmes. En tant que **capitale** de ce sous-secteur, **Barius Secundus** est le centre de toutes les attentions et intrigues. Cœur du système le plus important de l'Enclave, Barius Secundus est le **siège du pouvoir impérial** dans cette région lointaine et méconnue qu'est l'Enclave de Tarinth.
 

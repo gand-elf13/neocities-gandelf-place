@@ -13,9 +13,8 @@
   }
 
   .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: var(--gallery-gap);
+    column-count: 2;
+    column-gap: var(--gallery-gap);
     padding: 0 var(--gallery-padding) 4rem var(--gallery-padding);
     list-style: none;
     margin: 0 auto;
@@ -23,16 +22,18 @@
   }
 
   /* Single column on narrow screens */
-  @media (max-width: 900px) {
+  @media (max-width: 700px) {
     .gallery-grid {
-      grid-template-columns: 1fr;
+      column-count: 1;
     }
   }
 
   .gallery-item {
-    /* Let the item fill its grid cell fully */
+    /* Prevent a card from being split across two columns */
+    break-inside: avoid;
     width: 100%;
     box-sizing: border-box;
+    margin-bottom: var(--gallery-gap);
   }
 
   .gallery-card {

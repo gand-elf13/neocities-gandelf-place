@@ -78,7 +78,7 @@ window.VINE_CFG = {
     onNavClick:       { clusters: 2, depth: 4, chance: 0.5,   cooldownMs: 0     },
     onPostTitleClick: { clusters: 2, depth: 4, chance: 0.5,   cooldownMs: 0     },
     onPostTitleHover: { clusters: 1, depth: 3, chance: 0.10,  cooldownMs: 8000  },
-    onTagClick:       { clusters: 1, depth: 3, chance: 0.5,   cooldownMs: 0     },
+    onTagClick:       { clusters: 1, depth: 2, chance: 0.25,   cooldownMs: 0     },
     onTagHover:       { clusters: 1, depth: 2, chance: 0.20,  cooldownMs: 1000  },
     onSidebarClick:   { clusters: 1, depth: 3, chance: 0.5,   cooldownMs: 0     },
     onSidebarHover:   { clusters: 1, depth: 2, chance: 0.10,  cooldownMs: 1000  },

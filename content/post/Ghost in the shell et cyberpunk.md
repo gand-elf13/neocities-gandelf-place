@@ -48,13 +48,6 @@ Petite parenthèse, le sentiment de complétude je ne says pas vraiment comment 
 Un autre aspect du cyberware de cyberpunk que j’aime c’est son aspect esthétique, si certains implants sont utilitaires, d’autres sont purement décoratifs, et j’ai été très déçu que l’on ne puisse pas en équiper notre personnage. Je parle des bras dorés, des tenues littéralement agrafés sur le corp
 
 ![IMG\_0173.png](/ob/images/IMG_0173.png)\
-
-{{< figure
-  src="/ob/images/IMG_0173.png"
-  alt="A photograph of Zion National Park"
-  class="ma0 w-75"
-  width="400"
->}}
 Vous l’aurez compris, cyberpunk as plus une esthétique futuriste que réellement un fond d’œuvre philosophique de SF, comme le dit stellar jay, c’est le sirop d’érable et pas du pancake.
 
 Je reviens un peu sur ce que j’ai dit, (vous avez pas les timestamps, mais c’est 4 jours après l’avoir écrit.)\

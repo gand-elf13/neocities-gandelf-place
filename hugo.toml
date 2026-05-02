@@ -87,7 +87,7 @@ refLinksNotFoundURL = "/not-here-yet"
   [[menu.main]]
     identifier = "9b9tgoals"
     name = "9b9t achievements"
-    url = "/9b9tgoal/"
+    url = "/9b9tgoals/"
     weight = 40
 
   [[menu.main]]
@@ -99,7 +99,7 @@ refLinksNotFoundURL = "/not-here-yet"
   [[menu.main]]
     identifier = "guestbook"
     name = "livre d'or/guestbook"
-    url = "http://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab"
+    url = "/guestbook"
     weight = 50
     
 [taxonomies]

@@ -1,0 +1,17 @@
+<style>
+  #guestbook {
+    scrollbar-width: none; /* Firefox */
+  }
+  #guestbook::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Edge */
+  }
+</style>
+
+<iframe 
+  aria-label="Guestbook" 
+  id="guestbook" 
+  src="https://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab" 
+  style="height:{{ .Get "height" | default "1760px" }};width:100%;border:none;"
+  loading="lazy"
+>
+</iframe>

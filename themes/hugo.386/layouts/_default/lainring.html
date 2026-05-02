@@ -5,7 +5,7 @@
     {{ .Content }}
   </section>
   <h1>{{ .Title }}</h1>
-  <p><strong>Last updated:</strong> {{ .Site.Data.lainring.updated }}</p>
+  <p><strong>Last updated:</strong> {{ hugo.Data.lainring.updated }}</p>
 
   {{/* Category order and labels */}}
   {{ $categories := slice "working" "not-english" "bad-size" "probably-dead" }}
@@ -17,7 +17,7 @@
   }}
 
   {{/* Loop over each group */}}
-  {{ range $group := .Site.Data.lainring.groups }}
+  {{ range $group := hugo.Data.lainring.groups }}
     <section style="margin-bottom: 3rem;">
       <h2 style="font-size: 1.8rem; margin-bottom: 1rem;">{{ $group.name }}</h2>
 

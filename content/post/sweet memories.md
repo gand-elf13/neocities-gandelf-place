@@ -2,11 +2,11 @@
 tags:
   - GPFRS
   - music
-date: 2026-03-13
-date modified: 2026-04-26
+date: 2025-03-13
+date modified: 2026-04-29
 date created: 2026-03-13
 title: sweet memories
-lastmod: 2026-04-26T13:45:00.126Z
+lastmod: 2026-04-29T07:59:05.842Z
 ---
 Le générique de [shoushimin](/post/shoushimin) s’appelle *sweet memories* et je trouve ce nom incroyable :
 

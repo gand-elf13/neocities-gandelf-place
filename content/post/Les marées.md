@@ -2,11 +2,11 @@
 tags:
   - maths
   - physics
-date: 2026-06-12
-date modified: 2026-04-26
+date: 2025-06-12
+date modified: 2026-04-29
 date created: 2026-03-13
 title: Les marées
-lastmod: 2026-04-26T09:41:33.247Z
+lastmod: 2026-04-29T07:58:57.469Z
 ---
 ## Introduction.
 

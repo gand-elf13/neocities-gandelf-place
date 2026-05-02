@@ -1,10 +1,10 @@
 ---
 tags: []
-date: 2026-06-12
+date: 2025-06-12
 date modified: 2026-04-10
 date created: 2026-03-13
 title: Cool text sysiphus
-lastmod: 2026-04-10T08:40:01.608Z
+lastmod: 2026-04-29T07:57:33.000Z
 ---
 Trouvé sur internet, faute de recherches assez approfondies, je n'ai pas la source.
 

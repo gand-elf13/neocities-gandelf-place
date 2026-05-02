@@ -1,10 +1,10 @@
 ---
 tags: []
-date: 2026-06-12
-date modified: 2026-04-26
+date: 2025-06-12
+date modified: 2026-04-29
 date created: 2026-03-18
 title: HellTaker character friends
-lastmod: 2026-04-26T09:37:43.711Z
+lastmod: 2026-04-29T07:59:50.888Z
 ---
 Archangel Michael: Charles
 

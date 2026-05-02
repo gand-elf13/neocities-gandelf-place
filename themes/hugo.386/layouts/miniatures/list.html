@@ -1,21 +1,27 @@
 {{ define "main" }}
-<h1>Miniatures</h1>
+<h1 style="text-align: center; font-size: 2.5rem; font-weight: bold; margin-bottom: 2rem; color: #333;">Miniatures</h1>
 
-<div class="gallery">
+<!-- Gallery container -->
+
   {{ range .Pages.ByDate.Reverse }}
-    <article class="mini">
-      <a href="{{ .RelPermalink }}">
-
+   
+     <li>
+      <ul class="nav nav-list bs-docs-sidenav">
+        <!-- Image as Thumbnail -->
         {{ $img := findRE `!\[.*?\]\((.*?)\)` .RawContent 1 }}
         {{ if $img }}
           {{ $url := replaceRE `!\[.*?\]\((.*?)\)` "$1" (index $img 0) }}
           <img src="{{ $url | relURL }}" alt="{{ .Title }}">
         {{ end }}
 
-        <h2>{{ .Title }}</h2>
-      </a>
-    </article>
+        <!-- Title as a Link -->
+        <h2>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </h2>
+      </ul>
+    </li>
+
   {{ end }}
-</div>
+
 
 {{ end }}

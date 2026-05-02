@@ -5,14 +5,14 @@ date modified: 2026-04-24
 date: 2026-04-24
 draft: false
 title: DRG - Behaving in Pubs
-lastmod: 2026-04-24T08:53:56.135Z
+lastmod: 2026-04-25T06:40:39.118Z
 ---
 ## Behaving like a Gentlemen in DRG
 
 I play DRG, it’s a fun game you should try it out…\
 DRG is a co-op experience, with a voice chat and a text chat, but if you play a bit you’ll soon come to realize that nobody almost uses them… And despite the lack of direct communication everything goes smoothly in a well coordinated team effort, how ? Everyone is nice and polite, and follows some ancient rules that where learned through sheer observation. This rules aren’t written anywhere, and this won’t change, this is not a rule-set it’s a guide on what to do to appear a respectful dwarf and not look like a complete green beard.
 
-### Stop Beeing Sorry
+### Stop Being Sorry
 
 You need not apologize for dying, dying is pretty usual in this game and you shouldn’t feel ashamed of it.\
 Nobody is gonna blame you for it, and everyone is gonna try his best to get you back on your feet asap.

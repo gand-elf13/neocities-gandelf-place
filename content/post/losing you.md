@@ -14,6 +14,8 @@ J'ai fait encore un peu de nettoyage manuel, jusqu’à la moitié a peu près, 
 
 Nettoyage *terminé* j'ai just formaté correctement et corrigé les grosses incohérences, ca n'est pas parfait mais c'est déjà correcte
 
+Tout les credits vont a exurb1a qui as ecrite un ehistoire fantastique, je ne fais qu'essayer de la preserver.
+
 ---
 it was good to Splosh and it was good to work, and one may work and Splosh at the same time, so he did flailing and floping through the water maintaining the great ocean, the task entrusted to him. He sensed a little bitterness in the northern waters today, and so he busied off to the Sulfur Springs and began bringing things back to neutral. As he worked he swam over those workers who cleaned the sea floor, they where simpler than him but seemed very happy. 
 

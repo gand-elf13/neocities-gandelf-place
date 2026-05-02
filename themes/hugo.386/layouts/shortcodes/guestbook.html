@@ -1,19 +1,23 @@
 <style>
+  .guestbook-container {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 2rem 0;
+  }
+  
   #guestbook {
+    display: block;
     scrollbar-width: none;
   }
+  
   #guestbook::-webkit-scrollbar {
     display: none;
   }
   
-  .guestbook-wrapper {
-    width: 100%;
-    overflow: hidden;
-  }
-  
   @media (max-width: 768px) {
     #guestbook {
-      height: 800px !important;
+      height: 700px !important;
     }
   }
   
@@ -24,13 +28,11 @@
   }
 </style>
 
-<div class="guestbook-wrapper">
+<div class="guestbook-container">
   <iframe 
     aria-label="Guestbook" 
     id="guestbook" 
     src="https://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab" 
-    style="height:1760px;width:100%;border:none;display:block;box-sizing:border-box;"
+    style="height:1760px;width:100%;border:none;box-sizing:border-box;"
     loading="lazy"
-  >
-  </iframe>
-</div>
+  ></iframe>

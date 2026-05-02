@@ -1,0 +1,56 @@
+{{- $content := .Content -}}
+{{- $site := .Site -}}
+{{- $hrefregex := `href="([^"]+)"` -}}
+
+{{- range findRE $hrefregex $content -}}
+  {{- $href := replaceRE $hrefregex "$1" . -}}
+
+  {{- $isExternal := strings.Contains $href "://" -}}
+  {{- $isImage := or
+      (strings.HasSuffix $href ".png")
+      (strings.HasSuffix $href ".jpg")
+      (strings.HasSuffix $href ".jpeg")
+      (strings.HasSuffix $href ".gif")
+      (strings.HasSuffix $href ".webp")
+      (strings.HasSuffix $href ".svg")
+  -}}
+  {{- $isAlreadyPost := strings.Contains $href "/post/" -}}
+
+  {{- if and (not $isExternal) (not $isImage) (not $isAlreadyPost) -}}
+
+    {{- $decoded := $href
+        | replaceRE "^/" ""
+        | replaceRE "%20" " "
+    -}}
+
+    {{- $target := anchorize $decoded -}}
+
+    {{- $rel := "" -}}
+
+    {{- range where $site.RegularPages "Section" "post" -}}
+      {{- $pageKey := anchorize .File.BaseFileName -}}
+
+      {{- if eq $pageKey $target -}}
+        {{- $rel = .RelPermalink -}}
+      {{- end -}}
+    {{- end -}}
+
+    {{- if $rel -}}
+      {{- warnf "FIXED LINK: %s → %s" $href $rel -}}
+      {{- $content = replace $content
+          (printf `href="%s"` $href)
+          (printf `href="%s"` $rel)
+      -}}
+    {{- else -}}
+      {{- warnf "UNRESOLVED LINK: %s → /not-here-yet/" $href -}}
+      {{- $content = replace $content
+          (printf `href="%s"` $href)
+          `href="/not-here-yet/"`
+      -}}
+    {{- end -}}
+
+  {{- end -}}
+
+{{- end -}}
+
+{{- $content | safeHTML -}}

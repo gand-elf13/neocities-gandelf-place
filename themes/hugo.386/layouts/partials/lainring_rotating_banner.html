@@ -1,0 +1,82 @@
+<div id="lainring">... Loading, please wait ...</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  fetch('/lainring/lainring.json')
+    .then(res => res.json())
+    .then((data) => {
+
+      function isValidItem(item) {
+        if (!item || !item.href || !item.src) return false;
+
+        // ❌ skip flagged dead links
+        if (item["probably-dead"]) return false;
+
+        // ❌ skip onion / i2p
+        if (item.href.includes(".onion") || item.href.includes(".i2p")) return false;
+
+        // ❌ only allow http/https
+        if (!item.href.startsWith("http://") && !item.href.startsWith("https://")) return false;
+
+        return true;
+      }
+
+      const items = (data.groups || [])
+        .flatMap(group => group.links || [])
+        .filter(isValidItem);
+
+      if (items.length === 0) {
+        document.getElementById('lainring').innerText = "No banner items available.";
+        return;
+      }
+
+      function tryLoadImage(item, onSuccess, onFail) {
+        const img = new Image();
+        img.src = '/lainring/img/' + item.src;
+
+        img.onload = () => onSuccess(item);
+        img.onerror = () => onFail();
+      }
+
+      function refresh_banner() {
+        let attempts = 0;
+
+        function tryNext() {
+          if (attempts > 15) {
+            console.warn("No valid banners found.");
+            return;
+          }
+
+          attempts++;
+
+          const item = items[Math.floor(Math.random() * items.length)];
+
+          tryLoadImage(
+            item,
+            (validItem) => {
+              const alt = validItem.alt || "banner";
+
+              document.getElementById('lainring').innerHTML =
+                '<a href="' + validItem.href + '" target="_blank" rel="noopener noreferrer">' +
+                '<img src="/lainring/img/' + validItem.src +
+                '" alt="' + alt + '" />' +
+                '</a>';
+            },
+            () => {
+              tryNext(); // try another if image fails
+            }
+          );
+        }
+
+        tryNext();
+      }
+
+      refresh_banner();
+      setInterval(refresh_banner, 10000);
+    })
+    .catch(err => {
+      console.error("Banner failed to load:", err);
+      document.getElementById('lainring').innerText = "Failed to load banner.";
+    });
+});
+</script>

@@ -10,7 +10,7 @@ jobs:
   build:
     runs-on: codeberg-tiny-lazy
     container:
-      image: "ghcr.io/gohugoio/hugo:latest-ext"
+      image: "hugomods/hugo:0.161.0"
     steps:
       - name: Clone the repository
         uses: https://code.forgejo.org/actions/checkout@v4

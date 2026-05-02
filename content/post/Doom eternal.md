@@ -7,9 +7,8 @@ date: 2025-06-12
 date modified: 2026-04-29
 date created: 2026-03-13
 title: Doom eternal
-lastmod: 2026-04-29T10:13:52.677Z
+lastmod: 2026-04-29T10:52:53.277Z
 ---
-²\
 Ce jeu est TOP. Le gameplay est nerveux, hyper rapide, gardant toujours les joueurs attentifs non seulement dans l’optique de tuer des démons, mais aussi de manager ses resources, chaque arme est utile et utilisée. Elles sont satisfaisantes. Les outils comme Grenade, flamethrower, saw, et glorykill le sont tout autant. Le tout force le joueur à utiliser tous les outils à sa disposition à avoir du fun.
 
 On pourrait réduire Doom Eternal à son gameplay. Mais c’est plus que ça, les niveaux sont conçus de manière géniale, (BFG, doom Hunter factory).

@@ -2,63 +2,37 @@
   .guestbook-wrapper {
     width: 100%;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .guestbook-container {
-    width: 550px;
-    height: 100%;
-    overflow: hidden;
   }
   
   #guestbook {
-    width: 550px;
+    width: 100%;
     border: none;
     display: block;
   }
   
   @media (max-width: 768px) {
-    .guestbook-wrapper {
-      transform: scale(0.9);
-      transform-origin: top center;
-      margin-bottom: -80px;
-    }
-  }
-  
-  @media (max-width: 640px) {
-    .guestbook-wrapper {
-      transform: scale(0.8);
-      transform-origin: top center;
-      margin-bottom: -150px;
-    }
-    
     #guestbook {
       height: 700px !important;
+      transform: scale(0.8);
+      transform-origin: top left;
     }
   }
   
   @media (max-width: 480px) {
-    .guestbook-wrapper {
-      transform: scale(0.7);
-      transform-origin: top center;
-      margin-bottom: -250px;
-    }
-    
     #guestbook {
-      height: 600px !important;
+      height: 500px !important;
+      transform: scale(0.65);
+      transform-origin: top left;
     }
   }
 </style>
 
 <div class="guestbook-wrapper">
-  <div class="guestbook-container">
-    <iframe 
-      aria-label="Guestbook" 
-      id="guestbook" 
-      src="https://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab" 
-      style="height:1760px;"
-      loading="lazy"
-    ></iframe>
-  </div>
+  <iframe 
+    aria-label="Guestbook" 
+    id="guestbook" 
+    src="https://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab" 
+    style="height:1760px;"
+    loading="lazy"
+  ></iframe>
 </div>

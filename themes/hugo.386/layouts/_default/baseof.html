@@ -10,4 +10,11 @@
         <script src="{{ "js/vines.js" | relURL }}" defer></script>
     </body>
     {{- partial "scripts.html" . -}}
+    <head>
+
+      {{ if .Param "math" }}
+        {{ partialCached "math.html" . }}
+      {{ end }}
+
+    </head>
 </html>

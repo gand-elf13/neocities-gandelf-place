@@ -11,6 +11,7 @@ refLinksErrorLevel = "WARNING"
 refLinksNotFoundURL = "/not-here-yet"
 
 [params]
+    math = true
     # The name to display as main title in the home page
     mainpagetitle = "gand_elf place"
 
@@ -101,6 +102,14 @@ refLinksNotFoundURL = "/not-here-yet"
 
 [markup.goldmark.renderer] 
     unsafe=true
+
+[markup.goldmark.extensions]
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      block = [['\[', '\]'], ['$$', '$$']]
+      inline = [['\(', '\)'], ['$', '$']]
+
 
 [outputs]
   home = ['html', 'rss']

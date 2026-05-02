@@ -1,0 +1,62 @@
+name: Deploy website to Neocities
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: codeberg-tiny-lazy
+    container:
+      image: "hugomods/hugo:exts-0.148.0"
+    steps:
+      - name: Clone the repository
+        uses: https://code.forgejo.org/actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Generate static files with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: |
+          hugo \
+            --gc \
+            --minify
+      - name: Upload generated files
+        uses: https://code.forgejo.org/actions/upload-artifact@v3
+        with:
+          name: Generated files
+          path: public/
+          include-hidden-files: true
+  deploy:
+    needs: [ build ]
+    runs-on: codeberg-tiny-lazy
+    container:
+      image: "ruby:3.4.9-trixie"
+    steps:
+      - name: Install dependencies
+        run: |
+          apt update
+          apt install -y nodejs npm git gcc g++ libc6-dev make openssl
+      - name: Clone the repository
+        uses: https://code.forgejo.org/actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Checkout the target branch and clean it up
+        run: |
+          git checkout pages || git switch --orphan pages && \
+          rm -Rfv $(ls -A | egrep -v '^(\.git|LICENSE)$')
+      - name: Download generated files
+        uses: https://code.forgejo.org/actions/download-artifact@v3
+        with:
+          name: Generated files
+      - name: Publish the website to neocities
+        run: |
+          rm -rf .git && \
+          gem install neocities && \
+          NEOCITIES_API_KEY=${{ secrets.NEOCITIES_API_KEY }} neocities push .
+

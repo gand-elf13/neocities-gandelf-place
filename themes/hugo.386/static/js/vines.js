@@ -768,8 +768,17 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
     replayVines();
 
-  }, 24 * 3600 * 1000);
+  }, 10 * 1000);
 
+  const DAY_MS = 10 * 1000;
+  const last = localStorage.getItem('vines_last_reset_time');
+
+  if (!last || Date.now() - Number(last) > DAY_MS) {
+    localStorage.removeItem('vines_events_v5');
+    sessionStorage.removeItem('vines_rng_seed_v5');
+    sessionStorage.removeItem('vines_session_cfg_v5');
+    localStorage.setItem('vines_last_reset_time', String(Date.now()));
+  }
   /* ── PERSISTENCE ── */
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden') saveEventLog();

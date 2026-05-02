@@ -3,11 +3,8 @@
     <header class="page-header">
         <h1 >Miniatures</h1>
     </header>
-    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
     {{.Content}}
 </article>
-
-<!-- Gallery container with bottom spacing -->
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; padding: 0 2rem 4rem 2rem;">
   {{ range .Pages.ByDate.Reverse }}
     <li style="width: 700px;">
@@ -16,19 +13,30 @@
                  width: 700px; border: 1px solid #eee; box-sizing: border-box; 
                  display: flex; flex-direction: column; align-items: center;">
 
-        <!-- Image with exact width and top spacing -->
-        {{ $img := findRE `!\[.*?\]\((.*?)\)` .RawContent 1 }}
-        {{ if $img }}
-          {{ $url := replaceRE `!\[.*?\]\((.*?)\)` "$1" (index $img 0) }}
+        {{ $url := "" }}
+
+        {{/* Try standard markdown image first: ![alt](url) */}}
+        {{ $mdImg := findRE `!\[.*?\]\((.*?)\)` .RawContent 1 }}
+        {{ if $mdImg }}
+          {{ $url = replaceRE `!\[.*?\]\((.*?)\)` "$1" (index $mdImg 0) }}
+        {{ end }}
+
+        {{/* Try Hugo figure shortcode: {{< figure src="url" ... >}} */}}
+        {{ if not $url }}
+          {{ $figImg := findRE `{{<\s*figure\s[^>]*src="([^"]+)"` .RawContent 1 }}
+          {{ if $figImg }}
+            {{ $url = replaceRE `{{<\s*figure\s[^>]*src="([^"]+)".*` "$1" (index $figImg 0) }}
+          {{ end }}
+        {{ end }}
+
+        {{ if $url }}
           <img src="{{ $url | relURL }}" alt="{{ .Title }}" 
                style="width: 560px; height: auto; margin-top: 70px;">
         {{ end }}
 
-        <!-- Title as a Link, bottom spacing adjustable manually -->
         <h2 style="text-align: center; margin: 20px 0 30px 0;">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </h2>
-
       </ul>
     </li>
   {{ end }}

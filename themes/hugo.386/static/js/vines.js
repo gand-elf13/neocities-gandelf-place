@@ -34,9 +34,9 @@ window.VINE_CFG = {
   // The chosen values are stored in sessionStorage and reused for
   // the whole browser session (same tab, refresh, navigation).
   sessionVariance: {
-    px:           { min: 3,    max: 6    },   // pixel grid size
+    px:           { min: 5,    max: 5    },   // pixel grid size
     turnChance:   { min: 0.06, max: 0.20 },   // how twisty
-    wanderChance: { min: 0.05, max: 0.18 },   // lateral drift
+    wanderChance: { min: 0.4, max: 0.9 },   // lateral drift
     leafInterval: { min: 5,    max: 12   },   // decoration density
     leafCountMin: { min: 1,    max: 3    },
     leafCountMax: { min: 3,    max: 7    },

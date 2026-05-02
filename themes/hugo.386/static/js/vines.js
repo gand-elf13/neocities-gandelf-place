@@ -77,22 +77,22 @@ window.VINE_CFG = {
 
   /* ── TRIGGERS ───────────────────────────────────────────── */
   triggers: {
-    onLoad:           { clusters: 2, depth: 3, chance: 1.0, cooldownMs: 0    },
-    onScroll:         { clusters: 1, depth: 3, chance: 0.04, cooldownMs: 3000 },
+    onLoad:           { clusters: 2, depth: 3, chance: 0.5, cooldownMs: 0    },
+    onScroll:         { clusters: 1, depth: 3, chance: 0.004, cooldownMs: 6000 },
     onPassive:        { clusters: 1, depth: 3, chance: 0.5,  intervalMs: 10000 },
-    onNavClick:       { clusters: 2, depth: 4, chance: 1.0, cooldownMs: 0    },
-    onPostTitleClick: { clusters: 2, depth: 4, chance: 1.0, cooldownMs: 0    },
-    onPostTitleHover: { clusters: 1, depth: 3, chance: 0.30, cooldownMs: 8000  },
-    onTagClick:       { clusters: 1, depth: 3, chance: 1.0, cooldownMs: 0    },
+    onNavClick:       { clusters: 2, depth: 4, chance: 0.5, cooldownMs: 0    },
+    onPostTitleClick: { clusters: 2, depth: 4, chance: 0.5, cooldownMs: 0    },
+    onPostTitleHover: { clusters: 1, depth: 3, chance: 0.10, cooldownMs: 8000  },
+    onTagClick:       { clusters: 1, depth: 3, chance: 0.5, cooldownMs: 0    },
     onTagHover:       { clusters: 1, depth: 2, chance: 0.20, cooldownMs: 1000 },
-    onSidebarClick:   { clusters: 1, depth: 3, chance: 1.0, cooldownMs: 0    },
-    onSidebarHover:   { clusters: 1, depth: 2, chance: 0.20, cooldownMs: 1000 },
-    onFooterHover:    { clusters: 1, depth: 2, chance: 0.25, cooldownMs: 1500 },
+    onSidebarClick:   { clusters: 1, depth: 3, chance: 0.5, cooldownMs: 0    },
+    onSidebarHover:   { clusters: 1, depth: 2, chance: 0.10, cooldownMs: 1000 },
+    onFooterHover:    { clusters: 1, depth: 2, chance: 0.10, cooldownMs: 1500 },
   },
 
   /* ── REPLAY ANIMATION ───────────────────────────────────── */
-  replayAnimationMs: 600,  // How long the draw animation takes (milliseconds)
-  replayStepsPerFrame: 5,  // How many vine growth steps per animation frame
+  replayAnimationMs: 3000,  // How long the draw animation takes (milliseconds)
+  replayStepsPerFrame: 1,  // How many vine growth steps per animation frame
 
   /* ── MOBILE & iOS OPTIMIZATIONS ────────────────────────── */
   // On mobile, only grow vines from center (top/bottom), skip left/right edges
@@ -770,7 +770,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   }, 10 * 1000);
 
-  const DAY_MS = 10 * 1000;
+  const DAY_MS = 24 * 60 * 60 * 1000;
   const last = localStorage.getItem('vines_last_reset_time');
 
   if (!last || Date.now() - Number(last) > DAY_MS) {

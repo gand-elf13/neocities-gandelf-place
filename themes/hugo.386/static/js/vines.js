@@ -97,7 +97,7 @@ window.VINE_CFG = {
   /* ── MOBILE & iOS OPTIMIZATIONS ────────────────────────── */
   // On mobile, only grow vines from center (top/bottom), skip left/right edges
   mobileVinesOnly: true,           // Enable mobile-specific vine placement
-  mobileGrowthAreas: ['top', 'bottom'],  // Only grow from these edges on mobile
+  mobileGrowthAreas: ['left', 'right'],  // Only grow from these edges on mobile
 
   /* ── CSS SELECTORS ───────────────────────────────────────── */
   selectors: {
@@ -363,13 +363,37 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   function resize() {
     const vp = getViewport();
-    W = vp.w;
-    H = vp.h;
+    const newW = vp.w;
+    const newH = vp.h;
+
+    const isFirst = (W === 0 && H === 0);
+
+    // store old canvas content BEFORE resize (mobile only)
+    let oldCanvas = null;
+    if (isMobile && !isFirst) {
+      oldCanvas = document.createElement('canvas');
+      oldCanvas.width = W;
+      oldCanvas.height = H;
+      oldCanvas.getContext('2d').drawImage(canvas, 0, 0);
+    }
+
+    W = newW;
+    H = newH;
+
     canvas.width = W;
     canvas.height = H;
-    canvas.style.width = W+'px';
-    canvas.style.height = H+'px';
-    initBuffer();
+    canvas.style.width = W + 'px';
+    canvas.style.height = H + 'px';
+
+    // ONLY reset buffer if NOT mobile
+    if (!isMobile || isFirst) {
+      initBuffer();
+    }
+
+    // restore pixels on mobile
+    if (isMobile && oldCanvas) {
+      ctx.drawImage(oldCanvas, 0, 0);
+    }
   }
 
   let resizeTimeout = null;
@@ -377,10 +401,13 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
       resize();
-      replayVines();
+
+      if (!isMobile) {
+        replayVines();
+      }
+
     }, 200);
   });
-
   function bufSet(x, y, r, g, b) {
     if (x < 0 || y < 0 || x >= W || y >= H) return;
     const i = (y * W + x) * 4;
@@ -516,43 +543,34 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     return pool[0|Math.floor(seededRng()*pool.length)];
   }
 
-  function edgeAnchors(n) {
+  function edgeAnchors(n, forMobile = false) {
     const arr = [];
-
-    // Safe vertical margins for iOS UI shifting
-    const TOP_MARGIN = 80;
-    const BOTTOM_MARGIN = 120;
-
-    const usableH = Math.max(0, H - TOP_MARGIN - BOTTOM_MARGIN);
-
-    for (let i = 0; i < n; i++) {
-
-      const side = seededRng() < 0.5 ? 0 : 1; // ONLY left/right
-      const y = snap(TOP_MARGIN + seededRng() * usableH);
-
-      if (side === 0) {
-        // LEFT → grow inward
-        arr.push({
-          x: 0,
-          y,
-          dx: 1,
-          dy: 0,
-          left: true
-        });
-      } else {
-        // RIGHT → grow inward
-        arr.push({
-          x: W - PX,
-          y,
-          dx: -1,
-          dy: 0,
-          left: false
-        });
-      }
+    
+    // Determine which edges are valid for this device
+    let validSides = [0, 1, 2, 3];  // all: left, right, top, bottom
+    
+    if (forMobile && CFG.mobileVinesOnly && CFG.mobileGrowthAreas) {
+      // On mobile, only use specified growth areas
+      validSides = [];
+      const areas = CFG.mobileGrowthAreas;
+      if (areas.includes('left')) validSides.push(0);
+      if (areas.includes('right')) validSides.push(1);
+      if (areas.includes('top')) validSides.push(2);
+      if (areas.includes('bottom')) validSides.push(3);
     }
-
+    
+    for (let i = 0; i < n; i++) {
+      // Pick random side from valid sides only
+      const side = validSides[Math.floor(seededRng() * validSides.length)];
+      
+      if      (side===0) arr.push({x:0, y:snap(seededRng()*(H-160)+80), dx:1,dy:0,left:true});
+      else if (side===1) arr.push({x:W-PX, y:snap(seededRng()*(H-160)+80), dx:-1,dy:0,left:false});
+      else if (side===2) arr.push({x:snap(seededRng()*W), y:0, dx:0,dy:1,left:false});
+      else               arr.push({x:snap(seededRng()*W), y:H-PX, dx:0,dy:-1,left:false});
+    }
     return arr;
   }
+
   function spawnFromTrigger(triggerKey) {
     const t = CFG.triggers[triggerKey];
     if (!t || t.clusters===0) return;
@@ -686,9 +704,15 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   /* ── INITIALIZATION ── */
   resize();
+
+  /* ensure onLoad is part of deterministic history BEFORE replay */
+  if (!eventLog.length) {
+    eventLog.push({ trigger: 'onLoad' });
+    saveEventLog();
+  }
+
   setTimeout(() => {
     replayVines();
-    fire('onLoad');
   }, 400);
 
   /* ── PERSISTENCE ── */

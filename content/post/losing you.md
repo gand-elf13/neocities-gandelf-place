@@ -19,9 +19,9 @@ Tout les credits vont a exurb1a qui as ecrite un ehistoire fantastique, je ne fa
 ---
 it was good to Splosh and it was good to work, and one may work and Splosh at the same time, so he did flailing and floping through the water maintaining the great ocean, the task entrusted to him. He sensed a little bitterness in the northern waters today, and so he busied off to the Sulfur Springs and began bringing things back to neutral. As he worked he swam over those workers who cleaned the sea floor, they where simpler than him but seemed very happy. 
 
--Hello he said in radio 
+-Hello he said in radio. 
 
--oh Hello they said what a morning
+-oh Hello they said what a morning.
 
 -what a morning he agreed. He liked the sea floor workers but he wondered why they did not wonder like him because they never did never asked questions never questioned the purpose of their work. Why, he thought it's such a nice day, i'll educate them a little 
 

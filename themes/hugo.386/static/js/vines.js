@@ -323,7 +323,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   let activeDecoKey = pageTagDeco || sessionCfg.decoType;
   if (!TYPES[activeDecoKey]) activeDecoKey = Object.keys(TYPES)[0];
 
-  let decoPluginonst decoPlugin = Object.assign({}, TYPES[activeDecoKey]);
+  let decoPlugin = Object.assign({}, TYPES[activeDecoKey]);
 
   const activePalettes = (decoPlugin.stemPalettes && decoPlugin.stemPalettes.length)
     ? decoPlugin.stemPalettes : CFG.palettes;

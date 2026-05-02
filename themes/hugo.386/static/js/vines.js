@@ -323,7 +323,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   let activeDecoKey = pageTagDeco || sessionCfg.decoType;
   if (!TYPES[activeDecoKey]) activeDecoKey = Object.keys(TYPES)[0];
 
-  const decoPlugin = Object.assign({}, TYPES[activeDecoKey]);
+  let decoPluginonst decoPlugin = Object.assign({}, TYPES[activeDecoKey]);
 
   const activePalettes = (decoPlugin.stemPalettes && decoPlugin.stemPalettes.length)
     ? decoPlugin.stemPalettes : CFG.palettes;
@@ -365,35 +365,23 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     const vp = getViewport();
     const newW = vp.w;
     const newH = vp.h;
-
     const isFirst = (W === 0 && H === 0);
-
-    // store old canvas content BEFORE resize (mobile only)
-    let oldCanvas = null;
-    if (isMobile && !isFirst) {
-      oldCanvas = document.createElement('canvas');
-      oldCanvas.width = W;
-      oldCanvas.height = H;
-      oldCanvas.getContext('2d').drawImage(canvas, 0, 0);
-    }
 
     W = newW;
     H = newH;
 
-    canvas.width = W;
+    if (isMobile && !isFirst) {
+      // Mobile: only update CSS size, never blank the canvas or touch the buffer
+      canvas.style.width  = W + 'px';
+      canvas.style.height = H + 'px';
+      return;
+    }
+
+    canvas.width  = W;
     canvas.height = H;
-    canvas.style.width = W + 'px';
+    canvas.style.width  = W + 'px';
     canvas.style.height = H + 'px';
-
-    // ONLY reset buffer if NOT mobile
-    if (!isMobile || isFirst) {
-      initBuffer();
-    }
-
-    // restore pixels on mobile
-    if (isMobile && oldCanvas) {
-      ctx.drawImage(oldCanvas, 0, 0);
-    }
+    initBuffer();
   }
 
   let resizeTimeout = null;

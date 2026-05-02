@@ -1,7 +1,7 @@
 {{ define "main" }}
 <article class="row-fluid navmargin">
     <header class="page-header">
-        <h1 >Miniatures</h1>
+        <h1>Gallery</h1>
     </header>
     {{.Content}}
 </article>
@@ -12,15 +12,12 @@
           style="list-style-type: none; padding: 0; margin: 0; 
                  width: 700px; border: 1px solid #eee; box-sizing: border-box; 
                  display: flex; flex-direction: column; align-items: center;">
-
         {{ $url := "" }}
-
         {{/* Try standard markdown image first: ![alt](url) */}}
         {{ $mdImg := findRE `!\[.*?\]\((.*?)\)` .RawContent 1 }}
         {{ if $mdImg }}
           {{ $url = replaceRE `!\[.*?\]\((.*?)\)` "$1" (index $mdImg 0) }}
         {{ end }}
-
         {{/* Try Hugo figure shortcode: {{< figure src="url" ... >}} */}}
         {{ if not $url }}
           {{ $figImg := findRE `{{<\s*figure\s[^>]*src="([^"]+)"` .RawContent 1 }}
@@ -28,15 +25,16 @@
             {{ $url = replaceRE `{{<\s*figure\s[^>]*src="([^"]+)".*` "$1" (index $figImg 0) }}
           {{ end }}
         {{ end }}
-
         {{ if $url }}
           <img src="{{ $url | relURL }}" alt="{{ .Title }}" 
                style="width: 560px; height: auto; margin-top: 70px;">
         {{ end }}
-
-        <h2 style="text-align: center; margin: 20px 0 30px 0;">
+        <h2 style="text-align: center; margin: 20px 0 10px 0;">
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
         </h2>
+        <p style="text-align: center; margin: 0 0 30px 0; color: #666; font-size: 0.9em;">
+          {{ .Date.Format "January 2, 2006" }}
+        </p>
       </ul>
     </li>
   {{ end }}

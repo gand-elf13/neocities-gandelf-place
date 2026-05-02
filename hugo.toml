@@ -79,10 +79,10 @@ refLinksNotFoundURL = "/not-here-yet"
     weight = 25
 
   [[menu.main]]
-    name = "Miniatures"
+    name = "gallery"
     url = "/diy/"
     weight = 27
-    identifier = "miniatures"
+    identifier = "gallery"
 
   [[menu.main]]
     identifier = "lainring"

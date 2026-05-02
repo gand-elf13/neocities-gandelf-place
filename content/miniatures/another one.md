@@ -5,7 +5,7 @@ date modified: 2026-04-29
 draft: true
 date created: 2026-04-29
 title: another one
-lastmod: 2026-04-29T15:14:04.393Z
+lastmod: 2026-04-29T15:59:42.189Z
 ---
 ![DSC\_3277.png](/ob/attachements/DSC_3277.png)
 

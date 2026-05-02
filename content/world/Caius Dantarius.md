@@ -1,12 +1,11 @@
 ---
-draft: true
 title: Caius Dantarius
 tags:
-  - Adeptus Astartes
   - Imperium
-  - Personnage
+  - Adeptus Astartes
   - Ultima Segmentum
-image: Caius_Dantaris_sans_signature_par_JNPEDDN.png
+  - Personnage
+image: /ob/world/Fan-fluffs/Caius_Dantaris_sans_signature_par_JNPEDDN.png
 subtitle: Caractéristiques
 monde d'origine: Célestia {supposition}
 chapitre: Célestians Dragonis
@@ -25,14 +24,13 @@ croyances: Codex Astartes, son Primarque et l'Empereur
 langues parlées: haut gothique, bas gothique, célestian
 rôles: Dernier maître de Chapitre des Célestians Dragonis
 surnoms: le Héros de Dol, Le Dernier Fils de Célestia, Celui-qui-veille
-date created: 2026-05-02
-date modified: 2026-05-02
-date: 2026-05-02T15:45:36.589Z
-lastmod: 2026-05-02T15:48:57.707Z
+draft: true
+date: 2026-05-02T17:42:40.465Z
+lastmod: 2026-05-02T17:43:09.666Z
 ---
 Caius Dantaris fut le dernier maître de chapitre des Celestians Dragonis, un chapitre fondé en M34 qui disparu à l'aube du 40e Millénaire. Il restera dans les mémoires comme ayant été un frère de bataille exemplaire, s'imposant rapidement comme un leader charismatique dans un chapitre en difficulté. Il connu une ascension hiérarchique rapide, promu capitaine très jeune, il poussait ses frères à se dépasser malgré l'adversité. Son honneur et sa bravoure lui firent acquérir une renommée au delà même de son chapitre. A la mort de son prédécesseur, il sera finalement nommé Maître de Chapitre par ses frères.
 
-Sa fin héroïque, ses qualités et sa légende font de lui une figure d'inspiration et un héros pour les habitants du secteur Noctis, qui le vénèrent depuis des millénaires comme un saint protecteur majeur. Ses armes, ayant pu être récupérées, sont devenues des reliques, conservés dans la cathédrale mémorielle du monde de Dol. Object de vénération, la dépouille de Caius Dantaris et cells de ses 100 terminators tombés avec lui lors du Massacre de Dol, attirent des milliards de pèlerins impériaux sur Dol.
+Sa fin héroïque, ses qualités et sa légende font de lui une figure d'inspiration et un héros pour les habitants du secteur Noctis, qui le vénèrent depuis des millénaires comme un saint protecteur majeur. Ses armes, ayant pu être récupérées, sont devenues des reliques, conservés dans la cathédrale mémorielle du monde de Dol. Objet de vénération, la dépouille de Caius Dantaris et celles de ses 100 terminators tombés avec lui lors du Massacre de Dol, attirent des milliards de pèlerins impériaux sur Dol.
 
 Caius Dantaris a été un acteur clé de la mort du chapitre. Son sacrifice et la disparition complète du chapitre lors du Massacre de Dol influenceront grandement les compagnies perdues dans leur quête de vérité sur la fin du chapitre. Une quête de réponse qui mènera les frères perdus du chapitre à suivre une quête de vérité et de vengeance.
 
@@ -46,7 +44,7 @@ Ajoutant une dernière saga à la légende de son chapitre, Caius Dantaris repri
 
 Caius Dantaris dirigea avec bravoure ses frères durant leurs dernières campagnes face aux ennemis de l'Humanité dans le segmentum Ultima, principalement sur la bordure est galactique. Son chapitre constamment sollicité ne pouvait plus prendre le temps se reposer, devant couvrir seul une portion bien trop grande de l'espace impérial. Le jeune maître de chapitre arriva au stade où il dû choisir quelles demandes d'aides accepter, les classant pragmatiquement selon le dégré de la menace afin de ne traiter que les menaces les plus graves et imminentes, fautes de moyens.
 
-### Visite En Ultramar
+### Visite en Ultramar
 
 A une date inconnue, Caius Dantaris, accompagné de certains vétérans de diverses compagnies du chapitre, se rendit sur Macragge. Rencontrant leur chapitre parent, leurs frères des Ultramarines, cette délégatin des Célestians Dragonis participa à une cérémonie en présence du maître de chapitre des Ultramarines, où Caius renouvela son serment de servir l'Empereur et leur Primarque, de toujours défendre l'Imperium et l'Humanité. Là, il rendit également hommage à son primarque alors en stase, et renouvela aussi son vœu de protéger Ultramar si les Ultramarines le demandait, et ceux, malgré la situation précaire de son chapitre dans le secteur Noctis.
 
@@ -54,13 +52,13 @@ Ce fut à cette occasion que le maître de chapitre offrit une relique particuli
 
 Cette offrande fut également un message fort envoyé au maître de chapitre des Ultramarines, leurs descendants tenaient leurs serments, envers et contre tout. Cela suivit également la demande de renforts faites aux Ultramarines, Caius était venu solliciter l'aide de ses cousins afin que l'on vienne aider son chapitre en difficulté. Il espérait user de l'influence du maître de chapitre des Ultramarines afin de solliciter des alliés, puisque ses propres demandes étaient rester sans réponses. Le maître des Ultramarines lui promit de faire son possible et Caius repartit, ses frères avaient besoin de lui à l'autre bout du segmentum Ultima. Sans le savoir, c'est par cet acte que Caius permettrait aux Blood Reapers, contactés par les Ultramarine, de savoir que les Célestians Dragonis appelaient à l'aide. Les Blood Reapers ayant une dette de vie par rapport aux Célestians Dragonis, ceux-ci y répondirent, mais ils arrivèrent hélas trop tard...
 
-### Le Massacre De Dol
+### Le massacre de Dol
 
 Plusieurs années plus tard, le chapitre des Célestians Dragonis demeurait désespérément seul à faire face aux menaces de la bordure Est galactique.
 
-A l'extrême sud du secteur, se trouve une région que l'Impérium n'a jamais conquit, n'allouant pas de resources pour la conquête d'une portion isolée et sans intérêt de la galaxie. Dans cette portion de l'espace est composée de dizaines voir centaines d'empires orks en guerre perpétuelle les uns contre les autres, rassemblées sous le nom de Gnu'ugm Nar (Traduction directe d'un dialecte ork, pour signifier "coin de baston lointain"). Des millénaires durant, ces bélliqueux xénos étaient restés à se livrer à leur guerre intestine. Hélas, depuis quelques décennies, un Big Boss plus gros et plus vert que les autres unifiait un à un, les mondes divisés de Gn'ugm Nar. Hélas, ce qui devait arriver arriva, un Big Boss, plus fort et plus vert que les autres unifia un à un tout les empires orks de Gn'ugm Nar. Exhorté par son succès, il lança une waaagh sur ce qu'il y avait de plus proche : le secteur Noctis.
+A l'extrême sud du secteur, se trouve une région que l'Impérium n'a jamais conquit, n'allouant pas de ressources pour la conquête d'une portion isolée et sans intérêt de la galaxie. Dans cette portion de l'espace est composée de dizaines voir centaines d'empires orks en guerre perpétuelle les uns contre les autres, rassemblées sous le nom de Gnu'ugm Nar (Traduction directe d'un dialecte ork, pour signifier "coin de baston lointain"). Des millénaires durant, ces bélliqueux xénos étaient restés à se livrer à leur guerre intestine. Hélas, depuis quelques décennies, un Big Boss plus gros et plus vert que les autres unifiait un à un, les mondes divisés de Gn'ugm Nar. Hélas, ce qui devait arriver arriva, un Big Boss, plus fort et plus vert que les autres unifia un à un tout les empires orks de Gn'ugm Nar. Exhorté par son succès, il lança une waaagh sur ce qu'il y avait de plus proche : le secteur Noctis.
 
-La horde verte déferla rapidement sur le sous-secteur Etheria. Prise de cours, l'imperium ne réagit pas assez vite pour endiguer l'attaque. Les Iron Hammers (ainsi que des forces impériales ralliées à eux) maintinrent un front à l'Est du sous-secteur Ethéria, mais ne purent pas endiguer la poussée ork vers le nord. Bientôt, la waaagh arriva dans le sous-secteur Ghedona et commença, à remonter système après système vers le nord, tandis que devant eux, les défenseurs impériaux fuyaient en désordre, laissant les planètes colonies se défendre seules.
+La horde verte déferla rapidement sur le sous-secteur Etheria. Pris de cours, l'imperium ne réagit pas assez vite pour endiguer l'attaque. Les Iron Hammers (ainsi que des forces impériales ralliées à eux) maintinrent un front à l'Est du sous-secteur Ethéria, mais ne purent pas endiguer la poussée ork vers le nord. Bientôt, la waaagh arriva dans le sous-secteur Ghedona et commença, à remonter système après système vers le nord, tandis que devant eux, les défenseurs impériaux fuyaient en désordre, laissant les planètes colonies se défendre seules.
 
 Les autorités du secteur Noctis prirent conscience de la menace, et le Sénat Sectoriel décréta l'Etat d'Urgence, convergent tout les forces disponibles pour créer se préparer à l'arrivée de la Waaagh dans le nord du secteur, les colonies étant considérées comme déjà perdues (voir l'article dédié au secteur, qui expose très distinctement la division entre le Nord et le Sud du secteur).
 
@@ -85,9 +83,9 @@ Caius Dantaris, pour sa mort héroïque, fut canonisé par l'Ecclesiarchie local
 ### Physique
 
 <figure style="float: right; width: 250px;">
-  <img src="Caius_Dantaris_sans_signature_par_JNPEDDN.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/Caius_Dantaris_sans_signature_par_JNPEDDN.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Vitrail honorant un héros défunt
+    Vitrail honorant un héros défunt
   </figcaption>
 </figure>
 Caius Dantaris était plutôt grand pour un astartes, brun, il possédait une beau beige. Sa musculature était impressionnante, comme celle de tout astartes. Ses traits faciaux évoquent ceux d'une personne déterminée. Il arboraient plusieurs cicatrices sur son corps, mémoires de duels passés.

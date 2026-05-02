@@ -80,13 +80,14 @@
 
   <div class="world-body">
 
-    {{ if .Params.infobox }}
+    {{ $infoboxTitle := or .Params.infobox .Params.subtitle }}
+    {{ if $infoboxTitle }}
     <aside class="world-infobox">
       <ul class="nav nav-list bs-docs-sidenav">
 
         {{/* Image: string, [img], ou [[img, caption], ...] */}}
+        {{ $src := "" }}
         {{ with .Params.image }}
-          {{ $src := "" }}
           {{ if reflect.IsSlice . }}
             {{ $first := index . 0 }}
             {{ if reflect.IsSlice $first }}
@@ -97,14 +98,14 @@
           {{ else }}
             {{ $src = . }}
           {{ end }}
-          {{ if $src }}
-          <li class="infobox-image">
-            <img src="/img/{{ $src }}" alt="{{ $.Title }}">
-          </li>
-          {{ end }}
+        {{ end }}
+        {{ if $src }}
+        <li class="infobox-image">
+          <img src="{{ $src }}" alt="{{ $.Title }}">
+        </li>
         {{ end }}
 
-        <li class="nav-header">{{ .Params.infobox }}</li>
+        <li class="nav-header">{{ $infoboxTitle }}</li>
 
         {{ $skip := slice
           "title" "subtitle" "date" "lastmod" "publishdate" "expirydate"

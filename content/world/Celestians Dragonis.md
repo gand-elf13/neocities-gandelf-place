@@ -1,14 +1,13 @@
 ---
-draft: true
 title: Célestians Dragonis
 subtitle: Symbole Chapitral
 tags:
-  - Adeptus Astartes
   - Imperium
+  - Adeptus Astartes
+  - Ultima Segmentum
   - Marches d'Oriclès
   - Secteur Noctis
-  - Ultima Segmentum
-image: Epaulière Célestians Dragonis.png
+image: /ob/world/Fan-fluffs/Epauli%C3%A8re%20C%C3%A9lestians%20Dragonis.png
 Allégeance: Loyaliste
 statut: Détruit
 allégeance: Impérium
@@ -37,20 +36,21 @@ monde origine primarque: Maccrage
 monde chapitral: Célestia
 monde de recrutement: Célestia
 forteresse-monastère: « les Bics Brumeux »
-date: 2026-05-02T15:45:36.589Z
-lastmod: 2026-05-02T16:06:05.726Z
+draft: true
+date: 2026-05-02T17:42:40.465Z
+lastmod: 2026-05-02T17:43:20.051Z
 ---
 <figure style="float: right; width: 250px;">
-  <img src="First-Born.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/First-Born.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Schéma de couleur du chapitre
+    Schéma de couleur du chapitre
   </figcaption>
 </figure>
 Le chapitre des [[Celestians Dragonis]] fut un chapitre de la fière lignée des Ultramarines, fondé lors de la VIIe Fondation vers le M34.
 
 Leur Monde Chapitral était [ Célestia ](Celestians%20Dragonis#C%C3%A9lestia%20) un monde sauvage du secteur [Secteur Noctis](/world/secteur-noctis), d'où ils menaient la « **Longue Veille** », leur serment de protéger la bordure orientale de la galaxie contre les horreurs venues de l'extérieur.
 
-Le chapitre adhérait à la logique du « moindre mal », cherchant à minimiser les pertes, y compris les vies humaines, ce qui leur valut une réputation prestigieuse au-delà de leurs zones d'opérations. Les Célestians Dragonis privilégiaient une approach raisonnée et pragmatique de la guerre, visant à adopter l'approche stratégique optimale, la plus efficace et la moins coûteuse. On compare ainsi parfois le style de combat des Célestians Dragonis à celui de leurs primogénitor Ultramarines.
+Le chapitre adhérait à la logique du « moindre mal », cherchant à minimiser les pertes, y compris les vies humaines, ce qui leur valut une réputation prestigieuse au-delà de leurs zones d'opérations. Les Célestians Dragonis privilégiaient une approche raisonnée et pragmatique de la guerre, visant à adopter l'approche stratégique optimale, la plus efficace et la moins coûteuse. On compare ainsi parfois le style de combat des Célestians Dragonis à celui de leurs primogénitor Ultramarines.
 
 Le chapitre fut connu pour ses exploits au combat et sa résilience, mais aussi pour sa renommée. Les fils de Célestia furent en effet généralement très appréciés de leurs alliés, qui surent apprécier la droiture, l'honneur et la loyauté du chapitre. Il est malheuresement aussi célèbre pour son destin tragique.
 
@@ -58,17 +58,17 @@ Après des millénaires de glorieux service, le chapitre a connu un lent déclin
 
 Bien que le chapitre originel soit détruit en M42, des rumeurs subsistent du retour miraculeux de compagnies perdues dans le Warp en M38, poursuivant une quête de vérité et de vengeance pour comprendre le funeste destin de leur chapitre.
 
-## Histoire Du Chapitre
+## Histoire du Chapitre
 
-### M34 : La Fondation
+### M34 : la Fondation
 
-Au 34ème millénaire, à une date exacte aujourd'hui oubliée, une nouvelle fondations de chapitres de l'adeptus astartes eût lieu. L'un des chapitres désigné pour engendrer un nouveau successeur fut le plus prestigieux de tous, le chapitre des Ultramarines, qui ajouta donc un autre successeur à la longue lignée de Roboute Gulliman. La majeure partie des information ou documents au sujet de la fondation des Célestians Dragonis se sont perdus au fil du temps, il demeure cependant certaines données.
+Au 34ème millénaire, à une date exacte aujourd'hui oubliée, une nouvelle fondations de chapitres de l'adeptus astartes eût lieu. L'un des chapitres désigné pour engendrer un nouveau successeur fut le plus prestigieux de tous, le chapitre des Ultramarines, qui ajouta donc un autre successeur à la longue lignée de Roboute Gulliman. La majeure partie des informations ou documents au sujet de la fondation des Célestians Dragonis se sont perdus au fil du temps, il demeure cependant certaines données.
 
 Le chapitre nouvellement fondé reçut pour mission de garder les bordures orientales de la galaxie, afin de protéger les frontières de l'Imperium de l'Humanité, et prémunir celui-ci des horreurs qui pourrait se cacher dans les sombres ténèbres par delà de la galaxie. Ce nouveau chapitre prêta serment sur Terra de ne jamais mettre fin à ce devoir, et débuta ainsi ce que le chapitre lui-même nommera la Longue Veille. Ce devoir n'aura pas de fin et le chapitre l'accepta avec stoïcisme.
 
-La veille éternelle du chapitre commença donc aux confins des étoiles de la voie lactée, à la limit même de la lumière de l'astronomican. Là-bas, dans le secteur Noctis, le chapitre prit possession du monde sauvage de Célestia et en fit son monde chapitral pour les millénaires à venir. L'origine de ce choix est inconnue, mais l'on soupçonne l'étonannte coïncidence entre leur nom et les reptiles géants volant dans les cieux de cette planète. D'autant plus, ce monde était idéal, offrant de nombreux environnements et une faune inhospitalière parfaite pour forger de futurs candidates pour rejoindre le chapitre.
+La veille éternelle du chapitre commença donc aux confins des étoiles de la voie lactée, à la limite même de la lumière de l'astronomican. Là-bas, dans le secteur Noctis, le chapitre prit possession du monde sauvage de Célestia et en fit son monde chapitral pour les millénaires à venir. L'origine de ce choix est inconnue, mais l'on soupçonne l'étonannte coïncidence entre leur nom et les reptiles géants volant dans les cieux de cette planète. D'autant plus, ce monde était idéal, offrant de nombreux environnements et une faune inhospitalière parfaite pour forger de futurs candidats pour rejoindre le chapitre.
 
-### M34 - M37 : Un Passif Glorieux
+### M34 - M37 : Un passif glorieux
 
 Les historitors impériaux décrivent cette période comme l'Âge d'Or du chapitre, bien que la plupart des faits aient été oubliés avec le passage du temps. La Bibliothèque chapitrale sur Célestia conserve toutefois la trace de cette histoire, pour qui osera se risquer dans ses rayonnages poussiéreux.
 
@@ -78,19 +78,19 @@ Des appels à l’aide envers leur chapitre se mirent alors à provenir rapideme
 
 On estime que ce fut durant le début de cette ère que le chapitre obtient une influence notable sur l'ensemble de son système, cela jusqu'à en devenir le cœur et établir le **protectorat de Célestia**.
 
-Le protectorat de Célestia est un traité intronisant les Célestians Dragonis comme premiers défenseurs du système de Célestia. En contre partie, le système s'engageait à mettre ses resources, naturelles, humaines, industrielles et militaires au service du chapitre. Toutefois, l'adminstratum conserva l'administration des mondes, bien que le chapitre ait un droit de regard. Cette configuration politique inédite ne manqua pas rappeler une version miniature du royaume d'Ultramar. Toutefois le chapitre ne sembla jamais vouloir étendre son protectorat au-delà des limites du système de Célestia.
+Le protectorat de Célestia est un traité intronisant les Célestians Dragonis comme premiers défenseurs du système de Célestia. En contre partie, le système s'engageait à mettre ses ressources, naturelles, humaines, industrielles et militaires au service du chapitre. Toutefois, l'adminstratum conserva l'administration des mondes, bien que le chapitre ait un droit de regard. Cette configuration politique inédite ne manqua pas rappeler une version miniature du royaume d'Ultramar. Toutefois le chapitre ne sembla jamais vouloir étendre son protectorat au-delà des limites du système de Célestia.
 
-Ce fut également à cette période que le chapitre des Iron Hammers fut fondé en M37 lors de la 22e Fondation, afin de venir renforcer les Célestians Dragonis et eux-aussi, devoir endosser le devoir de la Longue Veille. Ce nouveau chapitre forgea une amitié forte avec les Célestians Dragonis, bien que le calme stoïque et l'opiniâtreté des fils de Ferrus Manus entrait parfois en opposition avec l'efficacité tactique parfaite des fils de Gulliman et la volonté de protections des humains propre aux Célestians Dragonis. Les Iron Hammers se basèrent dans le même secteur que les Célestians Dragonis, le [Secteur Noctis](/world/secteur-noctis). Mais ils choisirent précisément leur monde chapitral, **Ω7** : un monde inhabité, ayant été exploré et cartographié il y a des millénaires de cela. Il ne présentait aucun intérêt sauf stratégiquement. En effet ce monde était situé près de l'unique porte d'entrée vers l'<a href="Secteur_Noctis/Enclave_de_Tarinth" class="wikilink" title="Enclave de Tarinth">Enclave de Tarinth</a>, une anomalie de matérium, entourée de tempête warp. A de nombreuses reprises, des problèmes... nécessitèrent l'interventions des Célestians Dragonis dans la zone. Bien qu'on ne parvient jamais à expliquer quel était le problème de cette région de l'espace. Les légendes et rumeurs allaient de bon train à propos de cette région de l'espace, la déclarant comme maudite. Les Iron Hammers ne prêtèrent pas attention à ces superstitions mais ils se placèrent tout de même en garrison face aux horreurs qui pourraient surgir des ténèbres de l'Enclave.
+Ce fut également à cette période que le chapitre des Iron Hammers fut fondé en M37 lors de la 22e Fondation, afin de venir renforcer les Célestians Dragonis et eux-aussi, devoir endosser le devoir de la Longue Veille. Ce nouveau chapitre forgea une amitié forte avec les Célestians Dragonis, bien que le calme stoïque et l'opiniâtreté des fils de Ferrus Manus entrait parfois en opposition avec l'efficacité tactique parfaite des fils de Gulliman et la volonté de protections des humains propre aux Célestians Dragonis. Les Iron Hammers se basèrent dans le même secteur que les Célestians Dragonis, le [Secteur Noctis](/world/secteur-noctis). Mais ils choisirent précisément leur monde chapitral, **Ω7** : un monde inhabité, ayant été exploré et cartographié il y a des millénaires de cela. Il ne présentait aucun intérêt sauf stratégiquement. En effet ce monde était situé près de l'unique porte d'entrée vers l'<a href="Secteur_Noctis/Enclave_de_Tarinth" class="wikilink" title="Enclave de Tarinth">Enclave de Tarinth</a>, une anomalie de matérium, entourée de tempête warp. A de nombreuses reprises, des problèmes... nécessitèrent l'interventions des Célestians Dragonis dans la zone. Bien qu'on ne parvient jamais à expliquer quel était le problème de cette région de l'espace. Les légendes et rumeurs allaient de bon train à propos de cette région de l'espace, la déclarant comme maudite. Les Iron Hammers ne prêtèrent pas attention à ces superstitions mais ils se placèrent tout de même en garnison face aux horreurs qui pourraient surgir des ténèbres de l'Enclave.
 
-### M38 : Le Vent Du Déclin
+### M38 : Le vent du déclin
 
 Après des millénaires de campagnes victorieuses et de loyauté indéfectible envers l'Imperium, les Célestians Dragonis se tenaient au sommet de leur gloire. Leur réputation d'excellence tactique et de dévouement envers la protection de l'humanité était célébrée et reconnue.
 
-Cependant, cette ère dorée allait porter en elle les germes d'une lente érosion au cours des siècles à venir... Les conflits incessants, les pertes accumulées et les tensions croissantes au sein de l'Imperium commenceront à peser lourdement sur le chapitre. Les resources s'amenuisaient, les alliés se faisaient rares, et les ennemis, plus audacieux. Ainsi débuta une période de défis sans précédent, où les Célestians Dragonis durent lutter non seulement contre les forces extérieures, mais aussi contre l'usure implacable du temps et de la guerre. Une lutte finira, avec le temps, par lentement éroder la santé du chapitre jusqu'à ne faire de lui plus que l'ombre de la légende dorée qu'il fut autrefois.​
+Cependant, cette ère dorée allait porter en elle les germes d'une lente érosion au cours des siècles à venir... Les conflits incessants, les pertes accumulées et les tensions croissantes au sein de l'Imperium commenceront à peser lourdement sur le chapitre. Les ressources s'amenuisaient, les alliés se faisaient rares, et les ennemis, plus audacieux. Ainsi débuta une période de défis sans précédent, où les Célestians Dragonis durent lutter non seulement contre les forces extérieures, mais aussi contre l'usure implacable du temps et de la guerre. Une lutte finira, avec le temps, par lentement éroder la santé du chapitre jusqu'à ne faire de lui plus que l'ombre de la légende dorée qu'il fut autrefois.​
 
 Durant cette période, le Chapitre va perdre beaucoup de sa puissance d'en-temps, jusqu'à ne devenir que l'ombre de ce qu'il fut.
 
-#### 000.M38 - 999.M38 : Un Chapitre En Déclin
+#### 000.M38 - 999.M38 : un chapitre en déclin
 
 **Affaiblissement de l'Imperium et Recrudescence de l'ennemi.**
 
@@ -98,9 +98,9 @@ Durant ce millénaire, le chapitre devient de plus en plus faible au fil des si�
 
 La descente aux enfers du chapitre se poursuivra durant le millénaire suivant...
 
-#### 930.M38 : Raid Du Black Circle
+#### 930.M38 : Raid du Black Circle
 
-Une bande de guerre mineure (héritière de la quatrième légion, s’étant elle-même nommée le “<a href="Black_Circle" class="wikilink" title="Black Circle">Black Circle</a>”) avait débuté une campagne de raid et pillage dans la partie nord du [Secteur Noctis](/world/secteur-noctis). Le chapitre en avait prise connaissance mais ils avaient été jugé être une menace mineure comparé à d’autres menaces plus importantes contre lesquelles les Célestians Dragonis étaient engagés. Après plusieurs décennies de pillage et piraterie, souvent en marge des grands axes de l’Imperium d’ailleurs, la bande de guerre n’avait toujours pas été jugée une menace prioritaire.
+Une bande de guerre mineure (héritière de la quatrième légion, s’étant elle-même nommée le “<a href="Black_Circle" class="wikilink" title="Black Circle">Black Circle</a>”) avait débuté une campagne de raid et pillage dans la partie nord du [Secteur Noctis](/world/secteur-noctis). Le chapitre en avait pris connaissance mais ils avaient été jugé être une menace mineure comparé à d’autres menaces plus importantes contre lesquelles les Célestians Dragonis étaient engagés. Après plusieurs décennies de pillage et piraterie, souvent en marge des grands axes de l’Imperium d’ailleurs, la bande de guerre n’avait toujours pas été jugée une menace prioritaire.
 
 La marine impériale fut chargée de lutter seule contre eux. Le <a href="Black_Circle" class="wikilink" title="Black Circle">Black Circle</a> semblait opérer dans des régions de l’espace plutôt lointaines. Se concentrant dans la partie nord-est du secteur Noctis, réputée par les libres marchands et autres explorateurs pour contenir selon les rumeurs des archéo-technologies cachées sur des mondes oubliés. Le Black Circle n’étaient pas les premiers à tenter leur chance, et ne seront pas les derniers, les  autorités impériales ne s’inquiétèrent peu et se contentèrent de continuer leurs politiques d’anti-piraterie sur les axes de communications majeurs. De toute façon, ces renégats étaient loin d’être les seuls pirates dans la zone. La bande de guerre fut donc relativement peu inquiétée par l’Imperium, ses attaques épisodiques n’étant généralement pas très gênantes, on l’oublia assez vite. Des décennies passèrent ainsi. Le <a href="Black_Circle" class="wikilink" title="Black Circle">Black Circle</a> opérait de toute façon dans une région éloignée du monde chapitral, qui n’y vit bien sûr pas une menace.
 
@@ -108,7 +108,7 @@ Toutefois après des décennies de pillage dans le secteur, le Black Circle avai
 
 Le chapitre à l'époque était en campagne depuis assez longtemps, ses compagnies dispersées aux 4 coins du secteur. Si l’on en croit les archives, le chapitre, bien que déjà mal en point à l’époque, disposait encore d’un nombre conséquent de compagnies. Le chapitre ne prêtait déjà qu’une importance secondaire à ce monde, s’en servant essentiellement pour le recrutement et la formation de nouveaux frères. Une seule compagnie était donc en stationnement dans la forteresse monastère lors du raid. Par un hasard de circonstances, c’était la seconde compagnie, qui revenait tout juste d’une campagne meurtrière contre une race xénos dans le sud du secteur, au-delà même de la faille warp de l’Enclave de Tarinth. La compagnie pensait ses plaies et compensait ses pertes en profitant d’un repos bien mérité. Mais cela, le Black Circle l’ignorait, pourtant les renégats montèrent un plan audacieux, voir même téméraire, pour attaquer la forteresse monastère du chapitre.
 
-C’est au 4ème jour de septimus de la 930ème année du 38è millénaire que la flotte de la bande de guerre entra dans le système. Afin de conserver le plus longtemps possible l’effet surprise, la bande de guerre se glissa en silence dans l’espace, coupant la quasi-totalité de ses systèmes auspex, ne conservant que le strict minimum pour cibler Célestia. Ils n’effectuèrent aucun scans auspex pour éviter d’être repérés. Autrement dit, ils plongeaient à l’aveugle vers leur cible. Ce ne fut que 5h plus tard que les forces de défense du système détectèrent un premier navire renégat : le croiseur Death Walker de classe dévastation. Le chapitre fut rapidement prévenu et les forces navales mises en état d'alerte. Le groupe de combat du croiseur fut rapidement prise en chasse par plusieurs escadres de patrouilleurs. Mais les impériaux venaient simplement de tomber dans le piège du Black Circle. Sachant qu’ils ne pourraient affronter de front les forces impériales locales, les renégats avaient séparé leur flotte en de petites escadres combat, maximisant leurs chances d’atteindre leurs objectifs si jamais ils étaient détectés.
+C’est au 4ème jour de septimus de la 930ème année du 38è millénaire que la flotte de la bande de guerre entra dans le système. Afin de conserver le plus longtemps possible l’effet surprise, la bande de guerre se glissa en silence dans l’espace, coupant la quasi-totalité de ses systèmes auspex, ne conservant que le strict minimum pour cibler Célestia. Ils n’effectuèrent aucun scans auspex pour éviter d’être repérés. Autrement dit, ils plongeaient à l’aveugle vers leur cible. Ce ne fut que 5h plus tard que les forces de défense du système détectèrent un premier navire renégat : le croiseur Death Walker de classe dévastation. Le chapitre fut rapidement prévenu et les forces navales mises en état d'alerte. Le groupe de combat du croiseur fut rapidement pris en chasse par plusieurs escadres de patrouilleurs. Mais les impériaux venaient simplement de tomber dans le piège du Black Circle. Sachant qu’ils ne pourraient affronter de front les forces impériales locales, les renégats avaient séparé leur flotte en de petites escadres combat, maximisant leurs chances d’atteindre leurs objectifs si jamais ils étaient détectés.
 
 Les forces impériales se concentrèrent rapidement vers l’élimination de la menace, laissant un angle d’attaque vulnérable pour certaines des autres escadres du Black Circle. Observant le déroulé de la bataille, le Black Circle décida rapidement de s’adapter. Rompant le silence radio, les groupes de combats trop éloignés de Célestia pour espérer l’atteindre se révélèrent, attirant à eux les défenseurs impériaux, éparpillant encore plus les forces des défenseurs.
 
@@ -122,25 +122,25 @@ La nouvelle de cette attaque fut rapidement transmise au reste du chapitre. Le t
 
 Le Black Circle n’échappa pas à la colère froide des fils de Célestia. Traqués par la Première et Seconde compagnie, la bande de guerre est contrainte de fuir la bordure est galactique. Le chapitre des Célestians Dragonis restera durement touché par cet évènement puisque privé de ses stocks génétique, il n'était plus capable de créer de nouveaux frères, ne pouvant compter que sur les glandes progénoïdes des frères encore en vies. La vie et plus encore, le cadavre de chaque frère prit alors une importance capitale, provoquant l'utilisation des doctrines les moins létales possibles par le chapitre. Et la situation ne s'était pas améliorée depuis.
 
-La gestion catastrophique de cette attaque aura des conséquences au-delà de simplement menacer la survie même du chapitre et d'être un rappel douloureux de la non-toute puissance du chapitre. La gestion catastrophique de l'attaque par les forces de Défense du Système convaincra le chapitre de prendre le contrôle complete des forces de Défense du Système. Réorganisant les forces, centralisant le commandement, améliorant l'entraînement des troupes et formant correctement les officiers, les Célestians Dragonis s'établirent pleinement dans l'usage de leur décret de protectorat de leur système. Désormais les forces impériales locales suivraient les directives du chapitre lors de combats, plutôt qu'agir de manière dispersée et désorganisée, suivant leurs propres directives. Une dernière conséquence significative fut la honte de la Seconde Compagnie, qui portrait depuis le jour du raid, le savoir d'avoir échoué à protéger la forteresse monastère et les stocks génétiques, et cela même si l'ensemble du contexte de l'engagement était en leur défaveur.
+La gestion catastrophique de cette attaque aura des conséquences au-delà de simplement menacer la survie même du chapitre et d'être un rappel douloureux de la non-toute puissance du chapitre. La gestion catastrophique de l'attaque par les forces de Défense du Système convaincra le chapitre de prendre le contrôle complet des forces de Défense du Système. Réorganisant les forces, centralisant le commandement, améliorant l'entraînement des troupes et formant correctement les officiers, les Célestians Dragonis s'établirent pleinement dans l'usage de leur décret de protectorat de leur système. Désormais les forces impériales locales suivraient les directives du chapitre lors de combats, plutôt qu'agir de manière dispersée et désorganisée, suivant leurs propres directives. Une dernière conséquence significative fut la honte de la Seconde Compagnie, qui portait depuis le jour du raid, le savoir d'avoir échoué à protéger la forteresse monastère et les stocks génétiques, et cela même si l'ensemble du contexte de l'engagement était en leur défaveur.
 
-La Seconde Compagnie reçut alors une nouvelle tâche pour réparer son erreur, la protection des stocks génétiques du chapitre. Bien que les Célestians Dragonis ne possédaient plus de stocks génétiques à proprement parler, ils espéraient réussir à en reconstruire à l'avenir. Le chapitre avait prise conscience que ses campagnes constantes ne lui permettaient plus de se payer le luxe de défendre la forteresse monastère. Il fut alors décidé de transférer le centre névralgique du chapitre sur les différentes barges de batailles de la flotte, afin de permettre au chapitre d'opérer comme une flotte itinérante en attente de jours meilleurs. Célestia et la forteresse monastère fut laisser à la garder d'une poignée d'astartes et de forces humaines axillaires, tandis que le système entier demeurait indépendant du chapitre, à l'exception des forces de Défense, laissées sous le commandement de la poignée d'astartes présent dans la forteresse.
+La Seconde Compagnie reçut alors une nouvelle tâche pour réparer son erreur, la protection des stocks génétiques du chapitre. Bien que les Célestians Dragonis ne possédaient plus de stocks génétiques à proprement parler, ils espéraient réussir à en reconstruire à l'avenir. Le chapitre avait pris conscience que ses campagnes constantes ne lui permettaient plus de se payer le luxe de défendre la forteresse monastère. Il fut alors décidé de transférer le centre névralgique du chapitre sur les différentes barges de batailles de la flotte, afin de permettre au chapitre d'opérer comme une flotte itinérante en attente de jours meilleurs. Célestia et la forteresse monastère fut laisser à la garder d'une poignée d'astartes et de forces humaines axillaires, tandis que le système entier demeurait indépendant du chapitre, à l'exception des forces de Défense, laissées sous le commandement de la poignée d'astartes présent dans la forteresse.
 
-### M39 : Le Glas De La Fin
+### M39 : Le Glas de la fin
 
 La période historique qui va suivre couvre les évènements qui mèneront à la fin tragique du chapitre. Comme toujours, ne sont inscrits ici que les évènements les plus marquants ou bien les évènements relatifs aux personnages nommés, le reste étant passé sous silence.
 
 Lors de cette période, l'état du chapitre va progressivement s'aggraver, jusqu'à l'annihilation du chapitre à l'aube du 40ème millénaire.
 
-#### 853.M39 : Découverte d’Aggarius Brant Sur Gythior XIII
+#### 853.M39 : Découverte d’Aggarius Brant sur Gythior XIII
 
 Ecu noir et ancien membre de la Deathwatch, l'apothicaire n'a jamais voulu révélé son passé. Le chapitre lui sauva la vie sur Gythior XIII, il demanda à rembourser sa dette de vie en faisant bénéficier celui-ci de ses connaissances. Le maître de chapitre d'époque accepta, cependant, il fallut des décennies pour que l'apothicaire gagne la pleine confiance du chapitre.
 
 codeCette histoire et tout ce qui en découle dispose d'une section dédié dans la catégorie personnage de l'article, vous y référencez pour en savoir plus./code
 
-#### 921.M39 : Disparition De La IIe Et VIIIe Compagnies Célestians Dragonis Lors D'un Saut Warp
+#### 921.M39 : Disparition de la IIe et VIIIe Compagnies Célestians Dragonis lors d'un saut warp
 
-En 921.M39, le chapitre au grand complete se rassembla sur son monde chapitral Célestia. Le maître de chapitre <a href="Caius_Dantaris" class="wikilink" title="Caius Dantarius">Caius Dantarius</a>, alors récemment nommé, allait lancer sa première campagne de grande envergure.
+En 921.M39, le chapitre au grand complet se rassembla sur son monde chapitral Célestia. Le maître de chapitre <a href="Caius_Dantaris" class="wikilink" title="Caius Dantarius">Caius Dantarius</a>, alors récemment nommé, allait lancer sa première campagne de grande envergure.
 
 Depuis plusieurs décennies, des mondes impériaux du Nord du secteur Noctis avertissaient de l'apparition d'une nouvelle menace. Un empire xénos millénaire menaçait les frontières impériales. Autrefois cantonné aux étoiles sauvages, l'Empire Zlurth - un empire théocratie esclavagiste, militariste et expansionniste - poursuivait désormais son expansion en direction des territoires impériaux. L'existence de l'Empire Zlurth est connu par l'Impérium depuis des millénaires, voir même selon certaines sources, depuis l'Hérésie d'Horus. C'était alors un jeune empire xénos, qui ne menaçait alors pas le moins du monde les colonies impériales du secteur Noctis.
 
@@ -152,36 +152,36 @@ Après quelques jours de voyages, une violente tempête warp attrapa la flotte..
 
 Cette tempête warp laissera les Célestians Dragonis encore plus meurtris qu'ils ne l'étaient déjà. Ils venaient de perdre 2 compagnies complètes, leurs stocks génétiques et plus d'un tiers de leur flotte. La croisade d'extermination prit plusieurs années de retard et le chapitre, lui, ne se releva jamais vraiment de cette perte.
 
-#### ~975.M39 - Waaagh Unifiée Des Empires Orks De Gdul GAAAAASHAR
+#### ~975.M39 - Waaagh Unifiée des empires orks de Gdul GAAAAASHAR
 
 <figure style="float: right; width: 250px;">
-  <img src="Carte Secteur Tenebrus HH - M41.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/Carte%20Secteur%20Tenebrus%20HH%20-%20M41.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Carte du Secteur Notcis en M39
+    Carte du Secteur Notcis en M39
   </figcaption>
 </figure>
-Le secteur Noctis est divisé est en 2 escapes géographiques distincts, au nord, les sous-secteurs centraux, anciennement colonisés, disposant d'un grand potential productif, d'industrie puissantes et de solides défenses. A l'inverse, au sud du sous-secteur se trouvent les colonies, reliées au nord par une route warp traversant le grand vide (un grand vide galactique divisant le secteur en 2). Les colonies sont bien plus disparates, dans une zone de l'espace mal contrôlé par l'impérium et partiellement inexploré. Le secteur le plus au sud des colonies et le sous-secteur Etheria.
+Le secteur Noctis est divisé est en 2 espaces géographiques distincts, au nord, les sous-secteurs centraux, anciennement colonisés, disposant d'un grand potentiel productif, d'industrie puissantes et de solides défenses. A l'inverse, au sud du sous-secteur se trouvent les colonies, reliées au nord par une route warp traversant le grand vide (un grand vide galactique divisant le secteur en 2). Les colonies sont bien plus disparates, dans une zone de l'espace mal contrôlé par l'impérium et partiellement inexploré. Le secteur le plus au sud des colonies et le sous-secteur Etheria.
 
-A l'extrême sud du secteur, se trouve une région que l'Impérium n'a jamais conquit, n'allouant pas de resources pour la conquête d'une portion isolée et sans intérêt de la galaxie. Dans cette portion de l'espace est composée de dizaines voir centaines d'empires orks en guerre perpétuelle les uns contre les autres, rassemblées sous le nom de Gnu'ugm Nar (Traduction directe d'un dialecte ork, pour signifier "coin de baston lointain"). Des millénaires durant, ces bélliqueux xénos étaient restés à se livrer à leur guerre intestine. L'Imperium a créer un chapitre pour contenir la menace à ses frontières, les Iron Hammers, mais aucune opération supplémentaire ne fut jamais menée. (PS: les Iron Hammers ont aussi pour mission de surveiller l'anomalie warp qu'est l'Enclave de Tarinth.)
+A l'extrême sud du secteur, se trouve une région que l'Impérium n'a jamais conquit, n'allouant pas de ressources pour la conquête d'une portion isolée et sans intérêt de la galaxie. Dans cette portion de l'espace est composée de dizaines voir centaines d'empires orks en guerre perpétuelle les uns contre les autres, rassemblées sous le nom de Gnu'ugm Nar (Traduction directe d'un dialecte ork, pour signifier "coin de baston lointain"). Des millénaires durant, ces bélliqueux xénos étaient restés à se livrer à leur guerre intestine. L'Imperium a créer un chapitre pour contenir la menace à ses frontières, les Iron Hammers, mais aucune opération supplémentaire ne fut jamais menée. (PS: les Iron Hammers ont aussi pour mission de surveiller l'anomalie warp qu'est l'Enclave de Tarinth.)
 
-Hélas, ce qui devait arriver arriva, un ork, plus fort et plus vert que les autres unifia un à un tout les empires orks de Gn'ugm Nar. Exhorté par son succès, il lança une waaagh sur ce qu'il y avait de plus proche : le secteur Noctis. La horde verte déferla rapidement sur le sous-secteur Etheria. Prise de cours, l'imperium ne réagit pas assez vite pour endiguer l'attaque. Les Iron Hammers (ainsi que des forces impériales ralliées à eux) maintinrent un front à l'Est du sous-secteur Ethéria, mais ne purent pas endiguer la poussée ork vers le nord. Bientôt, la waaagh arriva dans le sous-secteur Ghedona et commença, à remonter système après système vers le nord, tandis que devant eux, les défenseurs impériaux fuyaient en désordre, laissant les planètes colonies se défendre seules.
+Hélas, ce qui devait arriver arriva, un ork, plus fort et plus vert que les autres unifia un à un tout les empires orks de Gn'ugm Nar. Exhorté par son succès, il lança une waaagh sur ce qu'il y avait de plus proche : le secteur Noctis. La horde verte déferla rapidement sur le sous-secteur Etheria. Pris de cours, l'imperium ne réagit pas assez vite pour endiguer l'attaque. Les Iron Hammers (ainsi que des forces impériales ralliées à eux) maintinrent un front à l'Est du sous-secteur Ethéria, mais ne purent pas endiguer la poussée ork vers le nord. Bientôt, la waaagh arriva dans le sous-secteur Ghedona et commença, à remonter système après système vers le nord, tandis que devant eux, les défenseurs impériaux fuyaient en désordre, laissant les planètes colonies se défendre seules.
 
 Les autorités du secteur Noctis prirent conscience de la menace, et le Sénat Sectoriel décréta l'Etat d'Urgence, convergent tout les forces disponibles pour créer se préparer à l'arrivée de la Waaagh dans le nord du secteur, les colonies étant considérées comme déjà perdues.
 
 Caius Dantarius savait devoir agir face au péril qui menaçait le secteur. En effet, une fois que les orks aurait mis le pied dans les sous-secteurs centraux, ils seraient la proie d'une guerre longue et violente, qui détruit les industries du secteur, et le condamnerait même en cas de victoire impériale. Le secteur Noctis ne s'en remettrait jamais et la présence impériale dans la bordure Est-galactique s'en trouvait drastiquement affaiblie.
 
-##### 987.M39 Le Massacre De La Porte De Dol
+##### 987.M39 Le massacre de la porte de Dol
 
-Avec les quelques 300 frères restants de son chapitre, ce qui restait de la flotte, et l'ensemble des navires disponibles, le maître de chapitre fit converger ses forces vers la porte de Dol. Dol est le système le plus au nord du sous-secteur Ghedona, reconnu pour son importance stratégique. Le système est un point de passage obligé pour emprunter la route warp menant au nord du secteur Noctis. En effet, une disposition particulière des courants warps fait qu'un seul courant permet la traversée du nord au sud, et celui-ci se trouve dans le système Dol, en empruntant une porte warp titanesque d'origine xénos, nommée la porte de Dol. Tentant la traversée sans passer la porte conduit irrévocablement les équipages dans les tempêtes warps entourant l'Enclave de Tarinth, dont nul n'est jamais revenu selon les légendes. La Waaagh ork allait donc converger en masse sur ce point, pour traverser la porte, il fallait les arrêter ici, ou cela ne serait pas possible plus tard. <figure style="float: right; width: 250px;">\ <img src="Caius_Dantaris_sans_signature_par_JNPEDDN.png" style="width: 100%;">
+Avec les quelques 300 frères restants de son chapitre, ce qui restait de la flotte, et l'ensemble des navires disponibles, le maître de chapitre fit converger ses forces vers la porte de Dol. Dol est le système le plus au nord du sous-secteur Ghedona, reconnu pour son importance stratégique. Le système est un point de passage obligé pour emprunter la route warp menant au nord du secteur Noctis. En effet, une disposition particulière des courants warps fait qu'un seul courant permet la traversée du nord au sud, et celui-ci se trouve dans le système Dol, en empruntant une porte warp titanesque d'origine xénos, nommée la porte de Dol. Tentant la traversée sans passer la porte conduit irrévocablement les équipages dans les tempêtes warps entourant l'Enclave de Tarinth, dont nul n'est jamais revenu selon les légendes. La Waaagh ork allait donc converger en masse sur ce point, pour traverser la porte, il fallait les arrêter ici, ou cela ne serait pas possible plus tard. <figure style="float: right; width: 250px;">\ <img src="/ob/world/Fan-fluffs/Caius_Dantaris_sans_signature_par_JNPEDDN.png" style="width: 100%;">
 
   <figcaption style="text-align: center; font-style: italic;">
-	 Vitrail honorant un héros défunt
+    Vitrail honorant un héros défunt
   </figcaption>
 </figure>") L'option de détruire la porte de Dol a été envisagée, mais toute les tentatives de le faire échouèrent, Caius Dantarius se résolu donc à la défendre, jusqu'à la mort si il le fallait.
 
 Caius Dantarius lança des appels à l'aide urgents à tout les chapitres voisins, et tout les chapitres redevables aux Célestians Dragonis, puis plaça ses forces, prêt à recevoir les orks dans le système Dol. Son plan, reposait sur l'espérance de la venue de renforts, car il savait que ses forces ne tiendrait probablement pas indéfiniment les assauts continus de la Waaagh de Gdul GAAAAASHAR !
 
-Quelques semaines plus tard, alors que la porte de Dol avait été renforcée en urgence, la Waaagh entra enfin dans le système. Les contingents de la marine impériales s'étant ralliés à Caius Dantarius, et la flotte du chapitre débutèrent alors une guerre stellaire de plusieurs mois, alors que la Waaaagh progressait planète après planète vers le cœur du système et la porte de Dol. Le conflict stellaire durait depuis plusieurs mois, un conflict d'attrition, dans lequel Caius Dantarius s'illustra en stoppant les orks alors que leur avancée n'avait jamais été endiguée depuis des décennies. Les forces de Caius Dantarius, bien qu'affaiblies par des mois d'escarmouches stellaires, survivaient en embarquant sur des navires qui échappaient aisément aux kroiseurs orks très lents et peu maniables.
+Quelques semaines plus tard, alors que la porte de Dol avait été renforcée en urgence, la Waaagh entra enfin dans le système. Les contingents de la marine impériales s'étant ralliés à Caius Dantarius, et la flotte du chapitre débutèrent alors une guerre stellaire de plusieurs mois, alors que la Waaaagh progressait planète après planète vers le cœur du système et la porte de Dol. Le conflit stellaire durait depuis plusieurs mois, un conflit d'attrition, dans lequel Caius Dantarius s'illustra en stoppant les orks alors que leur avancée n'avait jamais été endiguée depuis des décennies. Les forces de Caius Dantarius, bien qu'affaiblies par des mois d'escarmouches stellaires, survivaient en embarquant sur des navires qui échappaient aisément aux kroiseurs orks très lents et peu maniables.
 
 Le big boss commença à perdre patience, il était presque en vue de son objectif : seul désormais les canons orbitaux de la planète Dol empêchait sa flotte de parvenir jusqu'à la porte de Dol et la franchir. Il rassembla ses forces pour tenter une percée en concentrant l'ensemble de ses forces sur la planète Dol (dernière étape avant la porte) pour un assaut planétaire massif visant à réduire au silence les canons.
 
@@ -189,7 +189,7 @@ Les orks précipitèrent des milliers de leurs rocks, kroiseurs et autres engins
 
 Malgré l'urgence de la situation et la défaite annoncée, Caius Dantarius, grand stratège, perçut l'opportunité d'une victoire impériale. Depuis des mois, ses forces n'avaient s'en prendre au Big Boss car celui-ci s'était toujours caché derrière ses forces, et fuyait à la moindre tentative des impériaux pour le tuer. Mais là, le xénos était coincé sur la planète, il ne pouvait plus fuir les abordages impériaux. En engageant l'ensemble de ses forces, et notamment la 1ère compagnie, toujours intacte, il y avait une mince chance d'atteindre le big boss. Certes, la stratégie consistait à foncer au coeur de l'armada ork, de tenter un assaut orbital désespéré, de traverser la marée verte et de enfin tuer le big boss, mais aucun sacrifice n'était trop grand devant la menace. La puissance des empires orks de Gn'ugm Nar était telle que la Waaagh, menaçait tout l'est de l'ultima segmentum. Il fallait la contenir au plus tôt, quoi qu'il en coute.
 
-La flotte du chapitre lança alors un assaut, motors à puissance maximales, droit sur le cœur de l'armada peaux-vertes. La bataille spatiale fut terrible, la flotte du chapitre recevant l'ensemble de la puissance de feu ork, le croiseur d'attaque **Rising Destiny** fut pulvérisé dès l'instant où son bouclier céda, et une dizaine d'autres navires de toute taille suivirent. Finalement, seul la barge de bataille de la 1ère compagnie, le **Tears of Terra**, parvint à atteindre l'orbite de la planète Dol pour larguer les drops pods de la 1ère compagnie. Alors que les drops-pods brulaient dans l'atmosphère, les motors warps du Tears of Terra implosèrent, prit entre les feux croisés des kroiseurs orks qui n'hésitaient pas à tirer, détruisant plus des leurs qu'ils n'affaiblissaient la barge de bataille.
+La flotte du chapitre lança alors un assaut, moteurs à puissance maximales, droit sur le cœur de l'armada peaux-vertes. La bataille spatiale fut terrible, la flotte du chapitre recevant l'ensemble de la puissance de feu ork, le croiseur d'attaque **Rising Destiny** fut pulvérisé dès l'instant où son bouclier céda, et une dizaine d'autres navires de toute taille suivirent. Finalement, seul la barge de bataille de la 1ère compagnie, le **Tears of Terra**, parvint à atteindre l'orbite de la planète Dol pour larguer les drops pods de la 1ère compagnie. Alors que les drops-pods brulaient dans l'atmosphère, les moteurs warps du Tears of Terra implosèrent, prit entre les feux croisés des kroiseurs orks qui n'hésitaient pas à tirer, détruisant plus des leurs qu'ils n'affaiblissaient la barge de bataille.
 
 ##### 987.M39 : L'Ultime Duel
 
@@ -197,7 +197,7 @@ Les modules d'assauts de la première compagnie s'écrasèrent au plus proche de
 
 Quand la première compagnie débuta l'ascension, celle-ci avait déjà perdu la moitié de ses effectifs. Caius Dantarius exhortait pourtant ses frères à des actes de courages inouïs, tandis que sa lame d'obsidienne se tentait d'éclats vermeils tant il avait fauché de xénos. Lorsque Caius Dantarius atteignit au sommet, seuls une vingtaine de frères parvinrent en vie avec lui. Le temps manquait désormais, les astartes n'étaient pas certains d'atteindre le big boss en vie... Les plus gros nobz de la Waaaagh leur faisait face. Caius Dantarius lança alors un défi au Big Boss, un duel à mort entre eux deux. Gdul GAAAAASHAR n'avait pas d'autres choix que de répondre au défi, sinon il perdrait son statut de plus fort et plus vert auprès de sa Waaagh.
 
-Les Nobz s'écartèrent, et le duel commença. Les deux combattants se jetèrent l'un sur l'autre, l'un armé de son pince énergétique géante et son Mar'to ki klak, l'autre brandissant sa lame noire aux reflects obsidiennes. Les coups échangés étaient homériques, les parades spectaculaires... Les Nobz étaient mué d'admiration devant le spectacle de ce combat quasi irréalistes. Les secondes devinrent rapidement des minutes, et aucun des deux combattants ne semblaient faiblir, bien les premiers sangs avaient été versées de part et d'autres. Finalement, après vingt minutes, la lame énergétique de Caius Dantarius mordit l'abdomen en plein ventre, l'ork parvint à se dégager à temps, s'évitant d'être complétement sectionné en deux. Alors que ses tripes se déversaient hors de lui, l'ork parvient à porter une série de coup plus fort et plus vert que d'autres.
+Les Nobz s'écartèrent, et le duel commença. Les deux combattants se jetèrent l'un sur l'autre, l'un armé de son pince énergétique géante et son Mar'to ki klak, l'autre brandissant sa lame noire aux reflets obsidiennes. Les coups échangés étaient homériques, les parades spectaculaires... Les Nobz étaient mué d'admiration devant le spectacle de ce combat quasi irréalistes. Les secondes devinrent rapidement des minutes, et aucun des deux combattants ne semblaient faiblir, bien les premiers sangs avaient été versées de part et d'autres. Finalement, après vingt minutes, la lame énergétique de Caius Dantarius mordit l'abdomen en plein ventre, l'ork parvint à se dégager à temps, s'évitant d'être complétement sectionné en deux. Alors que ses tripes se déversaient hors de lui, l'ork parvient à porter une série de coup plus fort et plus vert que d'autres.
 
 Caius Dantarius fut saisit par la pince énergétique du Big Boss, qui souleva l'astartes, à la vue de tous, prêt à lui briser la colonne, alors que son adversaire crachait du sang. Caius Dantarius parvint d'un moulinée de son épée à briser l'une des pinces du boss, et se sortit de ce mauvais pas. En tombant du perchoir où l'avait placé l'ork, Caius Dantarius parvient à trancher le bras du Boss tenant son marteau. L'ork, réduit à se battre avec ses crocs et sa pince amputée tenta d'attaquer de nouveau, furieux de voir son adversaire échapper à son emprise. En se jetant devant vers Caius, l'ork présentait son hideuse gueule béante, sale et odorante. Le paladin de Célestia brandit sa lame d'obsidienne et l'enfonça profondément dans le crâne de la bête, à travers sa gueule.
 
@@ -205,13 +205,13 @@ Le Big Boss s'effondra, son crâne enfoncé jusqu'à la garde de l'épée de son
 
 Les 7 terminators survivants de la 1ère compagnie, conscients du sacrifice consenti par leur maître de chapitre, et plus encore par leur chapitre, donnèrent leur vie pour ramener le corps meurtri de Caius Dantarius en sécurité dans la macro-forteresse impériale. Autour d'eux, les orks s'entruaient déjà pour prendre la place du Big Boss.
 
-##### M39 - M42 : Héritage Du Chapitre
+##### M39 - M42 : Héritage du chapitre
 
 Aujourd'hui, des millénaires plus tard, la planète de Dol est devenue un lieu de pélerinage majeur - sinon le plus célèbre du secteur Noctis. Les pélerins affluent du secteur et mêmes des secteurs voisins pour rendre hommage à St Caius Dantarius, dernier maître de chapitre des Célestians Dragonis, celui qui donna sa vie et son chapitre, pour que tienne la porte de Dol et par là, l'imperium dans la bordure Est galactique. Son corps est aujourd'hui encore conservé dans la macro-forteresse transformé depuis, en vaste cathédrale dédié à l'adoration de St Caius Dantarius. Le maître du chapitre fut canonisé dans les années qui suivirent le Massacre de Dol, et le chapitre des Célestians Dragonis entra dans la légende comme "mort pour l'Impérium" avec tout les honneurs, distingué pour leur sacrifice. La bannière du chapitre quant à elle, récupérée sur le corps d'un terminator de la première compagnie, fut placée dans le grand hall des héros de Terra, au côté des chapitres les plus illustres de l'Impérium, dans l'aile des héros mort pour l'impérium. Les corps des 100 terminators de la première compagnie, et leurs noms furent entreposés dans autant de chapelle dans cette même cathédrale.
 
 En M42, tout habitant du secteur Noctis et des secteurs voisins a entendu parlé de la légende de Caius Dantarius et du Massacre de Dol. La propagande impériale et les sermons de l'Ecclesiarchie ont érigés la fin tragique du chapitre en une légende homérique, visant à rassurer les citoyens impériaux en leur disant, que quelque part dans les sombres étendues de l'espace, veillent les anges de l'Empereur, prêt à mourir pour leur survie. Caius Dantarius et sa lame d'obsidienne font l'objet d'adoration dans tout le secteur Noctis, avec des dizaines de cathédrales, mondes chapelles et sermons leur étant dédiés. Ainsi, des millénaires après leur mort, le souvenir de l'armure cyan et ciel des Célestians Dragonis hantent encore les mémoires.
 
-##### 9??.M39 Histoire Secrète
+##### 9??.M39 Histoire secrète
 
 Ce récit, du Massacre de Dol, celui d'un duel illustre remporté par un parangon de vertus impériales, le récit d'un sacrifice aveugle, cache toutefois une part d'ombre à qui a eut accès aux bonnes archives. Un mystère plane autour de la fin réelle des Célestians Dragonis. Certes, nul ne pourraient nier leur victoire à la porte de Dol, toutefois, l'histoire paraît avoir été réécrite un passage de l'épopée des fils de Célestia a semble-t-il été effacée des archives impériales. Est-ce seulement pour cacher l'ampleur réelle des pertes impériales lors du Massacre de Dol ? Faut-il chercher au-delà ?
 
@@ -223,24 +223,24 @@ Cette fin honteuse et humiliante n'existe pas dans les archives officielles, on 
 
 A vous de choisir, la fin de l'épopée des Célestians Dragonis que vous préférez...
 
-##### M39 Des Successeurs Symboliques - Les Blood Reapers
+##### M39 Des successeurs symboliques - les Blood Reapers
 
 L'appel à l'aide, lancé par Caius Dantarius avant le Massacre de Dol avait été entendu. Bien que les renforts y répondirent trop tardivement. Plusieurs chapitres convergèrent, arrivant peu de temps après le sacrifice des Célestians Dragonis. Les forces astartes venues en réponse participèrent à la purge des orks subsistant de la Waaagh dans les sous-secteurs auparavant impériaux des colonies. Une force composée d'une dizaine de chapitre fut donc nommée la croisade Purification, un nom sobre à l'image de l'attitude du chapitre qui s'était sacrifié pour que la croisade ait lieu.
 
-Parmi ces chapitres, le premier à être venu, fut le chapitre itinérant des Blood Reapers, qui vint au grand complete, honorant la dette de vie qu'il devait aux Célestians Dragonis. En effet, ces fils de Sanguinius devait leur survie à l'intervention des Célestians Dragonis et avait depuis une dette de vie envers le chapitre.
+Parmi ces chapitres, le premier à être venu, fut le chapitre itinérant des Blood Reapers, qui vint au grand complet, honorant la dette de vie qu'il devait aux Célestians Dragonis. En effet, ces fils de Sanguinius devait leur survie à l'intervention des Célestians Dragonis et avait depuis une dette de vie envers le chapitre.
 
 Selon la légende, les Blood Reapers arrivèrent quelques jours après le Massacre de Dol, alors que : "le sang s'écoulait encore sur la plaine, et que les cadavres gisaient encore chauds". Honteux d'avoir faillit à sauver le chapitre qu'ils les avaient sauvés, les Bloods Reapers, malgré leur tempérament brutal et sangunaire firent donner une sépulture digne au chacun des 100 guerriers de la première compagnie, et s'acharna à ce que la mémoire des Célestians Dragonis subsiste, et que leurs mérites et sacrifices soient reconnus de tous jusqu'à Sainte Terra elle-même. On raconte que le maître de chapitre des Ultramarines de l'époque vint à l'occasion d'une campagne dans la bordure est galactique, se recueillir sur le monde devenu sanctuaire de Célestia.
 
-Les Blood Reapers, faute de pouvoir racheter leur faute, décidèrent tout de même de perpétuer les devoirs des Célestians Dragonis. La longue veille - c'est-à-dire surveiller la bordure est de l'impérium contre de potentielles menaces surgit d'en dehors de la galaxie - fut endossé comme le nouveau serment des Blood Reapers, au même titre que la défense du secteur Noctis et de la planète de Célestia. A travers ces serments visant à perpétuer leurs devoirs, les Célestians Dragonis accomplissent encore d'une certaine façon leurs devoirs, même morts. Ces serments mèneront par example les Blood Reapers à participer notamment aux premiers affrontements avec la flotte ruche Léviathan.
+Les Blood Reapers, faute de pouvoir racheter leur faute, décidèrent tout de même de perpétuer les devoirs des Célestians Dragonis. La longue veille - c'est-à-dire surveiller la bordure est de l'impérium contre de potentielles menaces surgit d'en dehors de la galaxie - fut endossé comme le nouveau serment des Blood Reapers, au même titre que la défense du secteur Noctis et de la planète de Célestia. A travers ces serments visant à perpétuer leurs devoirs, les Célestians Dragonis accomplissent encore d'une certaine façon leurs devoirs, même morts. Ces serments mèneront par exemple les Blood Reapers à participer notamment aux premiers affrontements avec la flotte ruche Léviathan.
 
-Les Blood Reapers, du fait de leur tempérament sauvages, violents et sanguinaires, ne purent jamais remplacés les parangons de vertus qu'étaient les Célestians Dragonis. Les Iron Hammers par example n'eurent jamais la même amitié pour eux que pour les Célestians Dragonis. Il faudrait même parler d'une détestation mutuelle, à cause de l'histoire (chacun accusant l'autre de ne pas avoir seccourus les Célestians Dragonis) et des rivalités doctrinales (froides et calculatrices pour les IH et violentes et émotives pour les BR). Ironiquement, les deux chapitres seront unis par leurs sorts tragiques, puisque tout deux succomberont au chaos.
+Les Blood Reapers, du fait de leur tempérament sauvages, violents et sanguinaires, ne purent jamais remplacés les parangons de vertus qu'étaient les Célestians Dragonis. Les Iron Hammers par exemple n'eurent jamais la même amitié pour eux que pour les Célestians Dragonis. Il faudrait même parler d'une détestation mutuelle, à cause de l'histoire (chacun accusant l'autre de ne pas avoir seccourus les Célestians Dragonis) et des rivalités doctrinales (froides et calculatrices pour les IH et violentes et émotives pour les BR). Ironiquement, les deux chapitres seront unis par leurs sorts tragiques, puisque tout deux succomberont au chaos.
 
 *PS: si vous croyez en la fin secrète des Célestians Dragonis, alors probablement que les Blood Reapers collaborèrent avec l'inquisition pour réécrire la fin du chapitre et effacer toute preuve compromettante.*
 
 <figure style="float: right; width: 250px;">
-  <img src="SM chasseurs de xénos.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/SM%20chasseurs%20de%20x%C3%A9nos.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Tueur de Xénos
+    Tueur de Xénos
   </figcaption>
 </figure>
 
@@ -257,24 +257,24 @@ Aujourd'hui, nul ne sait ce qui l'en est réellement. Il ne s'agit uniquement de
 Les archives sur la majorité des campagnes du chapitre ont été perdues en même temps que la disparition du chapitre originel, il n'existe donc que des documents fragmentaires à leurs propos. Si les Célestians Dragonis disposent de registres à ce propos dans leur forteresse chapitrale, ils n'en ont pas fait le partage.
 
   <figure style="float: right; width: 250px;">
-  <img src="Specialist.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/Specialist.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Vétéran de la IIIe Compagnie
+    Vétéran de la IIIe Compagnie
   </figcaption>
 </figure>
 
-* **La longue Veille - M34 - nos jours :** le devoir du chapitre ne prends jamais fin. Le chapitre a pour mission de surveiller les frontières orientales de la galaxie pour accueillir les potentiels menaces provenant des ténèbres intergalactiques, par examples les horreurs cachés des étoiles du Halo.
-* **La Guerres dans la nuit (dates inconnues)** **:** conflict violent ponctuées par des batailles spatiales d'envergure, des semaines de traque et des abordages mémorables au sein de tout le secteur Noctis. Ces campagnes ont vu s'opposer le chapitre et la cabale de l'Espoir Brisé menée par Arzhorak Cœur Noire. Ces campagnes se conclurent lorsque la flotte renégate fut intégralement détruite lors d'une ultime bataille, à l'issue de plusieurs semaines de traques dans les marges orientales du secteur Noctis. Aujourd'hui cette campagne symbolise le rôle protecteur des Célestians Dragonis pour le secteur Noctis.
+* **La longue Veille - M34 - nos jours :** le devoir du chapitre ne prends jamais fin. Le chapitre a pour mission de surveiller les frontières orientales de la galaxie pour accueillir les potentiels menaces provenant des ténèbres intergalactiques, par exemples les horreurs cachés des étoiles du Halo.
+* **La Guerres dans la nuit (dates inconnues)** **:** conflit violent ponctuées par des batailles spatiales d'envergure, des semaines de traque et des abordages mémorables au sein de tout le secteur Noctis. Ces campagnes ont vu s'opposer le chapitre et la cabale de l'Espoir Brisé menée par Arzhorak Cœur Noire. Ces campagnes se conclurent lorsque la flotte renégate fut intégralement détruite lors d'une ultime bataille, à l'issue de plusieurs semaines de traques dans les marges orientales du secteur Noctis. Aujourd'hui cette campagne symbolise le rôle protecteur des Célestians Dragonis pour le secteur Noctis.
 * **Le Cri (circa 350.M35)** : évènement disparu des archives après avoir été censuré par l'Inquisition. Il est relatif à une menace d'une puissance incommensurable ayant été confinée au sein de l'<a href="Secteur_Noctis/Enclave_de_Tarinth" class="wikilink" title="Enclave de Tarinth">Enclave de Tarinth</a> par des forces inconnues, bien que l'on suspecte la participation des Célestians Dragonis.
-* **Le Murmure Abyssal (circa 215.M38)** : évènements impliquant une menace de nature inconnue à même de menacer l'ensemble du secteur Noctis, provenant de l'Enclave de Tarinth. Un interdit émit par le Conclave Inquisitorial des Marches d'Oriclès a supprimé l'ensemble des information relatives à cette campagne. La participation des chapitres astartes des Iron Hammers, des Célestians Dragonis et des <a href="Void_Dragons" class="wikilink" title="Void Dragons">Void Dragons</a> est cependant avérée.
+* **Le Murmure Abyssal (circa 215.M38)** : évènements impliquant une menace de nature inconnue à même de menacer l'ensemble du secteur Noctis, provenant de l'Enclave de Tarinth. Un interdit émit par le Conclave Inquisitorial des Marches d'Oriclès a supprimé l'ensemble des informations relatives à cette campagne. La participation des chapitres astartes des Iron Hammers, des Célestians Dragonis et des <a href="Void_Dragons" class="wikilink" title="Void Dragons">Void Dragons</a> est cependant avérée.
 * **Le Massacre de Dol** (**987.M39**) - dernier carré héroïque du chapitre qui se sacrifia pour empêcher une Waaaaagh ork majeure de déferler sur le coeur industriel et politique du Secteur Noctis, et donc d'effectivement faire disparaître le secteur.
 
-## Organisation Du Chapitre
+## Organisation du chapitre
 
 <figure style="float: right; width: 250px;">
-  <img src="First-Born.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/First-Born.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Harnois du frère de bataille Mercius
+    Harnois du frère de bataille Mercius
   </figcaption>
 </figure>
 Les Célestians Dragonis suivent le Codex Astartes. Leur application des écrits de leur père ne fait cependant pas l'objet d'un culte ou même d'un suivi rigoureux. Le chapitre valorise en effet la prise d'initiatives ou la transgression des règles lorsque cela permet le moindre mal - et donc, la meilleure efficacité. Suivre les marquages standard du codex a été jugée être la meilleure option, en effet, celle-ci garantit une meilleure cohésion tactique avec d'autres forces impériales.
@@ -288,14 +288,14 @@ Les Célestians Dragonis suivent le Codex Astartes. Leur application des écrits
 * **Lieutenant** - Officier subalterne, Second d'un Capitaine en tant que conseiller en chef, peut diriger un groupe d'intervention, il y en a 2 par compagnie.
 * **Titres propres au chapitre :**
   * **Maître des Recrues** - astartes en charge de l'ensemble du processus de recrutement du chapitre
-    * **Maître Instructeur -** équivaut à un lieutenant, c'est le sergeant supérieur en charge des 50 scouts de chaque compagnies, cependant il ne dirigera pas plus qu'un groupe d'intervention, et son autorité se substitute toujours à celle d'un officier frère de bataille classique.
+    * **Maître Instructeur -** équivaut à un lieutenant, c'est le sergent supérieur en charge des 50 scouts de chaque compagnies, cependant il ne dirigera pas plus qu'un groupe d'intervention, et son autorité se substitue toujours à celle d'un officier frère de bataille classique.
 
-#### Grades Spécialisés
+#### Grades spécialisés
 
   <figure style="float: right; width: 250px;">
-  <img src="aggarius_brant_v_deathwatch gris.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/aggarius_brant_v_deathwatch%20gris.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Aggarius Brant
+    Aggarius Brant
   </figcaption>
 </figure>
 
@@ -308,10 +308,10 @@ Les Célestians Dragonis suivent le Codex Astartes. Leur application des écrits
      * **Épistolier** - Désigne un **Archiviste Vétéran** aux capacités psychiques supérieures à la moyenne et capable d'envoyer son esprit dans le **Warp** pour effectuer des communications **Astropathiques**.
      * **Copiste** - Désigne un **Archiviste** expérimenté aux capacités psychiques étendues et maîtrisées, chargé de superviser les **Copistes** et de corriger le cas échéant leurs manuscrits avant de les ajouter aux **Archives** du **Chapitre**.
      * **Bibliothécaire** - Désigne un **Archiviste** généralement débutant ou peu expérimenté aux capacités psychiques encore limitées, chargé de la rédaction des rapports et de la retranscription des faits.
-     * **Érudit** - grade spécifique au chapitre, en effet, le chapitre amasse de nombreuses connaissances lors de ses campagnes, et des frères ne possédant pas de pouvoir psychique, rejoignent parfois temporairement en temps de paix, le Librarius afin de rédiger des traités d'analyses des tactiques ennemis, ou des analyses poussés des causes de victoires/défaites. Un sergeant pourra envoyer un membre de son escouade rejoindre les érudits afin de lui faire réfléchir à sa faute, si le frère a été à l'origine d'un engagement raté, un chapelain peut envoyer un frère formuler ses réflexions, si le chapelain judge ce frère vacillant ou qui s'éloigne de la lumière de l'Empereur, ou même l'inverse, lorsque le frère a développé un nouveau style de combat, une nouvelle doctrine ou encore a été à l'origine d'une victoire, le frère va devoir se poser la questions de comment ont-ils réussit et que pourront t ils faire de mieux. Un érudit oscille entre entrainement avec son escouade la moitié du temps et ses études au librarius l'autre moitié. Les érudits rejoignent leur escouades dès que leur escouade est appelée à la guerre.
+     * **Érudit** - grade spécifique au chapitre, en effet, le chapitre amasse de nombreuses connaissances lors de ses campagnes, et des frères ne possédant pas de pouvoir psychique, rejoignent parfois temporairement en temps de paix, le Librarius afin de rédiger des traités d'analyses des tactiques ennemis, ou des analyses poussés des causes de victoires/défaites. Un sergent pourra envoyer un membre de son escouade rejoindre les érudits afin de lui faire réfléchir à sa faute, si le frère a été à l'origine d'un engagement raté, un chapelain peut envoyer un frère formuler ses réflexions, si le chapelain juge ce frère vacillant ou qui s'éloigne de la lumière de l'Empereur, ou même l'inverse, lorsque le frère a développé un nouveau style de combat, une nouvelle doctrine ou encore a été à l'origine d'une victoire, le frère va devoir se poser la questions de comment ont-ils réussit et que pourront t ils faire de mieux. Un érudit oscille entre entrainement avec son escouade la moitié du temps et ses études au librarius l'autre moitié. Les érudits rejoignent leur escouades dès que leur escouade est appelée à la guerre.
 3. **Reclusium** :
    * **Maître de Sanctification** - Un des **Maîtres** du **Chapitre**, **Maître** de la **Foi**, **Aumônier** principal.
-   * **Réclusiarque** - Second du **Maître de Sanctification**, responsible du **Reclusiam**, **Aumônier** en second.
+   * **Réclusiarque** - Second du **Maître de Sanctification**, responsable du **Reclusiam**, **Aumônier** en second.
    * **Chapelain** - **Aumônier** rattaché à une **Compagnie**, affecté à une **Escouade de Commandement**.
    * **Judicateur** - Aspirant **Chapelain** devant prouver sa valeur et sa Foi au combat.
 4. **Armurerie :**
@@ -325,53 +325,53 @@ Les Célestians Dragonis suivent le Codex Astartes. Leur application des écrits
    * **Maître de l'Œil** - officier de la Xe compagnie en charge de la très discrète formation de l'Œil du grand Endormi
    * **Œil** - astartes impliqué dans la gestion du réseau de surveillance du chapitre
 
-#### Grades Du Rang
+#### Grades du rang
 
-* **Sergeant Vétéran** - Principal Sergeant d'une Compagnie, peut diriger jusqu'à un groupe d'intervention.
-* **Frère Sergeant** - Commande une escouade au sein d'une Compagnie, peut diriger jusqu'à un groupe d'intervention.
+* **Sergent Vétéran** - Principal Sergent d'une Compagnie, peut diriger jusqu'à un groupe d'intervention.
+* **Frère Sergent** - Commande une escouade au sein d'une Compagnie, peut diriger jusqu'à un groupe d'intervention.
 * **Frère de bataille** - Frère du rang rattaché à une Compagnie
 * **Instructeur :** officier en charge de dirigé une escouade scout
 * **Scout** - Unité de reconnaissance du **Chapitre**
 * **Néophyte** - Aspirant
 
-### Particularités Du Chapitre
+### Particularités du chapitre
 
 Le chapitre permet à ses membres de rendre visite à leur famille d'origine humaine. Iils ne s'occupent que peu de la vie politique de Célestia mais restent malgré tout assez proches de la population, celle-ci se rappelle donc bien de l'existence de leurs protecteurs comme une réalité tangible.
 
-#### La Longue Veille
+#### La longue Veille
 
 Le chapitre a pour mission première de défendre la bordure est galactique, et de repousser toutes menaces voulant pénétrer dans la galaxie. C'est le serment le plus important du chapitre, que chaque frère renouvelle lors de son intronisation dans les rangs du chapitre. Afin d'accomplir leurs missions, il est obligatoire que le chapitre conserve toujours une force de 3 compagnies pleinement opérationnelles en garde dans le secteur Noctis ou la bordure est galactique. Afin de toujours être prêts et vigilants face aux potentielles menaces. Ce serment est nommé simplement par le Chapitre la Longue Veille. Pour les Blood Reapers ayant repris les serments des Célestians Dragonis, ce fut à la fois un honneur et un moyen de montrer que les Célestians Dragonis, même mort, continuent d'accomplir leur devoir.
 
-### Appearance, Marquages Et Titres
+### Apparence, marquages et Titres
 
 Le chapitre suit la méthode de marquage (des grades et des compagnies) prescrite par le Codex Astartes. Les Titres en vigueur au sein du chapitre (hormi les grades spécialisées lui étant propres) sont les mêmes que ceux employés par leur chapitre parent des Ultramarines.
 
-### Formations Spécialisées
+### Formations spécialisées
 
-![heraldry.webp](/ob/world/images/heraldry.webp)<figure style="float: right; width: 250px;">\ <img src="Epaulière Célestians Dragonis.png" style="width: 100%;">
+![heraldry.webp](/ob/world/Fan-fluffs/heraldry.webp)<figure style="float: right; width: 250px;">\ <img src="/ob/world/Fan-fluffs/Epauli%C3%A8re%20C%C3%A9lestians%20Dragonis.png" style="width: 100%;">
 
   <figcaption style="text-align: center; font-style: italic;">
-	 Epaulière de la Première Compagnie
+    Epaulière de la Première Compagnie
   </figcaption>
 </figure>
 
-#### l'Œil Du Grand Endormi
+#### l'Œil du grand Endormi
 
 ***
 
 Unique formation secrète du chapitre, l'Oeil du grand Endormi regroupe entre une vingtaine et une trentaine de frère de bataille. Elle est dirigée par le Maître de l'Oeil. Seul le maitre de chapitre et sa garde les "Dragons Célestes", les capitaines, le strategium et le Xénologue sont au courant de l'existence de cette formation, pour le reste du chapitre ce ne sont que des vanguards en mission.
 
-C'est un réseau de cellules d'espions et d'informateurs dirigées depuis les ombres, ayant pour unique but de surveiller les menaces pouvant venir d'au-delà des frontières Est galactiques. Il est donc juste de remonter l'origine de cette formation, au devoir de "Longue Veille" qu'à le chapitre : défendre l'Impérium contre des menaces voulant entrer dans la galaxie par sa frange Est. Le but est de remonter au chapitre toutes les information importantes quand aux activités et menaces des ennemis de l'Humanité, afin de les neutraliser avant qu'elles ne deviennent une véritable menace.
+C'est un réseau de cellules d'espions et d'informateurs dirigées depuis les ombres, ayant pour unique but de surveiller les menaces pouvant venir d'au-delà des frontières Est galactiques. Il est donc juste de remonter l'origine de cette formation, au devoir de "Longue Veille" qu'à le chapitre : défendre l'Impérium contre des menaces voulant entrer dans la galaxie par sa frange Est. Le but est de remonter au chapitre toutes les informations importantes quand aux activités et menaces des ennemis de l'Humanité, afin de les neutraliser avant qu'elles ne deviennent une véritable menace.
 
 Même si le réseau n'est pas assez étendu, il a permis au chapitre de secourir de stopper plusieurs menaces avant qu'il ne soit trop tard, prouvant d'office son utilité.
 
 **Fonctionnement**
 
-Le réseau est organisé en cellule qui se regroupent autour d'un astartes, un **Oeil**, celui-ci établit au fil des années, un réseau de centaines voir de milliers d'informateurs humains inconscients, souvent dans les régions extra-galactiques. Il va user de nombreux intermédiaires et fera tout son possible pour que l'informateur ignore en être un. Ainsi, même si l'informateur est découvert, la menace elle n'est pas avertit qu'elle a été repérée. De plus, à l'exception des frères de bataille qui l'a compose, aucun membre humain n'est au courant de ce dont il fait partit, ainsi il peut au mieux s'imaginer servir d'informateurs à l'inquisition ou être un simple informateur de l'arbites locale ou servir à un gang peu scrupuleux ou encore un libre marchand/noble désireux d'obtenir des information de premières mains sur les régions périphériques. Dans de cas extrêmes l'individu peut penser servir quelques groupes ennemis à l'Imperium, mais le chapitre essaye généralement de se passer et supprimer ce genre d'individus. En effet cela signifie que celui-ci peut être ouvert aux idées hérétiques et éloignées du credo impérial.
+Le réseau est organisé en cellule qui se regroupent autour d'un astartes, un **Oeil**, celui-ci établit au fil des années, un réseau de centaines voir de milliers d'informateurs humains inconscients, souvent dans les régions extra-galactiques. Il va user de nombreux intermédiaires et fera tout son possible pour que l'informateur ignore en être un. Ainsi, même si l'informateur est découvert, la menace elle n'est pas avertit qu'elle a été repérée. De plus, à l'exception des frères de bataille qui l'a compose, aucun membre humain n'est au courant de ce dont il fait partit, ainsi il peut au mieux s'imaginer servir d'informateurs à l'inquisition ou être un simple informateur de l'arbites locale ou servir à un gang peu scrupuleux ou encore un libre marchand/noble désireux d'obtenir des informations de premières mains sur les régions périphériques. Dans de cas extrêmes l'individu peut penser servir quelques groupes ennemis à l'Imperium, mais le chapitre essaye généralement de se passer et supprimer ce genre d'individus. En effet cela signifie que celui-ci peut être ouvert aux idées hérétiques et éloignées du credo impérial.
 
 Si le réseau détecte un groupuscule hérétique travaillant à la ruine de l'imperium, la cellule va soit le neutraliser discrètement et si ce n'est pas possible, informer discrètement l'Adeptus Arbites locale ou l'Inquisition. Cependant le chapitre ne prends pas le risque que son réseau soit découvert et ne révèlera la présence de l'ennemi qui si la menace est trop grande pour être éliminée par ses propres moyens. La conservation du secret de ce réseau est la mission numéro 1, en effet, ce réseau d'information est crucial pour savoir ce qui se trame dans les régions extra-périphériques de la galaxie !
 
-#### Les Dragons Célestes
+#### les Dragons Célestes
 
 ***
 
@@ -387,7 +387,7 @@ Il est à noter que mise à part la primauté du maître de chapitre, il n'exist
 
 **Fonctionnement**
 
-À chaque fois qu'un membre de cette garde d'honneur meurt, il est remplacé par un autre vétéran du chapitre méritant choisit par le maître de chapitre lui même. Le nouveau membre est alors intronisé dans la chapelle des héros du chapitre. De plus, son nom est inscrit en lettre d'or sur le marbre noire du mur mémoriel consacré aux Dragon Céleste. On inscrit alors, une simple croix † est inscrite à côté du nom de son prédécesseur. Les autre Dragons Célestes sont présent à la cérémonie et accueillent leur nouveau frère tandis que le maître de chapitre et le stratégium au complete préside a la cérémonie. Le frère va également recevoir une armure terminator modifiée selon ses préférences.
+À chaque fois qu'un membre de cette garde d'honneur meurt, il est remplacé par un autre vétéran du chapitre méritant choisit par le maître de chapitre lui même. Le nouveau membre est alors intronisé dans la chapelle des héros du chapitre. De plus, son nom est inscrit en lettre d'or sur le marbre noire du mur mémoriel consacré aux Dragon Céleste. On inscrit alors, une simple croix † est inscrite à côté du nom de son prédécesseur. Les autre Dragons Célestes sont présent à la cérémonie et accueillent leur nouveau frère tandis que le maître de chapitre et le stratégium au complet préside a la cérémonie. Le frère va également recevoir une armure terminator modifiée selon ses préférences.
 
 **Equipement**
 
@@ -403,9 +403,9 @@ Chaque frère ayant rejoint la garde du MdC (maître de chapitre) est un vétér
 
 Enfin, chacun des guerriers composant cet ordre a jurer de défendre le maître de chapitre jusqu'à la mort, ainsi, le MdC est suivit en permanence par au moins deux de ses protecteurs en armures.
 
-### Ordre De Bataille
+### Ordre de bataille
 
-Pour les frères de batailles normals le déploiement est le suivant :
+Pour les frères de batailles normales le déploiement est le suivant :
 
 * **Première Compagnie** : "*Les Dragons Anciens*" - Compagnie de Vétérans.
 * **Seconde Compagnie** : "*Les Protecteurs de Célestia*" - Compagnie de Combat mixte.
@@ -430,25 +430,25 @@ Pour les jeunes frères en devenir, plus couramment nommer les scouts, leur orga
 * **8e Peloton (affecté à la 9e compagnie) :** scout en apprentissage de l'Appui-feu
 * **9e Peloton (affecté à la 10e compagnie) :** scout en apprentissage des doctrines de combats Vanguards
 
-## Méthode De Recrutement
+## Méthode de recrutement
 
-Les méthodes de recrutement du chapitre sont très classiques, Avec une phase de reconnaissance des individus prometteurs auprès des jeunes adolescents et peuplades du monde chapitral Célestia. Ceux sélectionné par leur tribut doivent rejoindre d'eux-mêmes le pied forteresse monastère du chapitre, une fois là bas, les aspirants sont rassemblés et soumis à divers épreuves physiques, moral et intellectuels intenses, mais généralement les aspirants survivent à cette épreuve peu dangereuse en comparison du reste. Il arrive certaines fois, si une recrue prometteuse non-originaire de Célestia est découverte qu'elle puisse rejoindre les aspirants du chapitre.
+Les méthodes de recrutement du chapitre sont très classiques, Avec une phase de reconnaissance des individus prometteurs auprès des jeunes adolescents et peuplades du monde chapitral Célestia. Ceux sélectionné par leur tribut doivent rejoindre d'eux-mêmes le pied forteresse monastère du chapitre, une fois là bas, les aspirants sont rassemblés et soumis à divers épreuves physiques, moral et intellectuels intenses, mais généralement les aspirants survivent à cette épreuve peu dangereuse en comparaison du reste. Il arrive certaines fois, si une recrue prometteuse non-originaire de Célestia est découverte qu'elle puisse rejoindre les aspirants du chapitre.
 
 **6 mois de préparation dans la jungle**
 
-Par la suite, l'aspirant rejoint un groupe de recrues. Ce groupe dirigé par un sergeant instructeur ayant lui-même échoué sa formation de scout, ils sont divisés en peloton et en escouade (genre une sorte de scout mais version entrainement militaire) et subissent une formation aux armes durant 6 mois, dans des conditions particulièrement rudes, sans équipements, le sergeant instructeur ne leur fournissant rien d'autres que des consignes, des exercices et un packtage avec un matériel d'escalade. L'entrainement a lieu dans le plus haut massif de Célestia, les pics brumeux, une région inhospitalière avec de nombreuses falaises et précipices et une faune et une flore hostile. Le climat y est très frois et de fortes précipitations peuvent survenir à tout moment, mettant en péril l'aspirant dans son escalade. Cette phase de la formation a pour but de faire perdre à l'aspirant tout peur du vide, de la former à la survie en milieu hostile et de resserrer les liens de camaraderies entre les aspirants d'une escouade tout en entrainant les rivalités entre escouade du même peloton et envers les autres pelotons qu'ils croisent parfois.
+Par la suite, l'aspirant rejoint un groupe de recrues. Ce groupe dirigé par un sergent instructeur ayant lui-même échoué sa formation de scout, ils sont divisés en peloton et en escouade (genre une sorte de scout mais version entrainement militaire) et subissent une formation aux armes durant 6 mois, dans des conditions particulièrement rudes, sans équipements, le sergent instructeur ne leur fournissant rien d'autres que des consignes, des exercices et un packtage avec un matériel d'escalade. L'entrainement a lieu dans le plus haut massif de Célestia, les pics brumeux, une région inhospitalière avec de nombreuses falaises et précipices et une faune et une flore hostile. Le climat y est très frois et de fortes précipitations peuvent survenir à tout moment, mettant en péril l'aspirant dans son escalade. Cette phase de la formation a pour but de faire perdre à l'aspirant tout peur du vide, de la former à la survie en milieu hostile et de resserrer les liens de camaraderies entre les aspirants d'une escouade tout en entrainant les rivalités entre escouade du même peloton et envers les autres pelotons qu'ils croisent parfois.
 
 **Une épreuve d'escalade**
 
-Au terme de 6 mois, une bonne moitié des aspirants a soit abandonné, soit est tout simplement mort, le sergeant instructeur va alors mener les candidates restant à la forteresse chapitrale. Ces aspirants sont alors forcés de gravir en solitaire le plus haut sommet de leur planète, avec uniquement le matériel qu'ils ont pu confectionner durant leur 6 mois (il leur est autorisé d'utiliser le matériel qu'ils ont reçu au début, mais la plupart du temps celui-ci est déjà inutilisable). Une fois au sommet, une plateforme métallique les attend, perchée parmi les nuages. L'aspirant doit atteindre la plateforme, là où son sergeant instructeur et un chapelain attendant. Une fois l'épreuve réussit, les aspirants embarquent dans un thunderhawk en direction de la forteresse monastère. L'aspirant si il est arrivé dans les 30 premiers de sa section est prise, sinon les autres survivants qui atteignent le sommet deviennent des sergents instructeurs. Il sont 100 à partir au début soit 2 peloton complets.
+Au terme de 6 mois, une bonne moitié des aspirants a soit abandonné, soit est tout simplement mort, le sergent instructeur va alors mener les candidats restant à la forteresse chapitrale. Ces aspirants sont alors forcés de gravir en solitaire le plus haut sommet de leur planète, avec uniquement le matériel qu'ils ont pu confectionner durant leur 6 mois (il leur est autorisé d'utiliser le matériel qu'ils ont reçu au début, mais la plupart du temps celui-ci est déjà inutilisable). Une fois au sommet, une plateforme métallique les attend, perchée parmi les nuages. L'aspirant doit atteindre la plateforme, là où son sergent instructeur et un chapelain attendent. Une fois l'épreuve réussit, les aspirants embarquent dans un thunderhawk en direction de la forteresse monastère. L'aspirant si il est arrivé dans les 30 premiers de sa section est pris, sinon les autres survivants qui atteignent le sommet deviennent des sergents instructeurs. Il sont 100 à partir au début soit 2 peloton complets.
 
-Symboliquement, le sergeant instructeur de l'aspirant restera sur la plateforme tandis que l'aspirant décolle dans l'aéronef avec le chapelain et l'aspirant, signifiant que seuls ceux qui ayant réussit peuvent en repartir.
+Symboliquement, le sergent instructeur de l'aspirant restera sur la plateforme tandis que l'aspirant décolle dans l'aéronef avec le chapelain et l'aspirant, signifiant que seuls ceux qui ayant réussit peuvent en repartir.
 
 **Intégration du chapitre en tant que scout**
 
 La suite de la formation est plutôt classique, l'aspirant devient un initié et commencent à subir sa transformation en astartes. Le taux de compatibilité des adolescents de Célestia avec le matériel génétique du chapitre étant généralement proche de 100%, les rejets ou complications durant le processus sont extrêmement rares. L'aspirant rejoint d'ailleurs les scouts du chapitre à ce moment là.
 
-A la fin de sa première année en tant que scout, l'aspirant est conduit dans des ruines, ou autre, et on lui ordonne de tuer un civil qui parait particulièrement innocent, généralement un enfant ou un jeune parent, lui disant que c'est son devoir, qu'il doit le faire pour préserver le project de l'Empereur et qu'il n'a pas de question à poser.
+A la fin de sa première année en tant que scout, l'aspirant est conduit dans des ruines, ou autre, et on lui ordonne de tuer un civil qui parait particulièrement innocent, généralement un enfant ou un jeune parent, lui disant que c'est son devoir, qu'il doit le faire pour préserver le projet de l'Empereur et qu'il n'a pas de question à poser.
 
 * Si l'aspirant s'exécute et tue le civil, il sera noté par son chapelain comme ayant passé le test,
 * Si l'aspirant demande alors si il est juste de tuer celui qui semble innocent, le chapelain lui réponds qu'il ne doit pas poser de questions mais que c'est pour une cause juste.
@@ -457,7 +457,7 @@ A la fin de sa première année en tant que scout, l'aspirant est conduit dans d
     * Dans le cas où l'aspirant demande une raison valable de tuer le civil, cet aspirant refuse de tuer le civil sans raison valable quand bien même un supérieur le lui ordonne, il n'a donc pas confiance en ses officiers. Cet aspirant n'est pas apte à servir le chapitre en tant que frère. Au choix, l'aspirant est alors dans certains cas, renvoyé pour devenir instructeur chez les FDP de Célestia, et dans d'autres cas l'aspirant peut-être tuer. Il est arrivé que le scout soit quand même conservé comme serf dans le chapitre (notamment il attaque le chapelain ou le confronte pour protéger un innocent).
 * Si l'aspirant refuse catégoriquement de tuer le civil, il est tuer par le chapelain, car n'obéissant pas assez aux ordres
 
-Cette épreuve nommée le test d'Humanité permet de déterminer de déterminer les penchants moraux de l'aspirants. En effet un astartes doit savoir quitter ses émotions de pitié, compassions et empathie humaines pour obéir aux ordres qui lui sont donner. Il est une arme avant tout autre chose. Les scouts ne sont jamais informés de l'existence de ce test avant de le passer ainsi, ils sont prise au dépourvus, de même que les sergents instructeurs. chaque membre du chapitre ayant franchit le test doit jamais en parler à un autre n'ayant pas franchit le test. Le chapelain choisit généralement un traître impériale mais dont la corruption n'est pas voyante. L'aspirant en peut pas communiquer avec le civil durant l'épreuve. L'épreuve a souvent lieu après une opération réussie, dans un secteur impérial, le chapelain prends sous un prétexte, le scout à l'écart.
+Cette épreuve nommée le test d'Humanité permet de déterminer de déterminer les penchants moraux de l'aspirants. En effet un astartes doit savoir quitter ses émotions de pitié, compassions et empathie humaines pour obéir aux ordres qui lui sont donner. Il est une arme avant tout autre chose. Les scouts ne sont jamais informés de l'existence de ce test avant de le passer ainsi, ils sont pris au dépourvus, de même que les sergents instructeurs. chaque membre du chapitre ayant franchit le test doit jamais en parler à un autre n'ayant pas franchit le test. Le chapelain choisit généralement un traître impériale mais dont la corruption n'est pas voyante. L'aspirant en peut pas communiquer avec le civil durant l'épreuve. L'épreuve a souvent lieu après une opération réussie, dans un secteur impérial, le chapelain prends sous un prétexte, le scout à l'écart.
 
 **Formation en tant que scout**
 
@@ -469,7 +469,7 @@ Une fois sa formation de scout terminée, l'initié entreprends un dernier ritue
 
 Alors, le nouveau frère débutera à nouveau le même processus, d'abord dans la Xe puis il gravira les échelons jusqu'à la IIe et enfin la première. Il est à noté que les frères novices de la Xe, remarqués pour leurs compétences nécessaires aux vanguards, vont rester dans la Xe et n’avancerons pas dans les compagnies.
 
-## Doctrines Du Chapitre
+## Doctrines du chapitre
 
 ### Idéologie
 
@@ -479,33 +479,33 @@ Pour le chapitre, les astartes sont des outils dont le nombre est limité, et qu
 
 **La recherche de l'Efficacité**
 
-En fier successeurs des Ultramarines pour eux, une **guerre doit être menée de façon intelligente.** Leur approach est donc marquée par la **logique**, la **raison**, et la **science**, ce qui les rend particulièrement méticuleux et efficaces. Leurs campagnes sont souvent plus longues en raison de cette prudence, composées d'une myriade d'actions d'attritions afin de préparer le terrain aux autres forces impériales. Sans surprise, le chapitre malgré de nombreuses et longues campagnes subit un taux de pertes faible par rapport à d'autres chapitres.
+En fier successeurs des Ultramarines pour eux, une **guerre doit être menée de façon intelligente.** Leur approche est donc marquée par la **logique**, la **raison**, et la **science**, ce qui les rend particulièrement méticuleux et efficaces. Leurs campagnes sont souvent plus longues en raison de cette prudence, composées d'une myriade d'actions d'attritions afin de préparer le terrain aux autres forces impériales. Sans surprise, le chapitre malgré de nombreuses et longues campagnes subit un taux de pertes faible par rapport à d'autres chapitres.
 
-Ils préfèrent **affaiblir** les **points névralgiques** de l'ennemi, tels que les QG, les nœuds de communication, et les défenses majeures, laissant souvent les régiments de la Garde Impériale achever l'attaque principale une fois l'ennemi affaibli et désorganisée souvent privée de sa chaine de commandement. Le chapitre **ne se voit pas** comme la **ligne majeure de la bataille**, mais plus comme des **forces d'élites** ne devant s'occuper que des **missions les plus cruciales et complexes**. Chaque action du chapitre se doit donc d'avoir un **maximum d'impact** sur le conflict.
+Ils préfèrent **affaiblir** les **points névralgiques** de l'ennemi, tels que les QG, les nœuds de communication, et les défenses majeures, laissant souvent les régiments de la Garde Impériale achever l'attaque principale une fois l'ennemi affaibli et désorganisée souvent privée de sa chaine de commandement. Le chapitre **ne se voit pas** comme la **ligne majeure de la bataille**, mais plus comme des **forces d'élites** ne devant s'occuper que des **missions les plus cruciales et complexes**. Chaque action du chapitre se doit donc d'avoir un **maximum d'impact** sur le conflit.
 
 **Minimiser les pertes ménager les vies humaines**
 
-Minimiser les pertes tout en atteignant des objectifs stratégiques, est également crucial. Ces pertes considérées englobent aussi bien les vies humaines, les astartes et le matériel (tels que les infrastructures). Autrement dit, pour les Célestians Dragonis, bien qu'il ne faille pas négliger les nécessitées d'un conflict, il faut savoir également protéger les vies humaines et les infrastructures, pour ce qui viendra après le conflict.
+Minimiser les pertes tout en atteignant des objectifs stratégiques, est également crucial. Ces pertes considérées englobent aussi bien les vies humaines, les astartes et le matériel (tels que les infrastructures). Autrement dit, pour les Célestians Dragonis, bien qu'il ne faille pas négliger les nécessitées d'un conflit, il faut savoir également protéger les vies humaines et les infrastructures, pour ce qui viendra après le conflit.
 
 Les Célestians Dragonis tiennent également en **haute estime** la valeur des **vies humaines** (et non les vies humaines). Si la situation tactique le permet, ils n'hésitent pas à intervenir si cela permet de sauver des vies ou de renforcer le moral des forces impériales, même si cela expose leurs propres forces à des risques toujours calculés. Cependant ils n'hésiteront à sacrifier la vie de milliers d'humains pour en sauver des milliards d'autres. Le Chapitre suit la logique du **moindre mal** et du **moins de dégâts collatéraux** que cela soit en termes de pertes humains ou destructions d'infrastructures.
 
-## Génétique Du Chapitre
+## Génétique du chapitre
 
 Le patrimoine génétique du chapitre est considéré comme exceptionnellement stable par les Magos Biologis du méchanicus de Mars. Il s'agit d'un trait génétique sans doute hérité de leur chapitre parent, les Ultramarines.
 
-Un rapport interne de l'Inquisition signale que le matériel génétique du chapitre présente niveau de compatibilité étonnement élevé, ce qui permet aux Célestians Dragonis d'aisément former des aspirants. Ce trait est encore plus prononcé que celui de leur chapitre parent des Ultramarines. Selon le Méchanicus c'est là la seule variation génétique. La Sainte Inquisition quand elle, advance que cela pourrait expliquer le nombre anormalement élevé de scout du chapitre.
+Un rapport interne de l'Inquisition signale que le matériel génétique du chapitre présente niveau de compatibilité étonnement élevé, ce qui permet aux Célestians Dragonis d'aisément former des aspirants. Ce trait est encore plus prononcé que celui de leur chapitre parent des Ultramarines. Selon le Méchanicus c'est là la seule variation génétique. La Sainte Inquisition quand elle, avance que cela pourrait expliquer le nombre anormalement élevé de scout du chapitre.
 
-## Monde Chapitral
+## Monde chapitral
 
-### Géographie
+### géographie
 
-Célestia est une planète au climat tempéré. La planète a un diamètre semblable à celui de Terra. La faune et la flore y sont sauvages et dangereuses, mais ne représente pas un danger omniprésent pour l'Homme tant qu'il ne fait attention et évite les dangers. Exception faite de légende mettant en scène des reptiles ailés géants, dont la gueule remplie de crocs serait capable de cracher des flammes, tels les dragons des mythes de l'ancienne Terra. Ces bêtes sont devenues l'animal totem du chapitre, qui s'attache à les préserver. La légende veut que les capes d'écailles et le crâne de reptile géant ornant l'épaulière gauche de la garde du MdC viennent justement de ces créatures mortelles. La planète est connue pour ses jungles humides de bambous et ses massifs montagneux parcourus par de puissant courant aérien. Le relief le plus connu est le massif montagneux le plus haut de la planète, communément connu sous le nom des "Pics Brumeux" (très semblables aux months Tianzi de Zhangjiajie en Chine qui ont insipiré avatar, mais avec plus de lianes et des courants aériens dangereux). L'adminstratum qualifie la planète de "Monde Sauvage".
+Célestia est une planète au climat tempéré. La planète a un diamètre semblable à celui de Terra. La faune et la flore y sont sauvages et dangereuses, mais ne représente pas un danger omniprésent pour l'Homme tant qu'il ne fait attention et évite les dangers. Exception faite de légende mettant en scène des reptiles ailés géants, dont la gueule remplie de crocs serait capable de cracher des flammes, tels les dragons des mythes de l'ancienne Terra. Ces bêtes sont devenues l'animal totem du chapitre, qui s'attache à les préserver. La légende veut que les capes d'écailles et le crâne de reptile géant ornant l'épaulière gauche de la garde du MdC viennent justement de ces créatures mortelles. La planète est connue pour ses jungles humides de bambous et ses massifs montagneux parcourus par de puissant courant aérien. Le relief le plus connu est le massif montagneux le plus haut de la planète, communément connu sous le nom des "Pics Brumeux" (très semblables aux monts Tianzi de Zhangjiajie en Chine qui ont insipiré avatar, mais avec plus de lianes et des courants aériens dangereux). L'adminstratum qualifie la planète de "Monde Sauvage".
 
 Les populations humaines locales sont peu très peu nombreuses, laissant la planète et sa biosphère globale vierge. La population locale possède une comptabilité génétique exceptionnelle avec le Chapitre des Célestians Dragonis, proche de 100%. Malgré les enquêtes de l'Inquisition aux cours des âges, on ne sait toujours pas l'origine de cette compatibilité exceptionnelle. La population vit selon les régions dans un niveau de technologique situé entre les primitifs jusqu'à une technologie de la fin de l'époque de la Renaissance Terran.
 
-Attention, la planète n'est pas uniquement peuplé d'humains primitifs. En effet les forces de défenses planétaires sont dotées des technologies impériales classiques. La capitale planétaire a elle aussi un niveau technologique supérieur aux reset de la planète afin de conserver les relations nécessaires avec le reste de l'Imperium, bien que pratiquement aucune recrue du chapitre ne soit recruté dans la ville. C'est d'ailleurs dans cette cité que les rares étrangers à la planète sont présents.
+Attention, la planète n'est pas uniquement peuplé d'humains primitifs. En effet les forces de défenses planétaires sont dotées des technologies impériales classiques. La capitale planétaire a elle aussi un niveau technologique supérieur aux restes de la planète afin de conserver les relations nécessaires avec le reste de l'Imperium, bien que pratiquement aucune recrue du chapitre ne soit recruté dans la ville. C'est d'ailleurs dans cette cité que les rares étrangers à la planète sont présents.
 
-### Situation Politique
+### situation politique
 
 Le monde de Célestia est le cœur du protectorat de l'Iron Drakk, un traité de protection mutuelle entre les mondes du système éponyme. En réalité, ce traité cache discrètement le contrôle effectif du chapitre sur son système (en terme de questions militaires). Les Célestians Dragonis sont allé jusqu'à légitimer ce traité en inscrivant la défense du système dans les missions du chapitre.
 
@@ -513,20 +513,20 @@ Les Célestians Dragonis ne se mêlent pas des affaires impériales ou humaines.
 
 Les Astartes ont délaissés le pouvoir administratif à une élite dirigeante qui gouverne depuis la capitale planétaire. La plupart des communautés de la planète se gèrent déjà de manière autonome, ainsi l'action de cette élite ne ser' borne à recueillir les doléances, arbitrer les conflits entre communautés, assurer le recrutement dans les FDP et gérer le commerce avec l'extérieur. Cette élite est élue démocratiquement dans les rares villes de la planète. Elle forme une petite assemblée qui élit alors un conseil dirigeant qui se répartit les taches gouvernementales. Note : les communautés Célestians vivant hors des villes sont généralement moins développer et préfèrent ne pas se mêler des obligations politiques voir vivre en autarcie dans les milieux hostiles de la planète. Le chapitre recrute généralement dans ces communautés isolées.
 
-Le chapitre n'hésite cependant pas à arbitrer un conflict entre communauté lorsqu'il le judge nécessaire ou même prendre directement le contrôle politique en cas de besoin. Le chapitre contrôle et forme les forces militaires de la planète.
+Le chapitre n'hésite cependant pas à arbitrer un conflit entre communauté lorsqu'il le juge nécessaire ou même prendre directement le contrôle politique en cas de besoin. Le chapitre contrôle et forme les forces militaires de la planète.
 
-### Un Monde Chapitral
+### un monde chapitral
 
-Le choix de ce monde comme monde chapitral reste inconnu mais il est confirmé par les archives, que le monde avait déjà servit comme monde chapitral au chapitre original des Célestians Dragonis, sans doute en adéquation avec le relief géographique particulier qui permet un entrainement à leur doctrine tactique particulières, pour ne pas dire uniques. Le "nouveau" chapitre des Célestians Dragonis a repris ce monde afin de perpétuer la tradition et bénéficier de la force de la compatibilité génétique de sa population.
+Le choix de ce monde comme monde chapitral reste inconnu mais il est confirmé par les archives, que le monde avait déjà servit comme monde chapitral au chapitre orignal des Célestians Dragonis, sans doute en adéquation avec le relief géographique particulier qui permet un entrainement à leur doctrine tactique particulières, pour ne pas dire uniques. Le "nouveau" chapitre des Célestians Dragonis a repris ce monde afin de perpétuer la tradition et bénéficier de la force de la compatibilité génétique de sa population.
 
 Il a aussi été avéré que les différents mondes du système dispose d'une industrie de productions de munitions et d'armes simples afin de subvenir au besoin les plus basiques du chapitre. Permettant à ce système plutôt isolé de réapprovisionné le chapitre. Il faut noter aussi que le deuxième monde du système, un monde industriel dispose d'un chantier naval de faible ampleur, géré par les locaux en association avec le méchanicus. Cela permet au chapitre d'effectuer les réparations mineures nécessaires à ces navires.
 
-## Personnages Notables
+## Personnages notables
 
 <figure style="float: right; width: 250px;">
-  <img src="Caius_Dantaris_sans_signature_par_JNPEDDN.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/Caius_Dantaris_sans_signature_par_JNPEDDN.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Vitrail honorant Caius Dantarius
+    Vitrail honorant Caius Dantarius
   </figcaption>
 </figure>
 
@@ -534,14 +534,14 @@ Il a aussi été avéré que les différents mondes du système dispose d'une in
 
 Connu pour sa fin héroïque, il fut le dernier maître de chapitre des Celestians Dragonis. Il restera dans les mémoires comme ayant été un frère de bataille exemplaire, s'imposant rapidement comme un leader charismatique qui poussait ses frères à se dépasser. Son honneur et sa bravoure lui firent acquérir une renommée au delà même de son chapitre. Sa fin héroïque et ses qualités firent de lui un héros pour ses frères et une figure d'inspiration pour tous les aspirants du chapitre. C'est avec son sacrifice et celui de son chapitre par la même occasion, qui le feront entrer dans la Légende Impériale. Son nom, des millénaires plus tard, est encore vénéré sur de nombreux mondes du [Secteur Noctis](/world/secteur-noctis). Il est par ailleurs perçut comme un saint par certains courants de l'Ecclesiarchie propre à ce secteur.
 
-*NdE : Il a eût un tel impact qu'un article complete lui est dédié.*
+*NdE : Il a eût un tel impact qu'un article complet lui est dédié.*
 
 * **Octarion Favo - (Maître Instructeurs dans la Deathwatch)**
 
 <figure style="float: right; width: 250px;">
-  <img src="Octarion_Favo.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/Octarion_Favo.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Octarion Favo
+    Octarion Favo
   </figcaption>
 </figure>
 
@@ -563,7 +563,7 @@ Favo est un être taciturne. Son corps n'a certes plus la vigueur de la jeunesse
 
 En tant que maître instructeur de la forteresse de guet, Favo parle peu mais toujours juste. Ses paroles sont le fruit d'une longue expérience au combat qui l'ont marqué personnellement, un savoir que Favo entreprends de transmettre aux nouvelles équipes d'extermination maintenant qu'il n'est plus capable d'en faire pleinement l'usage. Ses propos ont généralement l'opprobre de ses frères qui reconnaissent sa sagesse.
 
-Bien qu'il puisse, hors circonstances officielles, se montrer chaleureux avec les vétérans et ait noué de nombreux liens de camaraderies forts au sein de la forteresse de guet, le maître instructeur est connu pour sa personnalité froide et taciturne. Il est par example célèbre pour ne jamais ménager les recrues, toujours prompt à suggérer un axe d'amélioration ou réprimander un défaut.
+Bien qu'il puisse, hors circonstances officielles, se montrer chaleureux avec les vétérans et ait noué de nombreux liens de camaraderies forts au sein de la forteresse de guet, le maître instructeur est connu pour sa personnalité froide et taciturne. Il est par exemple célèbre pour ne jamais ménager les recrues, toujours prompt à suggérer un axe d'amélioration ou réprimander un défaut.
 
 L'astartes est si vieux (plus de six siècles) et connu au sein de la forteresse, qu'il a vu passer des générations entières d'équipes d'extermination. Pour beaucoup de frères, Favo semble  appartenir depuis toujours au mur de la forteresse de guet. Cependant, pour ceux qui ont essayer de l'interroger sur son passé avant la Deathwatch, Favo s'est toujours montrer évasif voir hostile.
 
@@ -582,9 +582,9 @@ Lorsqu'une nouvelle migration eût lieu, le système d'Hekaton fut submergée en
 * **Castak Soclès (lieutenant - 2ème compagnie du chapitre)** :
 
 <figure style="float: right; width: 250px;">
-  <img src="Castak_Soclès.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/Castak_Socl%C3%A8s.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Castak Soclès après son retour de la Deathwatch
+    Castak Soclès après son retour de la Deathwatch
   </figcaption>
 </figure>
 
@@ -596,7 +596,7 @@ Castak Soclès réintégra rapidement les rangs *Des Protecteurs de Célestia*, 
 
 * **"le Xénologue" ( Archiviste - Mystérieux )**
 
-Archiviste du chapitre, le Xénologue est un étrange individu. Ses origines sont voilées de mystères, bien que de nombreuses rumeurs courent à son sujet. Il semblerait que toute trace sur son origine ait été supprimée des archives chapitrales pour une raison inconnue. Une chose semble cependant certaine d'après les légendes, le mystérieux archiviste appartient à la lignée génétique du chapitre. Le fondement d'une telle affirmation demeure cependant tout aussi flou que le reste des information à propos de ce personnage.
+Archiviste du chapitre, le Xénologue est un étrange individu. Ses origines sont voilées de mystères, bien que de nombreuses rumeurs courent à son sujet. Il semblerait que toute trace sur son origine ait été supprimée des archives chapitrales pour une raison inconnue. Une chose semble cependant certaine d'après les légendes, le mystérieux archiviste appartient à la lignée génétique du chapitre. Le fondement d'une telle affirmation demeure cependant tout aussi flou que le reste des informations à propos de ce personnage.
 
 **Rumeurs sur son origine**
 
@@ -610,28 +610,28 @@ Inutile de préciser que vu la variété des rumeurs, l'origine et la nature du 
 
 Le nom "Xénologue" proviendrait du fait que la majorité des apparitions de celui-ci eurent lieu lors d'affrontements avec des Xénos. De plus, il se dit qu'à plusieurs reprises, le Xénologue ait fait montre d'une connaissance exceptionnelle sur diverses espèces xénos, même mineures ou inconnues de l'Imperium. Il se dit aussi que sa simple présence ait fait fuir plus d'un xénos. Ainsi :
 
-**function**
+**fonction**
 
-La function du Xénologue au sein du chapitre est elle aussi très floue. Le Xénologue semble n'obéir qu'aux ordres directs du maître de chapitre, accomplissant des missions inconnues au côté d'une compagnie avant de disparaître dans les ombres. laissant planer encore plus de mystères irrésolus... Les maîtres de chapitre successifs semblent n'avoir jamais voulu se pencher sur le problème, déclarant simplement qu'il n'y avait pas besoin d'étudier la question. Le secret à propos de ce Xénologue semble donc inhérent au titre de Maître de Chapitre des Célestians Dragonis.
+La fonction du Xénologue au sein du chapitre est elle aussi très floue. Le Xénologue semble n'obéir qu'aux ordres directs du maître de chapitre, accomplissant des missions inconnues au côté d'une compagnie avant de disparaître dans les ombres. laissant planer encore plus de mystères irrésolus... Les maîtres de chapitre successifs semblent n'avoir jamais voulu se pencher sur le problème, déclarant simplement qu'il n'y avait pas besoin d'étudier la question. Le secret à propos de ce Xénologue semble donc inhérent au titre de Maître de Chapitre des Célestians Dragonis.
 
 Les membres du chapitre ont appris à vivre avec la légende du Xénologue, désormais partie intégrante de l'histoire du chapitre. Cependant une telle histoire n'est évidemment pas répétée en dehors du chapitre...
 
-**appearance**
+**apparence**
 
-L'apparence du Xénologue reinforce le mystère l'entourant. L'astartes, si on peut le qualifier ainsi, porte en permanence son casque, ne révélant jamais son visage. Son harnois de bataille n'a pu être identifié qu'en M42, il s'agirait d'une armure phobos d'archiviste lourdement modifiée. C'est un constat paradoxal, puisque d'après les témoignages internes au chapitre, le Xénologue arbore la même appearance depuis sa première apparition, des millénaires avant la fondation Ultima. Le Xénologue complète son équipement par un pistolet bolter de manufacture inconnue, ainsi qu'une épée énergétique d'une rare finesse, aux origines tout aussi mystérieuse. Enfin, par dessus son armure peinte d'un bleue nuit, le Xénologue porte un large manteau noir à capuche, semblant destiné à le dissimuler à la vie de tous.
+L'apparence du Xénologue renforce le mystère l'entourant. L'astartes, si on peut le qualifier ainsi, porte en permanence son casque, ne révélant jamais son visage. Son harnois de bataille n'a pu être identifié qu'en M42, il s'agirait d'une armure phobos d'archiviste lourdement modifiée. C'est un constat paradoxal, puisque d'après les témoignages internes au chapitre, le Xénologue arbore la même apparence depuis sa première apparition, des millénaires avant la fondation Ultima. Le Xénologue complète son équipement par un pistolet bolter de manufacture inconnue, ainsi qu'une épée énergétique d'une rare finesse, aux origines tout aussi mystérieuse. Enfin, par dessus son armure peinte d'un bleue nuit, le Xénologue porte un large manteau noir à capuche, semblant destiné à le dissimuler à la vie de tous.
 
 * **Aggarius Brant (Maître de l'Apothecarion - vétéran de la Deathwatch - Ancien Blackshield - Apothicaire):**
 
 <figure style="float: right; width: 250px;">
-  <img src="aggarius_brant tabard bleu.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/aggarius_brant%20tabard%20bleu.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Aggarius Brant et son équipement d'apothicaire
+    Aggarius Brant et son équipement d'apothicaire
   </figcaption>
 </figure>
 
 **Histoire**
 
-Aggarius est un ancien apothicaire Bouclier Noir aux origines inconnues, si l'on en croit l'armure noircie qu'il arborait lorsque les Célestians Dragonis le découvrirent en **853.M39** dans les ruines de Gythior XIII. L'énigmatique astartes portrait également une épaulière argenté, symbole d'un passé prestigieux au service de la Deathwatch.
+Aggarius est un ancien apothicaire Bouclier Noir aux origines inconnues, si l'on en croit l'armure noircie qu'il arborait lorsque les Célestians Dragonis le découvrirent en **853.M39** dans les ruines de Gythior XIII. L'énigmatique astartes portait également une épaulière argenté, symbole d'un passé prestigieux au service de la Deathwatch.
 
 Porteur d'un passé mystérieux, Aggarius a révélé avoir appartenu à une kill team envoyé par la Deathwatch pour aider ce monde à se défendre face aux orks. Hélas, l'Imperium ne parvient pas à repousser les xénos. Ceux-ci ravagèrent la planète, emportant des milliers d'esclaves, commettant d'ignobles massacres avant de repartir mener leur Waaagh plus loin dans les étoiles. Les combats furent violents, et il se retrouva le dernier survivant de sa kill team.
 
@@ -657,7 +657,7 @@ L'influence de l'apothicaire sur le chapitre aura donc été énorme, forgeant l
 
 Autre trait atypique, Aggarius est le seul astartes du chapitre à croire en la divinité de l'Empereur, un fait étonnant mais toléré par ses frères qui reconnaissent la sagesse de l'apothicaire.
 
-**Appearance**
+**Apparence**
 
 Le seigneur Brant est le seul astartes du chapitre à ne pas arborer le dragon ailé de Célestia sur son épaulière, en effet, Aggarius arbore un simple tissus noir, symbole de son passé. Il porte aussi une épaulière de la Deathwatch.
 
@@ -672,10 +672,10 @@ Seul astartes à dépasser les 10 siècles de service, ses traits sont fatigués
 * Nihiliel Cassian - Maître du Librarium du chapitre
 * Artun Thial ou Thaius - capitaine de la Seconde Compagnie des Célestians Dragonis, commandant de la barge de bataille Guilliman’s Legacy.
 * Félipes Imculpa - capitaine de la Septième Compagnie des Célestians Dragonis, commandant du croiseur d’attaque Célestia Claw’s.
-* Izmio Thelbaldus - premier sergeant de la IIe Compagnie
+* Izmio Thelbaldus - premier sergent de la IIe Compagnie
 * Gabreth Agnadius - doyen de la IIe Compagnie
 * Egmélion Stalcius - vétéran de l’escouade de commandement de la IIe Compagnie
-* Lucius Norah - sergeant de la 5e escouade de la IIe Compagnie
+* Lucius Norah - sergent de la 5e escouade de la IIe Compagnie
 
 ## Deathwatch
 
@@ -684,9 +684,9 @@ Il a été confirmé que plusieurs vétérans du chapitre aient été recrutés 
 * **Octarion Favo (ex-héros du chapitre - Maître Instructeur au sein de la Deathwatch)**
 
 <figure style="float: right; width: 250px;">
-  <img src="Octarion_Favo.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/Octarion_Favo.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Octarion Favo
+    Octarion Favo
   </figcaption>
 </figure>
 
@@ -695,9 +695,9 @@ Favo a été autrefois un héros de son chapitre, connu sous le de "Favo, le fau
 * **Castak Socles (lieutenant - champion - 2ème compagnie du chapitre)** :
 
 <figure style="float: right; width: 250px;">
-  <img src="Castak_Soclès.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/Castak_Socl%C3%A8s.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Castak Soclès après son retour de la Deathwatch
+    Castak Soclès après son retour de la Deathwatch
   </figcaption>
 </figure>
 
@@ -706,9 +706,9 @@ Dès ses débuts, l'astartes démontra rapidement qu'il était un guerrier d'exc
 * **Aggarius Brant (Maître de l'Apothecarion - vétéran de la Deathwatch - Ancien Blackshield - Apothicaire)** :
 
 <figure style="float: right; width: 250px;">
-  <img src="aggarius_brant tabard bleu.png" style="width: 100%;">
+  <img src="/ob/world/Fan-fluffs/aggarius_brant%20tabard%20bleu.png" style="width: 100%;">
   <figcaption style="text-align: center; font-style: italic;">
-	 Aggarius Brant et son équipement d'apothicaire
+    Aggarius Brant et son équipement d'apothicaire
   </figcaption>
 </figure>
 
@@ -723,7 +723,7 @@ Liste non-exhaustive de navires dont disposaient le chapitre avant les évèneme
 * **Tears of Terra** - barge de bataille de la Ière compagnie
 * **Gulliman's Legacy** - barge de bataille de la IIe compagnie
 * **Truth's Amender** - croiseur d'attaque transportant la IVe compagnie (du moins ce qu'il en reste)
-* **Célestia's Might** - cuirassé de classe Rétribution
+* **Célestia's Migth** - cuirassé de classe Rétribution
 * **Célestia's Claw** - croiseur d'attaque de la VIIe compagnie
 * **Void's Terror** - croiseur d'attaque
 * **Ashes of the Past** - croiseur d'attaque
@@ -744,7 +744,7 @@ Liste non-exhaustive de navires dont disposaient le chapitre avant les évèneme
 ## Reliques
 
 * **"Dragonbreath"** - épée énergétique du légendaire premier maitre de chapitre des Célestians dragonis , on raconte qu'elle serait investit de pouvoirs spéciaux, accordant les qualités de son premier maître à son porteur telles que : une fougue et une rage au combat, une analyse tactique et stratégique accrue, tout en boostant le moral des forces combattants aux cotés du porteur, ayant alors une aura charismatique. On pense que ce ne sont que des légendes, mais toute les légendes n'ont-elles pas un fond de vérité ? L'épée est entourée d'un halo de lumière dorée, presque divine pour un simple mortel, mais le chapitre voit là une simple manifestation de son importance. C'est la relique la plus précieuse du chapitre, elle est conservée dans la chapelle des reliques du chapitre. Cette épée ne quitte sa jamais sa crypte sauf lorsque le chapitre cours un danger pouvant mettre en péril son existence même pour être brandit par le maître du chapitre et pousser ses frères à défendre jusqu'au bout leur glorieux chapitre. Regarder l'historique des sorties de l'épée hors de sa crypte permet ainsi de retracer l'histoire des moments les plus sombres du chapitre.
-* **"Résilience"** - armure terminator d'une rare finesse, les ornements dessus et son histoire en font un object important, et chaque maître de chapitre des Célestians Dragonis la revêt comme symbole de son autorité et légitimité.
+* **"Résilience"** - armure terminator d'une rare finesse, les ornements dessus et son histoire en font un objet important, et chaque maître de chapitre des Célestians Dragonis la revêt comme symbole de son autorité et légitimité.
 * **"Recognition"** - un pistolet bolter storm d'une grande finesse, plus puissant que les bolters storm classiques, ayant autrefois appartenu à <a href="Caius_Dantaris" class="wikilink" title="Caius Dantarius">Caius Dantarius</a> il est désormais brandit par le capitaine de la première compagnie du chapitre.
 * **"Storm Terror"** - marteau de guerre du maître de chapitre Tiberius, arme très puissantes, brandit par le maitre de chapitre des Célestians Dragonis
 
@@ -760,7 +760,7 @@ Liste non-exhaustive de navires dont disposaient le chapitre avant les évèneme
 * **<a href="Black_Circle" class="wikilink" title="Black Circle">Black Circle</a>** : Le Black Circle ayant volé les stocks génétiques du chapitre et pillé sa forteresse monastère, le chapitre a une revanche à prendre
 * **Night Lords** : pour leur style de guerre particulièrement cruel envers les civils, et le mystère qui plâne dans l'implication ou non de night lords dans la disparition du chapitre, les nights lords sont vu comme des ennemis priviligiés du chapitre
 
-## Citations Du Chapitre
+## Citations du chapitre
 
 > Un bolt, un mort, un astartes, une cité, une compagnie, un monde ! Pour chaque pertes nous rendrons au centuple mes frères !
 
@@ -784,7 +784,7 @@ Liste non-exhaustive de navires dont disposaient le chapitre avant les évèneme
 
 Tiberius, *maître de chapitre des Célestians Dragonis, Codex Atlaséen, verset 211.4*
 
-> Le project de l'Empereur demeure, et doit demeurer. Et je suis ici pour m'en assurer.
+> Le projet de l'Empereur demeure, et doit demeurer. Et je suis ici pour m'en assurer.
 
 Tiberius, *maître de chapitre des Célestians Dragonis, à un magos hérétique lors d'une purge d'une cellule d'heretek dans la lune forge d'Antios IV*
 
@@ -802,9 +802,9 @@ Tiberius, *maître de chapitre des Célestians Dragonis, à un magos hérétique
 
 frère Cassius se pencha en avant vers le cadavre du nobz, puis, posant son bolter au sol, il dégaina son couteau de combat et trancha d'un geste nette et précis la gorge du peau verte Le jeune frère souleva alors la tête ensanglantée de la créature, qui répandit des fins filets rougeâtres sur le gantelet de l'armure énergétique de Cassius. Son frère d'escouade, Octhal le regardait faire un sourire amusé
 
-* Cassius, tu says que tu ne peux pas porter de trophée au champ de bataille tant que tu n'es pas un vétéran des Chasseur de Xénos..
+* Cassius, tu sais que tu ne peux pas porter de trophée au champ de bataille tant que tu n'es pas un vétéran des Chasseur de Xénos..
 
-* oui, frère Octhal, je le says, mais ce n'est pas pour moi, c'est pour mon petit frère. J'ai promise de lui amener un vrai crâne d'ork à à la dernière sanguinala, il voulait voir un Ork pour de vrai. Mais, je crois aussi qu'il voudrait l'offrir à son petit fils pour son anniversaire.
+* oui, frère Octhal, je le sais, mais ce n'est pas pour moi, c'est pour mon petit frère. J'ai promis de lui amener un vrai crâne d'ork à à la dernière sanguinala, il voulait voir un Ork pour de vrai. Mais, je crois aussi qu'il voudrait l'offrir à son petit fils pour son anniversaire.
 
 * ah ! s'exclama son compagnon en riant. Tu as demandé au chapelain avant ?
 
@@ -818,7 +818,7 @@ Ne trouvant plus rien à dire, Octhal marcha à nouveau vers le thunderhawk, ava
 
 * eh mais c'est qu'il lui reste quelques bonnes années encore.
 
-* trop peu hélas, mais j'ai promise de prendre soin de ses petits enfants.
+* trop peu hélas, mais j'ai promis de prendre soin de ses petits enfants.
 
 *Dialogue entre 2 frères de la 7e escouade de la 6e compagnie des Célestians Dragonis*
 
@@ -828,7 +828,7 @@ Ne trouvant plus rien à dire, Octhal marcha à nouveau vers le thunderhawk, ava
 
 À distance, dans un bunker de la redoute du fort Raken.
 
-— frère sergeant, le leader hérétique vient d'être repéré dans le secteur IV. Il sort des tranchées à la tête de ses terminators. Il réclame un duel. Dit-on prévenir le capitaine ? demanda un scout
+— frère sergent, le leader hérétique vient d'être repéré dans le secteur IV. Il sort des tranchées à la tête de ses terminators. Il réclame un duel. Dit-on prévenir le capitaine ? demanda un scout
 
 — pourquoi le déranger pour ça ? Un duel d'honneur ? Ce n'est qu'une faiblesse. Vous l'avez dans le viseur ?
 
@@ -844,6 +844,6 @@ simple tir de fusil bolter de précision, le champion world bearers s'effondre d
 
 — le capitaine ne prendra pas ombrage de lui avoir empêcher l'honneur de ce duel ?
 
-— cadet, l'honneur est une faiblesse, l'honneur et l'orgueil est ce qui a causé la mort du champion renégat. C'est une faiblesse de l'ennemi que tu dois exploiter. Notre nature d'astartes nous pousse à l'honneur, mais il faut t'en affranchir, surtout en combat lorsque cela nuit à ton efficacité tactique. Tu es un futur Astartes, tu was devenir le guerrier parfait, le guerrier ultime. Tu dois transcender ce concept inférieur. Seulement ainsi tu pourras protéger pleinement l'Humanité...
+— cadet, l'honneur est une faiblesse, l'honneur et l'orgueil est ce qui a causé la mort du champion renégat. C'est une faiblesse de l'ennemi que tu dois exploiter. Notre nature d'astartes nous pousse à l'honneur, mais il faut t'en affranchir, surtout en combat lorsque cela nuit à ton efficacité tactique. Tu es un futur Astartes, tu vas devenir le guerrier parfait, le guerrier ultime. Tu dois transcender ce concept inférieur. Seulement ainsi tu pourras protéger pleinement l'Humanité...
 
-*Dialogue entre un frère sergeant et un scout du chapitre des Célestians Dragonis lors de la défense de la redoute du fort Raken contre le assauts Worlds Bearers sur la planète Lios.*
+*Dialogue entre un frère sergent et un scout du chapitre des Célestians Dragonis lors de la défense de la redoute du fort Raken contre le assauts Worlds Bearers sur la planète Lios.*

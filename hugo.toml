@@ -89,12 +89,6 @@ refLinksNotFoundURL = "/not-here-yet"
     name = "9b9t achievements"
     url = "/9b9tgoals/"
     weight = 40
-
-  [[menu.main]]
-    identifier = "rss"
-    name = "RSS"
-    url = "https://gand-elf.neocities.org/post/index.xml"
-    weight = 45
  
   [[menu.main]]
     identifier = "guestbook"

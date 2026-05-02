@@ -73,7 +73,7 @@ window.VINE_CFG = {
   /* ── TRIGGERS ───────────────────────────────────────────── */
   triggers: {
     onLoad:           { clusters: 2, depth: 3, chance: 0.5,   cooldownMs: 0     },
-    onScroll:         { clusters: 1, depth: 3, chance: 0.004, cooldownMs: 6000  },
+    onScroll:         { clusters: 1, depth: 3, chance: 0.004, cooldownMs: 20000  },
     onPassive:        { clusters: 1, depth: 3, chance: 0.5,   intervalMs: 10000 },
     onNavClick:       { clusters: 2, depth: 4, chance: 0.5,   cooldownMs: 0     },
     onPostTitleClick: { clusters: 2, depth: 4, chance: 0.5,   cooldownMs: 0     },

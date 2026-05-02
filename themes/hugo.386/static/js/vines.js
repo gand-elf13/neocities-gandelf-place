@@ -94,6 +94,11 @@ window.VINE_CFG = {
   replayAnimationMs: 600,  // How long the draw animation takes (milliseconds)
   replayStepsPerFrame: 5,  // How many vine growth steps per animation frame
 
+  /* ── MOBILE & iOS OPTIMIZATIONS ────────────────────────── */
+  // On mobile, only grow vines from center (top/bottom), skip left/right edges
+  mobileVinesOnly: true,           // Enable mobile-specific vine placement
+  mobileGrowthAreas: ['top', 'bottom'],  // Only grow from these edges on mobile
+
   /* ── CSS SELECTORS ───────────────────────────────────────── */
   selectors: {
     nav:       '.navbar a, .navbar-nav a, #navbar a',
@@ -235,6 +240,10 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   const clamp = (v,lo,hi) => Math.max(lo,Math.min(hi,v));
 
+  /* ── DEVICE DETECTION ── */
+  const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+  const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
   /* ── VIEWPORT (iOS compatible) ── */
   function getViewport() {
     if (window.visualViewport) {
@@ -368,7 +377,7 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
       resize();
-      replayVines();  // 🔑 KEY: re-render at new resolution
+      replayVines();
     }, 200);
   });
 
@@ -509,23 +518,48 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   function edgeAnchors(n) {
     const arr = [];
+
+    // Safe vertical margins for iOS UI shifting
+    const TOP_MARGIN = 80;
+    const BOTTOM_MARGIN = 120;
+
+    const usableH = Math.max(0, H - TOP_MARGIN - BOTTOM_MARGIN);
+
     for (let i = 0; i < n; i++) {
-      const side = 0|Math.floor(seededRng()*4);
-      if      (side===0) arr.push({x:0, y:snap(seededRng()*(H-160)+80), dx:1,dy:0,left:true});
-      else if (side===1) arr.push({x:W-PX, y:snap(seededRng()*(H-160)+80), dx:-1,dy:0,left:false});
-      else if (side===2) arr.push({x:snap(seededRng()*W), y:0, dx:0,dy:1,left:false});
-      else               arr.push({x:snap(seededRng()*W), y:H-PX, dx:0,dy:-1,left:false});
+
+      const side = seededRng() < 0.5 ? 0 : 1; // ONLY left/right
+      const y = snap(TOP_MARGIN + seededRng() * usableH);
+
+      if (side === 0) {
+        // LEFT → grow inward
+        arr.push({
+          x: 0,
+          y,
+          dx: 1,
+          dy: 0,
+          left: true
+        });
+      } else {
+        // RIGHT → grow inward
+        arr.push({
+          x: W - PX,
+          y,
+          dx: -1,
+          dy: 0,
+          left: false
+        });
+      }
     }
+
     return arr;
   }
-
   function spawnFromTrigger(triggerKey) {
     const t = CFG.triggers[triggerKey];
     if (!t || t.clusters===0) return;
 
     const depth = t.depth != null ? t.depth : CFG.maxDepth;
 
-    edgeAnchors(t.clusters).forEach((a, i) => {
+    edgeAnchors(t.clusters, isMobile).forEach((a, i) => {
       const isLeft  = a.left;
       const d       = isLeft ? Math.max(1, Math.round(depth * CFG.leftEdge.depthScale)) : depth;
       const density = Math.max(1, Math.round(Math.min(3, t.clusters) * (isLeft ? CFG.leftEdge.clusterScale : 1)));

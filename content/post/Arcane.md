@@ -54,7 +54,7 @@ Quand j’étais petit, je lisais Le Gardien des cités perdues, tome 3. Il se p
 
 Alors j’ai pas pleuré sur Arcane… J’ai senti venir la connerie. À la place, j’ai écrit… (nouveau tic d’écriture, le…)
 
-Si vous voulez savoir, j’ai l’impression que, dès que je me mets à écrire de manière compulsive comme ça, c’est à cause de trucs de ce genre ([Darling in the FranXX](/Darling%20in%20the%20FranXX)…).
+Si vous voulez savoir, j’ai l’impression que, dès que je me mets à écrire de manière compulsive comme ça, c’est à cause de trucs de ce genre ([Darling in the FranXX](/post/darling-in-the-franxx)…).
 
 L’épisode 3 est juste parfaitement dévastateur, le build-up est fantastique, et on sait avant, et on nous laisse mariner, songer aux conséquences, et la musique, mais quel banger. J’avais envie de pleurer sur goodbye, et à la place j’ai écrit et lancé l’épisode 4.
 
@@ -70,7 +70,7 @@ C’est dommage. Vous ne me voyez pas écrire, vous n’avez que le produit fini
 
 L’IA sera humaine un jour, c’est inévitable. L’IA gagne à Diplomacy, et sur ces parties en ligne, elle était humaine. L’IA est ce monstre, ce klaxosaure, ce Zero Two, ce Jynx. Et nous, nous avons peur des crocs, peur des cornes, peur du minigun et des grenades. Mais (t’as vu les chevilles ?) je n’ai plus peur, je crois… Enfin… J’espère que, le moment venu, je saurai reconnaître l’humanité, je saurai comprendre, comme je n’ai pas réussi à le faire dans Soma, que le WAU n’est pas intrinsèquement mauvais, que ces robots hors de contrôle sont humains.
 
-Je vais regarder la saison 2, j’ai vu que les reviews étaient moyennes. J’ai aimé Datf malgré les reviews, [Kill la Kill](/Kill%20la%20Kill) malgré les reviews, j’ai été déçu par Outer Wilds malgré les reviews, j’espère de tout mon cœur kiffer la saison 2 malgré les reviews (j’ai peur).
+Je vais regarder la saison 2, j’ai vu que les reviews étaient moyennes. J’ai aimé Datf malgré les reviews, [Kill la Kill](/post/kill-la-kill) malgré les reviews, j’ai été déçu par Outer Wilds malgré les reviews, j’espère de tout mon cœur kiffer la saison 2 malgré les reviews (j’ai peur).
 
 Dessus ? Dessus ? Je m’attendais à être dessus. Je l'pleure. No joke. J’ai la larme à l’œil.
 

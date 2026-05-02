@@ -16,7 +16,7 @@ Contre l’armée allemande, ils ont mis Erika comme musique de fond…
 
 Bon, Girls und Panzer,
 
-J'ai découvert cet animé un peu par hasard en fait, je scrollais sur ytb (chose à faire : arrêter de scroller indéfiniment sur Ytb [Get Out of Slop](/Get%20Out%20of%20Slop)) et je suis tombé sur cette vidéo : *Pourquoi est-ce que vous devriez regarder girls und panzer* ce n'est surement pas le vrai titre, mais vous comprenez l'idée. Dans ma tête ç'a m'a rappelé un même que j'avais vu sur le discord de 9b9t avec des animés girls qui faisaient la guerre dans des tanks. Et j'ai cliqué dessus en pensant que ct ça.
+J'ai découvert cet animé un peu par hasard en fait, je scrollais sur ytb (chose à faire : arrêter de scroller indéfiniment sur Ytb [Get Out of Slop](/post/get-out-of-slop)) et je suis tombé sur cette vidéo : *Pourquoi est-ce que vous devriez regarder girls und panzer* ce n'est surement pas le vrai titre, mais vous comprenez l'idée. Dans ma tête ç'a m'a rappelé un même que j'avais vu sur le discord de 9b9t avec des animés girls qui faisaient la guerre dans des tanks. Et j'ai cliqué dessus en pensant que ct ça.
 
 Et... ça n'était pas ça... Pas très loin hein, girls und panzer, c'est l'histoire d'anime girls dans des Tanks... mais elles ne font pas la guerre, c'est un sport national.
 

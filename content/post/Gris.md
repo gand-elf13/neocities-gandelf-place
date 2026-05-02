@@ -13,7 +13,7 @@ lastmod: 2026-04-10T08:40:01.467Z
 
 *comme j'ai écrit ce texte pour un devoir de philo, c'est probablement le mieux écrit, profitez, ca sera pas comme ca tout le temps*
 
-Il est généralement accepté que l'on associe les couleurs à des émotions, et qu'un jeu ou une œuvre d'art en général peut utiliser ces associations afin de manipuler les émotions. On pense par example à *Evangelion* où la douleur est symbolisée par le rouge[Gris](/Gris) (Asuka et EVA-02 en général et de nombreuses scènes de pilotage de Shinji) et la maternité par le violet (les cheveux de Misato, la couleur d'EVA-01). On peut aussi penser aux couleurs dans l'art abstrait ou aux filtres rouges dans les jeux vidéo lorsque l'on est sur le point de mourir.
+Il est généralement accepté que l'on associe les couleurs à des émotions, et qu'un jeu ou une œuvre d'art en général peut utiliser ces associations afin de manipuler les émotions. On pense par example à *Evangelion* où la douleur est symbolisée par le rouge[Gris](/post/gris) (Asuka et EVA-02 en général et de nombreuses scènes de pilotage de Shinji) et la maternité par le violet (les cheveux de Misato, la couleur d'EVA-01). On peut aussi penser aux couleurs dans l'art abstrait ou aux filtres rouges dans les jeux vidéo lorsque l'on est sur le point de mourir.
 
 En général, cela marche mieux lorsque l'association est déjà acquise : le rouge représentant la douleur est bien plus évident que le violet dans *Evangelion*.
 

@@ -11,7 +11,7 @@ date created: 2025-03-31
 title: Ghost in the shell et cyberpunk
 lastmod: 2026-04-10T08:41:48.377Z
 ---
-Ghost in the shell est bizarre. Une resemblance frappante avec [Serial experiment lain](/Serial%20experiment%20lain), sans surprise.
+Ghost in the shell est bizarre. Une resemblance frappante avec [Serial experiment lain](/post/serial-experiment-lain), sans surprise.
 
 On y suit l’histoire de major Motoko, une cyborg. Membre d’une brigade anti criminelle, qui s’interroge sur ses origines et les implications d’un corp artificiel.
 
@@ -77,7 +77,7 @@ Mais surtout je n’ai pas fini avec cyberpunk 2077, car ce qu’il y as de plus
 
 Ce qu’il faut retenir, c’est qu’on écrit aujourd’hui des histoires tellement prenantes que l’on peut s’attacher à des personnages fictifs de manière il semblerait irraisonné. Et que l’IA, promet de rendre ces personnages fictifs indistinguables de personnes réelles. Et à partir de là on est dans le territoire de Serial Experiment Lain
 
-[Serial experiment lain](/Serial%20experiment%20lain)
+[Serial experiment lain](/post/serial-experiment-lain)
 
 Bon je ne says plus si je l’explique à fond dans ce post, mais SEL (Serial Experiment Lain) montre une chose à laquelle je crois, un homme est défini par sa capacité à convaincre un autre homme qu’il en est un. Et ces IA de Bangor, bah elles répondent à la description. Et ducou on arrive a la seconde question que l’on se pose, même si j’y ai déjà en parti répondu, est-ce que les IA sont humaines ? devraient avoir les mêmes droits que nous ? Nous remplacer dans les tâches où elles sont meilleures ? Et la ça devient très compliqué. Je pense que la réponse est oui, oui, oui.
 

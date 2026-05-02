@@ -14,7 +14,7 @@ PS de debut de lecture regarder cowboy bebop dedans je spoil un episode **ENORME
 
 Bon il faut bien le faire un jour… et la j’ai de plus en plus envie.
 
-Je suis en train de regarde [shoushimin](/shoushimin), sur les conseils avisé d’un mec sur YouTube à l’accent tout à fait charmant. Et ça me donne d’énorme vibes cowboy bebop. Alors ducou j’y repense, et je m’interroge.
+Je suis en train de regarde [shoushimin](/post/shoushimin), sur les conseils avisé d’un mec sur YouTube à l’accent tout à fait charmant. Et ça me donne d’énorme vibes cowboy bebop. Alors ducou j’y repense, et je m’interroge.
 
 Est-ce que je n’ai pas été trop dur ? Est-ce que comme avec outer wilds je suis passé à côté ou, l’inverse, il est passé à côté de moi ?
 
@@ -25,8 +25,8 @@ Tout ces personnages qui semblent à première vue très différents sont en ré
 Et j’ai tout d’abord, même si je reconnaissais qu’il était bon, peiné à le trouver excellent ce cow-boy bebop. En tant que grand amateur de belles scènes, j’ai adoré esthétique far-ouest et mélancolique, qui se prête tant aux scènes symboliques. Mais, la profondeur de la série, je ne l’ai absolument pas vue. Pour moi cowboy bebop as été une méditation peut être inconsciente sur la vie, ce qu’elle vaux cette vie, mais ça ne m’as pas percuté.\
 La série est totalement dénuée du sens des conséquences. Chaque épisode n'a littéralement aucun impact sur les suivants le status quo reste le meme, familier mais quelque peut dépressif. Sauf quand ca devient important a la fin, mais ça reste très subtile.
 
-Alors j’ai dit à mon ami, cow-boy bebop c’était bien. Pas #man… ([GPFRS](/GPFRS))\
-[Darling in the FranXX](/Darling%20in%20the%20FranXX) ! Par contre…
+Alors j’ai dit à mon ami, cow-boy bebop c’était bien. Pas #man… ([GPFRS](/post/gpfrs))\
+[Darling in the FranXX](/post/darling-in-the-franxx) ! Par contre…
 
 Donc je vais essayer de rattraper et pour cela on va parler de quelque chose que j’adore, les émotions, et comment en un épisode cow-boy bebop m’a tué.
 
@@ -51,8 +51,8 @@ Et moi, j’ai la tête chaude, envie de pleurer et je me sens coupable car pour
 
 Sauf que la, on est pas les seules à ressentir ce manque cette disparition, tout le monde la ressent, et on se rend compte de à quel point on aime le bebop, c’est quand on perd que l’on se rend compte de tout ce qu’on avait.
 
-Tout ça pour dire, je regarde [shoushimin](/shoushimin) et pour l’instant c’est une dinguerie, juste que le style resemble à celui de bebop surtout dans le fonctionnement des épisode, donc j’ai peur de rater l’essentiel.\
-Je fais de mon mieux, j’espère que tu me pardonnera d’adorer [Darling in the FranXX](/Darling%20in%20the%20FranXX) au point de négliger bebop KYRKOS (je met ton pseudo car je prépare un truc pour publier ça et je préfère éviter au max les noms du coup)
+Tout ça pour dire, je regarde [shoushimin](/post/shoushimin) et pour l’instant c’est une dinguerie, juste que le style resemble à celui de bebop surtout dans le fonctionnement des épisode, donc j’ai peur de rater l’essentiel.\
+Je fais de mon mieux, j’espère que tu me pardonnera d’adorer [Darling in the FranXX](/post/darling-in-the-franxx) au point de négliger bebop KYRKOS (je met ton pseudo car je prépare un truc pour publier ça et je préfère éviter au max les noms du coup)
 
 retour sur mon texte quelque temps après, Cow boy bebop est ouf, #man... tier, que ce soit par l'ambiance ou par l'attachement aux personnages. je n'ai pas été captivé par le mystère sous jasant mais le reste as bien suffit.
 

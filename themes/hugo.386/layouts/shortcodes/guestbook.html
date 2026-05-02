@@ -6,6 +6,11 @@
     display: none;
   }
   
+  .guestbook-wrapper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
   @media (max-width: 768px) {
     #guestbook {
       height: 800px !important;
@@ -19,11 +24,13 @@
   }
 </style>
 
-<iframe 
-  aria-label="Guestbook" 
-  id="guestbook" 
-  src="https://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab" 
-  style="height:1760px;width:100%;border:none;display:block;"
-  loading="lazy"
->
-</iframe>
+<div class="guestbook-wrapper">
+  <iframe 
+    aria-label="Guestbook" 
+    id="guestbook" 
+    src="https://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab" 
+    style="height:1760px;width:100%;border:none;display:block;box-sizing:border-box;"
+    loading="lazy"
+  >
+  </iframe>
+</div>

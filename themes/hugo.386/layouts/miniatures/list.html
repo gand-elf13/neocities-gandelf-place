@@ -1,0 +1,21 @@
+{{ define "main" }}
+<h1>Miniatures</h1>
+
+<div class="gallery">
+  {{ range .Pages.ByDate.Reverse }}
+    <article class="mini">
+      <a href="{{ .RelPermalink }}">
+
+        {{ $img := findRE `!\[.*?\]\((.*?)\)` .RawContent 1 }}
+        {{ if $img }}
+          {{ $url := replaceRE `!\[.*?\]\((.*?)\)` "$1" (index $img 0) }}
+          <img src="{{ $url | relURL }}" alt="{{ .Title }}">
+        {{ end }}
+
+        <h2>{{ .Title }}</h2>
+      </a>
+    </article>
+  {{ end }}
+</div>
+
+{{ end }}

@@ -54,7 +54,7 @@ refLinksNotFoundURL = "/not-here-yet"
     url = "https://matrix.to/#/@gandelf:federated.nexus"
 
     # Text to go before copyright information
-    prefix = "[Source available on github (gitlab maybe some day)](https://github.com/gand-elf13/neocities-gandelf-place)"
+    prefix = "[Source available on Codeberg](https://codeberg.org/gand_elf/neocities-gandelf-place.git)"
 
     # Text to go between copyright and hugo disclaimer (if enabled)
     suffix = "inside Lainring"

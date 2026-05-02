@@ -1,10 +1,5 @@
 /* ============================================================
    VINES.JS — REFACTORED with Deterministic Replay
-   
-   NEW APPROACH: Store seeds + events, regenerate vines on load
-   - Fixes: slow page load, viewport distortion
-   - Storage: bytes instead of megabytes
-   - Replay: instant reconstruction at any resolution
    ============================================================ */
 
 window.VINE_CFG = {
@@ -57,7 +52,7 @@ window.VINE_CFG = {
     thickPerDepth:{ min: 0.4,  max: 0.8  },
   },
 
-  /* ── DECORATION TYPE POOL ────────────────────────────────– */
+  /* ── DECORATION TYPE POOL ────────────────────────────────── */
   decorationPool: [
     'leaves',
     'flowers_red',
@@ -69,7 +64,7 @@ window.VINE_CFG = {
 
   /* ── TAG → DECORATION MAPPING ───────────────────────────── */
   tagDecorationMap: {
-    'man':        'flowers_white',
+    'man': 'flowers_white',
   },
 
   /* ── TAG INJECTION ───────────────────────────────────────── */
@@ -77,27 +72,26 @@ window.VINE_CFG = {
 
   /* ── TRIGGERS ───────────────────────────────────────────── */
   triggers: {
-    onLoad:           { clusters: 2, depth: 3, chance: 0.5, cooldownMs: 0    },
-    onScroll:         { clusters: 1, depth: 3, chance: 0.004, cooldownMs: 6000 },
-    onPassive:        { clusters: 1, depth: 3, chance: 0.5,  intervalMs: 10000 },
-    onNavClick:       { clusters: 2, depth: 4, chance: 0.5, cooldownMs: 0    },
-    onPostTitleClick: { clusters: 2, depth: 4, chance: 0.5, cooldownMs: 0    },
-    onPostTitleHover: { clusters: 1, depth: 3, chance: 0.10, cooldownMs: 8000  },
-    onTagClick:       { clusters: 1, depth: 3, chance: 0.5, cooldownMs: 0    },
-    onTagHover:       { clusters: 1, depth: 2, chance: 0.20, cooldownMs: 1000 },
-    onSidebarClick:   { clusters: 1, depth: 3, chance: 0.5, cooldownMs: 0    },
-    onSidebarHover:   { clusters: 1, depth: 2, chance: 0.10, cooldownMs: 1000 },
-    onFooterHover:    { clusters: 1, depth: 2, chance: 0.10, cooldownMs: 1500 },
+    onLoad:           { clusters: 2, depth: 3, chance: 0.5,   cooldownMs: 0     },
+    onScroll:         { clusters: 1, depth: 3, chance: 0.004, cooldownMs: 6000  },
+    onPassive:        { clusters: 1, depth: 3, chance: 0.5,   intervalMs: 10000 },
+    onNavClick:       { clusters: 2, depth: 4, chance: 0.5,   cooldownMs: 0     },
+    onPostTitleClick: { clusters: 2, depth: 4, chance: 0.5,   cooldownMs: 0     },
+    onPostTitleHover: { clusters: 1, depth: 3, chance: 0.10,  cooldownMs: 8000  },
+    onTagClick:       { clusters: 1, depth: 3, chance: 0.5,   cooldownMs: 0     },
+    onTagHover:       { clusters: 1, depth: 2, chance: 0.20,  cooldownMs: 1000  },
+    onSidebarClick:   { clusters: 1, depth: 3, chance: 0.5,   cooldownMs: 0     },
+    onSidebarHover:   { clusters: 1, depth: 2, chance: 0.10,  cooldownMs: 1000  },
+    onFooterHover:    { clusters: 1, depth: 2, chance: 0.10,  cooldownMs: 1500  },
   },
 
   /* ── REPLAY ANIMATION ───────────────────────────────────── */
-  replayAnimationMs: 3000,  // How long the draw animation takes (milliseconds)
-  replayStepsPerFrame: 1,  // How many vine growth steps per animation frame
+  replayAnimationMs:   3000,
+  replayStepsPerFrame: 1,
 
-  /* ── MOBILE & iOS OPTIMIZATIONS ────────────────────────── */
-  // On mobile, only grow vines from center (top/bottom), skip left/right edges
-  mobileVinesOnly: true,           // Enable mobile-specific vine placement
-  mobileGrowthAreas: ['left', 'right'],  // Only grow from these edges on mobile
+  /* ── MOBILE & iOS OPTIMIZATIONS ─────────────────────────── */
+  mobileVinesOnly:    true,
+  mobileGrowthAreas: ['left', 'right'],
 
   /* ── CSS SELECTORS ───────────────────────────────────────── */
   selectors: {
@@ -223,8 +217,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   const r=c(col.r+j()), g=c(col.g+j()), b=c(col.b+j());
   const dirs=[[-1,-1],[1,-1],[-1,1],[1,1],[-2,-1],[-2,1],[2,-1],[2,1]];
   const [dx,dy] = dirs[Math.floor(rng()*dirs.length)];
-  drawPixel(x+dx*px,     y+dy*px,     px,      r,g,b);
-  drawPixel(x+dx*px*2,   y+dy*px*2,   px>>1,   r,g,b);
+  drawPixel(x+dx*px,     y+dy*px,     px,    r,g,b);
+  drawPixel(x+dx*px*2,   y+dy*px*2,   px>>1, r,g,b);
 }
 
 /* ============================================================
@@ -233,40 +227,67 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 (function (CFG, TYPES) {
   'use strict';
 
-  const STORAGE_SEED   = 'vines_seed_v5';
-  const STORAGE_EVENTS = 'vines_events_v5';
-  const SESSION_KEY    = 'vines_session_cfg_v5';
-  const RNG_SEED       = 'vines_rng_seed_v5';
+  /* ── STORAGE KEYS ── */
+  const STORAGE_EVENTS  = 'vines_events_v5';
+  const SESSION_KEY     = 'vines_session_cfg_v5';
+  const RNG_SEED        = 'vines_rng_seed_v5';
+  /* Written to localStorage on pagehide/visibilitychange:hidden.
+     Read on load and compared to now — if the gap is large enough
+     the browser was genuinely closed between visits.            */
+  const LS_HIDE_TIME    = 'vines_hide_ts_v5';
+  /* Written to sessionStorage on first load of a tab.
+     Used as a secondary cross-check and to distinguish
+     navigations-within-tab from fresh opens.                   */
+  const SS_LOAD_TIME    = 'vines_load_ts_v5';
 
-  /* ── SESSION-BASED RESET ─────────────────────────────────────
+  /* ── NEW-SESSION DETECTION ───────────────────────────────────
    *
-   *  Goal: vines are fresh every time the user *reopens* the site,
-   *  but persist across same-session page navigations.
+   *  sessionStorage alone is unreliable:
+   *    • iOS Safari suspends (not kills) background tabs, keeping
+   *      sessionStorage alive across what the user perceives as
+   *      a "close and reopen".
+   *    • Chromium's "restore last session" or ctrl-shift-t also
+   *      restores sessionStorage for closed tabs.
    *
-   *  Signal used: sessionStorage.  Browsers (including iOS Safari)
-   *  clear sessionStorage when a tab is closed or the browser is
-   *  quit.  If SESSION_ALIVE_KEY is absent we are in a new session
-   *  → wipe localStorage vine history so replay starts clean.
+   *  Robust two-signal approach:
    *
-   *  This block runs FIRST — before any data is loaded or used —
-   *  so the rest of the engine always sees a consistent state.
+   *  A) sessionStorage has no load-timestamp  → definitely new tab.
+   *
+   *  B) sessionStorage HAS a load-timestamp but localStorage
+   *     hide-timestamp is NEWER than that load-timestamp.
+   *     This means the tab was hidden (user left / closed browser)
+   *     AFTER the tab last loaded → treat as new session.
+   *     Threshold: 5 s grace period to ignore same-page nav blur.
+   *
+   *  Either condition → wipe all persisted vine state.
+   *  Within-tab page navigations: SS_LOAD_TIME already exists and
+   *  LS_HIDE_TIME is from before or during the current session,
+   *  so the B-check won't fire.
+   *
+   *  This block runs FIRST — before any vine data is loaded.
    * ─────────────────────────────────────────────────────────── */
-  const SESSION_ALIVE_KEY = 'vines_session_alive_v5';
-  const isNewSession = !sessionStorage.getItem(SESSION_ALIVE_KEY);
+  const now         = Date.now();
+  const ssLoadTime  = parseInt(sessionStorage.getItem(SS_LOAD_TIME) || '0', 10);
+  const lsHideTime  = parseInt(localStorage.getItem(LS_HIDE_TIME)   || '0', 10);
+
+  const noLoadStamp  = ssLoadTime === 0;                      // signal A
+  const hiddenAfter  = lsHideTime > ssLoadTime + 5000;       // signal B
+
+  const isNewSession = noLoadStamp || hiddenAfter;
 
   if (isNewSession) {
-    /* Mark alive immediately so navigations within the tab skip reset. */
-    try { sessionStorage.setItem(SESSION_ALIVE_KEY, '1'); } catch (e) {}
+    /* Stamp this load so same-tab navigations are recognised. */
+    try { sessionStorage.setItem(SS_LOAD_TIME, String(now)); } catch (e) {}
 
-    /* Wipe persisted vine history. */
-    try { localStorage.removeItem(STORAGE_EVENTS); } catch (e) {}
+    /* Wipe ALL persisted vine state — events, seed, session cfg. */
+    try { localStorage.removeItem(STORAGE_EVENTS); }  catch (e) {}
+    try { sessionStorage.removeItem(RNG_SEED); }      catch (e) {}
+    try { sessionStorage.removeItem(SESSION_KEY); }   catch (e) {}
 
-    /* Clear any stale RNG seed so a fresh one is generated below. */
-    try { sessionStorage.removeItem(RNG_SEED); } catch (e) {}
-
-    /* Clear stale session config so variance + deco type are re-rolled. */
-    try { sessionStorage.removeItem(SESSION_KEY); } catch (e) {}
+    console.log('[VINES] New session detected — state cleared.',
+      noLoadStamp ? '(no load stamp)' : '(hidden after load)');
   }
+  /* else: same tab, navigating within site — keep everything */
 
   const clamp = (v,lo,hi) => Math.max(lo,Math.min(hi,v));
 
@@ -276,26 +297,22 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   const isMobile = isIOS ||
     /Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
     window.innerWidth <= 768;
-  console.log('[VINES] isMobile:', isMobile, 'UA:', navigator.userAgent);
+  console.log('[VINES] isMobile:', isMobile, 'isNewSession:', isNewSession);
 
   /* ── VIEWPORT (iOS compatible) ── */
   function getViewport() {
     if (window.visualViewport) {
       return {
         w: Math.round(window.visualViewport.width),
-        h: Math.round(window.visualViewport.height)
+        h: Math.round(window.visualViewport.height),
       };
     }
-    return {
-      w: window.innerWidth,
-      h: window.innerHeight
-    };
+    return { w: window.innerWidth, h: window.innerHeight };
   }
 
   /* ── TAG DETECTION ── */
   function resolvePageTags() {
     const tags = new Set();
-
     if (CFG.tagSource) {
       let raw = null;
       if (CFG.tagSource.type === 'bodyAttr')
@@ -305,21 +322,18 @@ function _thorn(drawPixel, x, y, px, rng, col) {
         if (m) raw = m.getAttribute('content');
       }
       if (raw) {
-        raw.split(',').map(s => s.trim().toLowerCase()).filter(Boolean).forEach(t => tags.add(t));
+        raw.split(',').map(s=>s.trim().toLowerCase()).filter(Boolean).forEach(t=>tags.add(t));
         if (tags.size > 0) return tags;
       }
     }
-
-    const onHomepage = (location.pathname === '/' || location.pathname === '/index.html');
+    const onHomepage = (location.pathname==='/' || location.pathname==='/index.html');
     if (onHomepage) return tags;
-
     document.querySelectorAll('a[href*="/tags/"]').forEach(a => {
       const m = a.href.match(/\/tags\/([^/?#]+)/);
       if (m) tags.add(decodeURIComponent(m[1]).toLowerCase());
-      const t = (a.textContent || '').trim().toLowerCase();
+      const t = (a.textContent||'').trim().toLowerCase();
       if (t) tags.add(t);
     });
-
     return tags;
   }
 
@@ -363,21 +377,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     ? decoPlugin.stemPalettes : CFG.palettes;
 
   /* ── RNG — TWO SEPARATE STREAMS ─────────────────────────────
-   *
-   *  seededRng()  — deterministic, seeded from sessionStorage.
-   *                 Used ONLY for vine geometry (positions,
-   *                 colours, turns, branches).  resetRng()
-   *                 brings it back to seed0 so replay always
-   *                 produces identical output.
-   *
-   *  liveRng()    — uses Math.random(), never touches the
-   *                 seeded stream.  Used for chance checks
-   *                 (should this trigger fire?) and cooldown
-   *                 decisions that must NOT affect geometry.
-   *
-   *  Rule: anything that happens during replay uses seededRng.
-   *        Anything that only happens in live / event-binding
-   *        code uses liveRng.
+   *  seededRng() — deterministic geometry, resets to seed0 on replay.
+   *  liveRng()   — Math.random(), used for chance/cooldown only.
    * ─────────────────────────────────────────────────────────── */
   const seed0 = parseInt(
     sessionStorage.getItem(RNG_SEED) || String(Date.now() & 0x7fffffff), 10
@@ -390,11 +391,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     return ((_rngState >>> 0) / 0xffffffff);
   }
 
-  function resetRng() {
-    _rngState = seed0;
-  }
+  function resetRng() { _rngState = seed0; }
 
-  /* Convenience alias — keeps intent clear at call sites */
   const liveRng = Math.random.bind(Math);
 
   /* ── CANVAS SETUP ── */
@@ -418,12 +416,8 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   function resize() {
     const vp = getViewport();
-    const newW = vp.w;
-    const newH = vp.h;
     const isFirst = (W === 0 && H === 0);
-
-    W = newW;
-    H = newH;
+    W = vp.w; H = vp.h;
 
     if (isMobile && !isFirst) {
       canvas.style.width  = W + 'px';
@@ -445,57 +439,41 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     resizeTimeout = setTimeout(() => {
       const vp = getViewport();
       if (isMobile && Math.abs(vp.w - lastW) < 50 && Math.abs(vp.h - lastH) < 50) return;
-      lastW = vp.w;
-      lastH = vp.h;
-
+      lastW = vp.w; lastH = vp.h;
       resize();
-      if (!isMobile) {
-        replayVines();
-      }
+      if (!isMobile) replayVines();
     }, 200);
   });
 
   function bufSet(x, y, r, g, b, vw, vh) {
-    const _vw = vw || RW(), _vh = vh || RH();
-    if (x < 0 || y < 0 || x >= _vw || y >= _vh) return;
-    if (x >= W || y >= H) return;
-    const i = (y * W + x) * 4;
+    const _vw = vw||RW(), _vh = vh||RH();
+    if (x<0||y<0||x>=_vw||y>=_vh||x>=W||y>=H) return;
+    const i=(y*W+x)*4;
     pixelBuf[i]=r; pixelBuf[i+1]=g; pixelBuf[i+2]=b; pixelBuf[i+3]=255;
   }
 
   function drawPixel(x, y, size, r, g, b, vw, vh) {
-    const _vw = vw || RW(), _vh = vh || RH();
-    const sx = Math.round(x / CFG.px) * CFG.px;
-    const sy = Math.round(y / CFG.px) * CFG.px;
-    const s  = Math.max(1, Math.round(size));
-    ctx.fillStyle = `rgb(${r},${g},${b})`;
-    ctx.fillRect(sx, sy, s, s);
-    for (let row = sy; row < sy+s; row++) {
-      for (let col = sx; col < sx+s; col++) {
-        if (col >= 0 && col < _vw && row >= 0 && row < _vh) {
-          if (col < W && row < H) {
-            const i = (row*W+col)*4;
-            if (pixelBuf[i+3] === 0) coveredPixels++;
-          }
-          bufSet(col, row, r, g, b, _vw, _vh);
-        }
+    const _vw=vw||RW(), _vh=vh||RH();
+    const sx=Math.round(x/CFG.px)*CFG.px, sy=Math.round(y/CFG.px)*CFG.px;
+    const s=Math.max(1,Math.round(size));
+    ctx.fillStyle=`rgb(${r},${g},${b})`;
+    ctx.fillRect(sx,sy,s,s);
+    for (let row=sy; row<sy+s; row++) for (let col=sx; col<sx+s; col++) {
+      if (col>=0&&col<_vw&&row>=0&&row<_vh) {
+        if (col<W&&row<H) { const i=(row*W+col)*4; if(pixelBuf[i+3]===0) coveredPixels++; }
+        bufSet(col,row,r,g,b,_vw,_vh);
       }
     }
   }
 
   function pxFill(x, y, w, h, r, g, b, vw, vh) {
-    const _vw = vw || RW(), _vh = vh || RH();
-    ctx.fillStyle = `rgb(${r},${g},${b})`;
-    ctx.fillRect(x, y, w, h);
-    for (let row = y; row < y+h; row++) {
-      for (let col = x; col < x+w; col++) {
-        if (col >= 0 && col < _vw && row >= 0 && row < _vh) {
-          if (col < W && row < H) {
-            const i = (row*W+col)*4;
-            if (pixelBuf[i+3] === 0) coveredPixels++;
-          }
-          bufSet(col, row, r, g, b, _vw, _vh);
-        }
+    const _vw=vw||RW(), _vh=vh||RH();
+    ctx.fillStyle=`rgb(${r},${g},${b})`;
+    ctx.fillRect(x,y,w,h);
+    for (let row=y; row<y+h; row++) for (let col=x; col<x+w; col++) {
+      if (col>=0&&col<_vw&&row>=0&&row<_vh) {
+        if (col<W&&row<H) { const i=(row*W+col)*4; if(pixelBuf[i+3]===0) coveredPixels++; }
+        bufSet(col,row,r,g,b,_vw,_vh);
       }
     }
   }
@@ -507,24 +485,14 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     if (saved) eventLog = JSON.parse(saved);
   } catch (e) {}
 
-  /* ── REPLAY VIEWPORT ─────────────────────────────────────────
-   *  replayW/replayH are set per-event during spawnFromTrigger so
-   *  edgeAnchors() uses the exact recorded viewport for each event.
-   *  Each spawned vine then carries its own vw/vh for the entire
-   *  growth phase, so stepVine() is fully viewport-independent.
-   *  RW()/RH() fall back to live W/H when replayW/H are null.
-   * ─────────────────────────────────────────────────────────── */
-  let replayW = null, replayH = null;
+  function saveEventLog() {
+    try { localStorage.setItem(STORAGE_EVENTS, JSON.stringify(eventLog)); } catch (e) {}
+  }
 
-  /* Shadow W/H reads through these getters during replay */
+  /* ── REPLAY VIEWPORT ── */
+  let replayW = null, replayH = null;
   function RW() { return replayW !== null ? replayW : W; }
   function RH() { return replayH !== null ? replayH : H; }
-
-  function saveEventLog() {
-    try {
-      localStorage.setItem(STORAGE_EVENTS, JSON.stringify(eventLog));
-    } catch (e) {}
-  }
 
   function clearCanvas() {
     ctx.clearRect(0, 0, W, H);
@@ -540,66 +508,57 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }
 
   function pickRgb() {
-    const pal = activePalettes[0|Math.floor(seededRng() * activePalettes.length)];
-    return hexToRgb(pal[0|Math.floor(seededRng() * pal.length)]);
+    const pal = activePalettes[0|Math.floor(seededRng()*activePalettes.length)];
+    return hexToRgb(pal[0|Math.floor(seededRng()*pal.length)]);
   }
 
   let vines = [];
-  let turboMode = false;
 
   function mkVine(x, y, dx, dy, depth, delay, isLeft, vw, vh) {
-    let sMin = CFG.segLenMin, sMax = CFG.segLenMax;
-    if (isLeft) { sMin *= CFG.leftEdge.segLenScale; sMax *= CFG.leftEdge.segLenScale; }
-    const len = snap(
-      sMin + seededRng() * (sMax - sMin)
-    ) / PX;
+    let sMin=CFG.segLenMin, sMax=CFG.segLenMax;
+    if (isLeft) { sMin*=CFG.leftEdge.segLenScale; sMax*=CFG.leftEdge.segLenScale; }
+    const len = snap(sMin + seededRng()*(sMax-sMin)) / PX;
     return {
-      x: snap(x), y: snap(y), dx, dy, depth,
-      rgb: pickRgb(), life: 0, delay: delay||0,
-      ms: len, done: false, branchCount: 1, isLeft: !!isLeft,
-      vw: vw || RW(), vh: vh || RH(),
+      x:snap(x), y:snap(y), dx, dy, depth,
+      rgb:pickRgb(), life:0, delay:delay||0,
+      ms:len, done:false, branchCount:1, isLeft:!!isLeft,
+      vw:vw||RW(), vh:vh||RH(),
     };
   }
 
   function stepVine(v) {
     if (v.done) return;
-    if (v.delay > 0) { v.delay--; return; }
+    if (v.delay>0) { v.delay--; return; }
+    const VW=v.vw, VH=v.vh;
+    if (coveredPixels/(VW*VH) >= CFG.maxCoverageRatio) { v.done=true; return; }
 
-    const VW = v.vw, VH = v.vh;
-
-    if (coveredPixels / (VW * VH) >= CFG.maxCoverageRatio) { v.done = true; return; }
-
-    let nx = v.x, ny = v.y;
-    if (seededRng() < CFG.turnChance) {
-      const p = seededRng() < 0.5 ? 1 : -1;
-      if (v.dx !== 0) ny = v.y + p*PX; else nx = v.x + p*PX;
-    } else {
-      nx = v.x + v.dx*PX; ny = v.y + v.dy*PX;
+    let nx=v.x, ny=v.y;
+    if (seededRng()<CFG.turnChance) {
+      const p=seededRng()<0.5?1:-1;
+      if (v.dx!==0) ny=v.y+p*PX; else nx=v.x+p*PX;
+    } else { nx=v.x+v.dx*PX; ny=v.y+v.dy*PX; }
+    if (seededRng()<CFG.wanderChance) {
+      if (v.dx!==0) ny+=seededRng()<0.5?-PX:PX;
+      else          nx+=seededRng()<0.5?-PX:PX;
     }
-    if (seededRng() < CFG.wanderChance) {
-      if (v.dx !== 0) ny += seededRng()<0.5 ? -PX : PX;
-      else            nx += seededRng()<0.5 ? -PX : PX;
-    }
+    nx=clamp(snap(nx),0,VW-PX); ny=clamp(snap(ny),0,VH-PX);
 
-    nx = clamp(snap(nx), 0, VW-PX);
-    ny = clamp(snap(ny), 0, VH-PX);
+    const thick=Math.round(PX*(CFG.thickBase+Math.max(0,v.depth)*CFG.thickPerDepth));
+    pxFill(snap(v.x),snap(v.y),thick,thick,v.rgb[0],v.rgb[1],v.rgb[2],VW,VH);
 
-    const thick = Math.round(PX * (CFG.thickBase + Math.max(0, v.depth) * CFG.thickPerDepth));
-    pxFill(snap(v.x), snap(v.y), thick, thick, v.rgb[0], v.rgb[1], v.rgb[2], VW, VH);
+    const _dp=(x,y,size,r,g,b)=>drawPixel(x,y,size,r,g,b,VW,VH);
+    if (v.life%CFG.leafInterval===0)
+      decoPlugin.clusters(_dp,snap(v.x),snap(v.y),PX,v.rgb,CFG,seededRng);
 
-    const _drawPixel = (x, y, size, r, g, b) => drawPixel(x, y, size, r, g, b, VW, VH);
-    if (v.life % CFG.leafInterval === 0)
-      decoPlugin.clusters(_drawPixel, snap(v.x), snap(v.y), PX, v.rgb, CFG, seededRng);
+    v.x=nx; v.y=ny; v.life++;
 
-    v.x = nx; v.y = ny; v.life++;
-
-    if (v.life >= v.ms) {
-      v.done = true;
-      if (v.depth > 0) {
-        for (let i = 0; i < v.branchCount; i++) {
-          const dir = inwardDir(v.x, v.y, VW, VH);
-          const child = mkVine(v.x, v.y, dir[0], dir[1], v.depth-1, i*5, v.isLeft, VW, VH);
-          child.branchCount = v.branchCount;
+    if (v.life>=v.ms) {
+      v.done=true;
+      if (v.depth>0) {
+        for (let i=0; i<v.branchCount; i++) {
+          const dir=inwardDir(v.x,v.y,VW,VH);
+          const child=mkVine(v.x,v.y,dir[0],dir[1],v.depth-1,i*5,v.isLeft,VW,VH);
+          child.branchCount=v.branchCount;
           vines.push(child);
         }
       }
@@ -607,28 +566,24 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }
 
   function inwardDir(x, y, vw, vh) {
-    const tx = x < vw/2 ? 1 : -1, ty = y < vh/2 ? 1 : -1;
-    const pool = [[tx,0],[0,ty],[1,0],[-1,0],[0,1],[0,-1],[tx,ty]];
+    const tx=x<vw/2?1:-1, ty=y<vh/2?1:-1;
+    const pool=[[tx,0],[0,ty],[1,0],[-1,0],[0,1],[0,-1],[tx,ty]];
     return pool[0|Math.floor(seededRng()*pool.length)];
   }
 
-  function edgeAnchors(n, forMobile = false) {
-    const arr = [];
-
-    let validSides = [0, 1, 2, 3];
-
-    if (forMobile && CFG.mobileVinesOnly && CFG.mobileGrowthAreas) {
-      validSides = [];
-      const areas = CFG.mobileGrowthAreas;
+  function edgeAnchors(n, forMobile=false) {
+    const arr=[];
+    let validSides=[0,1,2,3];
+    if (forMobile&&CFG.mobileVinesOnly&&CFG.mobileGrowthAreas) {
+      validSides=[];
+      const areas=CFG.mobileGrowthAreas;
       if (areas.includes('left'))   validSides.push(0);
       if (areas.includes('right'))  validSides.push(1);
       if (areas.includes('top'))    validSides.push(2);
       if (areas.includes('bottom')) validSides.push(3);
     }
-
-    for (let i = 0; i < n; i++) {
-      const side = validSides[Math.floor(seededRng() * validSides.length)];
-
+    for (let i=0; i<n; i++) {
+      const side=validSides[Math.floor(seededRng()*validSides.length)];
       if      (side===0) arr.push({x:0,       y:snap(seededRng()*(RH()-160)+80), dx:1, dy:0,  left:true });
       else if (side===1) arr.push({x:RW()-PX,  y:snap(seededRng()*(RH()-160)+80), dx:-1,dy:0,  left:false});
       else if (side===2) arr.push({x:snap(seededRng()*RW()), y:0,       dx:0, dy:1,  left:false});
@@ -638,151 +593,132 @@ function _thorn(drawPixel, x, y, px, rng, col) {
   }
 
   function spawnFromTrigger(triggerKey) {
-    const t = CFG.triggers[triggerKey];
-    if (!t || t.clusters===0) return;
-
-    const depth = t.depth != null ? t.depth : CFG.maxDepth;
-    const spawnVW = RW(), spawnVH = RH();
-
-    edgeAnchors(t.clusters, isMobile).forEach((a, i) => {
-      const isLeft  = a.left;
-      const d       = isLeft ? Math.max(1, Math.round(depth * CFG.leftEdge.depthScale)) : depth;
-      const density = Math.max(1, Math.round(Math.min(3, t.clusters) * (isLeft ? CFG.leftEdge.clusterScale : 1)));
-      const v = mkVine(a.x, a.y, a.dx, a.dy, d, i*4, isLeft, spawnVW, spawnVH);
-      v.branchCount = density;
+    const t=CFG.triggers[triggerKey];
+    if (!t||t.clusters===0) return;
+    const depth=t.depth!=null?t.depth:CFG.maxDepth;
+    const spawnVW=RW(), spawnVH=RH();
+    edgeAnchors(t.clusters,isMobile).forEach((a,i)=>{
+      const isLeft=a.left;
+      const d=isLeft?Math.max(1,Math.round(depth*CFG.leftEdge.depthScale)):depth;
+      const density=Math.max(1,Math.round(Math.min(3,t.clusters)*(isLeft?CFG.leftEdge.clusterScale:1)));
+      const v=mkVine(a.x,a.y,a.dx,a.dy,d,i*4,isLeft,spawnVW,spawnVH);
+      v.branchCount=density;
       vines.push(v);
     });
   }
 
   /* ── REPLAY ── */
-  let isReplaying = false;
-  let replayAnimationId = null;
+  let isReplaying=false, replayAnimationId=null;
 
   function replayVines() {
     clearCanvas();
-    vines = [];
+    vines=[];
     resetRng();
-    isReplaying = true;
-
+    isReplaying=true;
     if (replayAnimationId) cancelAnimationFrame(replayAnimationId);
 
     for (const event of eventLog) {
-      replayW = event.vw || W;
-      replayH = event.vh || H;
+      replayW=event.vw||W;
+      replayH=event.vh||H;
       spawnFromTrigger(event.trigger);
     }
 
-    const targetMs      = CFG.replayAnimationMs;
-    const stepsPerFrame = CFG.replayStepsPerFrame;
-    const frameMs       = 1000 / 60;
-    const maxFrames     = Math.ceil(targetMs / frameMs);
-    let   frameCount    = 0;
+    const maxFrames=Math.ceil(CFG.replayAnimationMs/(1000/60));
+    let frameCount=0;
 
     function animateGrowth() {
-      for (let i = 0; i < stepsPerFrame; i++) {
+      for (let i=0; i<CFG.replayStepsPerFrame; i++) {
         vines.forEach(stepVine);
-        if (!vines.some(v => !v.done)) break;
+        if (!vines.some(v=>!v.done)) break;
       }
-
       frameCount++;
-
-      if (vines.some(v => !v.done) && frameCount < maxFrames) {
-        replayAnimationId = requestAnimationFrame(animateGrowth);
+      if (vines.some(v=>!v.done)&&frameCount<maxFrames) {
+        replayAnimationId=requestAnimationFrame(animateGrowth);
       } else {
-        while (vines.some(v => !v.done)) vines.forEach(stepVine);
-        replayW           = null;
-        replayH           = null;
-        isReplaying       = false;
-        replayAnimationId = null;
+        while (vines.some(v=>!v.done)) vines.forEach(stepVine);
+        replayW=null; replayH=null;
+        isReplaying=false; replayAnimationId=null;
         saveEventLog();
       }
     }
-
-    replayAnimationId = requestAnimationFrame(animateGrowth);
+    replayAnimationId=requestAnimationFrame(animateGrowth);
   }
 
   /* ── TRIGGER FIRING ── */
-  const _cd = {};
+  const _cd={};
 
   function fire(triggerKey) {
-    const t = CFG.triggers[triggerKey];
-    if (!t || t.clusters===0) return;
-
-    if (liveRng() > t.chance) return;
-
-    const now = Date.now();
-    if (t.cooldownMs && _cd[triggerKey] && now - _cd[triggerKey] < t.cooldownMs) return;
-    _cd[triggerKey] = now;
-
-    if (vines.filter(v => !v.done).length >= CFG.maxVines) return;
-
-    eventLog.push({ trigger: triggerKey, vw: W, vh: H });
+    const t=CFG.triggers[triggerKey];
+    if (!t||t.clusters===0) return;
+    if (liveRng()>t.chance) return;
+    const now=Date.now();
+    if (t.cooldownMs&&_cd[triggerKey]&&now-_cd[triggerKey]<t.cooldownMs) return;
+    _cd[triggerKey]=now;
+    if (vines.filter(v=>!v.done).length>=CFG.maxVines) return;
+    eventLog.push({trigger:triggerKey, vw:W, vh:H});
     saveEventLog();
-
     spawnFromTrigger(triggerKey);
   }
 
   function bindTagLinks() {
     document.querySelectorAll('a[href*="/tags/"]').forEach(a => {
-      a.addEventListener('click',      () => fire('onTagClick'));
-      a.addEventListener('mouseenter', () => fire('onTagHover'));
+      a.addEventListener('click',      ()=>fire('onTagClick'));
+      a.addEventListener('mouseenter', ()=>fire('onTagHover'));
     });
   }
   bindTagLinks();
 
   /* ── MAIN LOOP ── */
-  const STEP_MS = 55;
-  let lastTs = 0, tickAcc = 0;
-
+  const STEP_MS=55;
+  let lastTs=0, tickAcc=0;
   function loop(ts) {
     requestAnimationFrame(loop);
-
-    tickAcc += ts - lastTs; lastTs = ts;
-    if (tickAcc < STEP_MS) return;
-    tickAcc = 0;
-
-    vines.filter(v => !v.done).forEach(stepVine);
-    if (vines.length > CFG.maxVines * 2) vines = vines.filter(v => !v.done);
+    tickAcc+=ts-lastTs; lastTs=ts;
+    if (tickAcc<STEP_MS) return;
+    tickAcc=0;
+    vines.filter(v=>!v.done).forEach(stepVine);
+    if (vines.length>CFG.maxVines*2) vines=vines.filter(v=>!v.done);
   }
   requestAnimationFrame(loop);
 
   /* ── EVENT BINDINGS ── */
-  function on(sel, ev, key) {
-    try { document.querySelectorAll(sel).forEach(el => el.addEventListener(ev, () => fire(key))); }
-    catch (e) {}
+  function on(sel,ev,key) {
+    try { document.querySelectorAll(sel).forEach(el=>el.addEventListener(ev,()=>fire(key))); }
+    catch(e){}
   }
-
-  const S = CFG.selectors;
+  const S=CFG.selectors;
   on(S.nav,       'click',      'onNavClick');
   on(S.postTitle, 'click',      'onPostTitleClick');
   on(S.postTitle, 'mouseenter', 'onPostTitleHover');
   on(S.sidebar,   'click',      'onSidebarClick');
   on(S.sidebar,   'mouseenter', 'onSidebarHover');
   on(S.footer,    'mouseenter', 'onFooterHover');
-
-  window.addEventListener('scroll', () => fire('onScroll'), {passive:true});
-
-  const pt = CFG.triggers.onPassive;
-  if (pt && pt.clusters > 0) setInterval(() => fire('onPassive'), pt.intervalMs||5000);
+  window.addEventListener('scroll',()=>fire('onScroll'),{passive:true});
+  const pt=CFG.triggers.onPassive;
+  if (pt&&pt.clusters>0) setInterval(()=>fire('onPassive'),pt.intervalMs||5000);
 
   /* ── INITIALIZATION ── */
   resize();
-
-  lastW = W;
-  lastH = H;
+  lastW=W; lastH=H;
 
   if (!eventLog.length) {
-    eventLog.push({ trigger: 'onLoad', vw: W, vh: H });
+    eventLog.push({trigger:'onLoad', vw:W, vh:H});
     saveEventLog();
   }
 
-  setTimeout(() => {
-    replayVines();
-  }, 400);
+  setTimeout(()=>replayVines(), 400);
 
-  /* ── PERSISTENCE ── */
-  document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'hidden') saveEventLog();
-  });
+  /* ── HIDE TIMESTAMP — the key to reliable reset detection ────
+   *
+   *  Written to localStorage (survives tab close) on every hide
+   *  event so the next load can compare it against the session's
+   *  load timestamp.  Uses both pagehide and visibilitychange for
+   *  maximum cross-browser / iOS coverage.
+   * ─────────────────────────────────────────────────────────── */
+  function stampHide() {
+    try { localStorage.setItem(LS_HIDE_TIME, String(Date.now())); } catch(e){}
+  }
+  window.addEventListener('pagehide',          stampHide);
+  window.addEventListener('visibilitychange', ()=>{ if(document.visibilityState==='hidden') stampHide(); });
 
 })(window.VINE_CFG, window.VINE_DECORATION_TYPES);

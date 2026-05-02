@@ -8,7 +8,7 @@ window.VINE_CFG = {
   /* ── GRID & APPEARANCE ───────────────────────────────────── */
   px:           4,      // pixel grid size in CSS px. 3=fine  4=chunky  6=coarse
   turnChance:   0.11,   // 0–1 prob of a 90° turn each step.  0=straight  0.3=zigzag
-  wanderChance: 0.5,   // 0–1 lateral drift each step.       0=rigid  0.15=organic
+  wanderChance: 0.10,   // 0–1 lateral drift each step.       0=rigid  0.15=organic
   leafInterval: 7,      // draw a leaf cluster every N steps
   leafCountMin: 2,      // min leaf pixels per cluster
   leafCountMax: 5,      // max leaf pixels per cluster
@@ -50,76 +50,77 @@ window.VINE_CFG = {
       clusters:   1,      // vines per scroll event
       depth:      3,
       chance:     0.04,   // very low — scroll fires constantly, keep this small
-      cooldownMs: 10000,   // hard cooldown between scroll bursts
+      cooldownMs: 1200,   // hard cooldown between scroll bursts
     },
 
     onPassive: {
       clusters:   1,      // vines per passive auto-tick
       depth:      3,
       chance:     0.5,    // 50% chance each tick fires
-      intervalMs: 10000,   // ms between passive ticks
+      intervalMs: 5000,   // ms between passive ticks
     },
 
     onNavClick: {
       clusters:   2,
       depth:      4,
-      chance:     0.1,
+      chance:     1.0,
       cooldownMs: 0,
     },
 
     onPostTitleClick: {
       clusters:   2,
       depth:      4,
-      chance:     0.1,
+      chance:     1.0,
       cooldownMs: 0,
     },
 
     onPostTitleHover: {
       clusters:   1,
       depth:      3,
-      chance:     0.005,   // 30% chance hover fires
+      chance:     0.30,   // 30% chance hover fires
       cooldownMs: 800,
     },
 
     onTagClick: {
       clusters:   1,
       depth:      3,
-      chance:     0.05,
+      chance:     1.0,
       cooldownMs: 0,
     },
 
     onTagHover: {
       clusters:   1,
       depth:      2,
-      chance:     0.0005,
+      chance:     0.20,
       cooldownMs: 1000,
     },
 
     onSidebarClick: {
       clusters:   1,
       depth:      3,
-      chance:     0.05,
+      chance:     1.0,
       cooldownMs: 0,
     },
 
     onSidebarHover: {
       clusters:   1,
       depth:      2,
-      chance:     0.05,
+      chance:     0.20,
       cooldownMs: 1000,
     },
 
     onFooterHover: {
       clusters:   1,
       depth:      2,
-      chance:     0.05,
+      chance:     0.25,
       cooldownMs: 1500,
     },
 
   },
 
   /* ── CSS SELECTORS — map triggers to DOM elements ───────── */
-  // Adjust these to match your actual Hugo.386 markup.
+  // To find the real class names: right-click any nav link or post title
+  // in your browser → Inspect → read the class="..." in the Elements panel.
   selectors: {
     nav:        '.navbar a, .navbar-nav a, #navbar a',
     postTitle:  '.post-title, h1.entry-title, .list-post-title, article h2 a',
@@ -136,10 +137,10 @@ window.VINE_CFG = {
 (function (CFG) {
   'use strict';
 
-  const STORAGE_KEY = 'vines_canvas_v1';
-  const STORAGE_DIM = 'vines_canvas_dim_v1';
+  const STORAGE_KEY = 'vines_pixels_v3';
+  const STORAGE_DIM = 'vines_dim_v3';
 
-  /* ── canvas setup ── */
+  /* ── canvas ── */
   let W = 0, H = 0;
   const canvas = document.createElement('canvas');
   canvas.id = 'vine-canvas';
@@ -154,6 +155,45 @@ window.VINE_CFG = {
   document.body.appendChild(canvas);
   const ctx = canvas.getContext('2d');
 
+  /* ── JS-side pixel buffer ─────────────────────────────────────
+     We maintain our own RGBA Uint8ClampedArray that mirrors every
+     pixel we draw. On save we store this buffer (never reading back
+     from the canvas). On restore we write it straight to the canvas
+     with putImageData.
+
+     This completely avoids canvas fingerprinting:
+       - toDataURL()  → poisoned by LibreWolf/Tor (adds noise to R channel)
+       - getImageData → also poisoned by LibreWolf/Tor
+       - putImageData → write-only, never read back, not touched by protection
+  ─────────────────────────────────────────────────────────────── */
+  let pixelBuf = null; // Uint8ClampedArray, W*H*4
+
+  function initBuffer () {
+    pixelBuf = new Uint8ClampedArray(W * H * 4);
+  }
+
+  /* Write an RGBA value into our buffer at canvas coords (x, y) */
+  function bufSet (x, y, r, g, b, a) {
+    if (x < 0 || y < 0 || x >= W || y >= H) return;
+    const i = (y * W + x) * 4;
+    pixelBuf[i]     = r;
+    pixelBuf[i + 1] = g;
+    pixelBuf[i + 2] = b;
+    pixelBuf[i + 3] = a;
+  }
+
+  /* Fill a rectangle in both the canvas and our buffer */
+  function pxFill (x, y, w, h, r, g, b) {
+    ctx.fillStyle = `rgb(${r},${g},${b})`;
+    ctx.fillRect(x, y, w, h);
+    // mirror into buffer
+    for (let row = y; row < y + h; row++) {
+      for (let col = x; col < x + w; col++) {
+        bufSet(col, row, r, g, b, 255);
+      }
+    }
+  }
+
   function resize () {
     W = window.innerWidth;
     H = window.innerHeight;
@@ -161,58 +201,74 @@ window.VINE_CFG = {
     canvas.height = H;
     canvas.style.width  = W + 'px';
     canvas.style.height = H + 'px';
+    initBuffer();
   }
-  resize();
 
-  /* ── persistence: restore previous canvas on load ── */
-  (function restoreCanvas () {
+  /* ── persistence ── */
+  function saveState () {
+    if (!pixelBuf) return;
+    try {
+      // base64-encode the raw buffer in 32 KB chunks (avoids stack overflow)
+      const CHUNK = 0x8000;
+      let binary = '';
+      for (let i = 0; i < pixelBuf.length; i += CHUNK) {
+        binary += String.fromCharCode.apply(null, pixelBuf.subarray(i, i + CHUNK));
+      }
+      localStorage.setItem(STORAGE_KEY, btoa(binary));
+      localStorage.setItem(STORAGE_DIM, JSON.stringify({ w: W, h: H }));
+    } catch (e) { /* quota exceeded — skip */ }
+  }
+
+  function restoreState () {
     try {
       const saved    = localStorage.getItem(STORAGE_KEY);
       const savedDim = localStorage.getItem(STORAGE_DIM);
       if (!saved || !savedDim) return;
       const { w, h } = JSON.parse(savedDim);
-      // only restore if viewport size matches (avoids stretched pixels on resize)
-      if (w !== W || h !== H) return;
-      const img = new Image();
-      img.onload = () => ctx.drawImage(img, 0, 0);
-      img.src = saved;
-    } catch (e) { /* localStorage unavailable or quota hit — skip */ }
-  })();
+      if (w !== W || h !== H) return; // viewport changed — start fresh
 
-  /* ── persistence: save canvas to localStorage before unload ── */
-  window.addEventListener('beforeunload', () => {
-    try {
-      localStorage.setItem(STORAGE_KEY, canvas.toDataURL('image/png'));
-      localStorage.setItem(STORAGE_DIM, JSON.stringify({ w: W, h: H }));
-    } catch (e) { /* quota exceeded — skip silently */ }
-  });
+      const binary = atob(saved);
+      const bytes  = new Uint8ClampedArray(binary.length);
+      for (let i = 0; i < binary.length; i++) bytes[i] = binary.charCodeAt(i);
 
-  window.addEventListener('resize', () => {
-    // on resize: re-blank (restoring would be stretched), let vines regrow
-    const prev = canvas.toDataURL();
-    resize();
-    // attempt to redraw at new size — will be slightly wrong but better than nothing
-    const img = new Image();
-    img.onload = () => ctx.drawImage(img, 0, 0);
-    img.src = prev;
-  });
+      // write straight to canvas — no read-back, fingerprinting doesn't apply
+      ctx.putImageData(new ImageData(bytes, W, H), 0, 0);
+      // sync our buffer so future draws are consistent
+      pixelBuf.set(bytes);
+    } catch (e) { /* corrupted data — start fresh */ }
+  }
 
-  /* ── utils ── */
+  resize();
+  restoreState();
+
+  window.addEventListener('beforeunload', saveState);
+  window.addEventListener('resize', resize); // clears buffer; vines continue on new size
+
+  /* ── colour helpers ── */
   const PX   = CFG.px;
   const snap = v => Math.round(v / PX) * PX;
   const rnd  = (a, b) => a + Math.random() * (b - a);
 
-  function pickColour () {
-    const pal = CFG.palettes[0 | rnd(0, CFG.palettes.length)];
-    return pal[0 | rnd(0, pal.length)];
+  function hexToRgb (hex) {
+    return [
+      parseInt(hex.slice(1,3), 16),
+      parseInt(hex.slice(3,5), 16),
+      parseInt(hex.slice(5,7), 16),
+    ];
   }
 
-  function leafColour (hex) {
-    const r = parseInt(hex.slice(1,3), 16);
-    const g = parseInt(hex.slice(3,5), 16);
-    const b = parseInt(hex.slice(5,7), 16);
+  function pickRgb () {
+    const pal = CFG.palettes[0 | rnd(0, CFG.palettes.length)];
+    return hexToRgb(pal[0 | rnd(0, pal.length)]);
+  }
+
+  function leafRgb (rgb) {
     const [dr, dg, db] = CFG.leafLighten;
-    return `rgb(${Math.min(255,r+dr)},${Math.min(255,g+dg)},${Math.min(255,b+db)})`;
+    return [
+      Math.min(255, rgb[0] + dr),
+      Math.min(255, rgb[1] + dg),
+      Math.min(255, rgb[2] + db),
+    ];
   }
 
   /* ── vine objects ── */
@@ -223,27 +279,26 @@ window.VINE_CFG = {
     return {
       x: snap(x), y: snap(y),
       dx, dy, depth,
-      col:   pickColour(),
-      life:  0,
-      delay: delay || 0,
-      ms:    len,
-      done:  false,
+      rgb:        pickRgb(),
+      life:       0,
+      delay:      delay || 0,
+      ms:         len,
+      done:       false,
+      branchCount:1,
     };
   }
 
   const LEAF_OFFSETS = [
     [-1,0],[1,0],[0,-1],[0,1],[-1,-1],[1,1],[1,-1],[-1,1]
-  ].map(([ox,oy]) => [ox*PX, oy*PX]);
+  ].map(([ox, oy]) => [ox * PX, oy * PX]);
 
   function stepVine (v) {
     if (v.done) return;
     if (v.delay > 0) { v.delay--; return; }
 
-    /* ── movement: pixel-art orthogonal walk ── */
     let nx = v.x, ny = v.y;
 
     if (Math.random() < CFG.turnChance) {
-      // 90° perpendicular turn
       const perp = Math.random() < 0.5 ? 1 : -1;
       if (v.dx !== 0) ny = v.y + perp * PX;
       else            nx = v.x + perp * PX;
@@ -260,32 +315,25 @@ window.VINE_CFG = {
     nx = Math.max(0, Math.min(W - PX, snap(nx)));
     ny = Math.max(0, Math.min(H - PX, snap(ny)));
 
-    /* ── draw vine pixel ── */
-    const thick = PX * (CFG.thickBase + Math.max(0, v.depth) * CFG.thickPerDepth);
-    ctx.fillStyle = v.col;
-    ctx.fillRect(snap(v.x), snap(v.y), thick, thick);
+    const thick = Math.round(PX * (CFG.thickBase + Math.max(0, v.depth) * CFG.thickPerDepth));
+    pxFill(snap(v.x), snap(v.y), thick, thick, v.rgb[0], v.rgb[1], v.rgb[2]);
 
-    /* ── draw leaf cluster ── */
     if (v.life % CFG.leafInterval === 0) {
-      const lc = leafColour(v.col);
+      const lc = leafRgb(v.rgb);
       const n  = CFG.leafCountMin + Math.floor(rnd(0, CFG.leafCountMax - CFG.leafCountMin));
       for (let i = 0; i < n; i++) {
         const [ox, oy] = LEAF_OFFSETS[0 | rnd(0, LEAF_OFFSETS.length)];
-        ctx.fillStyle = lc;
-        ctx.fillRect(snap(v.x + ox), snap(v.y + oy), PX, PX);
+        pxFill(snap(v.x + ox), snap(v.y + oy), PX, PX, lc[0], lc[1], lc[2]);
       }
     }
 
     v.x = nx; v.y = ny; v.life++;
 
-    /* ── terminus: branch ── */
     if (v.life >= v.ms) {
       v.done = true;
       if (v.depth > 0) {
-        // number of branches = density slider if present, else from trigger
-        const branches = v.branchCount || 1;
-        for (let i = 0; i < branches; i++) {
-          const dir = inwardDir(v.x, v.y);
+        for (let i = 0; i < v.branchCount; i++) {
+          const dir   = inwardDir(v.x, v.y);
           const child = mkVine(v.x, v.y, dir[0], dir[1], v.depth - 1, i * 5);
           child.branchCount = v.branchCount;
           vines.push(child);
@@ -294,7 +342,6 @@ window.VINE_CFG = {
     }
   }
 
-  /* bias branches toward the viewport centre */
   function inwardDir (x, y) {
     const tx = x < W / 2 ? 1 : -1;
     const ty = y < H / 2 ? 1 : -1;
@@ -302,20 +349,19 @@ window.VINE_CFG = {
     return pool[0 | rnd(0, pool.length)];
   }
 
-  /* pick N random edge anchor points */
   function edgeAnchors (n) {
     const arr = [];
     for (let i = 0; i < n; i++) {
       const side = 0 | rnd(0, 4);
-      if      (side === 0) arr.push({ x: 0,     y: snap(rnd(40, H - 80)), dx:  1, dy:  0 });
-      else if (side === 1) arr.push({ x: W - PX, y: snap(rnd(40, H - 80)), dx: -1, dy:  0 });
-      else if (side === 2) arr.push({ x: snap(rnd(0, W)), y: 0,       dx:  0, dy:  1 });
-      else                 arr.push({ x: snap(rnd(0, W)), y: H - PX,  dx:  0, dy: -1 });
+      if      (side === 0) arr.push({ x: 0,      y: snap(rnd(40, H - 80)), dx:  1, dy:  0 });
+      else if (side === 1) arr.push({ x: W - PX,  y: snap(rnd(40, H - 80)), dx: -1, dy:  0 });
+      else if (side === 2) arr.push({ x: snap(rnd(0, W)), y: 0,      dx:  0, dy:  1 });
+      else                 arr.push({ x: snap(rnd(0, W)), y: H - PX, dx:  0, dy: -1 });
     }
     return arr;
   }
 
-  /* ── fire a trigger ── */
+  /* ── trigger system ── */
   const _cooldowns = {};
 
   function fire (triggerKey) {
@@ -330,7 +376,6 @@ window.VINE_CFG = {
     if (vines.filter(v => !v.done).length >= CFG.maxVines) return;
 
     const depth   = t.depth != null ? t.depth : CFG.maxDepth;
-    // branches per terminus = clusters (clamped 1–3)
     const density = Math.min(3, Math.max(1, t.clusters));
 
     edgeAnchors(t.clusters).forEach((a, i) => {
@@ -341,7 +386,7 @@ window.VINE_CFG = {
   }
 
   /* ── main loop ── */
-  const STEP_INTERVAL_MS = 55; // base tick speed — lower = faster globally
+  const STEP_INTERVAL_MS = 55;
   let lastTs = 0, tickAcc = 0;
 
   function loop (ts) {
@@ -351,22 +396,18 @@ window.VINE_CFG = {
     if (tickAcc < STEP_INTERVAL_MS) return;
     tickAcc = 0;
 
-    const alive = vines.filter(v => !v.done);
-    alive.forEach(stepVine);
-    // prune fully done chains
-    if (vines.length > CFG.maxVines * 2) {
-      vines = vines.filter(v => !v.done);
-    }
+    vines.filter(v => !v.done).forEach(stepVine);
+    if (vines.length > CFG.maxVines * 2) vines = vines.filter(v => !v.done);
   }
   requestAnimationFrame(loop);
 
-  /* ── bind DOM triggers ── */
+  /* ── DOM bindings ── */
   function on (sel, event, triggerKey) {
     try {
-      document.querySelectorAll(sel).forEach(el => {
-        el.addEventListener(event, () => fire(triggerKey));
-      });
-    } catch (e) { /* bad selector — skip */ }
+      document.querySelectorAll(sel).forEach(el =>
+        el.addEventListener(event, () => fire(triggerKey))
+      );
+    } catch (e) {}
   }
 
   const S = CFG.selectors;
@@ -381,13 +422,11 @@ window.VINE_CFG = {
 
   window.addEventListener('scroll', () => fire('onScroll'), { passive: true });
 
-  /* ── passive auto-burst ── */
   const pt = CFG.triggers.onPassive;
   if (pt && pt.clusters > 0) {
     setInterval(() => fire('onPassive'), pt.intervalMs || 5000);
   }
 
-  /* ── initial load burst ── */
   setTimeout(() => fire('onLoad'), 400);
 
 })(window.VINE_CFG);

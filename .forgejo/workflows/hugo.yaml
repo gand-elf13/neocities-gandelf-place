@@ -6,6 +6,10 @@ on:
       - main
   workflow_dispatch:
 
+concurrency:
+  group: deploy-to-neocities
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: codeberg-small
@@ -25,8 +29,11 @@ jobs:
       - name: Build with Hugo
         run: hugo --minify
 
-      - name: Deploy to Neocities
-        run: |
-          curl -L https://github.com/neocities/neocities-cli/releases/download/3.0.0/neocities-linux-amd64 -o neocities
-          chmod +x neocities
-          ./neocities deploy -t ${{ secrets.NEOCITIES_API_TOKEN }} public
+      - name: Deploy to neocities
+        uses: https://github.com/bcomnes/deploy-to-neocities@v3
+        with:
+          api_key: ${{ secrets.NEOCITIES_API_TOKEN }}
+          cleanup: false
+          neocities_supporter: false
+          preview_before_deploy: true
+          dist_dir: public

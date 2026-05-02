@@ -2,10 +2,10 @@
 tags: []
 date: 2024-06-25
 date modified: 2026-05-01
-draft: true
+draft: false
 date created: 2026-05-01
 title: Sainte Célestine
-lastmod: 2026-05-01T16:31:36.001Z
+lastmod: 2026-05-01T17:09:30.118Z
 ---
 {{< figure src="/ob/attachements/820FCE23-8F78-4711-BFD7-3722E86F2FD1.jpg" alt="820FCE23-8F78-4711-BFD7-3722E86F2FD1.jpg" width="447" >}}
 

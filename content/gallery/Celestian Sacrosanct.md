@@ -1,11 +1,11 @@
 ---
 tags: []
 date: 2025-10-12
-date modified: 2026-04-30
-draft: true
+date modified: 2026-05-01
+draft: false
 date created: 2026-04-29
 title: Celestian Sacrosanct
-lastmod: 2026-04-30T08:29:19.955Z
+lastmod: 2026-05-01T17:09:26.733Z
 ---
 Deuxième essai au NMM, et cette fois ca à vraiment bien marché !
 

@@ -1,11 +1,11 @@
 ---
 tags: []
 date: 2024-11-20
-date modified: 2026-04-30
-draft: true
+date modified: 2026-05-01
+draft: false
 date created: 2026-04-29
 title: Siter Superiore
-lastmod: 2026-04-30T08:37:46.898Z
+lastmod: 2026-05-01T17:09:32.240Z
 ---
 La sœur supérieur de ma seconde escouade, elle bénéficie de 20 figurines d'expériences dans la peinture de sœur de bataille, elles ne sont pas toutes aussi chanceuses...
 

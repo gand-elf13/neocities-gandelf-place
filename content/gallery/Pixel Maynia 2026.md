@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-02
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-02T13:21:18.102Z
+lastmod: 2026-05-02T13:23:37.963Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -22,7 +22,7 @@ Include an item that could make our lives better : More Orange JUICE !!!
 
 Try to make the viewer feel sad : idk maybe it does, kinda for me.
 
-![Dont let go 1.png](/ob/attachements/Dont%20let%20go%201.png)
+{{< figure src="/ob/attachements/Dont%20let%20go%201.png" alt="Dont let go 1.png" width="576" >}}
 
 3. Hacker
 

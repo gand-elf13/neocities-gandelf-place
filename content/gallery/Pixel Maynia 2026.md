@@ -4,25 +4,29 @@ date created: 2026-05-01
 date modified: 2026-05-02
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-02T13:23:37.963Z
+lastmod: 2026-05-02T13:28:09.379Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
 The official Pixel Maynia discord server: <https://discord.gg/mAj8bRsKGs>
 
-Official Themes:
+## Official Themes:
 
-1. \[x] Machine
+### Machine
 
 Include an item that could make our lives better : More Orange JUICE !!!
 
 {{< figure src="/ob/attachements/Machine.png" alt="Machine.png" width="298" >}}
 
-2. Don't let go
+***
+
+### Don't Let Go
 
 Try to make the viewer feel sad : idk maybe it does, kinda for me.
 
 {{< figure src="/ob/attachements/Dont%20let%20go%201.png" alt="Dont let go 1.png" width="576" >}}
+
+***
 
 3. Hacker
 
@@ -82,7 +86,7 @@ Try to make the viewer feel sad : idk maybe it does, kinda for me.
 
 31. Oath
 
-Official optional constraints:
+## Official Optional Constraints:
 
 3. Use this palette:: <https://lospec.com/palette-list/honeygb>
 

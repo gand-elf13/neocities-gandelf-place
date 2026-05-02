@@ -84,6 +84,11 @@ refLinksNotFoundURL = "/not-here-yet"
     url = "/gallery/"
     weight = 27
     identifier = "gallery"
+  [[menu.main]]
+    name = "World"
+    url = "/world/"
+    weight = 28
+    identifier = "world"
 
   [[menu.main]]
     identifier = "lainring"

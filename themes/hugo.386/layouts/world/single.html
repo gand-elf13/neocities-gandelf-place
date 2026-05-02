@@ -9,7 +9,6 @@
     clear: right;
     width: 33%;
     margin: 0 0 1em 1.5em;
-    color: #000;
   }
 
   .world-infobox .nav-list {
@@ -22,6 +21,11 @@
     display: block;
   }
 
+  .world-infobox .nav-header {
+    color: #000;
+    text-align: center;
+  }
+
   .world-infobox .infobox-row {
     display: flex;
     gap: 0.5em;
@@ -29,13 +33,33 @@
   }
 
   .world-infobox .infobox-key {
+    color: #000;
     font-weight: bold;
     flex-shrink: 0;
     width: 45%;
   }
 
   .world-infobox .infobox-val {
-    flex: 1;
+    color: #000;
+  }
+
+  .world-infobox .infobox-tags-title {
+    color: #000;
+    font-weight: bold;
+    padding: 6px 6px 2px 6px;
+    display: block;
+  }
+
+  .world-infobox .infobox-tags {
+    padding: 4px 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .world-infobox .infobox-tags .tag {
+    color: #000;
+    display: inline-block;
   }
 
   .world-body::after {
@@ -60,32 +84,34 @@
     <aside class="world-infobox">
       <ul class="nav nav-list bs-docs-sidenav">
 
-        {{ $img := "" }}
+        {{/* Image: string, [img], ou [[img, caption], ...] */}}
         {{ with .Params.image }}
+          {{ $src := "" }}
           {{ if reflect.IsSlice . }}
             {{ $first := index . 0 }}
             {{ if reflect.IsSlice $first }}
-              {{ $img = index $first 0 }}
+              {{ $src = index $first 0 }}
             {{ else }}
-              {{ $img = $first }}
+              {{ $src = $first }}
             {{ end }}
           {{ else }}
-            {{ $img = . }}
+            {{ $src = . }}
           {{ end }}
-        {{ end }}
-        {{ if $img }}
-        <li class="infobox-image">
-          <img src="{{ $img }}" alt="{{ .Title }}">
-        </li>
+          {{ if $src }}
+          <li class="infobox-image">
+            <img src="/img/{{ $src }}" alt="{{ $.Title }}">
+          </li>
+          {{ end }}
         {{ end }}
 
         <li class="nav-header">{{ .Params.infobox }}</li>
 
         {{ $skip := slice
-          "title" "date" "lastmod" "publishdate" "expirydate"
-          "description" "draft" "tags" "image" "infobox"
+          "title" "subtitle" "date" "lastmod" "publishdate" "expirydate"
+          "description" "draft" "tags" "image" "infobox" "layout"
           "summary" "weight" "slug" "url" "aliases"
-          "outputs" "layout" "type" "series" "categories"
+          "outputs" "type" "series" "categories"
+          "iscjklanguage"
         }}
 
         {{ range $key, $val := .Params }}
@@ -104,8 +130,13 @@
         {{ end }}
 
         {{ with .Params.tags }}
-        <li class="infobox-tags">
-          {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+        <li>
+          <span class="infobox-tags-title">Tags</span>
+          <div class="infobox-tags">
+            {{ range . }}
+              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}" class="tag">{{ . }}</a>
+            {{ end }}
+          </div>
         </li>
         {{ end }}
 

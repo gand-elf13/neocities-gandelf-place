@@ -1,11 +1,16 @@
 ---
-title: "Before your eyes"
-date: 2025-03-19T17:57:56.659Z
-draft: false
-tags: ["review", "video_game"]
+tags:
+  - GPFRS
+  - man
+  - review
+  - video_game
+date: 2025-03-19
+date modified: 2026-04-10
+date created: 2026-03-18
+title: Before your eyes
+lastmod: 2026-04-10T08:40:01.618Z
 ---
-
----
+Man…
 
 Que dire
 
@@ -21,7 +26,7 @@ On va quand même essayer…
 
 As-tu déjà fait un choix moral dans un jeu ? T’es-tu déjà investi dans une histoire… Les jeux vidéo sont incroyables, ils permettent de ressentir (avec toutes les formes d’art, mais anyway) des émotions.
 
-Ce jeu est un jeu sur la mémoire en partie. Je n’ai pas vu de réel choix moral, sûrement car ils étaient trop bien posés, mais ce jeu, comme d’autres, nous fait explorer la vie de quelqu’un qui, rapidement, devient nous. Rien de nouveau, en un sens : la plupart des histoires de jeux vidéo sont comme cela, on vit l’histoire d’un personnage dont la conclusion est déjà écrite, quoique inconnue. D’autres jeux proposent d’explorer les souvenirs, je pense à To the Moon qui en a une très bonne approche.
+Ce jeu est un jeu sur la mémoire en partie. Je n’ai pas vu de réel choix moral, sûrement car ils étaient trop bien posés, mais ce jeu, comme d’autres, nous fait explorer la vie de quelqu’un qui, rapidement, devient nous. Rien de nouveau, en un sens : la plupart des histoires de jeux vidéo sont comme cela, on vit l’histoire d’un personnage dont la conclusion est déjà écrite, quoique inconnue. D’autres jeux proposent d’explorer les souvenirs, je pense à To the Moon qui en a une très bonne approach.
 
 Ce que je trouve terrible avec les souvenirs, c’est qu’ils sont incontrôlables et souvent on a l’impression qu’ils sont contre nous… Les bons deviennent de plus en plus flous, tandis que les mauvais s’exagèrent et restent frais.
 
@@ -61,7 +66,7 @@ Mon amie est revenue. Elle se sent mal de nous avoir abandonnés. Je m’en fous
 
 C’est lui qui va raconter mon histoire à la gardienne. D’ailleurs, il a du remords pour toutes ces mouettes qu’il n’a pas su faire entrer. Mais moi, il me dit : « J’ai toujours cru que les histoires que je racontais n’étaient pas assez grandes… je pense qu’elles l’étaient trop. »
 
-Maman est dans ma chambre. Elle me parle de ce que j’ai écrit. C’était bien écrit, mais elle n’a jamais aimé le personnage. Pour moi, elle a écrit l’histoire d’un personnage qu’elle préférait infiniment. Un petit garçon qui n’a pas eu le temps de grandir, mais qui, dans sa courte vie, a aidé une voisine qui se sentait seule après la mort de sa mère.
+Maman est dans ma chamber. Elle me parle de ce que j’ai écrit. C’était bien écrit, mais elle n’a jamais aimé le personnage. Pour moi, elle a écrit l’histoire d’un personnage qu’elle préférait infiniment. Un petit garçon qui n’a pas eu le temps de grandir, mais qui, dans sa courte vie, a aidé une voisine qui se sentait seule après la mort de sa mère.
 
 À apporter à ses parents tout le bonheur dont ils avaient besoin et dont ils auraient pu rêver.
 

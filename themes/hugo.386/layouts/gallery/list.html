@@ -1,23 +1,104 @@
 {{ define "main" }}
+<style>
+  /*
+   * Gallery layout variables — tweak these to adjust spacing.
+   * --gallery-padding : space on the left and right of the whole grid
+   * --gallery-gap     : space between boxes (horizontal and vertical)
+   * --img-margin      : inner margin between box edge and image (left/right and top)
+   */
+  :root {
+    --gallery-padding: 2rem;
+    --gallery-gap:     2rem;
+    --img-margin:      35px;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gallery-gap);
+    padding: 0 var(--gallery-padding) 4rem var(--gallery-padding);
+    list-style: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+
+  /* Single column on narrow screens */
+  @media (max-width: 900px) {
+    .gallery-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .gallery-item {
+    /* Let the item fill its grid cell fully */
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .gallery-card {
+    width: 100%;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .gallery-card img {
+    /*
+     * Image fills the card minus the inner margin on each side.
+     * calc(100% - 2 * var(--img-margin)) mirrors the original
+     * "70px margin on left and right" logic, now relative to
+     * the card width instead of a fixed pixel value.
+     */
+    width: calc(100% - 2 * var(--img-margin));
+    height: auto;          /* preserve aspect ratio */
+    margin-top: var(--img-margin);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .gallery-card h2 {
+    text-align: center;
+    margin: 20px 0 10px 0;
+  }
+
+  .gallery-card h2 a {
+    text-decoration: none;
+  }
+
+  .gallery-card .gallery-date {
+    text-align: center;
+    margin: 0 0 30px 0;
+    color: #666;
+    font-size: 0.9em;
+  }
+</style>
+
 <article class="row-fluid navmargin">
-    <header class="page-header">
-        <h1>Gallery</h1>
-    </header>
-    {{.Content}}
+  <header class="page-header">
+    <h1>Gallery</h1>
+  </header>
+  {{.Content}}
 </article>
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 2rem; padding: 0 2rem 4rem 2rem;">
+
+<ul class="gallery-grid">
   {{ range .Pages.ByDate.Reverse }}
-    <li style="width: 700px;">
-      <ul class="nav nav-list bs-docs-sidenav" 
-          style="list-style-type: none; padding: 0; margin: 0; 
-                 width: 700px; border: 1px solid #eee; box-sizing: border-box; 
-                 display: flex; flex-direction: column; align-items: center;">
+    <li class="gallery-item">
+      <ul class="gallery-card nav nav-list bs-docs-sidenav">
+
         {{ $url := "" }}
+
         {{/* Try standard markdown image first: ![alt](url) */}}
         {{ $mdImg := findRE `!\[.*?\]\((.*?)\)` .RawContent 1 }}
         {{ if $mdImg }}
           {{ $url = replaceRE `!\[.*?\]\((.*?)\)` "$1" (index $mdImg 0) }}
         {{ end }}
+
         {{/* Try Hugo figure shortcode: {{< figure src="url" ... >}} */}}
         {{ if not $url }}
           {{ $figImg := findRE `{{<\s*figure\s[^>]*src="([^"]+)"` .RawContent 1 }}
@@ -25,18 +106,17 @@
             {{ $url = replaceRE `{{<\s*figure\s[^>]*src="([^"]+)".*` "$1" (index $figImg 0) }}
           {{ end }}
         {{ end }}
+
         {{ if $url }}
-          <img src="{{ $url | relURL }}" alt="{{ .Title }}" 
-               style="width: 560px; height: auto; margin-top: 70px;">
+          <img src="{{ $url | relURL }}" alt="{{ .Title }}">
         {{ end }}
-        <h2 style="text-align: center; margin: 20px 0 10px 0;">
-          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-        </h2>
-        <p style="text-align: center; margin: 0 0 30px 0; color: #666; font-size: 0.9em;">
-          {{ .Date.Format "January 2, 2006" }}
-        </p>
+
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p class="gallery-date">{{ .Date.Format "January 2, 2006" }}</p>
+
       </ul>
     </li>
   {{ end }}
-</div>
+</ul>
+
 {{ end }}

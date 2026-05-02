@@ -9,6 +9,20 @@
   @media (max-width: 768px) {
     #guestbook {
       height: 600px !important;
+      transform: scale(0.75);
+      transform-origin: top left;
+      width: calc(100% / 0.75);
+      margin-bottom: -150px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #guestbook {
+      height: 500px !important;
+      transform: scale(0.6);
+      transform-origin: top left;
+      width: calc(100% / 0.6);
+      margin-bottom: -400px;
     }
   }
 </style>
@@ -17,7 +31,7 @@
   aria-label="Guestbook" 
   id="guestbook" 
   src="https://users4.smartgb.com/g/g.php?a=s&i=g44-82905-ab" 
-  style="height:{{ .Get "height" | default "1760px" }};width:100%;border:none;"
+  style="height:1760px;width:100%;border:none;"
   loading="lazy"
 >
 </iframe>

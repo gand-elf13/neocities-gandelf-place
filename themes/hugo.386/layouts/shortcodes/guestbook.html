@@ -1,9 +1,15 @@
 <style>
   #guestbook {
-    scrollbar-width: none; /* Firefox */
+    scrollbar-width: none;
   }
   #guestbook::-webkit-scrollbar {
-    display: none; /* Chrome, Safari, Edge */
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    #guestbook {
+      height: 600px !important;
+    }
   }
 </style>
 

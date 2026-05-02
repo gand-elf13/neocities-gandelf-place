@@ -3,9 +3,12 @@
     <header class="page-header">
         <h1>{{.Title}}</h1>
     </header>
-    {{.Content}}
+    <div style="text-align: center;"> 
+        {{.Content}}
+    </div>
+     <h3>Files : </h3>
 </article>
-<ul>
+<ul style="list-style: none; padding: 0;">
 {{ range .Pages.ByTitle }}
     <li>
         <a href="{{.Permalink}}">{{.Title}}</a>

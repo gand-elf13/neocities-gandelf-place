@@ -1,11 +1,11 @@
 ---
 tags: []
 date: 2026-04-17
-date modified: 2026-04-26
+date modified: 2026-05-02
 draft: false
 date created: 2026-04-09
 title: Les Gouts et les Couleurs
-lastmod: 2026-04-26T09:38:11.664Z
+lastmod: 2026-05-02T20:39:15.390Z
 ---
 Y as il un critère pour juger l'art, ou plus largement le divertissement que nous consommons ?\
 La doxa nous dit que chacun est libre d'aimer ce qu'il veux et que c'est purement subjectif, j'aime le rugby toi le foot... J'aime les films d'horreur tu préfère la romance, c'est les goûts et les couleurs !\
@@ -19,7 +19,7 @@ Des infamies telles que toutes personnes l'aimant prouverait qu'elle as des goû
 Des choses que l'on ne peut pas pardonner, si je croyais être d'accord avec la relativité des goûts, il me semble après réflexion, qu'il y as au moins une part d'absolue dans le sens ou :\
 Meme si quelque-chose dont la qualité est manifeste peut ne pas plaire, quelque-chose dont l'absence de qualité est tout aussi manifeste ne devrait pas plaire.\
 J'invoquerais ici pour le cinéma le cas extrême de la pornographie, meme medium, mais personne de sensé ne dirait : "On peut aimer la pornographie enfin !! c'est les goûts et les couleurs".\
-Non on ne devrait pas aimer la pornographie, on la consomme par addition, on en est dépendant, mais ce n'est pas une excuse, aucune qualité n'est ici, c'est de la simple exploitation des biais de notre cerveau pour faire de l'argent.
+Non on ne devrait pas aimer la pornographie, on la consomme par addiction, on en est dépendant, mais ce n'est pas une excuse, aucune qualité n'est ici, c'est de la simple exploitation des biais de notre cerveau pour faire de l'argent.
 
 ![IMG\_1981.png](/ob/attachements/IMG_1981.png)\
 *joli meme qui représente cette idée plutôt pas mal*

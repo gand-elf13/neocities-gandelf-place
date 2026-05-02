@@ -3,13 +3,12 @@ tags:
   - anime
   - GPFRS
   - man
-  - review
   - trigger
 date: 2025-03-27
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: Darling in the franXX 2(3, stfu)
-lastmod: 2026-04-10T08:40:01.598Z
+lastmod: 2026-04-26T09:32:18.611Z
 ---
 Retour à la case Départ, il faut qu’on parle.
 

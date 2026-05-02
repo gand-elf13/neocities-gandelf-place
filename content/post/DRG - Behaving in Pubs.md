@@ -1,11 +1,11 @@
 ---
 tags: []
 date created: 2026-04-24
-date modified: 2026-04-24
+date modified: 2026-04-26
 date: 2026-04-24
 draft: false
 title: DRG - Behaving in Pubs
-lastmod: 2026-04-25T06:40:39.118Z
+lastmod: 2026-04-26T09:27:50.549Z
 ---
 ## Behaving like a Gentlemen in DRG
 

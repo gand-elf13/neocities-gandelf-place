@@ -3,13 +3,12 @@ tags:
   - anime
   - GPFRS
   - man
-  - review
   - trigger
 date: 2025-03-25
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: Darling in the FranXX
-lastmod: 2026-04-10T08:40:01.603Z
+lastmod: 2026-04-26T09:32:14.216Z
 ---
 J’ai eu une idée pour commencer cette chose, puis une autre, et une autre. Donc je vais écrire les 3 à la suite, comme c’est clairement la chose rationnelle à faire.
 

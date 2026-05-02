@@ -3,12 +3,11 @@ tags:
   - anime
   - GPFRS
   - man
-  - review
 date: 2025-03-20
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: Serial experiment lain
-lastmod: 2026-04-10T08:40:01.316Z
+lastmod: 2026-04-26T09:33:17.393Z
 ---
 ## Serial Experiment Lain
 

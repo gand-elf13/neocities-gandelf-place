@@ -1,12 +1,11 @@
 ---
-tags:
-  - système
+tags: []
 date: 2026-04-17
-date modified: 2026-04-17
+date modified: 2026-04-26
 draft: false
 date created: 2026-04-09
 title: Les Gouts et les Couleurs
-lastmod: 2026-04-17T17:47:49.617Z
+lastmod: 2026-04-26T09:38:11.664Z
 ---
 Y as il un critère pour juger l'art, ou plus largement le divertissement que nous consommons ?\
 La doxa nous dit que chacun est libre d'aimer ce qu'il veux et que c'est purement subjectif, j'aime le rugby toi le foot... J'aime les films d'horreur tu préfère la romance, c'est les goûts et les couleurs !\

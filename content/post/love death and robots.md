@@ -2,13 +2,12 @@
 tags:
   - anime
   - GPFRS
-  - review
   - technique
 date: 2025-07-10
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-13
 title: love death and robots
-lastmod: 2026-04-10T08:40:01.292Z
+lastmod: 2026-04-26T09:33:58.263Z
 ---
 Comme souvent vous allez avoir le droit à un dump a chaud…
 

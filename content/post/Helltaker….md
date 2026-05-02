@@ -1,16 +1,13 @@
 ---
 tags:
-  - deep
-  - game
   - GPFRS
-  - review
   - technique
   - video_game
 date: 2026-03-18
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-18
 title: Helltaker…
-lastmod: 2026-04-10T08:40:01.458Z
+lastmod: 2026-04-26T09:35:04.309Z
 ---
 Impossible de parler de Helltaker sans parler de la raison de son existence.
 

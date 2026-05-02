@@ -1,13 +1,12 @@
 ---
 tags:
   - maths
-  - oral
   - physics
 date: 2025-06-12
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-13
 title: Se repérer sur terre grace aux étoiles
-lastmod: 2026-04-10T08:40:01.342Z
+lastmod: 2026-04-26T09:41:37.586Z
 ---
 ## Intro
 

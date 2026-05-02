@@ -3,12 +3,11 @@ tags:
   - anime
   - GPFRS
   - man
-  - review
 date: 2026-04-10
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2025-06-05
 title: cowboy bebop
-lastmod: 2026-04-10T08:47:41.647Z
+lastmod: 2026-04-26T09:32:11.607Z
 ---
 PS de debut de lecture regarder cowboy bebop dedans je spoil un episode **ENORME** (je préviendrais mais ne m'en voulez pas après)
 

@@ -1,13 +1,10 @@
 ---
-tags:
-  - deep
-  - philosophy
-  - story
+tags: []
 date: 2025-06-12
-date modified: 2026-04-10
+date modified: 2026-04-26
 date created: 2026-03-13
 title: losing you
-lastmod: 2026-04-10T08:40:01.294Z
+lastmod: 2026-04-26T09:38:00.993Z
 ---
 ***
 

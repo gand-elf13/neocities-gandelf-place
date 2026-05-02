@@ -1,11 +1,11 @@
 ---
 tags:
-  - review
+  - GPFRS
 date: 2026-06-12
 date modified: 2026-04-10
 date created: 2026-03-13
 title: How To Quit Discord (Matrix guide)
-lastmod: 2026-04-10T08:40:01.453Z
+lastmod: 2026-04-26T09:31:46.550Z
 ---
 2025-07-24Page récupérée de \[@JoinMatrixGuide]\[1]\
 j'y ajoute mes choix comme je suis un nouvel utilisateur de matrix.\

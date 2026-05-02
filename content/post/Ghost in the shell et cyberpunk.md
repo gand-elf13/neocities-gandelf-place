@@ -3,14 +3,15 @@ tags:
   - anime
   - GPFRS
   - man
+  - technique
   - video_game
 date: 2025-03-31
 date modified: 2026-04-26
 date created: 2025-03-31
 title: Ghost in the shell et cyberpunk
-lastmod: 2026-04-26T09:32:33.269Z
+lastmod: 2026-04-26T13:43:42.740Z
 ---
-Ghost in the shell est bizarre. Une resemblance frappante avec [Serial experiment lain](/post/serial-experiment-lain), sans surprise.
+Ghost in the shell ( #man ) est bizarre. Une resemblance frappante avec [Serial experiment lain](/post/serial-experiment-lain), sans surprise.
 
 On y suit l’histoire de major Motoko, une cyborg. Membre d’une brigade anti criminelle, qui s’interroge sur ses origines et les implications d’un corp artificiel.
 
@@ -34,7 +35,7 @@ Cette découverte pour le moi intrigante m’a littéralement fait tomber dans l
 
 Point commun des ces deux projects pourtant opposés par l’objectif et la forme : ils me mettent très mal à l’aise, et je pense que c’est parce qu’au fond de moi j’ai envie d’essayer.
 
-Et c’est cette relation ambiguë avec l’augmentation du corp humain qui m’a conduit à m’intéresser au genre cyberpunk ou les cyborgs sont monnaie courantes. Tout d’abord dans cyberpunk 2077, ou j’espérais voire une analyse intéressante de la question, et j’ai été satisfait, mais pas comme je me l’attendais. En fait de cp2077, à de nombreuses reprises, tu est confronté as des situations à des situations où les améliorations corporelles sont aux centre d'événements horrible. En particulier :
+Et c’est cette relation ambiguë avec l’augmentation du corp humain qui m’a conduit à m’intéresser au genre cyberpunk ou les cyborgs sont monnaie courantes. Tout d’abord dans cyberpunk 2077 ( #technique ), ou j’espérais voire une analyse intéressante de la question, et j’ai été satisfait, mais pas comme je me l’attendais. En fait de cp2077, à de nombreuses reprises, tu est confronté as des situations à des situations où les améliorations corporelles sont aux centre d'événements horrible. En particulier :
 
 L’histoire cursed de deux jumelles qui participent à une émission de télé-réalité, l’une prend la place de l’autre auprès de son amant, et implante à sa sœur, je cite “tout les implants de combat les plus moches du marché”. Ces événements sont théoriquement “scripté” vu la moralité des corpos on peut se poser des questions. Sauf que problème, au réveil de l’opération, elle as oublié et elle est furieuse, elle bute tout le monde et devient cyber-psycho.
 

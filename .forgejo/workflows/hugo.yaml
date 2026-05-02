@@ -1,4 +1,4 @@
-name: Deploy website to Neocities
+name: Deploy to Neocities
 
 on:
   push:
@@ -8,55 +8,25 @@ on:
 
 jobs:
   build:
-    runs-on: codeberg-tiny-lazy
-    container:
-      image: "hugomods/hugo:0.161.0"
+    runs-on: ubuntu-latest
     steps:
-      - name: Clone the repository
+      - name: Checkout code
         uses: https://code.forgejo.org/actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
-      - name: Generate static files with Hugo
-        env:
-          HUGO_ENVIRONMENT: production
-          HUGO_ENV: production
-        run: |
-          hugo \
-            --gc \
-            --minify
-      - name: Upload generated files
-        uses: https://code.forgejo.org/actions/upload-artifact@v3
-        with:
-          name: Generated files
-          path: public/
-          include-hidden-files: true
-  deploy:
-    needs: [ build ]
-    runs-on: codeberg-tiny-lazy
-    container:
-      image: "ruby:3.4.9-trixie"
-    steps:
-      - name: Install dependencies
-        run: |
-          apt update
-          apt install -y nodejs npm git gcc g++ libc6-dev make openssl
-      - name: Clone the repository
-        uses: https://code.forgejo.org/actions/checkout@v4
-        with:
-          submodules: recursive
-          fetch-depth: 0
-      - name: Checkout the target branch and clean it up
-        run: |
-          git checkout pages || git switch --orphan pages && \
-          rm -Rfv $(ls -A | egrep -v '^(\.git|LICENSE)$')
-      - name: Download generated files
-        uses: https://code.forgejo.org/actions/download-artifact@v3
-        with:
-          name: Generated files
-      - name: Publish the website to neocities
-        run: |
-          rm -rf .git && \
-          gem install neocities && \
-          NEOCITIES_API_KEY=${{ secrets.NEOCITIES_API_KEY }} neocities push .
 
+      - name: Setup Hugo
+        uses: https://github.com/peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.161.0'
+          extended: true
+
+      - name: Build with Hugo
+        run: hugo --minify
+
+      - name: Deploy to Neocities
+        run: |
+          curl -L https://github.com/neocities/neocities-cli/releases/download/3.0.0/neocities-linux-amd64 -o neocities
+          chmod +x neocities
+          ./neocities deploy -t ${{ secrets.NEOCITIES_API_TOKEN }} public

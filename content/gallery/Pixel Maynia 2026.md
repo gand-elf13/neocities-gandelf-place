@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-02
+date modified: 2026-05-03
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-02T13:28:09.379Z
+lastmod: 2026-05-03T09:56:45.196Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -28,7 +28,11 @@ Try to make the viewer feel sad : idk maybe it does, kinda for me.
 
 ***
 
-3. Hacker
+### Hacker
+
+Use this palette:: <https://lospec.com/palette-list/honeygb>
+
+![Hacker.png](/ob/attachements/Hacker.png)
 
 4. Ring
 
@@ -87,8 +91,6 @@ Try to make the viewer feel sad : idk maybe it does, kinda for me.
 31. Oath
 
 ## Official Optional Constraints:
-
-3. Use this palette:: <https://lospec.com/palette-list/honeygb>
 
 4. Repeat something (in the art or from the past)
 

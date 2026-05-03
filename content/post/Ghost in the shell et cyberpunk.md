@@ -6,10 +6,10 @@ tags:
   - technique
   - video_game
 date: 2025-03-31
-date modified: 2026-04-26
+date modified: 2026-05-03
 date created: 2025-03-31
 title: Ghost in the shell et cyberpunk
-lastmod: 2026-04-26T13:43:42.740Z
+lastmod: 2026-05-03T20:25:41.679Z
 ---
 Ghost in the shell ( #man ) est bizarre. Une resemblance frappante avec [Serial experiment lain](/post/serial-experiment-lain), sans surprise.
 
@@ -47,7 +47,7 @@ Petite parenthèse, le sentiment de complétude je ne says pas vraiment comment 
 
 Un autre aspect du cyberware de cyberpunk que j’aime c’est son aspect esthétique, si certains implants sont utilitaires, d’autres sont purement décoratifs, et j’ai été très déçu que l’on ne puisse pas en équiper notre personnage. Je parle des bras dorés, des tenues littéralement agrafés sur le corp
 
-![IMG\_0173.png](/ob/images/IMG_0173.png)\
+{{< figure src="/ob/images/IMG_0173.png" alt="IMG_0173.png" width="500" >}}\
 Vous l’aurez compris, cyberpunk as plus une esthétique futuriste que réellement un fond d’œuvre philosophique de SF, comme le dit stellar jay, c’est le sirop d’érable et pas du pancake.
 
 Je reviens un peu sur ce que j’ai dit, (vous avez pas les timestamps, mais c’est 4 jours après l’avoir écrit.)\

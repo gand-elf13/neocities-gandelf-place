@@ -13,7 +13,7 @@
   {{ end }}
   {{ if $url }}
     <img src="{{ $url | relURL }}" alt="{{ $lastGallery.Title }}"
-         style="width: calc(100% - 40px); height: auto; margin: 20px auto 10px auto; display: block;">
+         style=" height: auto ; display: block;">
   {{ end }}
   <li style="text-align: center;"><a href="{{ $lastGallery.RelPermalink }}">{{ $lastGallery.Title }}</a></li>
   <li style="text-align: center; color: #666; font-size: 0.85em;">{{ $lastGallery.Date.Format "January 2, 2006" }}</li>

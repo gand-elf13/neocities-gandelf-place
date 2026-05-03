@@ -87,14 +87,8 @@ refLinksNotFoundURL = "/not-here-yet"
   [[menu.main]]
     name = "World"
     url = "/world/"
-    weight = 28
-    identifier = "world"
-
-  [[menu.main]]
-    identifier = "lainring"
-    name = "Lainring"
-    url = "/lainring/"
     weight = 30
+    identifier = "world"
 
   [[menu.main]]
     identifier = "9b9tgoals"

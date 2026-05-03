@@ -7,6 +7,9 @@ other = "Posts"
 [postslist]
 other = "Blog posts"
 
+[latest]
+other = "Latset"
+
 [categories]
 other = "Categories"
 

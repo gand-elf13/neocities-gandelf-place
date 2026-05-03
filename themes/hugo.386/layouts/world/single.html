@@ -1,0 +1,156 @@
+{{ define "main" }}
+<style>
+  .world-body {
+    position: relative;
+  }
+
+  .world-infobox {
+    float: right;
+    clear: right;
+    width: 33%;
+    margin: 0 0 1em 1.5em;
+  }
+
+  .world-infobox .nav-list {
+    padding: 0;
+  }
+
+  .world-infobox .infobox-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .world-infobox .nav-header {
+    color: #000;
+    text-align: center;
+  }
+
+  .world-infobox .infobox-row {
+    display: flex;
+    gap: 0.5em;
+    padding: 3px 6px;
+  }
+
+  .world-infobox .infobox-key {
+    color: #000;
+    font-weight: bold;
+    flex-shrink: 0;
+    width: 45%;
+  }
+
+  .world-infobox .infobox-val {
+    color: #000;
+  }
+
+  .world-infobox .infobox-tags-title {
+    color: #000;
+    font-weight: bold;
+    padding: 6px 6px 2px 6px;
+    display: block;
+  }
+
+  .world-infobox .infobox-tags {
+    padding: 4px 6px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  .world-infobox .infobox-tags .tag {
+    color: #000;
+    display: inline-block;
+  }
+
+  .world-body::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+
+<div class="row-fluid navmargin">
+  <div class="page-header">
+    <h1>{{ .Title }}</h1>
+  </div>
+
+  {{ with .Params.description }}
+    <p class="lead">{{ . }}</p>
+  {{ end }}
+
+  <div class="world-body">
+
+    {{ $infoboxTitle := or .Params.infobox .Params.subtitle }}
+    {{ if $infoboxTitle }}
+    <aside class="world-infobox">
+      <ul class="nav nav-list bs-docs-sidenav">
+
+        {{/* Image: string, [img], ou [[img, caption], ...] */}}
+        {{ $src := "" }}
+        {{ with .Params.image }}
+          {{ if reflect.IsSlice . }}
+            {{ $first := index . 0 }}
+            {{ if reflect.IsSlice $first }}
+              {{ $src = index $first 0 }}
+            {{ else }}
+              {{ $src = $first }}
+            {{ end }}
+          {{ else }}
+            {{ $src = . }}
+          {{ end }}
+        {{ end }}
+        {{ if $src }}
+        <li class="infobox-image">
+          <img src="{{ $src }}" alt="{{ $.Title }}">
+        </li>
+        {{ end }}
+
+        <li class="nav-header">{{ $infoboxTitle }}</li>
+
+        {{ $skip := slice
+          "title" "subtitle" "date" "lastmod" "publishdate" "expirydate"
+          "description" "draft" "tags" "image" "infobox" "layout"
+          "summary" "weight" "slug" "url" "aliases"
+          "outputs" "type" "series" "categories"
+          "iscjklanguage"
+        }}
+
+        {{ range $key, $val := .Params }}
+          {{ if not (in $skip $key) }}
+          <li class="infobox-row">
+            <span class="infobox-key">{{ $key | humanize }}</span>
+            <span class="infobox-val">
+              {{ if reflect.IsSlice $val }}
+                {{ delimit $val ", " }}
+              {{ else }}
+                {{ $val }}
+              {{ end }}
+            </span>
+          </li>
+          {{ end }}
+        {{ end }}
+
+        {{ with .Params.tags }}
+        <li>
+          <span class="infobox-tags-title">Tags</span>
+          <div class="infobox-tags">
+            {{ range . }}
+              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}" class="tag">{{ . }}</a>
+            {{ end }}
+          </div>
+        </li>
+        {{ end }}
+
+      </ul>
+    </aside>
+    {{ end }}
+
+    <article class="world-content">
+      {{ .Content }}
+    </article>
+
+  </div>
+
+  <h4><a href="{{ .Site.BaseURL }}">{{ i18n "backtohome" }}</a></h4>
+</div>
+{{ end }}

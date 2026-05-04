@@ -2,17 +2,35 @@
 Segmentum: Ultima
 Secteur: Noctis
 Sous-secteur: Enclave de Tarinth
-infobox: Caractéristiques
 tags:
   - Imperium
   - Ultima Segmentum
   - Marches d'Oriclès
   - Secteur Noctis
   - Enclave de Tarinth
-title: Secteur Noctis/Enclave de Tarinth
-draft: false
-date: 2026-05-02T17:42:40.466Z
-lastmod: 2026-05-02T21:56:27.221Z
+title: Enclave de Tarinth
+image: /ob/world/Fan-fluffs/Enclave%20de%20Tarinth%20sans%20l%C3%A9gende.png
+infobox: Caractéristiques
+administratum_ref: STN-ET-BR4
+affiliation: Contesté ![[Décor2Inquisition.png]]
+Capitale: Barius Secundus
+Gouverneur: Ambrosius Vradennar Castinus van Kysnoxtof Vaskobune Svorhuss
+.:
+Surnoms: Enclave de Tarinth
+Particularités: l'ensemble de la zone est entourée par une faille warp, qui provoque l'isolement de celle-ci de manière aléatoire
+Nombre de Planètes: supérieur à 500
+. .:
+Planètes Connues:
+système Barius: (Barius Prime - Barius Secundus - Quortiss - Rick'nar - Iskä)
+système anathème: (Farnath - Darius - Rynthis)
+système Cortario: (Shoga - Xonoth - Uglis - Hond - Shiryn - Shonedi - Nekkar)
+système targys: (Targys Prime - Caranlth - Ementhryn - Dementer)
+système Paragon: (Dameyt - Ograstin V - Tantalos - Alucard)
+système Oméga 7: (Tyrant)
+Régions Connues: passe de Tarinth / poche d'Elthnéria
+Objets Stellaires Connus: sphère de dyson de l'étoile du système anathème
+date: 2026-05-04T19:58:56.669Z
+lastmod: 2026-05-04T20:04:25.389Z
 ---
 Région isolée et inhospitalière, l\*\*'Enclave de Tarinth\*\* désigne un sous-secteur du secteur Noctis, perdu aux confins du **Segmentum Ultima**. Son trait le plus marquant demeure les puissantes failles Warp qui l’encerclent et le condamnent périodiquement à l’oubli. Ce phénomène d’isolement, parfois durant des siècles, a façonné son histoire et l’a laissé à la merci des forces du destin, loin de l’œil vigilant de l’**Adeptus Terra**.
 
@@ -211,10 +229,7 @@ N'est présente ici que le conflit le plus récent ayant eût un impact sur l'en
 
 ## Géographie : Systèmes, Planètes et Objets Notables
 
-<figure>
-<img src="Carte_de_l&#39;Enclave_de_Tarinth.png" title="Carte_de_l&#39;Enclave_de_Tarinth.png" />
-<figcaption>Carte_de_l'Enclave_de_Tarinth.png</figcaption>
-</figure>
+![Enclave de Tarinth sans légende.png](/ob/world/Fan-fluffs/Enclave%20de%20Tarinth%20sans%20l%C3%A9gende.png)
 
 Région isolée de l'espace, l'Enclave de Tarinth est le nom couramment donné à un sous secteur du système ayant pour particularité d'être entourée de faille warp provoquant régulièrement son isolement du reste de la galaxie. De part son isolement régulier et sa position éloignée, l'Imperium ne s'est guère aventuré dans le sous secteur n'ayant colonisé que peu de mondes. La majeure partie de l'Enclave n'a donc jamais été explorée, expliquant qu'on y retrouve des reliques et archéo-technologies du passé, des repaires xénos ou de pirates, voir pire, quelques sombres artéfacts du chaos, tel la légendaire lame de Tzeench. Cependant ces contrées inexplorées attirent bien des libres marchands ou tout autre personnages en quête de fortune, de même des inquisiteurs à la recherche de puissant artéfacts pour les aider dans leur "travail" ou encore pour aller traquer quelques ennemis de l'Humanité attendant son heure dans les ténèbres.
 
@@ -237,19 +252,17 @@ liste des régions :
 
 ### Liste des systèmes majeurs
 
-* système [BARIUS](https://w40k-flufffan.fandom.com/fr/wiki/Enclave_de_Tarinth_\(sous-secteur_de_Tarinth\)#syst%C3%A8me_Barius)
-* système [Anathème](https://w40k-flufffan.fandom.com/fr/wiki/Enclave_de_Tarinth_\(sous-secteur_de_Tarinth\)#syst%C3%A8me_Anath%C3%A8me)
-* système [Orion](https://w40k-flufffan.fandom.com/fr/wiki/Enclave_de_Tarinth_\(sous-secteur_de_Tarinth\)#syst%C3%A8me_Orion)
-* système [Targys](https://w40k-flufffan.fandom.com/fr/wiki/Enclave_de_Tarinth_\(sous-secteur_de_Tarinth\)#syst%C3%A8me_Targys)
-* système [Paragon](https://w40k-flufffan.fandom.com/fr/wiki/Enclave_de_Tarinth_\(sous-secteur_de_Tarinth\)#syst%C3%A8me_Paragon)
-* système [Oméga 7](https://w40k-flufffan.fandom.com/fr/wiki/Enclave_de_Tarinth_\(sous-secteur_de_Tarinth\)#syst%C3%A8me_Om%C3%A9ga_7)
+* système [ Barius](Enclave%20de%20Tarinth#syst%C3%A8me%20Barius%20)
+* système [ Cortario](Enclave%20de%20Tarinth#syst%C3%A8me%20Cortario%20)
+* système [ Anathème](Enclave%20de%20Tarinth#syst%C3%A8me%20Anath%C3%A8me%20)
+* système [ Orion](Enclave%20de%20Tarinth#syst%C3%A8me%20Orion%20)
+* système [ Targys](Enclave%20de%20Tarinth#syst%C3%A8me%20Targys%20)
+* système [ Paragon](Enclave%20de%20Tarinth#syst%C3%A8me%20Paragon%20)
+* système [ Oméga 7](Enclave%20de%20Tarinth#syst%C3%A8me%20%CE%A9%207%20)
 
 #### système Barius
 
-<figure>
-<img src="Carte_système_Barius.png" title="Carte_système_Barius.png" width="826" height="826" />
-<figcaption>Carte_système_Barius.png</figcaption>
-</figure>
+![système Barius.png](/ob/world/Fan-fluffs/syst%C3%A8me%20Barius.png)
 
 ###### Introduction
 
@@ -304,36 +317,37 @@ Après des décennies de luttes contre la Waaaggh la victoire se profile à l'ho
 
 **Barius Prime**
 
-Se référer directement l'article à propos du <a href="Secteur_Noctis/Système_Barius" class="wikilink" title="système Barius">système Barius</a>.
+Se référer directement l'article à propos du [Système Barius](/world/syst%C3%A8me-barius).
 
 **Barius Secundus**
 
-Se référer directement l'article à propos de <a href="Barius_Secundus" class="wikilink" title="Barius Secundus">Barius Secundus</a>.
+Se référer directement l'article [Barius Secundus](/world/barius-secundus)
 
 **Quortiss**
 
-Se référer directement l'article à propos de <a href="Quortiss" class="wikilink" title="Quortiss">Quortiss</a>.
+Se référer directement l'article à propos de [Quortiss](/world/quortiss)
 
 **Rick'nar**
 
-Se référer directement l'article à propos de <a href="Rick&#39;nar" class="wikilink" title="Rick&#39;nar">Rick'nar</a>.
+Se référer directement l'article [Rick'nar](Rick'nar)
 
 **Iskä**
 
-Se référer directement l'article à propos d'<a href="Iskä" class="wikilink" title="Iskä">Iskä</a>.
+Se référer directement l'article à [Iskä](/world/isk%C3%A4)
+
+***
 
 #### système Anathème
 
 *+++ Informations en cours de compilation +++*
 
-<figure>
-<img src="Carte_système_anathème.png" title="Carte_système_anathème.png" width="915" height="915" />
-<figcaption>Carte_système_anathème.png</figcaption>
-</figure>
+![carte système anathème.png](/ob/world/Fan-fluffs/carte%20syst%C3%A8me%20anath%C3%A8me.png)
 
 **\[ INFORMATIONS classées niveau alpha+ par l'INQUISITION, nul n'y a accès]**
 
 Le système étant à l'écart de toute route commerciale, ou même monde impérial. Nul n'en a jamais entendu parler. *{système dark age}* \`tout les passagers sont prier de descendre, Gare terminus. Pour récupérer vos bagages, dirigez vous dans le hall en face de vous avant de rejoindre les terminaux sur votre gauche où vos effets personnels pourront être récupérés.\`
+
+***
 
 #### système Cortario
 
@@ -350,6 +364,8 @@ Le système est organiser ainsi :
 * **Shiryn** ( planète tellurique similaire à Terra - dispose de 3 lunes \[ Uma | Escer | Ves ] - dispose d'un anneau planétaire fait principalement de roche et de poussière )
 * **Shonedi** ( planète tellurique enfer volcanique, paysage de cendre, très riche en minerais et dispose de 2 lunes )
 * **Nekkar** ( planète tellurique désertique sans atmosphère, trop proche du soleil, avec une surface brûlée mais riche en minerai )
+
+![GzKaYNsW4AAify\_.png](/ob/world/image%20warhammer/GzKaYNsW4AAify_.png)
 
 <table>
 <caption><strong>Planètes du système Cortario</strong></caption>
@@ -460,6 +476,8 @@ Le système est organiser ainsi :
 </tbody>
 </table>
 
+***
+
 #### système Orion
 
 Système abritant une civilisation humaine avancée héritière du moyen âge technologique. La fédération nommée F.S.T dispose donc d'un très haut niveau technologique, bien qu'elle soit inférieure technologiquement par rapport à l'Imperium dans de nombreux domaines, notamment en terme de FTL et maîtrise du warp dont la fédération ne dispose tout simplement pas. C'est une fédération humaine démocratique disposant d'un haut niveau technologique au sein de l'ensemble de la société et dans de nombreux domaines civils contrairement à l'Imperium.
@@ -490,63 +508,55 @@ Les interactions impériales avec la fédération FST ont toujours été marqué
 
 \- la fédération s'engage à suivre un processus de conformité impériale sur le long terme, en échange l'Imperium ne fera ni ingérence dans ses affaires internes, ni ne tentera de répandre ce que la fédération nomme des "superstitions religieuses".
 
+***
+
 #### système Targys
 
 `/ ! \ ce système a été créer par `**`@Dayenathos`**` pour plus de précision, se référer à lui directement pour plus de questions. Il a été ajouté ici avec sa permission car faisant partit de l'Enclave de Tarinth.`
 
-<figure>
-<img src="Carte_système_Targys.png" title="Carte_système_Targys.png" width="1049" height="1049" />
-<figcaption>Carte_système_Targys.png</figcaption>
-</figure>
+![système Targys.png](/ob/world/Fan-fluffs/syst%C3%A8me%20Targys.png)
 
-**Targys Prime**![Cité ruche.png "vignette](Cit%C3%A9%20ruche.png%20%22vignette)
+**Targys Prime**\
+![Décor2Inquisition.png](/ob/world/Fan-fluffs/D%C3%A9cor2Inquisition.png)
 
-|                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Targys Prime     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Statut           | *Monde Ruche*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Loyauté au trône | *Loyal*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Description      | *Un endroit comme tant d'autres dans l'imperium. Un monde avec en lui et en exposition des spires, des tours longues. Ici et là se dressent des batiments faits pour y vivre, travailler ou juste passer une étape dans sa carrière, son existence. Bref ce point de passage est Targys Prime, un monde ruche avec plusieurs cités qui plus elles vont sous terre, plus le niveau de vie y est dégradé. Tout autour de ce caillou qui résume bien l'Imperium se compte Targys 1 et 2, les lunes satellites du monde qui sont aussi colonisés par la société humaine. Une est devenue une lune forge pour Mars, l'autre est une sorte de paradis pour la haute société du système.* |
 
-Targys Prime
+**Caranlth**\
+![Décor2Inquisition.png](/ob/world/Fan-fluffs/D%C3%A9cor2Inquisition.png)
 
-**Caranlth**![Carantlh 1.jpg "vignette](Carantlh%201.jpg%20%22vignette) ![Carantlh 2.jpg "vignette](Carantlh%202.jpg%20%22vignette) ![Carantlh 3.jpg "vignette](Carantlh%203.jpg%20%22vignette)
-
-|                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Caranlth         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Statut           | *Monde Prison Impérial Sain et actif*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Loyauté au trône | *Loyal*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Description      | *Le monde paraît mort comme si la terre vitrifiée par endroits est couleur cendre. Il ne reste si ce n'est roches et ruines fumantes ici et là. Seulement, ce monde qui parait seulement agité par les éruptions de magma des volcans et cratères à la surface dissimulent habilement aux capteurs et auspex le vrai trésor de ce monde.* *Sous la croûte, bien sous terre, se trouve un biome du monde encore fertile et agréable. C'est ici dans un climat arctique que demeure le niveau de de chaussée et niveau 1 de la prison de Caramantine. En honneur de l'Inquisiteur qui fonda cette enceinte. Chargée par des braves et des sécurités, ils gardent en leurs lieux des secrets et aussi des prisonniers. Certains dangereux qui nécessitent le niveau 5. D'autres de moindres mesures qui sont soit des cobayes soit des travailleurs pour réduire des peines impossibles à réduire.* |
 
-Caranlth
+**Ementhryn**
 
-**Ementhryn**![Ementhryn.jpg "vignette](Ementhryn.jpg%20%22vignette)
-
-|                  |                                                                                                                                                                                                                                                                               |
+| Ementhryn        |                                                                                                                                                                                                                                                                               |
 | ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Statut           | *Agrimonde*                                                                                                                                                                                                                                                                   |
 | Loyauté au trône | *Loyal*                                                                                                                                                                                                                                                                       |
 | Description      | *Un caillou prospère qui grâce à ses usines de traitement des eaux possèdent un bon rendement pour les nombreux céréales et viandes qui doivent circuler dans tout le système. Récemment, on a signalé ici et là des disparitions qui ont retardés quelque peu les récoltes.* |
 
-Ementhryn
-
 **Dementer**
 
-|                        |                                                                                                                                                                                                                                                                                                                                                                                |
+| Dementer               |                                                                                                                                                                                                                                                                                                                                                                                |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Statut                 | *Monde aride, non colonisé*                                                                                                                                                                                                                                                                                                                                                    |
 | Loyauté au monde trône | *Neutre*                                                                                                                                                                                                                                                                                                                                                                       |
 | Description            | *C'est une terre de dur et de sable qui vous attend ici voyageurs. Ici et là des ruines et épaves témoignent de ce qui fut du monde. Désormais seule le vent bousculant les grains de sables vous attendent. Sans oublie une forte radioactivité aux pôles de la planète. Un endroit qui fait peu bon vivre et qui pourtant fait que même ici la vie peut trouver son chemin.* |
 
-Dementer
+***
 
 #### système Paragon
 
 `/ ! \ ce système a été créer par `**`@Dayenathos`**` pour plus de précision, se référer à lui directement pour plus de questions. Il a été ajouté ici avec sa permission car faisant partit de l'Enclave de Tarinth.`
 
-<figure>
-<img src="Carte_système_Paragon_v2.png" title="Carte_système_Paragon_v2.png" width="1298" height="1298" />
-<figcaption>Carte_système_Paragon_v2.png</figcaption>
-</figure>
+![Système Paragon.png](/ob/world/Fan-fluffs/Syst%C3%A8me%20Paragon.png)
 
 <table>
 <caption><strong>Planètes du système Paragon</strong></caption>
@@ -610,17 +620,21 @@ Dementer
 </tbody>
 </table>
 
+***
+
 #### système Ω 7
 
 Quand survint une nouvelle période d'isolement de l'Enclave de Tarinth, le système connu cartographié sous le nom d'Oméga 7 fut isolé en même temps que le reste de l'Enclave de Tarinth. Cependant, la poche d\*\*'Elthnéria\*\* , une région sous-sectorielle excentrée de l'Enclave fut assaillie par de puissantes tempêtes warps. Toute tentative de voyage warp devenant impossible dans de telles conditions, le système devint reclût sur lui-même. Il s'écoula donc des siècles, sous l'influence des énergies du warp qui zébraient les cieux déments du monde-forteresse Tyrant.
 
-|                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Tyrant                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Statut                 | *ex-monde chapitral forteresse du chapitre corrompu et purgé des Iron Hammers* *monde interdit d'accès par l'Inquisition*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | Loyauté au monde-trône | *perdue*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Description            | Isolé et inactif, le chapitre dépérissait lentement sur son monde, observant les énergies infernales et ésotériques du warp. Les frères du chapitre patientèrent alors des décennies qui devinrent des siècles, attendant la fin de leur isolement. Au fil du temps, certains frères entendirent des voix leur parler, voix venues du warp... La corruption se répandit lentement au sein du chapitre... Ainsi lorsque le système revint dans l'espace réel, la quasi totalité du chapitre avaient voués son âme aux puissances de la ruine. Le système sortit de son isolement un peu plus de 6 siècle avant le reste de l'Enclave de Tarinth. Le retour d'un système isolé dans le warp eut vite fait d'attirer le regard de l'Inquisition. L'Inquisiteur Ryckard Gerkingson détecta rapidement la corruption du chapitre et le déclara Ex-communica Traitoris avant de déclarer le système comme en quarantaine et sous secret inquisitorial, avant de repartir former une flotte afin de purger le chapitre rénegat. Pour une raison inconnue, il ne revint jamais, et l'information quand à la trahison du chapitre ne remonta jamais jusqu'à Terra, n'empêchant pas la mise sur pied d'un contingent primaris pour le chapitre. Dans la forteresse chapitrale, ignorant tout des évènements extérieurs, les Astartes étaient en plein conflit sur les démarches à suivre. Une cinquantaine de loyaliste mêné par le charismatique frère Reuss, s'opposaient à leurs frères rénégats. Sans surprise, la situation dégénéra, et un violent affrontement éclata. Les frères loyalistes étaient réfugiés dans la chapelle reliquaire du chapitre. Les loyalistes mênés par leur frère Reuss, l'un des plus grands marines jamais vu, réussirent par miracle à repousser les assauts de leurs frères rénégats. S'en suivit un sanglant combat de couloir au sein de toute la forteresse monastère. Après plusieurs jours de combat et de traques, seul le frère Reuss, survécu tuant personnellement son ex-maître de chapitre dans un duel à mort et finissant de traquer et tuer des frères rénégats. Plus d'une décennies plus tard, lors du retour de l'Enclave de Tarinth dans l'espace impérial. Un signal SOS fut capté en provenance du système par une frégate de patrouille de la marine impériale. Décision fut prise par le vice amiral Von Kraï, d'envoyer la dite frégate de patrouille "the Emperor will" afin de récolter des informations quand au signal de détresse. Il fut établit que le signal avait été émis depuis le coeur de la forteresse monastère. Une équipe d'abordage fut envoyée en reconnaissance via une valkyrie. Pénétrant dans les couloirs sombres et désert de la forteresse, les malheureux membres de l'équipe de reconnaissance furent traumatisé par le massacre effroyable qu'il découvrir dans les couloirs... Une véritable boucherie avait eu lieu, les serfs du chapitre avaient été sacrifiés aux puissances de la ruine, des cadavres d'astartes éventrés gisaient dans les couloirs. La guerre civile ayant eut lieu au sein du chapitre fut évidente. L'équipe revint vers "the Emperor will" mais fut placée en quarantaine totale. Avant même le retour de la frégate "the Emperor will" dans le système Barius, l'inquisitrice Eljiana Kart de l'Ordo Hereticus ordonna sa mise en quarantaine. L'inquisitrice envoya un rapport à l'amirauté de la marine impériale pour ne pas les alarmer sur la disparition du "the Emperor will", tandis qu'elle (re) ordonnait la mise en quarantaine définitive du système Oméga 7 jusqu'à nouvel ordre. |
 
 Tyrant
+
+***
 
 ### Phénomènes Stellaires Curiosités locales
 
@@ -634,10 +648,7 @@ Cette bizarrerie stellaire est des plus étranges, en effet, les périodes d'iso
 
 L'Enclave de Tarinth est divisée en 2 sections, en effet, bien que peu de gens le savent, il existe une petite région de l'espace subissant le même phénomène que le sous secteur mais lui est isolé à l'écart. Là, se trouvait le monde chapitral des Iron Hammer, on suppose que c'est d'ailleurs cet période d'isolement prolongé dans le même système, où il ne s'est rien passé qui a mené à la corruption du chapitre par les puissances de la ruine. Fait notable, le temps semble s'y écouler en général, plus vite lorsque la zone est isolé ainsi lors l'isolement prolongé de 2024 ans, certains spécialistes affirment que jusqu'à 3 millénaires se sont écouler au sein de l'anomalie.
 
-<figure>
-<img src="Carte_de_l&#39;Enclave_de_Tarinth.png" title="Carte_de_l&#39;Enclave_de_Tarinth.png" width="1039" height="1039" />
-<figcaption>Carte_de_l'Enclave_de_Tarinth.png</figcaption>
-</figure>
+![Enclave de Tarinth sans légende.png](/ob/world/Fan-fluffs/Enclave%20de%20Tarinth%20sans%20l%C3%A9gende.png)
 
 ## Citations
 
@@ -646,3 +657,7 @@ L'Enclave de Tarinth est divisée en 2 sections, en effet, bien que peu de gens 
 *Absence de données... Veuillez réessayer ultérieurement.*
 
 ### A propos du sous-secteur
+
+> Un endroit vil, un endroit de ténèbres, un endroit coupé de la lumière de l'Empereur, un endroit maudit par la galaxie elle-même. Non, franchement, j'y retournerai pas. Pas même pour les richesses infinies que j'y ai aperçues, les archéo-technologies fabuleuses qui y sont cachées ou quoique ce soit d'autres que vous puissiez penser qu'il s'y trouve. Les locaux eux-mêmes ont été touchés par la substance qui s'y trouve, apprenez à ne pas traiter avec eux. Cette région de l'espace a été maudite par la galaxie et l'Empereur, jamais je n'y retournerai, pas après ce que j'y ai vu. Je vous avise de faire de même.
+
+*Récit du libre-marchand Elbron Dantell dans son "**Memorium d'un voyageur**" parut environ en 730.M38 après sa visite au sein de l'Enclave de Tarinth, à laquelle il ne survicu que de peu*

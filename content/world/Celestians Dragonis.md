@@ -8,37 +8,34 @@ tags:
   - Marches d'Oriclès
   - Secteur Noctis
 image: /ob/world/Fan-fluffs/Epauli%C3%A8re%20C%C3%A9lestians%20Dragonis.png
-Allégeance: Loyaliste
+Allégeance: Impérium ![[akila2.png]]
 statut: Détruit
-allégeance: Impérium
-cri_de_guerre: La mort viendra du ciel !
-fondation: VIIe Fondation
-date de création: M34
-respect du codex: Chapitre Codex
-statut des gènes: Stable
-surnoms: Les Fils de Célestia
-successeur_des: Ultramarines
-progéniteur_des: Void Dragons
-primarque: Roboute Gulliman
-schéma de couleur: majoritairement bleu ciel et bleu cyan
-dirigeants: Artun Thial
-maître du chapitre: Caius Dantarius (†), dernier maître de chapitre
-vaisseau amiral: Guilliman's Legacy (anciennement Tears of Terra )
-effectifs: <250
-caractéristiques: chapitre déclaré "mort pour l'impérium" destin tragique, sacrifice héroïque
-spécialités: Chapitre polyvalent
-tactiques favorites: Frappes chirurgicales, les space marine sont rares, il faut exploiter leur plein potentiel
 segmentum: Ultima
 secteurs: Noctis
 sous-secteurs: Cadderian
-systèmes: Célestia
-monde origine primarque: Maccrage
+système: Célestia
+.:
+cri_de_guerre: La mort viendra du ciel !
+effectifs: <250
+fondation: VIIe Fondation (M34)
+primarque: Roboute Gulliman
 monde chapitral: Célestia
-monde de recrutement: Célestia
 forteresse-monastère: « les Bics Brumeux »
-draft: false
-date: 2026-05-02T17:42:40.465Z
-lastmod: 2026-05-02T21:56:24.657Z
+surnoms: « Les Fils de Célestia »
+. .:
+statut des gènes: Stable
+successeur_des: Ultramarines
+progéniteur_des: Void Dragons
+. . .:
+dirigeant: Artun Thial
+maître du chapitre: Caius Dantarius (†), dernier maître de chapitre
+vaisseau amiral: Guilliman's Legacy (anciennement Tears of Terra )
+schéma de couleur: majoritairement bleu ciel et bleu cyan
+caractéristiques: chapitre déclaré "mort pour l'impérium" destin tragique, sacrifice héroïque
+spécialités: Chapitre polyvalent
+tactiques favorites: Frappes chirurgicales, les space marine sont rares, il faut exploiter leur plein potentiel
+date: 2026-05-04T19:58:56.662Z
+lastmod: 2026-05-04T20:00:20.691Z
 ---
 <figure style="float: right; width: 250px;">
   <img src="/ob/world/Fan-fluffs/First-Born.png" style="width: 100%;">

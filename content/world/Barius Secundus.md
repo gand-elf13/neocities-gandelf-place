@@ -8,26 +8,24 @@ tags:
   - Enclave de Tarinth
   - Système Barius
   - Planète
-image:
-  - - vue orbitale.png
+image: /ob/world/Fan-fluffs/vue%20orbitale.png
 infobox: Caractéristiques
 Segmentum: Ultima
 Secteur: Noctis
 Sous-secteur: Enclave de Tarinth
 Système: Barius
 administratum_ref: SNS-ET-BR2
-affiliation: Imperium
-classe: monde capitale / monde chapelle / monde-ruche (industriel & minier)
+affiliation: Impérium ![[akila2.png]]
+Type de Monde: Capitale Sous-Sectorielle
+Classe: monde capitale / monde chapelle / monde-ruche (industriel & minier)
 population: 53 milliards
 organisation politique: standard impérial
 gouverneur planetaire: Ambrosius Vradennar Castinus van Kysnoxtof Vaskobune Svorhuss
-Type de Monde: Capitale Sous-Sectorielle
 gravité: identique à celle de Terra
 période rotation: 24 h
 inclinaison axe: 23.43°
-draft: false
-date: 2026-05-02T17:42:40.464Z
-lastmod: 2026-05-02T21:56:15.259Z
+date: 2026-05-04T19:58:56.640Z
+lastmod: 2026-05-04T20:04:17.935Z
 ---
 **Barius Secundus** est un monde ruche du **[Secteur Noctis](/world/secteur-noctis)**. La planète est la **deuxième planète** la plus proche de l'étoile [Système Barius](/world/syst%C3%A8me-barius), située dans le **système** du même nom. Capitale du **sous-secteur** de [l'Enclave de Tarinth](Enclave%20de%20Tarinth%20), c'est un monde **majeur économiquement et politiquement** au sein de ce sous-secteur. De part l'isolement et la **difficulté d'accès** du sous-secteur, les planètes au sein de **[l'Enclave de Tarinth](Enclave%20de%20Tarinth%20)** ne peuvent compter que sur elles-mêmes. En tant que **capitale** de ce sous-secteur, **Barius Secundus** est le centre de toutes les attentions et intrigues. Cœur du système le plus important de l'Enclave, Barius Secundus est le **siège du pouvoir impérial** dans cette région lointaine et méconnue qu'est l'Enclave de Tarinth.
 
@@ -177,7 +175,7 @@ L'heure est désormais à la contre-offensive pour l'Imperium, qui s'est lancée
 
 Barius Secundus ne dispose pas d'une topographie particulière. On peut cependant noter une abondance de métaux communs et rares dans sa couche terrestre, en faisant un lieu priviligié pour l'exploitation de ressources, et cela depuis 10 000ans pourtant. Les réseaux souterrains créer par les mineurs, au fil des millénaires, ont créer un véritable réseau dans la couche de la planète, si bien que beaucoup des galeries servent désormais à relier les diverses cités-ruches. Cela rend également particulièrement difficile la lutte contre les activités clandestines.
 
-Barius est probablement depuis toujours un monde désertique, ayant été pourvu, selon les archives, d'une atmosphère respirable à l'origine.
+Barius Secundus est probablement depuis toujours un monde désertique, ayant été pourvu, selon les archives, d'une atmosphère respirable à l'origine.
 
 ![cité ruche.png](/ob/world/Fan-fluffs/cit%C3%A9%20ruche.png)
 
@@ -192,6 +190,8 @@ L'atmosphère d'origine aurait été d'abord hostile à la vie, l'absence de cou
 Les archives s'étant perdues, on ne sait même pas si la planète a abritée une forme de vie développée autrefois. Une chose est sûre cependant, toute forme de vie endémique n'existe désormais plus.
 
 **Population**
+
+![ville.png](/ob/world/image%20warhammer/ville.png)
 
 Barius Secundus demeure un monde-ruche tout à fait classique, peuplé d'environ 53 milliards d'individus, dont la quasi-totalité vit au sein des nombreuses cités-ruches majeures ou mineures de la planète.
 
@@ -259,6 +259,8 @@ En tant que monde capitale de [l'Enclave de Tarinth](Enclave%20de%20Tarinth%20),
 ###### Cité-ruche Alpha
 
 Capitale planétaire, c'est une cité-ruche parmi beaucoup d'autres. Selon la légende, il s'agirait là de la première ruche bâtie sur Barius Secundus. Construite sur l'emplacement exacte de la première colonie impériale sur Barius Secundus. Elle est une construite selon des schéma archéo-mégastructures retrouvées par le monde forge de Barius Prime. S'étant jusqu'à l'espace, les spires de la ruche côtoient les étoiles en si grand nombre, que l'on dit que la ruche ne possède non pas un mais plusieurs ascenseurs orbitaux.
+
+![Water-of-Vigilus.png](/ob/world/image%20warhammer/Water-of-Vigilus.png)
 
 La cité-ruche Alpha n'est cependant pas qu'une prouesse architecturale. Foyer de milliards de vies, la cité-ruche abrite les palais et les sièges de quelques un(e)s des personnalités et institutions les plus influentes de l'Enclave. Il n'est bien sûr pas surprenant de mentionner le siège du gouverneur planétaire, qui est en fait également le gouverneur du sous-secteur tout entier. Son palais est si haut et si grand que l'on dit au sein des serfs-domestiques, qu'il faudrait plus d'une vie pour en parcourir toutes les salles. La cité-ruche alpha accueille aussi le centre du pouvoir spirituel de Barius Secundus et de l'Enclave, puisqu'un district complet de la cité-ruche est dédié à l'unique adoration de l'Empereur-Dieu. Ce district accueille d'ailleurs également le titanesque palais du très saint haut-cardinal Greivich. Mais la cité-ruche est également un centre économique absolument majeur ! Il va de soit de mentionner les innombrables consortiums planétaire, interplanétaire et même sous-sectoriels qui y ont leurs sièges. La cité-ruche est également un centre administratif conséquent, on ne compte plus le nombre de districts dédiés aux simples archives de l'adminstratum ! C'est également une puissance industrielle, avec de nombreuses maisons nobles, consortiums et maisons marchandes qui y possède des districts complet d'industrie lourdes.
 

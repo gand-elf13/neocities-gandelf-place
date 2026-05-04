@@ -1,8 +1,5 @@
 ---
-imperium: "1"
-title: Secteur Noctis/Système Barius
-auteurprincipal: KYRKOS
-infobox: Propriété
+title: Système Barius
 tags:
   - Imperium
   - Ultima Segmentum
@@ -10,13 +7,30 @@ tags:
   - Secteur Noctis
   - Enclave de Tarinth
   - Système Barius
-draft: false
-date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T21:56:38.502Z
+image: /ob/world/Fan-fluffs/barius.png
+infobox: Caractéristiques
+Segmentum: Ultima
+Secteur: Noctis
+Sous-secteur: Enclave de Tarinth
+Système: Barius
+.:
+administratum_ref: STN-ET-BR4
+affiliation: Impérium ![[akila2.png]]
+Capitale: Barius Secundus
+Gouverneur: Ambrosius Vradennar Castinus van Kysnoxtof Vaskobune Svorhuss
+. .:
+Particularités: système capitale de l'Enclave de Tarinth
+Nombre de Planètes: 5
+Planètes Connues: Barius_Prime Barius_Secundus Quortiss Rick'nar Iskä
+Régions Connues: Système Interne / Système Externe
+Objets Stellaires Connus: multiples ceintures d'astéroïdes
+Conflits Notables: Le Cri / Waaaagggh de Mag Uruk
+date: 2026-05-04T19:58:56.702Z
+lastmod: 2026-05-04T20:05:22.596Z
 ---
 **Barius** est système stellaire situé dans **l'Ultima Segmentum**. Présent dans un secteur éloigné et plutôt isolé sur la frontière galactique, le **[Secteur Noctis](/world/secteur-noctis)**, dans un sous secteur encore plus isolé : **l'[Enclave de Tarinth](/world/enclave-de-tarinth)**. Système le **plus important** de l'Enclave, il fait office de **point de passage obligatoire** pour toute personne désireuse **d'entrer ou sortir** de **l'Enclave de Tarinth**. Il est conséquence assez lourdement défendu.
 
-Il faut également ajouter qu'en plus de son **emplacement stratégique**, le système concentre également les **centres de pouvoirs** et fonctions de commandements du sous secteur de l'Enclave de Tarinth. Avec par exemples, la présence du palais du **gouverneur du sous secteur** sur le monde ruche de **<a href="Barius_Secundus" class="wikilink" title="Barius Secundus">Barius Secundus</a>**, le siège de l'adminstratum du sous secteur, le centre de commandement de la garde du sous secteur, la présence du **monde forge majoris** de **Barius Prime**, le siège de la plupart des maisons de la navis mobilite locale et bien d'autres institutions dont la liste serait bien trop longues à énumérer.
+Il faut également ajouter qu'en plus de son **emplacement stratégique**, le système concentre également les **centres de pouvoirs** et fonctions de commandements du sous secteur de l'Enclave de Tarinth. Avec par exemples, la présence du palais du **gouverneur du sous secteur** sur le monde ruche de **\[Barius Secundus]]**, le siège de l'adminstratum du sous secteur, le centre de commandement de la garde du sous secteur, la présence du **monde forge majoris** de **Barius Prime**, le siège de la plupart des maisons de la navis mobilite locale et bien d'autres institutions dont la liste serait bien trop longues à énumérer.
 
 L'importance de ce système en fait un acteur majeur de l'Histoire de l'Enclave de Tarinth. Il est donc au centre de nombreuses intrigues, puisque de nombreuses factions cherchent à s'en emparer.
 
@@ -24,13 +38,21 @@ L'importance de ce système en fait un acteur majeur de l'Histoire de l'Enclave 
 
 ### Position Galactique
 
-![Emplacement sous secteur de l'Enclave de Tarinth.png "L'emplacement du sous-secteur dénommé "Enclave de Tarinth".](Emplacement%20sous%20secteur%20de%20l'Enclave%20de%20Tarinth.png%20%22L'emplacement%20du%20sous-secteur%20d%C3%A9nomm%C3%A9%20%22Enclave%20de%20Tarinth%22.) Le Système est située dans le sous-secteur de l'[Enclave de Tarinth](/world/enclave-de-tarinth) dans le [Secteur Noctis](/world/secteur-noctis), lui même situé dans le segmentum Ultima. Ainsi le secteur se trouve en bordure galactique, non loin des étoiles du halo, dans l'Imperium Nihilius.
+![emplacement enclave de tarinth.png](/ob/world/Fan-fluffs/emplacement%20enclave%20de%20tarinth.png)\
+Le Système est située dans le sous-secteur de l'[Enclave de Tarinth](/world/enclave-de-tarinth) dans le [Secteur Noctis](/world/secteur-noctis), lui même situé dans le segmentum Ultima. Ainsi le secteur se trouve en bordure galactique, non loin des étoiles du halo, dans l'Imperium Nihilius.
 
 ### Histoire
 
 #### Introduction
 
 Barius est un système ancien et chargé d'Histoires et d'histoires en tout genre. L'histoire du système est donc divisée en différentes périodes afin de faciliter le travail des historitors. Voici donc un résumé des divisions temporelles majeures de l'histoire du système.
+
+<div class="gallery">
+  <figure>
+    ![[Barius.jpg]]
+    <figcaption>Système Barius</figcaption>
+  </figure>
+</div>
 
 Il est à noter que l'Histoire du système dépend grandement de celle de son sous-secteur (l'[Enclave de Tarinth](/world/enclave-de-tarinth)) et inversement. L'isolement irrégulier de l'[Enclave de Tarinth](/world/enclave-de-tarinth) par des tempêtes warps résulte en la création de sous-périodes historiques marquant une durée où le système évolue dans une ligne temporelle distincte de celle du reste de la galaxie. Par ailleurs, de nombreux mystères demeurent autour du passé de l'Enclave. En particulier, le système Barius semble en effet représenter un haut lieu historique par de nombreux aspects (géographique, stratégique, politique, économique, etc...). Si nous savons déjà beaucoup de choses au sujet de Barius, ce n'est hélas qu'une infime fraction du passé réel du système qui cache encore de nombreux secrets...
 
@@ -43,7 +65,7 @@ Il est à noter que l'Histoire du système dépend grandement de celle de son so
 
 Les premières traces d'occupation du système (connues par l'imperium) semblent être situées aux alentours de M28. Cette date marque en effet l'arrivée d'arches de colonisation du Méchanicus pré-Imperium dans le système Barius. A cette époque, durant l'âge sombre de l'ère des luttes, le culte mécanicum envoyait à travers l'espace. M28 est ainsi la date officielle de la fondation du monde forge de Barius Prime, bien que celle ci soit âprement discutée par les historiens, en effet, la maison de chevalier de Quortiss se revendique plus ancienne encore, dans tout les cas, nous n'avons aucun moyen de vérifier.
 
-Une chose reste certaine, le système fut colonisé durant le moyen âge technologique car des marques de présence humaines de cette période ont été trouvées sur Quortiss et Barius Secundus. De plus, les tributs humaines primitives vivant sur <a href="Rick&#39;nar" class="wikilink" title="Rick&#39;nar">Rick'nar</a> témoignent légendes passées corroborant ces faits.
+Une chose reste certaine, le système fut colonisé durant le moyen âge technologique car des marques de présence humaines de cette période ont été trouvées sur Quortiss et Barius Secundus. De plus, les tributs humaines primitives vivant sur \[Rick'nar]] témoignent légendes passées corroborant ces faits.
 
 Cependant, des ruines xénos (eldars) semblent indiquées une présence passée bien qu'aujourd'hui ce ne soient qu'une gigantesque cités en ruines dévorés par le passage du temps au fil des millénaires. sCertains technoprêtres situés sur Iskä suggèrent même une occupation antérieure, du fait de la découverte d'étrange ruines xénos sur Iskä, cependant ces informations fragementaires n'ont jamais été partagées en dehors des cercles restreints du monde-forge./s
 
@@ -73,10 +95,12 @@ Après des décennies de luttes continues contre la Waaaggh la victoire se profi
 
 ### Personnalités Historiques
 
-* Fabricator Général Kaldarius :
+![banner.jpg](/ob/world/image%20warhammer/banner.jpg)
+
+* Fabricator Général Kaldarius : ///// REDACTED ////
 * **Ambrosius Vradennar Castinus van Kysnoxtof Vaskobune Svorhuss** - \[gouverneur planétaire, stellaire et sous-sectoriel], *\[le dernier fils]*
 
-**Description :** Se référer directement à la [section de l'article](https://w40k-flufffan.fandom.com/fr/wiki/Barius#Gouvernement_du_Syst%C3%A8me) qui lui est consacrée.
+**Description :** Se référer directement à la section de l'article qui lui est consacrée.
 
 * **Sainte Aria** - \[sainte vivante], *\[le courroux de l'Empereur]*
 
@@ -185,6 +209,15 @@ La partie Externe du système Barius comprends l'espace entre la planète Rick'n
 
 ## Zone de Guerre Barius
 
+<div class="carousel">
+  ![[FB_IMG_1761348818119.jpg]]
+  ![[FB_IMG_1761348833613.jpg]]
+  ![[FB_IMG_1761348843030.jpg]]
+  ![[FB_IMG_1761348849113.jpg]]
+  ![[FB_IMG_1761348853852.jpg]]
+  ![[FB_IMG_1761348862130.jpg]]
+</div>
+
 ### Zones de conflits
 
 Système Interne :
@@ -227,28 +260,29 @@ De féroces combats ont lieu sur ce monde aride, opposant les forces du couvent 
 
 ## Planètes et Objets Notables
 
-<figure>
-<img src="Carte_système_Barius.png" title="centré|vignette|976x976px|Carte détaillée du système Barius et de ses principaux éléments stellaires." />
-<figcaption>centré|vignette|976x976px|Carte détaillée du système Barius et de ses principaux éléments stellaires.</figcaption>
-</figure>
+![barius.png](/ob/world/Fan-fluffs/barius.png)
+
+![Système Barius.png](/ob/world/Fan-fluffs/syst%C3%A8me%20Barius.png)
 
 ### Système Interne
 
 #### Etoile Barius
 
-Il s'agit d'une étoile assez banale, très semblable à Sol (le soleil), c'est une [naine jaune de séquence principale](https://w40k-flufffan.fandom.com/fr/wiki/Comment_cr%C3%A9er_un_Territoire/Syst%C3%A8me#Les_Objets_C%C3%A9lestes) et de [Type G](https://w40k-flufffan.fandom.com/fr/wiki/Comment_cr%C3%A9er_un_Territoire/Syst%C3%A8me#Les_Objets_C%C3%A9lestes).
+Il s'agit d'une étoile assez banale, très semblable à Sol (le soleil), c'est une naine jaune de séquence principale et de Type G
 
 #### Barius Prime
 
-codeSe référer directement à la [sandbox dédiée](https://w40k-flufffan.fandom.com/fr/wiki/Utilisateur:KYRKOS/Barius_Prime)./code
+![magos.png](/ob/world/image%20warhammer/magos.png)
+
+Se référer directement à la [sandbox dédiée](https://w40k-flufffan.fandom.com/fr/wiki/Utilisateur:KYRKOS/Barius_Prime)
 
 #### Barius Secundus
 
-codeSe référer directement à l'<a href="Barius_Secundus" class="wikilink" title="article dédié">article dédié</a>./code
+codeSe référer directement à [Barius Secundus](/world/barius-secundus)
 
 #### Quortiss
 
-codeSe référer directement à l'<a href="Quortiss" class="wikilink" title="article dédié">article dédié</a>./code
+Se référer directement à [Quortiss](/world/quortiss)
 
 #### Ceinture d'astéroïdes interne
 
@@ -264,11 +298,11 @@ Des Fibuztiers orks sont présents en nombre dans certaines portions la ceinture
 
 #### Rick'nar
 
-codeSe référer directement à l'<a href="Rick&#39;nar" class="wikilink" title="article dédié">article dédié</a>./code
+codeSe référer directement à [Rick'nar](Rick'nar)
 
 #### Iskä
 
-codeSe référer directement à l'<a href="Iskä" class="wikilink" title="article dédié">article dédié</a>./code
+codeSe référer directement [Iskä](/world/isk%C3%A4)
 
 #### Ceinture d'astéroïdes externe
 

@@ -11,9 +11,8 @@ auteurprincipal: KYRKOS
 infobox: Propriété
 imperium: "1"
 ultima segmentum: "1"
-draft: false
-date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T21:56:36.374Z
+date: 2026-05-04T19:58:56.695Z
+lastmod: 2026-05-04T20:00:42.438Z
 ---
 Le Secteur Noctis est un secteur réculé de l'Imperium Nihilius, situé en bordure la galaxie dans le segmentum Ultima.
 
@@ -345,6 +344,8 @@ Capitale : Monde Forteresse de Cegoth
 Description : Zone frontalière militarisée, Ethéria est le dernier sous-secteur a avoir été créer. Comme il s'étendait le long de la frontière Sud du secteur Noctis, Ethéria constituait un bastion défensif face aux menaces des Marches Extérieures, principalement les Empires Orks de Gn'ugm Nar s'étendant au-delà de ses frontières. Marqué par une forte présence militaire à cause de la menace constante d'incursion xénos, le sous-secteur était structuré autour d'une chaine de mondes forteresses et de systèmes stratégiques destinés à contenir les incursions ennemies. Sa capitale, Cegoth, était par ailleurs la clé de voute de ce système défense, comme principal hub logistique de la région. Le reste du secteur est constitué de colonie mineures clairsemées.
 
 Son histoire est jalonnée de conflits, ce qui en fait une région instable mais essentielle à la sécurité du Secteur Noctis. Ethéria fut créer essentiellement afin de disposer d'une zone tampon dans les Marches Extérieures entre les colonies les plus prospères des Marches Extérieures et les Empires Orks.
+
+![juuso-laasonen-835.jpg](/ob/world/image%20warhammer/juuso-laasonen-835.jpg)
 
 Au cours de la Deuxième Guerre Tyranique, la vrille de la flotte-ruche Kraken envahit le sous-secteur Ethéria dans les Marches Extérieures du Secteur Noctis, entraînant la destruction quasi totale de la région ; face à une réponse impériale désorganisée, plusieurs centaines de mondes et des centaines de milliards de vies furent perdus avant que les tyranides ne dévient leur progression vers les empires orks de Gn’ugm Nar, laissant derrière eux un sous-secteur anéanti. La ligne de défense impériale, prise à revers et privée de ses bases logistiques se révéla incapable d'endiguer la menace arrivant sur ses arrières. Les Mondes survivants du sous-secteur Ethéria furent rattachés au sous-secteur Ghedona.
 

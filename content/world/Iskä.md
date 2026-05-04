@@ -1,7 +1,5 @@
 ---
-auteurprincipal: KYRKOS
 title: Iskä
-infobox: Propriété
 tags:
   - Imperium
   - Ultima Segmentum
@@ -10,9 +8,31 @@ tags:
   - Enclave de Tarinth
   - Système Barius
   - Planète
-draft: false
-date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T21:56:29.964Z
+image: /ob/world/Fan-fluffs/iska.jpg
+infobox: Caractéristiques
+Segmentum: Ultima
+Secteur: Noctis
+Sous-secteur: Enclave de Tarinth
+Système: Barius
+Surnom: « Le Glaçon »
+administratum_ref: STN-ET-BR5
+affiliation: Impérium ![[akila2.png]]
+Type de monde: Monde Mort
+Classe: Monde glacé
+population: Inconnue, inférieure à 1 Million
+organisation politique: tribale
+gouverneur planetaire: aucun
+dirigeants: maison Quortiss
+rallié par: colonie humaine antérieure à l'Impérium de l'Humanité
+défenses planétaires: aucune
+autres forces militaires: tributs primitives éparses
+gravité: 1.06 terran
+période_rotation: 89 h
+inclinaison_axe: 11.78°
+température_de_surface: -90°C (glacé)
+demi-grand_axe: 8321 km (diamètre)
+date: 2026-05-04T19:58:56.676Z
+lastmod: 2026-05-04T20:05:00.774Z
 ---
 **Iskä** est la 5e planète tellurique du système [Barius](Syst%C3%A8me%20Barius%20), situé dans le sous-secteur de l'[Enclave de Tarinth](/world/enclave-de-tarinth), dans le [Secteur Noctis](/world/secteur-noctis) de l'Ultima Segmentum.
 
@@ -37,6 +57,32 @@ En effet, bien que l'Impérium l'ignore. Cet astre d'apparence désolée qu'est 
 Il choisit en particulier un secteur reculé de la galaxie sur la frange galactique actuelle. Là-bas se trouvait les résultats d'une bataille titanesques qui avait vu s'opposer C'tan et Anciens, la violence des armes déchainés avaient résulter en la présence d'une gigantesque faille warp là où avait été auparavant un sous-secteur complet de l'espace, sans doute le coeur d'une antique civilisation sous protection des anciens que la dynastie avaient annihiler, mais sa mémoire défaillante ne lui permet plus de se souvenir laquelle. Le tétrarque mena ses armées, mais surtout ces crypteks sur les lieux. Il entreprit alors d'installer un système complexe de pylônes de noctolith afin d'aspirer l'énergie warp en surplus entre le warp et le materium. Il finit par refermer complètement la faille warp, atténuant le surplus d'énergie warp jusqu'à refermer complètement la faille, un véritable exploit, mais rien d'assez impressionnant pour le tétrarque ou les nécrons en général.
 
 ### Avant la venue de l'Imperium : le scellement de l'Obtera Nebula
+
+*+++ { ... ouverture de l'archive ... } +++*
+
+*+++ { L'ensemble de la section à suivre de l'article est la propriété de l'Ordo Malleus de l'Inquisition } +++*
+
+*+++ { Nul n'est autorisé à en faire la diffusion ou même la connaissance. La sentence à application immédiate sera la mort. } +++*
+
+*+++ { ... l'Empereur protège ... } +++*
+
+*L'évènement connu dans les archives de l'Inquisition comme le scellement de la Lame de Tzeench prit place à une époque inconnue. Il eût sans doute lieu récemment du point de vue de l'histoire galactique. Il est toutefois certain que ce fut plusieurs millénaires avant l'avènement de l'impérium de l'humanité puisqu'aucun rapport impérial n'a jamais mentionné d'événement semblable.*
+
+*Cet évènement fut orchestré par des aeldaris d'un vaisseau monde mineur inconnu caché dans l'Enclave de Tarinth. Les Aeldaris, à l'origine de cet évènement aurait, à l'époque, mis la main sur un artéfact du chaos. Nommé la "Lame de Tzeench" ou "l'Optera Nebula" dans le noir parler, cet artéfact serait un puissant reliquaire ayant appartenu au premier prince démon de Tzeench. Issu de légendes considérés comme fausses, l'artéfact est pourtant connu dans les milieux concernés. Mentionnées dans des passages obscurs de grimoires abimés cachés dans des cryptes oubliées aux quatres coins de la galaxies, de telles légendes ne sont tenus que pour être au mieux, des fables, au pire, un ramassis de mensonges malvenus. On raconte que l'arme aurait la puissance de dévaster des mondes entiers en claquement de doigt. Son porteur, lui aussi, obtiendrait alors la puissance d'un Dieu. Le simple fait de posséder l'artéfact conférerait à son porteur des pouvoirs insensés telle que la possibilité de plier les gens à sa volonté en charmant des planètes entières jusqu'à manipuler à sa guise les trames du destin de chaque individu, sinon d'espèces entières.*
+
+*Les récits éparses et contradictoires mentionnant cet artéfact font en effet toujours montre d'un pouvoir considérable contenu dans cet artéfact. Cependant, les légendes au sujet de cet artéfact n'ont jamais fait mention véritable de la forme exacte que celui-ci a. De nombreux textes décrivent l'Optera Nebula comme la Lame de Tzeench, mais il est probable que cela ne soit qu'une façon de mentionner la puissance dévastatrice de l'artéfact.*
+
+*Une arme aussi puissante a évidemment attiser les fantasmes de plus d'un champion, du chaos ou non d'ailleurs. Cependant les textes mettent toujours en garde quand à son utilisation. L'artéfact lui-même serait en effet mû d'une volonté propre à l'image de son créateur. Cette volonté propre serait si puissante que celle-ci serait capable de soumettre son porteur. D'étranges légendes circulent à ce propos, mentionnant plus d'un grand champion oublié finissant assujetti par son propre artéfact. Une rumeur cours au sujet de l'Optera Nebula... Nul ne la possède... C'est vous qu'elle possède. Quand bien même vous croiriez être le maître, les jeux du changeur sont tels que vous finirez toujours l'esclave. Pensant plier les gens à votre volonté, c'est vous-même, votre personnalité, qui aura été subtilement altérer par une arme qui n'est pas faite pour un mortel... ou même un immortel.*
+
+*Les légendes à propos de ceux ayant réussi à posséder l'artéfact sans en devenir l'esclaves sont toujours clôturées par des fins tragiques et fugaces lorsqu'elles ont une fin... Le porteur semble toujours dépossédé de tout ce qui avait été lui auparavant, en particulier, son comportement, sa personnalité, qui évolue subtilement jusqu'à n'être plus qu'un reflet pâle, déformé et grossier du l'être qu'il avait été, changeant jusqu'à faire modifier les objectifs initiaux du porteur. Ces rumeurs ne disent jamais si le porteur n'était pas juste soumis à la lame dès le début ou uniquement à la fin, en tout cas... Le récit en lui-même devenant contradictoire, avançant ici que le porteur n'est plus qu'un pantin, tandis qu'après, elle le décrit comme maître de sa destinée. La Lame de Tzeench quand à elle, semble par contre toujours triompher sur ceux qui la possède pour disparaître mystérieusement dès lors que la légende prends fin, et cela sans explication, pour réapparaître à l'autre bout de la galaxie des éons après.*
+
+*L'artéfact lui-même semble donc avoir un pouvoir latent... particulièrement corrupteur et insidieux, capable de modifier la personnalité de son porteur au fil du temps... mais aussi de son entourage. L'Obtera Nebula dispose semble-t-il d'un aura corrupteur, qui altère tout ce qu'il touche, et cela même sans propriétaire... ou alors l'artéfact n'avait qu'un unique propriétaire depuis le début.*
+
+*Toujours est-il que l'artéfact semble pouvoir altérer le comportement et la personnalité de ceux à proximité et pas seulement son porteur... Certains au courant de ce secret, vont même jusqu'à expliquer l'étrange aura qui plâne sur l'Enclave et ses habitants par la présence possible de l'artéfact en ces lieux.*
+
+*De nombreux champions de Tzeench semble croire que ramener l'artéfact à leur maître leur apportera ses faveurs... Pourtant, les légendes elles-mêmes mettent en garde contre la quête même de la Lame de Tzeench, clamant que quiconque la cherche, ne peut la trouver. Tandis que quiconque la trouve, cherchera toujours à s'en débarrasser sans jamais réellement réussir. La recherche de la Lame de Tzeench paraît donc illusoire pourtant nombreux sont, ceux dans cette galaxie qui sont à ses trousses, que cela soit pour s'accaparer son pouvoir ou empêcher quelqu'un d'autre de le faire...*
+
+*Il est également à noter que très peu sont au courant existence de l'Optera Nebula pour une raison simple : le simple fait d'en connaître l'existence a rendu fou plus d'un.*
 
 ### Le scellement de la Lame de Tzeench
 
@@ -148,7 +194,13 @@ Un iskan se définit donc pas par sa planète d'origine, mais bien sa tribut ou 
 
 ### Situation spatiale
 
-La planète semble avoir, fut un temps, orbiter sur une orbite plus proche de son soleil, mais une phénomène inexpliqué semble l'avoir dérouter de son orbite, la menant à lentement se diriger vers l'extérieur du système Barius, provoquant évidemment petit à petit une destabilisation progressive des champs gravitationnels dans le système. Les savants impériaux à s'être pencher sur la question n'ont à ce jour, pas encore su apporter de réponses à cette anomalie. De même, il est possible que les forces gravitationnelles du système soit suffisantes et puisse remettre la planète sur son orbite normale. Seul un avenir semble pouvoir apporter la clé à ce mystère... ![Iskä vue orbitale.jpg "vignette](Isk%C3%A4%20vue%20orbitale.jpg%20%22vignette)
+La planète semble avoir, fut un temps, orbiter sur une orbite plus proche de son soleil, mais une phénomène inexpliqué semble l'avoir dérouter de son orbite, la menant à lentement se diriger vers l'extérieur du système Barius, provoquant évidemment petit à petit une destabilisation progressive des champs gravitationnels dans le système. Les savants impériaux à s'être pencher sur la question n'ont à ce jour, pas encore su apporter de réponses à cette anomalie. De même, il est possible que les forces gravitationnelles du système soit suffisantes et puisse remettre la planète sur son orbite normale. Seul un avenir semble pouvoir apporter la clé à ce mystère... <div class="gallery">
+
+  <figure>
+    ![[iska.jpg]]
+    <figcaption>Vue Orbitale d'Iskä</figcaption>
+  </figure>
+</div>
 
 ### Topographie Climat
 
@@ -172,7 +224,14 @@ Cet écosystème repose sur un vaste ensemble d'espèces de champignons, lichens
 
 #### Le Chilliru
 
-![Le Chilliru.jpg "vignette](Le%20Chilliru.jpg%20%22vignette)*Petite mammifère vivant dans les galeries glacées d'Iskä, le Chilliru est un animal pacifique. Il est omnivore et mange aussi bien de la viande sur d'autres petites créatures que des noix ou bien des plantes. Toutefois, dû fait la faible biosphère de sa planète, le Chilliru a un régiment principalement herbivore, se nourrissant surtout de fruits, champignon et lichen. Bien que peu réputé pour son intelligence, son caractère curieux et jovial en fait un animal de compagnie très apprécié par les enfants iskans. Aussi, il n'est pas rare de croiser un Chilliru non loin d'un campement iskan, en quête de nourritures ou bien plus simplement d'un compagnon de jeu. Son aliment préféré est d'ailleurs le champignon, aussi il n'est pas rare de voir un enfant Iskan dire à son Chilliru de compagnie "il est pour qui le bon champi ?" Il a donné lieu à une expression typique d'Iskä : "plus bête qu'un Chilliru". Généralement utilisé dans un contexte bienveillant pour désigner quelqu'un ayant accomplit une action stupide ou peu réfléchie.*
+<div class="gallery">
+  <figure>
+    ![[Le Chilliru.jpg]]
+    <figcaption>Esquisse d'un Chilliru</figcaption>
+  </figure>
+</div>
+
+*Petite mammifère vivant dans les galeries glacées d'Iskä, le Chilliru est un animal pacifique. Il est omnivore et mange aussi bien de la viande sur d'autres petites créatures que des noix ou bien des plantes. Toutefois, dû fait la faible biosphère de sa planète, le Chilliru a un régiment principalement herbivore, se nourrissant surtout de fruits, champignon et lichen. Bien que peu réputé pour son intelligence, son caractère curieux et jovial en fait un animal de compagnie très apprécié par les enfants iskans. Aussi, il n'est pas rare de croiser un Chilliru non loin d'un campement iskan, en quête de nourritures ou bien plus simplement d'un compagnon de jeu. Son aliment préféré est d'ailleurs le champignon, aussi il n'est pas rare de voir un enfant Iskan dire à son Chilliru de compagnie "il est pour qui le bon champi ?" Il a donné lieu à une expression typique d'Iskä : "plus bête qu'un Chilliru". Généralement utilisé dans un contexte bienveillant pour désigner quelqu'un ayant accomplit une action stupide ou peu réfléchie.*
 
 #### Le Cryogryph
 
@@ -183,6 +242,13 @@ Sur Iskä, une autre créature fascinante appelée le **Cryogryph** habite les g
 *Les iskans en ont parfois domestiqués certains afin d'en faire des animaux de compagnies ou des messagers, de part leur nature généralement docile. Ils vivent d'ailleurs généralement en large groupe dans les cavernes riches en champignons et moisissures, si possibles avec une belle hauteur de plafond.*
 
 #### Le Glaciosaure
+
+<div class="gallery">
+  <figure>
+    ![[glaciosaure.jpg]]
+    <figcaption>Coureur descendant de sa monture</figcaption>
+  </figure>
+</div>
 
 *Sur la planète glacée d'Iskä, une créature herbivore unique appelée le **Glaciosaure** s'est adaptée à la vie dans les vastes réseaux de grottes souterraines. Le Glaciosaures est un quadrupède massif, recouvert d'une épaisse couche de fourrure blanche et dense pour le protéger du froid. Il mesure environ 1,8 à 2.1 mètres de haut pour 3 à 3.5 mètres de long et se déplace lentement, utilisant ses larges pattes griffues pour se frayer un chemin à travers les tunnels gelés. Le Glaciosaure est également doté de 2 puissantes défenses lui sortant de la bouche. Il l'utilisent pour forer la glace à la recherche de nourriture ainsi que comme d'armes défensives.*
 
@@ -358,8 +424,8 @@ Les iskans sont parvenus à repousser seuls une tentative d'invasion orks. Lorsq
 
 ### Ennemis:
 
-* **\[Orks ou "grand verts"] :** Nos champignons verdâtres préférés peuvent se targuer d'être la seule et unique espèce à avoir un jour envahi le monde natal des iskans. Toutefois, les orks n'y survécurent guère longtemps, mais il semble que cette invasion fut vécue comme une confirmation de leurs mythes pour les iskans et comme une baston très appréciables pour les orks. Pour les iskans, les orks sont des ennemis de l'Empereur par nature, et leur purge est donc un devoir sacré tandis que pour les orks, les iskans sont des ennemis très agréables à combattre, surtout lorsque les iskans disposent de gigantesques karlithropes. Ils existent donc une lien fort entre les iskans et les orks, qui a d'ailleurs mener à ce que les shamans utilisent souvent la description d'un "grand vert" pour décrire tout ennemi de l'Empereur-Soleil.
+* **\[Orks ou "Grands Verts"] :** Nos champignons verdâtres préférés peuvent se targuer d'être la seule et unique espèce à avoir un jour envahi le monde natal des iskans. Toutefois, les orks n'y survécurent guère longtemps, mais il semble que cette invasion fut vécue comme une confirmation de leurs mythes pour les iskans et comme une baston très appréciables pour les orks. Pour les iskans, les orks sont des ennemis de l'Empereur par nature, et leur purge est donc un devoir sacré tandis que pour les orks, les iskans sont des ennemis très agréables à combattre, surtout lorsque les iskans disposent de gigantesques karlithropes. Ils existent donc une lien fort entre les iskans et les orks, qui a d'ailleurs mener à ce que les shamans utilisent souvent la description d'un "grand vert" pour décrire tout ennemi de l'Empereur-Soleil.
 
 ## Citations
 
-codeIl n'existe pas de citations célèbres venant de cette planète. Les iskans ne parlant pas le gothique par nature cela rends très difficile tout volonté de retranscription ou archivage de leurs propos, qui sont d'ailleurs généralement pas intéressants à l'échelle globale de l'Imperium. Il est toutefois fait mentionner que certaines sœurs dialogus travaillent à l'étude des mythes et légendes de ce monde./code
+*Il n'existe pas de citations célèbres venant de cette planète. Les iskans ne parlant pas le gothique par nature cela rends très difficile tout volonté de retranscription ou archivage de leurs propos, qui sont d'ailleurs généralement pas intéressants à l'échelle globale de l'Imperium. Il est toutefois fait mentionner que certaines sœurs dialogus travaillent à l'étude des mythes et légendes de ce monde.*

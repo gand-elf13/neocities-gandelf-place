@@ -7,8 +7,9 @@ tags:
   - Personnage
 image: /ob/world/Fan-fluffs/Caius_Dantaris_sans_signature_par_JNPEDDN.png
 subtitle: Caractéristiques
+Allégeance: Impérium ![[akila2.png]]
+chapitre: Célestians Dragonis ![[Epaulière Célestians Dragonis.png]]
 monde d'origine: Célestia {supposition}
-chapitre: Célestians Dragonis
 espèce: humain (Astartes)
 genre: homme
 hauteur: 2m30 {environ}
@@ -24,9 +25,8 @@ croyances: Codex Astartes, son Primarque et l'Empereur
 langues parlées: haut gothique, bas gothique, célestian
 rôles: Dernier maître de Chapitre des Célestians Dragonis
 surnoms: le Héros de Dol, Le Dernier Fils de Célestia, Celui-qui-veille
-draft: false
-date: 2026-05-02T17:42:40.465Z
-lastmod: 2026-05-02T21:56:18.435Z
+date: 2026-05-04T19:58:56.656Z
+lastmod: 2026-05-04T20:00:16.903Z
 ---
 Caius Dantaris fut le dernier maître de chapitre des Celestians Dragonis, un chapitre fondé en M34 qui disparu à l'aube du 40e Millénaire. Il restera dans les mémoires comme ayant été un frère de bataille exemplaire, s'imposant rapidement comme un leader charismatique dans un chapitre en difficulté. Il connu une ascension hiérarchique rapide, promu capitaine très jeune, il poussait ses frères à se dépasser malgré l'adversité. Son honneur et sa bravoure lui firent acquérir une renommée au delà même de son chapitre. A la mort de son prédécesseur, il sera finalement nommé Maître de Chapitre par ses frères.
 

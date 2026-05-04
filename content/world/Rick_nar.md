@@ -1,7 +1,5 @@
 ---
-imperium: "1"
 title: Rick'nar
-infobox: Propriété
 tags:
   - Imperium
   - Ultima Segmentum
@@ -10,11 +8,31 @@ tags:
   - Enclave de Tarinth
   - Système Barius
   - Planète
-draft: false
-date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T21:56:34.128Z
+  - Adepta Sororitas
+image: /ob/world/Fan-fluffs/Rick_nar%20space%20view.png
+infobox: Caractéristiques
+Segmentum: Ultima
+Secteur: Noctis
+Sous-secteur: Enclave de Tarinth
+Système: Barius
+administratum_ref: STN-ET-BR4
+affiliation: Impérium ![[akila2.png]]
+Type de monde: Monde Hostile
+Classe: Monde Hostile / Monde Désertique / Monde Couvent
+population: <1 Million
+organisation politique: Primitif (usufruit de l'Adepta Sororitas)
+dirigeant: Adepta Sororitas - Sainte Alia
+défenses planétaires: aucunes
+autres forces militaires: Couvent de Notre Dame des Egarées
+gravité: 0.94 terran
+période_rotation: 26 h
+inclinaison_axe: 0.023 °
+température_de_surface: aride (bush australien)
+demi-grand_axe: 8310 km (diamètre)
+date: 2026-05-04T19:58:56.689Z
+lastmod: 2026-05-04T20:07:09.768Z
 ---
-Rick'nar est la quatrième planète du système <a href="Secteur_Noctis/Système_Barius" class="wikilink" title="Barius">Barius</a>, situé dans le sous-secteur de l'<a href="Secteur_Noctis/Enclave_de_Tarinth" class="wikilink" title="Enclave de Tarinth">Enclave de Tarinth</a> qui appartient au [Secteur Noctis](/world/secteur-noctis) dans l'Ultima Segmentum. Ce monde primitif est situé dans la partie extérieure du système. Sa position explique ainsi le faible intérêt que l'intérieur porte à cette planète pauvre en ressources.
+Rick'nar est la quatrième planète du système [ Barius](Syst%C3%A8me%20Barius%20), situé dans le sous-secteur de l'[Enclave de Tarinth](/world/enclave-de-tarinth) qui appartient au [Secteur Noctis](/world/secteur-noctis) dans l'Ultima Segmentum. Ce monde primitif est situé dans la partie extérieure du système. Sa position explique ainsi le faible intérêt que l'intérieur porte à cette planète pauvre en ressources.
 
 Lorsque l'Enclave de Tarinth connu sa dernière période d'isolement prolongée, durant près de 2000 années standards, une croisade de foi de l'Adepta Sororitas finit coincée dans l'Enclave pendant l'ensemble de la durée de l'isolement. Constatant que les tempêtes warps ne faiblissaient pas, les représentantes des différents ordres choisirent d'établir, à titre d'abord temporaire, un couvent dans l'Enclave de Tarinth. Pour rester proche des pouvoirs locaux, l'Adepta Sororitas devait s'installer dans le système Barius. Pour les sœurs, cette longue période d'isolation de la galaxie dans l'Enclave de Tarinth était une épreuve envoyée par l'Empereur-Dieu. Ainsi, en suivant cette logique, elle choisirent d'installer leur nouveau couvent sur le monde hostile de Rick'nar.
 
@@ -52,7 +70,8 @@ Les années passèrent ainsi, permettant au renégat de préparer d'autres plans
 
 Les sœurs, qui avaient été endoctrinées sans le savoir, tournèrent leurs bolters sur leurs rares sœurs encore fidèles, les novices tuant leurs maîtres, les sœurs abattant leur chanoinesse. La purge fut si rapide et si bien exécutée que personne à l'extérieur n'en eût vent. Les sœurs renégates s'étaient alors tournées vers les puissances de la ruine, régnant l'Empereur-Dieu. Le couvent tomba rapidement dans la corruption, s'isolant des autres cloîtres. Une inquiétude naissante naquit au sein des autres couvents. Et lorsque des sœurs furent envoyées pour enquêter, la nuit de la Honte commença. Les Sœurs renégates, dotées de dons de leurs Dieux et étaient informées par quelques sombres magies de la venues de loyales servantes de l'Empereur. Les renégates massacrèrent les enquêtrices avant de rassembler leurs forces. Ralliées par un contingent de guerriers primitifs de ce monde corrompus par l'astartes apostat, les sœurs déchues allaient attaquer celles qui autrefois avaient été leurs sœurs. Dans une attaque surprise en pleine nuit, la horde de primitifs et renégates se jeta sur les cloîtres endormis, débutant un massacre qui allait durer plusieurs heures. En effet les sentinelles donnèrent l'alerte et se fut bientôt une cohue disparate et désordonnée. Les combats continuèrent longtemps, face aux allégeances incertaines, seule la foi triompherait.
 
-Les bâtiments des différents cloîtres avaient été endommagés dans la violence des combats, les cathédrales et chapelles sacrées fracturées et parfois même saccagées. Ce blasphème et la honte de la trahison faisait redoubler d'ardeur les loyalistes. Au petit matin, les dernières renégates furent mises en déroute, forcées à fuir car n'ayant pas reçu le soutien du démon et des hordes menés par le World Bearers. En effet, les évènements ayant eût lieu à la porte des Vents participèrent donc grandement au salut des cloîtres loyaux. Les dernières sœurs renégates furent traquées par leurs consœurs loyales. Dans toute la journée qui suivit les survivantes renégates en fuite furent traquer et impitoyablement, reçurent le jugement la colère divine de l'Empereur. De cette purge impitoyables, seules une dizaine de sœurs auraient survécu, parvenant à s'évanouir dans le désert avec un rhinos. ![Soeur de bataille face à la corruption.jpg "centré](Soeur%20de%20bataille%20face%20%C3%A0%20la%20corruption.jpg%20%22centr%C3%A9)
+Les bâtiments des différents cloîtres avaient été endommagés dans la violence des combats, les cathédrales et chapelles sacrées fracturées et parfois même saccagées. Ce blasphème et la honte de la trahison faisait redoubler d'ardeur les loyalistes. Au petit matin, les dernières renégates furent mises en déroute, forcées à fuir car n'ayant pas reçu le soutien du démon et des hordes menés par le World Bearers. En effet, les évènements ayant eût lieu à la porte des Vents participèrent donc grandement au salut des cloîtres loyaux. Les dernières sœurs renégates furent traquées par leurs consœurs loyales. Dans toute la journée qui suivit les survivantes renégates en fuite furent traquer et impitoyablement, reçurent le jugement la colère divine de l'Empereur. De cette purge impitoyables, seules une dizaine de sœurs auraient survécu, parvenant à s'évanouir dans le désert avec un rhinos.\
+![Corruption.jpg](Corruption.jpg)
 
 #### L'attaque de la porte des Vents par les démons.
 
@@ -74,7 +93,9 @@ Aria et Hélia n'eurent guère le temps de réagir, sonnant tout juste l'alerte 
 
 Les autres sœurs s'éveillant brusquement, saisirent leurs armes avant de se jeter sur le démon afin de l'empêcher d'atteindre la deuxième porte. Le démon leva son énorme hache eût un rire sinistre avant de se jeter sur les frêles humaines qui se tenaient devant son objectif. En instant, la hache trancha la chaire, brisa les os et fit couler le sang. En quelques instants, les 8 sœurs de bataille n'étaient plus qu'un ensemble de membres déchiquetés, de corps distordus et de tâches rouges sangs dans la neige. Le démon ricana avant de saisir du crâne de la sœur supérieure de l'escouade et l'attacher comme un trophée de plus à sa ceinture. Kraal offrirait les crânes de ces pathétiques humaines à son maître de retour dans les royaumes du chaos. Il comptait bien gagner l'attention de son Dieu. Le démon majeur espérait offrir le sang des sœurs qu'il allait massacrer cette nuit. Dans sa tête il voyait déjà le couvent brûler et des rivières de sang des adoratrices du faux-dieu.
 
-Une fois en bas de la tour, Aria put constater le carnage, son sang bouillit dans ses veines à la vue des cadavres profanées de ses sœurs. Elle brandit son épée en récitant une litanie de haine, sans retourner, elle ordonna à Hélia de tenir les débris de la première porte afin d'empêcher les milliers de cultistes d'entrer. Hélia regarda sa sœur charger le démon, voyant un visage animée par une foi inébranlable et une haine pour la créature qui lui faisait face. Hélia se retourna alors, ne préférant pas regarder l'impact, l'épéiste leva alors son épée tronçonneuse, prête à accueillir les premiers cultistes enragés. ![Soeur de bataille entourée par des démons de Khorne.jpg "centré](Soeur%20de%20bataille%20entour%C3%A9e%20par%20des%20d%C3%A9mons%20de%20Khorne.jpg%20%22centr%C3%A9) Lorsque la lame déchiqueta la chaire du premier cultiste et que le moteur rugit de la même haine que sa porteuse, derrière, devant la deuxième porte un miracle se produisit. L'Empereur en cette nuit de malheur décida de sauver ses filles. Aria était alors habitée par une foi et détermination folle, courraient épée énergétique levée vers le prince démon et sans doute une mort certaine. L'Empereur dans sa miséricorde infinie porta son regard vers son humble servante, et Aria subit l'Ascension.
+Une fois en bas de la tour, Aria put constater le carnage, son sang bouillit dans ses veines à la vue des cadavres profanées de ses sœurs. Elle brandit son épée en récitant une litanie de haine, sans retourner, elle ordonna à Hélia de tenir les débris de la première porte afin d'empêcher les milliers de cultistes d'entrer. Hélia regarda sa sœur charger le démon, voyant un visage animée par une foi inébranlable et une haine pour la créature qui lui faisait face. Hélia se retourna alors, ne préférant pas regarder l'impact, l'épéiste leva alors son épée tronçonneuse, prête à accueillir les premiers cultistes enragés.\
+![461a3e28-cf1e-4ebe-b777-cbad71cc1f1f.jpg](/ob/world/image%20warhammer/461a3e28-cf1e-4ebe-b777-cbad71cc1f1f.jpg)\
+Lorsque la lame déchiqueta la chaire du premier cultiste et que le moteur rugit de la même haine que sa porteuse, derrière, devant la deuxième porte un miracle se produisit. L'Empereur en cette nuit de malheur décida de sauver ses filles. Aria était alors habitée par une foi et détermination folle, courraient épée énergétique levée vers le prince démon et sans doute une mort certaine. L'Empereur dans sa miséricorde infinie porta son regard vers son humble servante, et Aria subit l'Ascension.
 
 Une auréole d'or apparue autour de la zélote, tandis que son corps entier était habité par la puissance de l'Empereur. De larges ailes d'or se déployèrent dans son dos tandis que son épée se transformait une lame dorée éclatante. Décollant du sol, Aria n'était plus, Sainte Aria était née.
 
@@ -84,7 +105,8 @@ Kraal poussa un raclement désagréable lorsqu'il vit la guerrière s'entourer d
 
 Les cultistes, voyant leur guide tomber au sol, prirent peur et cessèrent de combattre avant de carrément s'enfuir. Hélia se retourna alors prudemment, comprenant vivre un véritable miracle de l'Empereur. Elle vit alors la forme ailée dorée et resplendissante de celle qui fut autrefois son amie et qui désormais était une sainte vivante, l'expression de la volonté même de l'Empereur. Suite à cet assaut nocturne raté, le Couvent débuta une campagne de purge sanglante dans les tributs alentours, exterminant sans pitié les rares cultistes survivants et leur tributs.
 
-Sainte Aria menait désormais ses sœurs, habitée par la fureur de l'Empereur. Les SoB éliminèrent dans les mois qui suivirent d'autres démons ou noyau de cultistes que le prophète du chaos avait établit. Celui-ci après sa cuisante défaite du s'enfuir dans le désert, suivit par une poignée de cultistes. Il parvient toutefois à échapper à l'enquête des SoB suite à l'incident. Mais désormais, les sœurs savaient qu'un hérétique se terrait sur leur monde et elles n'auraient de cesse de le traquer. Le prophète fut donc contraint de se cacher, aux yeux mêmes des tributs barbares de ce monde. ![Sainte Vivante.jpg "centré](Sainte%20Vivante.jpg%20%22centr%C3%A9)
+Sainte Aria menait désormais ses sœurs, habitée par la fureur de l'Empereur. Les SoB éliminèrent dans les mois qui suivirent d'autres démons ou noyau de cultistes que le prophète du chaos avait établit. Celui-ci après sa cuisante défaite du s'enfuir dans le désert, suivit par une poignée de cultistes. Il parvient toutefois à échapper à l'enquête des SoB suite à l'incident. Mais désormais, les sœurs savaient qu'un hérétique se terrait sur leur monde et elles n'auraient de cesse de le traquer. Le prophète fut donc contraint de se cacher, aux yeux mêmes des tributs barbares de ce monde.\
+![aaa\_40k-imperium-factions-guide-imperial-knights-1.jpg](/ob/world/image%20warhammer/aaa_40k-imperium-factions-guide-imperial-knights-1.jpg)
 
 ### De nos jours
 
@@ -92,7 +114,7 @@ Après les évènements de la nuit de la Honte, les sœurs purgèrent tout ce qu
 
 Officiellement, l'apôtre noir est désormais en fuite dans le désert, suivit par quelques guerriers primitifs qu'il a su corrompre. Officieusement des rapports étouffés relatent la rumeur de sœurs de bataille déchus, et d'une traque de celles-ci par leur homologues loyalistes. De plus, d'autres rumeurs font rapports de l'invocation de démon , et leur élimination par les sœurs de batailles du couvent. Un rapport classifié par l'inquisition, fait mention d'une attaque de grande envergure sur le couvent mené par un démon majeur de Khorne. La planète aura donc aussi vu l'ascension au rang de sainte vivante de sœur Aria. La jeune femme ayant reçut la lumière de l'Empereur-Dieu après avoir vaincu par la grâce de l'Empereur un démon majeur de Khorne au lieu de mourir déchiquetée comme le reste des sœurs de son escouade.
 
-Plus tard, c'est également sur ce monde la sœur Eljiana Kart se fera ordonnée, dans l'année qui suivit la réouverture de l'Enclave de Tarinth. ![Cérémonie soeur de bataille novice.png "centré](C%C3%A9r%C3%A9monie%20soeur%20de%20bataille%20novice.png%20%22centr%C3%A9)
+![adoubement sista.png](/ob/world/image%20warhammer/adoubement%20sista.png)
 
 Enfin, récemment, le libre marchand Herdus von Humbestum a pris contact avec le couvent et a chercher à établir des relations cordiales avec celui dans le but de se faire un allié pour sa conquête commercial du système. Il a ainsi permis de transporter un important contingent de sœurs hospitalières à destination de Quortiss. Permettant à des secours spirituels et matériels de venir sur l'agri-monde meurtri après la catastrophe de la **Chute des anges**, le libre-marchand espère s'être attiré les bonnes grâces de sœurs.
 
@@ -100,7 +122,8 @@ Enfin, récemment, le libre marchand Herdus von Humbestum a pris contact avec le
 
 Rick'nar est officiellement référencer par l'Adminstratum Impérial comme un monde primitif, dénué de ressources d'importances. Longtemps seulement connu pour son inutilité et son climat aride, la planète ne fut jamais vraiment coloniser par l'Impérium. Il eût bien sûr au fil des siècles, des tentatives d'implantation de colonies impériales sur le monde, mais les contacts avec les locaux et l'intérêt économique presque nul de ce monde ont fait se solder toutes les tentatives par de laborieux échec. L'intérieur du système Barius et d'autres planètes de l'Enclave de Tarinth étant bien plus intéressantes à coloniser, Rick'nar reste donc pratiquement non exploitée par l'Impérium.
 
-Ce n'est que très récemment, avec la décision d'installer un couvent sur ce monde, que l'Impérium dispose d'une présence sur ce monde. La planète reste donc cependant classifiée comme monde primitif. Il n'existe donc pas d'autorité planétaire à proprement parler, cependant l'Adepta Sororitas jouit des pleins droit sur ce monde par décret du gouverneur sous-sectoriel. ![Profession adepta sororitas.png "centré](Profession%20adepta%20sororitas.png%20%22centr%C3%A9)
+Ce n'est que très récemment, avec la décision d'installer un couvent sur ce monde, que l'Impérium dispose d'une présence sur ce monde. La planète reste donc cependant classifiée comme monde primitif. Il n'existe donc pas d'autorité planétaire à proprement parler, cependant l'Adepta Sororitas jouit des pleins droit sur ce monde par décret du gouverneur sous-sectoriel.\
+![\_ (17).png](/ob/world/image%20warhammer/_%20\(17\).png)
 
 ## Caractéristiques
 
@@ -112,7 +135,8 @@ Un relief géographique important sera noté par le visiteur, en effet plusieurs
 
 ## Culture locale et Mythologie
 
-![Rick'nar.jpg "centré](Rick'nar.jpg%20%22centr%C3%A9) La planète est semblable en taille à Mars et dispose d'une population réduite d'un demi-millions d'habitants. Les habitants locaux sont des primitifs, ignorants de la technologie impériale, semble à ceux de l'âge de pierre de Terra. Seuls les doctrines de la foi impériale, profondément ancrées dans les traditions locales par les sœurs de la Missiona Prophética permettent de conserver la dévotion de ses habitants envers l'Empereur, qui est vu en dieu guerrier primitif. Les Sœurs de Batailles sont une légende pour la population locale, et vues telles les guerrières angéliques de l'Empereur venant châtier ceux qui dévoient du droit chemin, ou bien prélever une offrande pour l'Empereur-Chasseur sous la forme de jeunes enfants. C'est en fait l'un des moyens de recrutements du couvent afin d'acquérir recrues et serviteurs, bien généralement les sœurs recrutées de cette façon soient victimes de discriminations par rapport à d'autres sœurs provenant de monde plus civilisées. Il est aussi à noté que les sœurs préfèrent acquérir un personnel déjà civilisé, en l'important par exemple de [Barius Secundus](/world/barius-secundus).
+![rick'nar.jpg](rick'nar.jpg)\
+La planète est semblable en taille à Mars et dispose d'une population réduite d'un demi-millions d'habitants. Les habitants locaux sont des primitifs, ignorants de la technologie impériale, semble à ceux de l'âge de pierre de Terra. Seuls les doctrines de la foi impériale, profondément ancrées dans les traditions locales par les sœurs de la Missiona Prophética permettent de conserver la dévotion de ses habitants envers l'Empereur, qui est vu en dieu guerrier primitif. Les Sœurs de Batailles sont une légende pour la population locale, et vues telles les guerrières angéliques de l'Empereur venant châtier ceux qui dévoient du droit chemin, ou bien prélever une offrande pour l'Empereur-Chasseur sous la forme de jeunes enfants. C'est en fait l'un des moyens de recrutements du couvent afin d'acquérir recrues et serviteurs, bien généralement les sœurs recrutées de cette façon soient victimes de discriminations par rapport à d'autres sœurs provenant de monde plus civilisées. Il est aussi à noté que les sœurs préfèrent acquérir un personnel déjà civilisé, en l'important par exemple de [Barius Secundus](/world/barius-secundus).
 
 L'imperium n'est donc pas présent sur ce monde à l'exception notable du couvent de l'Adepta Sororitas. D'ailleurs l'adminstratum ne prélève pas de dîme, le monde n'ayant rien à offrir (les tentatives de former des régiments à partir des primitifs locaux ayant toutes échouées). La planète n'est d'ailleurs pas inclus dans les lignes de défenses du systèmes BARIUS, celle-ci n'est donc pas protégée.
 
@@ -152,7 +176,9 @@ Responsable de l'avant poste du couvent sur [Barius Secundus](/world/barius-secu
 
 ### Chaos
 
-* ![Word Bearer apôtre noir.webp "vignette](Word%20Bearer%20ap%C3%B4tre%20noir.webp%20%22vignette)**Apôtre de la main noire - Un Héraut du Chaos:**
+![Word\_Bearer\_apôtre\_noir.webp](Word_Bearer_ap%C3%B4tre_noir.webp)
+
+* **Apôtre de la main noire - Un Héraut du Chaos:**
 
 Jadis connu sous un autre nom dans les rangs de la légion des Word Bearers, son identité d'origine s'est maintenant perdue au fil des éons. Il est toutefois avéré qu'il est un ancien Chapelain des Word Bearers, désormais membre éminent d'une bande de guerre appelée la Main Noire. La Main Noire est une vaste organisation hérétique spécialisée dans l'infiltration et la propagation de la foi chaotique sur les mondes impériaux, cette faction se distingue par son habileté à semer la corruption, l'hérésie et les fausses paroles au sein de l'Imperium. Une autre particularité est le fait que ses membres éminents peuvent aussi bien être de simples humains que des astartes sans distinction. L'Apôtre porte une armure noire ornée de runes chaotiques, les lentilles de son casque brûlent d'un éclat rouge malsain, et sa main droite est marquée d'une noire bénédiction, symbole de son dévouement. Éminent propagateur de la juste foi chaotique, il prêche avec une ferveur enflammée, ses paroles exaltées semblant envoûtanter ses auditeurs attirant de nombreux fidèles à la cause du Chaos Universel.
 
@@ -204,4 +230,4 @@ Etant originellement une croisade de foi, les sœurs du couvent ont continués d
 
 ## Citations
 
-*codeIl n'existe pas de citations célèbres à propos de ce monde./code*
+*Il n'existe pas de citations célèbres à propos de ce monde.*

@@ -1,6 +1,4 @@
 ---
-infobox: Propriété
-auteurprincipal: KYRKOS
 title: Quortiss
 tags:
   - Imperium
@@ -11,15 +9,36 @@ tags:
   - Système Barius
   - Planète
   - Questor Imperialis
-draft: false
-date: 2026-05-02T17:42:40.490Z
-lastmod: 2026-05-02T21:56:32.149Z
+image: /ob/world/Fan-fluffs/Criam%20by%20bjbon14%20on%20DeviantArt.jpg
+infobox: Caractéristiques
+Segmentum: Ultima
+Secteur: Noctis
+Sous-secteur: Enclave de Tarinth
+Système: Barius
+administratum_ref: STN-ET-BR3
+affiliation: Impérium ![[akila2.png]]
+Type de monde: Monde Chevalier
+Classe: Agrimonde Féodal / Monde Chevalier
+population: 15 millions
+organisation politique: féodal
+gouverneur planetaire: Baronne Kamélia Quortiss (régente temporaire)
+dirigeants: maison Quortiss
+rallié par: colonie humaine antérieure à l'Impérium de l'Humanité
+défenses planétaires: limitées
+autres forces militaires: régiments de l'astra militarum en cours de redéploiement
+gravité: 1.13 terran
+période_rotation: 32 h
+inclinaison_axe: 1.32 °
+température_de_surface: tempéré
+demi-grand_axe: ~ 35 780 km (diamètre ici)
+date: 2026-05-04T19:58:56.682Z
+lastmod: 2026-05-04T20:05:05.709Z
 ---
-Quortiss est un monde chevalier, régit par un système féodal composée de différentes classes et dirigé par différentes maisons de chevaliers de diverses tailles. Ce monde chevalier est l'un des plus atout de l'Impérium dans le sous-secteur de l'<a href="Secteur_Noctis/Enclave_de_Tarinth" class="wikilink" title="Enclave de Tarinth">Enclave de Tarinth</a>, situé dans le [Secteur Noctis](/world/secteur-noctis) de l'Ultima Segmentum.
+Quortiss est un monde chevalier, régit par un système féodal composée de différentes classes et dirigé par différentes maisons de chevaliers de diverses tailles. Ce monde chevalier est l'un des plus atout de l'Impérium dans le sous-secteur de l'[Enclave de Tarinth](/world/enclave-de-tarinth), situé dans le [Secteur Noctis](/world/secteur-noctis) de l'Ultima Segmentum.
 
 D'une part puisqu'il s'agit de certains parmi les plus fervents défenseurs de l'Humanité dans le secteur, d'autre part la planète Quortiss elle-même est l'agrimonde le plus important du sous-secteurs, tandis qu'enfin les maisonnées de chevaliers sont perçues telles l'une des forces majeures de l'Imperium dans le secteur, pour de multiples raisons. Quortiss a une très haute importance stratégique, la planète étant une composante essentielle de la présence impériale dans son sous-secteur.
 
-Il faut également noter que de par sa position de troisième planète du système <a href="Secteur_Noctis/Système_Barius" class="wikilink" title="Barius">Barius</a>, il s'agit d'un des mondes les plus importants de l'Enclave de Tarinth avec le monde forge majoris de Barius Prime et le monde ruche de <a href="Barius_Secundus" class="wikilink" title="Barius Secundus">Barius Secundus</a>.
+Il faut également noter que de par sa position de troisième planète du système [Barius](Barius), il s'agit d'un des mondes les plus importants de l'Enclave de Tarinth avec le monde forge majoris de Barius Prime et le monde ruche de [Barius Secundus](/world/barius-secundus).
 
 ## Histoire
 
@@ -55,7 +74,8 @@ Quortiss est un monde chevalier assez classique, la planète est donc régit par
 
 Le monde de Quortiss est gouverné par les chevaliers de la maison Quortiss depuis des millénaires, cependant, ce ne fut pas toujours le cas. En effet, le monde chevalier est en vérité constituer de plusieurs maisons et maisonnées de chevaliers de diverses tailles et influences. Il existe de nombreuses divisions au sein des chevaliers de ce monde.
 
-Il faut également noter qu'une part importante des flux financiers de ce monde sont contrôlés par une caste informelle de marchands: les maîtres-marchands. Cette caste comprends en effet l'ensemble des individus impliqués dans l'exportation des denrées agricoles de Quortiss. Ils n'ont pas le statut des nobles chevaliers mais espèrent un jour obtenir une place dans la politique gouvernementale de leur monde.![Organisation hiérarchie Quortiss.png "centré](Organisation%20hi%C3%A9rarchie%20Quortiss.png%20%22centr%C3%A9)
+Il faut également noter qu'une part importante des flux financiers de ce monde sont contrôlés par une caste informelle de marchands: les maîtres-marchands. Cette caste comprends en effet l'ensemble des individus impliqués dans l'exportation des denrées agricoles de Quortiss. Ils n'ont pas le statut des nobles chevaliers mais espèrent un jour obtenir une place dans la politique gouvernementale de leur monde.\
+![organisation hiérarchie Quortiss.png](/ob/world/Fan-fluffs/organisation%20hi%C3%A9rarchie%20Quortiss.png)
 
 ### Divisions au sein des maisons de chevaliers
 
@@ -75,13 +95,15 @@ La population de Quortiss est diviser en 2 classes (3 selon certains), selon un 
 
 ## Caractéristiques
 
-![Quortiss - vue orbitale.jpg "vignette](Quortiss%20-%20vue%20orbitale.jpg%20%22vignette) D'environ 3 fois la taille de la terre, Quortiss est dotée d'une large bande de jungle luxuriante au niveau de son équateur, dernier vestige de la planète avant sa colonisation par l'homme. La jungle abrite des prédateurs et autres horreurs rééquerrant la présence de chevalier... Ses arbres sont immenses, atteignant aisément plusieurs mètres d'envergure et la végétation y est dense. il est aujourd'hui très compliqué d'envisager tout plan de déboisement massif, tant la forêt repousse vite et que l'opération est dangereuse. Même si on leur a proposer, la maison de chevalier locale a décliné l'offre de se débarasser de la forêt, ceux-ci y étant trop attachés.
+![Criam by bjbon14 on DeviantArt.jpg](/ob/world/Fan-fluffs/Criam%20by%20bjbon14%20on%20DeviantArt.jpg) D'environ 3 fois la taille de la terre, Quortiss est dotée d'une large bande de jungle luxuriante au niveau de son équateur, dernier vestige de la planète avant sa colonisation par l'homme. La jungle abrite des prédateurs et autres horreurs rééquerrant la présence de chevalier... Ses arbres sont immenses, atteignant aisément plusieurs mètres d'envergure et la végétation y est dense. il est aujourd'hui très compliqué d'envisager tout plan de déboisement massif, tant la forêt repousse vite et que l'opération est dangereuse. Même si on leur a proposer, la maison de chevalier locale a décliné l'offre de se débarasser de la forêt, ceux-ci y étant trop attachés.
 
 Mis à part la capitale planétaire qui n'excède pas 1 millions d'habitants, il n'existe presque aucune ville sur la surface ce monde autrefois terraformé pour une agriculture intensive. La maison de Chevalier locale est à la tête hiérarchique du monde. Quortiss dispose d'une hiérarchie féodale, divisée en royaume, duché, comté et baronnerie. La plupart des locaux vivent dans de petites communautés au milieu de centaine de km carrés de champs. La population est très faible par rapport à la surface habitée mais elle est suffisante pour manier les puissants engins agricoles nécessaires à l'exploitation du monde.
 
 Le monde a un climat tempéré et humide, avec quelques grandes étendus d'eaux mais une grande majorité de terres fermes : c'est un monde parfait pour l'agriculture et l'élevage qui sont pratiquer intensivement au point que les forêts sont rares sur ce monde. Le relief est quasi-nul en faisant un monde presque plat, parfait pour l'exploitation à grande échelle, bien que le système féodal du monde l'empêche d'atteindre sa pleine productivité. Le monde de Quortiss est le plus gros producteur de nourriture du système, sans lui de nombreux mondes de ce système et même bien au delà voir des milliards de pauvres citoyens mourrir de faim... Sa constante productivité reste donc un objectif prioritaire pour les impériaux du système Barius.
 
 ## Culture locale et Mythologie
+
+![imperial knight.png](/ob/world/image%20warhammer/imperial%20knight.png)
 
 C'est un monde chevalier féodal, les gens y vivent une vie simple et honnête, servant avec fidélité leurs seigneurs qui les protègent et les aident avec leur titanesques engins de guerres. La majorité de la population est constituée de paysans, à l'exception des nobles et des rares bourgeois et commerçants résidant les rares villes de la planète. La population est donc rurale en quasi totalité, regroupée en petite communauté et vivant isolée au milieu de surface agricole géante ou des rares forêts de ce monde. Le niveau technologique est faible (environ bas moyen-âge allemand ~1450)). Cependant la maisonnée noble est loin d'être dépourvue de technologies ou de relations extérieurs, cela créant un contraste en dirigeant et serfs, cependant cela ne semble pas poser problème, la maison Quortiss étant connu pour sa générosité et sa grande protection de leur gens. Les seuls machines hautement technologiques sont les énormes moissonneuses volantes qui viennent au temps des moissons, récolter les champs. Les paysans locaux voient cela comme une attraction durant un temps, bien qu'ils ont appris à ne pas chercher de sens à ces engins venus du ciel.
 
@@ -180,3 +202,15 @@ Les relations sont donc parfois tendues, mais la coopération étant nécessaire
 Depuis l'invasion de leur monde par la Waaagh du Big Boss Mag Urug, l'ensemble de la population locale, nobles comme serfs, vouent une haine profonde à ces xénos. On a ainsi pu noter une hausse sévère de l'engagement volontaire dans la garde, afin d'aller combattre les xénos sur la planète voisine Barius Secundus, qui n'est elle pas parvenu à vaincre les orks, et se tient désormais au bord de l'anéantissement.
 
 ## Citations
+
+> La navette transportant le libre marchand et sa cour reçut des coordonnées précises pour atterrir. Il s'éloignèrent de plusieurs milliers de kilomètres de la capitale, Quortiss City pour se diriger vers la seule région montagneuse de la planète. La seule, ou du moins la dernière, car les autres chaînes de montagnes de ce monde n'avaient pas dû survivre au passage des machines de terraformation de l'adeptus méchanicus lorsque ce Monde fut reformaté pour servir d'agrimonde. Au cœur de cette chaîne de montagne se trouvait, caché sous les plus au sommet, le siège de la maison Quortiss. Des tours de gardes, des bastions de guets et de défense orbitales, des cors de guerres gigantesques, jalonnaient les versants environnant.
+>
+> En passant à basse altitude, le libre marchand put apercevoir plusieurs chevaliers se tenir sur des plateformes capables d'accueillir leurs châssis. Des gigantesques bannières ornées des sigles de la maison, ainsi que des héraldique personnelles des nobles chevaliers, flottaient le long des bastions et sur les toits des tours de guets. Des petits villages étaient nichés par endroit dans ce décors titanesques. Le pilote de la navette obliqua doucement en direction du sol, vers la vallée la plus haute de la chaîne de montagne. Passant à nouveau à côté d'innombrables bastions et tours décorées des armoiries des chevaliers.
+>
+> Lorsque le pilote fit perdre de l'altitude à la navette, Herdus put constater que ce qu'il avait pu prendre pour une falaise se révélait être une véritable forteresse, un énorme bastion d'entrée creusé à flanc de Montagne, orné des armoiries de la maison Quortiss. Plusieurs portes gigantesques permettaient l'accès à l'intérieur de la montagne, capables de laisser passer des chevaliers sans problème. La navette se posa sur une immense esplanade de béton marqué, une fois de plus, par le blason de la maison Quortiss. Le pilote s'y posa en douceur et à la perfection.
+
+Récit de l'arrivé du libre-marchand Herdus von Humbestum à la forteresse des Pics
+
+> Un ost ne recule JAMAIS !!!
+
+La baronne Kamélia, exhortant sa lance à monter à l'assaut.

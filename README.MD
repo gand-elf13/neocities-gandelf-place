@@ -10,5 +10,5 @@ credit to hugo.386 theme that is use
 - [ ] investigate table weird rendering
 - [ ] cleanely fill the empty space under recent posts
 - [ ] add a good looking link to KYRKOS fan fics
-- [ ] add a licence for both code and content
+- [x] add a licence for both code and content
 - [ ] fine tune the vines

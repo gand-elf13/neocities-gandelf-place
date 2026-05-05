@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-05
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-05T05:12:14.132Z
+lastmod: 2026-05-05T21:10:15.915Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -40,7 +40,11 @@ Repeat something (in the art or from the past) : there is only repetition, from 
 
 ![Ring 1.png](/ob/attachements/Ring%201.png)
 
-5. Disassemble
+### Disassemble
+
+Use exactly 8 colors yep, and it was flippin hard
+
+![Disassemble.png](/ob/attachements/Disassemble.png)
 
 6. Good view
 
@@ -95,8 +99,6 @@ Repeat something (in the art or from the past) : there is only repetition, from 
 31. Oath
 
 ## Official Optional Constraints:
-
-5. Use exactly 8 colors
 
 6. Trace the outline of something unusual and keep it in your image. (you don't have to draw the thing you outlined, but the outline must remain, even if it ends up being the outline of something completely different.)
 

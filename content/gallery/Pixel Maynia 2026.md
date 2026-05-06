@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-06
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-06T20:51:52.289Z
+lastmod: 2026-05-06T20:53:07.833Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -38,13 +38,13 @@ Use this palette:: <https://lospec.com/palette-list/honeygb> cheated with the CR
 
 Repeat something (in the art or from the past) : there is only repetition, from the past, to the future...
 
-{{< figure src="/ob/attachements/Ring%201.png" alt="Ring 1.png" width="618" >}}
+{{< figure src="/ob/attachements/Ring%201.png" alt="Ring 1.png" width="528" >}}
 
 ### Disassemble
 
 Use exactly 8 colors yep, and it was flippin hard
 
-![Disassemble.png](/ob/attachements/Disassemble.png)
+{{< figure src="/ob/attachements/Disassemble.png" alt="Disassemble.png" width="563" >}}
 
 ### Good View
 

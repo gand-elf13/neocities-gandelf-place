@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-06
+date modified: 2026-05-07
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-06T20:53:07.833Z
+lastmod: 2026-05-07T20:53:25.190Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -50,9 +50,13 @@ Use exactly 8 colors yep, and it was flippin hard
 
 Trace the outline of something unusual and keep it in your image. (you don't have to draw the thing you outlined, but the outline must remain, even if it ends up being the outline of something completely different.) : Cany you see it ? I'll reveal if you ask me kindly
 
-![Good view.png](/ob/attachements/Good%20view.png)
+{{< figure src="/ob/attachements/Good%20view.png" alt="Good view.png" width="576" >}}
 
-7. It's my favorite
+### It's My Favorite
+
+Use this palette: <https://lospec.com/palette-list/ephemera>
+
+![Its my favorite.png](/ob/attachements/Its%20my%20favorite.png)
 
 8. By itself
 
@@ -103,8 +107,6 @@ Trace the outline of something unusual and keep it in your image. (you don't hav
 31. Oath
 
 ## Official Optional Constraints:
-
-7. Use this palette: <https://lospec.com/palette-list/ephemera>
 
 8. Pick a color palette you feel uncomfortable with
 

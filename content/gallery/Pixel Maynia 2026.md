@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-08
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-08T20:43:05.175Z
+lastmod: 2026-05-08T20:44:33.779Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -56,7 +56,7 @@ Trace the outline of something unusual and keep it in your image. (you don't hav
 
 Use this palette: <https://lospec.com/palette-list/ephemera>
 
-{{< figure src="/ob/attachements/Its%20my%20favorite.png" alt="Its my favorite.png" width="511" >}}
+{{< figure src="/ob/attachements/Its%20my%20favorite.png" alt="Its my favorite.png" width="625" >}}
 
 ### By Itself
 

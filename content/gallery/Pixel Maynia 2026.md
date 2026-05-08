@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-07
+date modified: 2026-05-08
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-07T20:53:25.190Z
+lastmod: 2026-05-08T20:43:05.175Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -56,9 +56,13 @@ Trace the outline of something unusual and keep it in your image. (you don't hav
 
 Use this palette: <https://lospec.com/palette-list/ephemera>
 
-![Its my favorite.png](/ob/attachements/Its%20my%20favorite.png)
+{{< figure src="/ob/attachements/Its%20my%20favorite.png" alt="Its my favorite.png" width="511" >}}
 
-8. By itself
+### By Itself
+
+Pick a color palette you feel uncomfortable with : <https://lospec.com/palette-list/101-tilez>. I don't like bright palette with little colors. and i chose the palette before i had the idea
+
+![By itself.png](/ob/attachements/By%20itself.png)
 
 9. Better than the alternative
 
@@ -107,8 +111,6 @@ Use this palette: <https://lospec.com/palette-list/ephemera>
 31. Oath
 
 ## Official Optional Constraints:
-
-8. Pick a color palette you feel uncomfortable with
 
 9. Add a sparkle effect (it doesn't need to be animated, just sparkly, you decide what that means.)
 

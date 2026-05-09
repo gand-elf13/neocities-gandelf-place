@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-08
+date modified: 2026-05-09
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-08T20:44:33.779Z
+lastmod: 2026-05-09T11:39:55.989Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -16,7 +16,7 @@ The official Pixel Maynia discord server: <https://discord.gg/mAj8bRsKGs>
 
 Include an item that could make our lives better : More Orange JUICE !!!
 
-{{< figure src="/ob/attachements/Machine.png" alt="Machine.png" width="298" >}}
+{{< figure src="/ob/attachements/Machine.png" alt="Machine.png" width="367" >}}
 
 ***
 
@@ -32,25 +32,25 @@ Try to make the viewer feel sad : idk maybe it does, kinda for me.
 
 Use this palette:: <https://lospec.com/palette-list/honeygb> cheated with the CRT effect but i dont care.
 
-{{< figure src="/ob/attachements/Hacker.png" alt="Hacker.png" width="411" >}}
+{{< figure src="/ob/attachements/Hacker.png" alt="Hacker.png" width="589" >}}
 
 ### Ring
 
 Repeat something (in the art or from the past) : there is only repetition, from the past, to the future...
 
-{{< figure src="/ob/attachements/Ring%201.png" alt="Ring 1.png" width="528" >}}
+{{< figure src="/ob/attachements/Ring%201.png" alt="Ring 1.png" width="602" >}}
 
 ### Disassemble
 
 Use exactly 8 colors yep, and it was flippin hard
 
-{{< figure src="/ob/attachements/Disassemble.png" alt="Disassemble.png" width="563" >}}
+{{< figure src="/ob/attachements/Disassemble.png" alt="Disassemble.png" width="608" >}}
 
 ### Good View
 
 Trace the outline of something unusual and keep it in your image. (you don't have to draw the thing you outlined, but the outline must remain, even if it ends up being the outline of something completely different.) : Cany you see it ? I'll reveal if you ask me kindly
 
-{{< figure src="/ob/attachements/Good%20view.png" alt="Good view.png" width="576" >}}
+{{< figure src="/ob/attachements/Good%20view.png" alt="Good view.png" width="618" >}}
 
 ### It's My Favorite
 
@@ -62,9 +62,14 @@ Use this palette: <https://lospec.com/palette-list/ephemera>
 
 Pick a color palette you feel uncomfortable with : <https://lospec.com/palette-list/101-tilez>. I don't like bright palette with little colors. and i chose the palette before i had the idea
 
-![By itself.png](/ob/attachements/By%20itself.png)
+{{< figure src="/ob/attachements/By%20itself.png" alt="By itself.png" width="626" >}}
 
-9. Better than the alternative
+### Better than the Alternative
+
+Add a sparkle effect (it doesn't need to be animated, just sparkly, you decide what that means.)\
+That game is a sparkle, but just to be sure i have also added one (less sparkly than the game though)
+
+![Better than the alternative.png](/ob/attachements/Better%20than%20the%20alternative.png)
 
 10. Go Back
 
@@ -111,8 +116,6 @@ Pick a color palette you feel uncomfortable with : <https://lospec.com/palette-l
 31. Oath
 
 ## Official Optional Constraints:
-
-9. Add a sparkle effect (it doesn't need to be animated, just sparkly, you decide what that means.)
 
 10. Include a window
 

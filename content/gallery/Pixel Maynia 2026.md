@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-09
+date modified: 2026-05-10
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-09T11:39:55.989Z
+lastmod: 2026-05-10T17:59:17.056Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -69,9 +69,13 @@ Pick a color palette you feel uncomfortable with : <https://lospec.com/palette-l
 Add a sparkle effect (it doesn't need to be animated, just sparkly, you decide what that means.)\
 That game is a sparkle, but just to be sure i have also added one (less sparkly than the game though)
 
-![Better than the alternative.png](/ob/attachements/Better%20than%20the%20alternative.png)
+{{< figure src="/ob/attachements/Better%20than%20the%20alternative.png" alt="Better than the alternative.png" width="624" >}}
 
-10. Go Back
+### Go Back
+
+Include a window : yep
+
+![GO BACK.png](/ob/attachements/GO%20BACK.png)
 
 11. Too low!
 
@@ -117,46 +121,44 @@ That game is a sparkle, but just to be sure i have also added one (less sparkly 
 
 ## Official Optional Constraints:
 
-10. Include a window
+1. Your subject must suggest motion. (You don't have to animate it, but the image must capture something that would otherwise be moving if it wasn't a still image.)
 
-11. Your subject must suggest motion. (You don't have to animate it, but the image must capture something that would otherwise be moving if it wasn't a still image.)
+2. Have two light sources somewhere in your image
 
-12. Have two light sources somewhere in your image
+3. Have a set of something as your main subject.
 
-13. Have a set of something as your main subject.
+4. Keep the perspective above the subject
 
-14. Keep the perspective above the subject
+5. Include a plant of some sort in your image
 
-15. Include a plant of some sort in your image
+6. Take an IRL picture, use that as a reference for something in your image
 
-16. Take an IRL picture, use that as a reference for something in your image
+7. Follow the theme, but also create an original character
 
-17. Follow the theme, but also create an original character
+8. Include a reflection
 
-18. Include a reflection
+9. Make it a dutch tilt. (Tip the image to an angle so the horizon or floor is slanted for dramatic effect)
 
-19. Make it a dutch tilt. (Tip the image to an angle so the horizon or floor is slanted for dramatic effect)
+10. Include at least one person in the image
 
-20. Include at least one person in the image
+11. Bright colors on the left, dark colors on the right.
 
-21. Bright colors on the left, dark colors on the right.
+12. Make the composition feel disorienting.
 
-22. Make the composition feel disorienting.
+13. Include a secondary subject in the background
 
-23. Include a secondary subject in the background
+14. Make two, each with different colors
 
-24. Make two, each with different colors
+15. Include smoke or steam in your image.
 
-25. Include smoke or steam in your image.
+16. Make it seem like it's windy or raining or both
 
-26. Make it seem like it's windy or raining or both
+17. Use a tall canvas
 
-27. Use a tall canvas
+18. Use this palette: <https://lospec.com/palette-list/cable-01>
 
-28. Use this palette: <https://lospec.com/palette-list/cable-01>
+19. Give the composition an unusual amount of white space
 
-29. Give the composition an unusual amount of white space
+20. Turn it into a playing card
 
-30. Turn it into a playing card
-
-31. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)
+21. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)

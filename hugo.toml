@@ -77,18 +77,25 @@ refLinksNotFoundURL = "/not-here-yet"
     identifier = "tags"
     name = "Tags"
     url = "/tags/"       # The path can lead to a content folder too.
-    weight = 25
+    weight = 28
 
   [[menu.main]]
     name = "Gallery"
     url = "/gallery/"
-    weight = 27
+    weight = 22
     identifier = "gallery"
+
   [[menu.main]]
     name = "World"
     url = "/world/"
-    weight = 30
+    weight = 25
     identifier = "world"
+
+  [[menu.main]]
+    name = "Lainring"
+    url = "/lainring/"
+    weight = 30
+    identifier = "lainring"
 
   [[menu.main]]
     identifier = "9b9tgoals"
@@ -98,7 +105,7 @@ refLinksNotFoundURL = "/not-here-yet"
  
   [[menu.main]]
     identifier = "guestbook"
-    name = "livre d'or/guestbook"
+    name = "Livre d'or/Guestbook"
     url = "/guestbook"
     weight = 50
     

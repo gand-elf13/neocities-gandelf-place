@@ -1,10 +1,10 @@
 ---
 tags: []
 date: 2026-04-07
-date modified: 2026-04-12
+date modified: 2026-05-12
 date created: 2026-04-07
 title: about
-lastmod: 2026-04-12T13:59:30.136Z
+lastmod: 2026-05-12T20:38:01.091Z
 ---
 Bonjour je suis gand\_elf.
 

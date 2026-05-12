@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-11
+date modified: 2026-05-12
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-11T20:59:52.747Z
+lastmod: 2026-05-12T21:05:43.026Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -81,9 +81,13 @@ Include a window : yep
 
 Your subject must suggest motion. (You don't have to animate it, but the image must capture something that would otherwise be moving if it wasn't a still image.) : So Technically... they did move, like there was motion soooo...
 
-![Too low.png](/ob/attachements/Too%20low.png)
+{{< figure src="/ob/attachements/Too%20low.png" alt="Too low.png" width="692" >}}
 
-12. Dance
+### Dance
+
+Have two light sources somewhere in your image
+
+![Dance.png](/ob/attachements/Dance.png)
 
 13. Mask
 
@@ -124,8 +128,6 @@ Your subject must suggest motion. (You don't have to animate it, but the image m
 31. Oath
 
 ## Official Optional Constraints:
-
-12. Have two light sources somewhere in your image
 
 13. Have a set of something as your main subject.
 

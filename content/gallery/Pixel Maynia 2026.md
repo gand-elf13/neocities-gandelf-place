@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-14
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-13T22:13:33.342Z
+lastmod: 2026-05-13T22:14:25.174Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -87,7 +87,7 @@ Your subject must suggest motion. (You don't have to animate it, but the image m
 
 Have two light sources somewhere in your image : wont lie, had no time no inspiration so i cheated in every way i could.
 
-![Dance.png](/ob/attachements/Dance.png)
+{{< figure src="/ob/attachements/Dance.png" alt="Dance.png" width="673" >}}
 
 ### Mask
 

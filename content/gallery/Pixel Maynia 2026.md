@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-12
+date modified: 2026-05-14
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-12T21:07:04.948Z
+lastmod: 2026-05-13T22:13:33.342Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -89,47 +89,49 @@ Have two light sources somewhere in your image : wont lie, had no time no inspir
 
 ![Dance.png](/ob/attachements/Dance.png)
 
-13. Mask
+### Mask
 
-14. Time travel
+Have a set of something as your main subject : Nop.
 
-15. Let's get cracking!
+![Mask.png](/ob/attachements/Mask.png)
 
-16. That fast eh?
+4. Time travel
 
-17. Perfection
+5. Let's get cracking!
 
-18. Illusions
+6. That fast eh?
 
-19. Lost
+7. Perfection
 
-20. Change
+8. Illusions
 
-21. Persistent
+9. Lost
 
-22. Abyss
+10. Change
 
-23. Stay together!
+11. Persistent
 
-24. Unstable
+12. Abyss
 
-25. Why is it empty?
+13. Stay together!
 
-26. Does this work?
+14. Unstable
 
-27. Oh that's gold
+15. Why is it empty?
 
-28. Oh so good
+16. Does this work?
 
-29. Against all odds
+17. Oh that's gold
 
-30. Birb
+18. Oh so good
 
-31. Oath
+19. Against all odds
+
+20. Birb
+
+21. Oath
 
 ## Official Optional Constraints:
-
-13. Have a set of something as your main subject.
 
 14. Keep the perspective above the subject
 

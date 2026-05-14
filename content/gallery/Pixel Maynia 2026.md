@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-14
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-14T20:58:23.964Z
+lastmod: 2026-05-14T20:59:17.718Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -93,7 +93,7 @@ Have two light sources somewhere in your image : wont lie, had no time no inspir
 
 Have a set of something as your main subject : Nop.
 
-![Mask.png](/ob/attachements/Mask.png)
+{{< figure src="/ob/attachements/Mask.png" alt="Mask.png" width="681" >}}
 
 ### Time Travel
 

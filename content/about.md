@@ -1,10 +1,10 @@
 ---
 tags: []
 date: 2026-04-07
-date modified: 2026-05-12
+date modified: 2026-05-14
 date created: 2026-04-07
 title: about
-lastmod: 2026-05-12T20:38:01.091Z
+lastmod: 2026-05-14T09:42:32.784Z
 ---
 Bonjour je suis gand\_elf.
 
@@ -14,7 +14,6 @@ J'ai crée ce site apres avoir vu une une vidéo de Bangor invitant a partager n
 
 ca fait pas longtemps que j'écrit tout de même et je pense que ca se voit, soyez indulgent et si vous avez des commentaire intelligents a faire n'hésitez pas.
 
-\~~aussi, vous verez peut etre des [link](link), c'est parceque j'utilise obsidiam, c'est un lien vers une autre page, qui n'a pas encore étée crée ou uploader sur le site.~~\
-*implémenté avec grace, on croise les droits pour que l'horreur que j'ai fait fonctionne pour toujours*
-
-Vous pouvez suivre ce site sur ce lien RSS <https://gand-elf.neocities.org/post/index.xml>
+Vous pouvez suivre ce site sur ce lien RSS <https://gand-elf.neocities.org/post/index.xml>\
+et me contacter par mail : gandelfistaken@firemail.cc\
+n'oubliez pas d'encrypter avec cette clé : [Openpgp](https://keys.openpgp.org/search?q=gandelfistaken@firemail.cc)

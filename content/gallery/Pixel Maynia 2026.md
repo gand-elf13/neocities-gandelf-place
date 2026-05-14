@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-14
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-13T22:14:25.174Z
+lastmod: 2026-05-14T20:58:23.964Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -95,7 +95,11 @@ Have a set of something as your main subject : Nop.
 
 ![Mask.png](/ob/attachements/Mask.png)
 
-4. Time travel
+### Time Travel
+
+Keep the perspective above the subject. I legit dont know which way the perspective should have been, i'll convince myself that i did it correctly
+
+![Time travel.png](/ob/attachements/Time%20travel.png)
 
 5. Let's get cracking!
 
@@ -132,8 +136,6 @@ Have a set of something as your main subject : Nop.
 21. Oath
 
 ## Official Optional Constraints:
-
-14. Keep the perspective above the subject
 
 15. Include a plant of some sort in your image
 

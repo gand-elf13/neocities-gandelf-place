@@ -23,8 +23,7 @@ refLinksNotFoundURL = "/not-here-yet"
     Ce que j'écrit est en francais normalement.
     A part le bazard d'unification, je raconte mes experience sur le jeux vidéo, et autre.
     Peut être que je rajouterais d'autres choses plus tard... qui sait ?
-    Aussi mon orthographe est surement pas ouf, je fait de mon mieux pour rendre tout ca intelligible.
-    Parlez moi sur Matrix : @gand_elf:federated.nexus"""
+    Aussi mon orthographe est surement pas ouf, je fait de mon mieux pour rendre tout ca intelligible."""
 
 
     # The name to display in the copyright section in the footer
@@ -60,54 +59,84 @@ refLinksNotFoundURL = "/not-here-yet"
     suffix = "inside Lainring"
 
 [menu]
-  # This displays buttons in the navbar to access your contents
+
   [[menu.main]]
-    identifier = "about" # An unique identifier for the button
-    name = "About"       # A display name for the button
-    url = "/about/"      # The path to the content. It can lead to a single page (like here)
-    weight = 10          # A number to order the buttons in the navbar
+    identifier = "info"
+    name = "Info"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    parent = "info"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    parent = "info"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "guestbook"
+    name = "Livre d'or/Guestbook"
+    url = "/guestbook"
+    parent = "info"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "category"
+    name = "Category"
+    weight = 20
 
   [[menu.main]]
     identifier = "posts"
     name = "All posts"
-    url = "/post/"       # The path can lead to a content folder too.
-    weight = 20
+    url = "/post/"
+    parent = "category"
+    weight = 10
 
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
-    url = "/tags/"       # The path can lead to a content folder too.
-    weight = 28
+    url = "/tags/"
+    parent = "category"
+    weight = 20
 
   [[menu.main]]
+    identifier = "gallery"
     name = "Gallery"
     url = "/gallery/"
-    weight = 22
-    identifier = "gallery"
+    parent = "category"
+    weight = 30
 
   [[menu.main]]
+    identifier = "world"
     name = "World"
     url = "/world/"
-    weight = 25
-    identifier = "world"
+    parent = "category"
+    weight = 40
 
   [[menu.main]]
+    identifier = "misc"
+    name = "Misc"
+    weight = 30
+
+  [[menu.main]]
+    identifier = "lainring"
     name = "Lainring"
     url = "/lainring/"
-    weight = 30
-    identifier = "lainring"
+    parent = "misc"
+    weight = 10
 
   [[menu.main]]
     identifier = "9b9tgoals"
     name = "9b9t achievements"
     url = "/9b9tgoals/"
-    weight = 40
- 
-  [[menu.main]]
-    identifier = "guestbook"
-    name = "Livre d'or/Guestbook"
-    url = "/guestbook"
-    weight = 50
+    parent = "misc"
+    weight = 20
     
 [taxonomies]
     tag = "tags"

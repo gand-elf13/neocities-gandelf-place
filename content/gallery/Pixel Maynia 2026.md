@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-14
+date modified: 2026-05-15
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-14T20:59:17.718Z
+lastmod: 2026-05-15T21:45:38.272Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -34,11 +34,15 @@ Use this palette:: <https://lospec.com/palette-list/honeygb> cheated with the CR
 
 {{< figure src="/ob/attachements/Hacker.png" alt="Hacker.png" width="589" >}}
 
+***
+
 ### Ring
 
 Repeat something (in the art or from the past) : there is only repetition, from the past, to the future...
 
 {{< figure src="/ob/attachements/Ring%201.png" alt="Ring 1.png" width="602" >}}
+
+***
 
 ### Disassemble
 
@@ -46,11 +50,15 @@ Use exactly 8 colors yep, and it was flippin hard
 
 {{< figure src="/ob/attachements/Disassemble.png" alt="Disassemble.png" width="608" >}}
 
+***
+
 ### Good View
 
 Trace the outline of something unusual and keep it in your image. (you don't have to draw the thing you outlined, but the outline must remain, even if it ends up being the outline of something completely different.) : Cany you see it ? I'll reveal if you ask me kindly
 
 {{< figure src="/ob/attachements/Good%20view.png" alt="Good view.png" width="618" >}}
+
+***
 
 ### It's My Favorite
 
@@ -58,11 +66,15 @@ Use this palette: <https://lospec.com/palette-list/ephemera>
 
 {{< figure src="/ob/attachements/Its%20my%20favorite.png" alt="Its my favorite.png" width="625" >}}
 
+***
+
 ### By Itself
 
 Pick a color palette you feel uncomfortable with : <https://lospec.com/palette-list/101-tilez>. I don't like bright palette with little colors. and i chose the palette before i had the idea
 
 {{< figure src="/ob/attachements/By%20itself.png" alt="By itself.png" width="626" >}}
+
+***
 
 ### Better than the Alternative
 
@@ -71,11 +83,15 @@ That game is a sparkle, but just to be sure i have also added one (less sparkly 
 
 {{< figure src="/ob/attachements/Better%20than%20the%20alternative.png" alt="Better than the alternative.png" width="624" >}}
 
+***
+
 ### Go Back
 
 Include a window : yep
 
 {{< figure src="/ob/attachements/GO%20BACK.png" alt="GO BACK.png" width="627" >}}
+
+***
 
 ### Too Low!
 
@@ -83,11 +99,15 @@ Your subject must suggest motion. (You don't have to animate it, but the image m
 
 {{< figure src="/ob/attachements/Too%20low.png" alt="Too low.png" width="692" >}}
 
+***
+
 ### Dance (?)
 
 Have two light sources somewhere in your image : wont lie, had no time no inspiration so i cheated in every way i could.
 
 {{< figure src="/ob/attachements/Dance.png" alt="Dance.png" width="673" >}}
+
+***
 
 ### Mask
 
@@ -95,49 +115,53 @@ Have a set of something as your main subject : Nop.
 
 {{< figure src="/ob/attachements/Mask.png" alt="Mask.png" width="681" >}}
 
+***
+
 ### Time Travel
 
 Keep the perspective above the subject. I legit dont know which way the perspective should have been, i'll convince myself that i did it correctly
 
-![Time travel.png](/ob/attachements/Time%20travel.png)
+{{< figure src="/ob/attachements/Time%20travel.png" alt="Time travel.png" width="691" >}}
 
-5. Let's get cracking!
+### Let's Get Cracking!
 
-6. That fast eh?
+Include a plant of some sort in your image
 
-7. Perfection
+![Lets get cracking.png](/ob/attachements/Lets%20get%20cracking.png)
 
-8. Illusions
+16. That fast eh?
 
-9. Lost
+17. Perfection
 
-10. Change
+18. Illusions
 
-11. Persistent
+19. Lost
 
-12. Abyss
+20. Change
 
-13. Stay together!
+21. Persistent
 
-14. Unstable
+22. Abyss
 
-15. Why is it empty?
+23. Stay together!
 
-16. Does this work?
+24. Unstable
 
-17. Oh that's gold
+25. Why is it empty?
 
-18. Oh so good
+26. Does this work?
 
-19. Against all odds
+27. Oh that's gold
 
-20. Birb
+28. Oh so good
 
-21. Oath
+29. Against all odds
+
+30. Birb
+
+31. Oath
 
 ## Official Optional Constraints:
-
-15. Include a plant of some sort in your image
 
 16. Take an IRL picture, use that as a reference for something in your image
 

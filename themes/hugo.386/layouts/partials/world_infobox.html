@@ -1,0 +1,74 @@
+{{ $page := . }}
+{{ $cap := -1 }}
+{{ if reflect.IsMap . }}
+  {{ with .page }}{{ $page = . }}{{ end }}
+  {{ with .cap }}{{ $cap = . }}{{ end }}
+{{ end }}
+
+{{ $infoboxTitle := or $page.Params.infobox $page.Params.subtitle }}
+{{ if $infoboxTitle }}
+<aside class="world-infobox">
+  <ul class="nav nav-list bs-docs-sidenav">
+
+    {{ $src := "" }}
+    {{ with $page.Params.image }}
+      {{ if reflect.IsSlice . }}
+        {{ $first := index . 0 }}
+        {{ if reflect.IsSlice $first }}
+          {{ $src = index $first 0 }}
+        {{ else }}
+          {{ $src = $first }}
+        {{ end }}
+      {{ else }}
+        {{ $src = . }}
+      {{ end }}
+    {{ end }}
+    {{ if $src }}
+    <li class="infobox-image">
+      <img src="{{ $src }}" alt="{{ $page.Title }}">
+    </li>
+    {{ end }}
+
+    <li class="nav-header">{{ $infoboxTitle }}</li>
+
+    {{ $skip := slice
+      "title" "subtitle" "date" "lastmod" "publishdate" "expirydate"
+      "description" "draft" "tags" "image" "infobox" "layout"
+      "summary" "weight" "slug" "url" "aliases"
+      "outputs" "type" "series" "categories"
+      "iscjklanguage"
+    }}
+
+    {{ $count := 0 }}
+    {{ range $key, $val := $page.Params }}
+      {{ if not (in $skip $key) }}
+        {{ if or (lt $cap 0) (lt $count $cap) }}
+      <li class="infobox-row">
+        <span class="infobox-key">{{ $key | humanize }}</span>
+        <span class="infobox-val">
+          {{ if reflect.IsSlice $val }}
+            {{ delimit $val ", " }}
+          {{ else }}
+            {{ $val }}
+          {{ end }}
+        </span>
+      </li>
+        {{ $count = add $count 1 }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+    {{ with $page.Params.tags }}
+    <li>
+      <span class="infobox-tags-title">Tags</span>
+      <div class="infobox-tags">
+        {{ range . }}
+          <a href="{{ $page.Site.BaseURL }}tags/{{ . | urlize }}" class="tag">{{ . }}</a>
+        {{ end }}
+      </div>
+    </li>
+    {{ end }}
+
+  </ul>
+</aside>
+{{ end }}

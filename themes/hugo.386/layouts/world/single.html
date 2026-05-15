@@ -80,70 +80,7 @@
 
   <div class="world-body">
 
-    {{ $infoboxTitle := or .Params.infobox .Params.subtitle }}
-    {{ if $infoboxTitle }}
-    <aside class="world-infobox">
-      <ul class="nav nav-list bs-docs-sidenav">
-
-        {{/* Image: string, [img], ou [[img, caption], ...] */}}
-        {{ $src := "" }}
-        {{ with .Params.image }}
-          {{ if reflect.IsSlice . }}
-            {{ $first := index . 0 }}
-            {{ if reflect.IsSlice $first }}
-              {{ $src = index $first 0 }}
-            {{ else }}
-              {{ $src = $first }}
-            {{ end }}
-          {{ else }}
-            {{ $src = . }}
-          {{ end }}
-        {{ end }}
-        {{ if $src }}
-        <li class="infobox-image">
-          <img src="{{ $src }}" alt="{{ $.Title }}">
-        </li>
-        {{ end }}
-
-        <li class="nav-header">{{ $infoboxTitle }}</li>
-
-        {{ $skip := slice
-          "title" "subtitle" "date" "lastmod" "publishdate" "expirydate"
-          "description" "draft" "tags" "image" "infobox" "layout"
-          "summary" "weight" "slug" "url" "aliases"
-          "outputs" "type" "series" "categories"
-          "iscjklanguage"
-        }}
-
-        {{ range $key, $val := .Params }}
-          {{ if not (in $skip $key) }}
-          <li class="infobox-row">
-            <span class="infobox-key">{{ $key | humanize }}</span>
-            <span class="infobox-val">
-              {{ if reflect.IsSlice $val }}
-                {{ delimit $val ", " }}
-              {{ else }}
-                {{ $val }}
-              {{ end }}
-            </span>
-          </li>
-          {{ end }}
-        {{ end }}
-
-        {{ with .Params.tags }}
-        <li>
-          <span class="infobox-tags-title">Tags</span>
-          <div class="infobox-tags">
-            {{ range . }}
-              <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}" class="tag">{{ . }}</a>
-            {{ end }}
-          </div>
-        </li>
-        {{ end }}
-
-      </ul>
-    </aside>
-    {{ end }}
+    {{ partial "world_infobox.html" . }}
 
     <article class="world-content">
       {{ .Content }}

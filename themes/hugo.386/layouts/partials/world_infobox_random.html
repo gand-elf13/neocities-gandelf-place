@@ -1,0 +1,95 @@
+<style>
+  #random-infobox-container .world-infobox {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  #random-infobox-container .world-infobox .nav-list {
+    margin: 0;
+    overflow: hidden;
+  }
+
+  #random-infobox-container .world-infobox .infobox-image {
+    float: left;
+    max-width: 150px;
+    margin: 0 12px 4px 0;
+  }
+
+  #random-infobox-container .world-infobox .infobox-image img {
+    width: 150px;
+    height: auto;
+    display: block;
+  }
+
+  #random-infobox-container .world-infobox .nav-header {
+    color: #000;
+  }
+
+  #random-infobox-container .world-infobox .infobox-row {
+    display: flex;
+    gap: 0.5em;
+  }
+
+  #random-infobox-container .world-infobox .infobox-key {
+    color: #000;
+    font-weight: bold;
+    flex-shrink: 0;
+    min-width: 140px;
+  }
+
+  #random-infobox-container .world-infobox .infobox-val {
+    color: #000;
+  }
+
+  #random-infobox-container .world-infobox .infobox-tags-title,
+  #random-infobox-container .world-infobox .tag {
+    color: #000;
+  }
+
+  .random-infobox-wrapper {
+    display: none;
+  }
+
+  .random-infobox-wrapper.active {
+    display: block;
+  }
+</style>
+
+<h1>World: <a href="" id="random-infobox-title"></a></h1>
+<div id="random-infobox-container">
+  {{ range $page := where .Site.RegularPages "Type" "world" }}
+    {{ $infoboxTitle := or $page.Params.infobox $page.Params.subtitle }}
+    {{ if $infoboxTitle }}
+    <div class="random-infobox-wrapper" data-title="{{ $page.Title }}" data-url="{{ $page.Permalink }}">
+      {{ partial "world_infobox.html" (dict "page" $page "cap" 6) }}
+    </div>
+    {{ end }}
+  {{ end }}
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  var wrappers = document.querySelectorAll('#random-infobox-container .random-infobox-wrapper');
+  var link = document.getElementById('random-infobox-title');
+
+  if (wrappers.length === 0) {
+    document.getElementById('random-infobox-container').innerText = 'No world entries available.';
+    return;
+  }
+
+  function showRandom() {
+    wrappers.forEach(function (w) { w.classList.remove('active'); });
+
+    var idx = Math.floor(Math.random() * wrappers.length);
+    var wrapper = wrappers[idx];
+
+    wrapper.classList.add('active');
+    link.textContent = wrapper.dataset.title;
+    link.href = wrapper.dataset.url;
+  }
+
+  showRandom();
+  setInterval(showRandom, 20000);
+});
+</script>

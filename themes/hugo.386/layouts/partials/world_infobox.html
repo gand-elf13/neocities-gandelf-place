@@ -1,8 +1,10 @@
 {{ $page := . }}
 {{ $cap := -1 }}
+{{ $showTags := true }}
 {{ if reflect.IsMap . }}
   {{ with .page }}{{ $page = . }}{{ end }}
   {{ with .cap }}{{ $cap = . }}{{ end }}
+  {{ if isset . "showTags" }}{{ $showTags = .showTags }}{{ end }}
 {{ end }}
 
 {{ $infoboxTitle := or $page.Params.infobox $page.Params.subtitle }}
@@ -58,6 +60,7 @@
       {{ end }}
     {{ end }}
 
+    {{ if $showTags }}
     {{ with $page.Params.tags }}
     <li>
       <span class="infobox-tags-title">Tags</span>
@@ -67,6 +70,7 @@
         {{ end }}
       </div>
     </li>
+    {{ end }}
     {{ end }}
 
   </ul>

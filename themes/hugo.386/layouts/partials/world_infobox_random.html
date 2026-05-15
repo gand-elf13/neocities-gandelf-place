@@ -57,12 +57,13 @@
 </style>
 
 <h1>World: <a href="" id="random-infobox-title"></a></h1>
+<p></p>
 <div id="random-infobox-container">
   {{ range $page := where .Site.RegularPages "Type" "world" }}
     {{ $infoboxTitle := or $page.Params.infobox $page.Params.subtitle }}
     {{ if $infoboxTitle }}
     <div class="random-infobox-wrapper" data-title="{{ $page.Title }}" data-url="{{ $page.Permalink }}">
-      {{ partial "world_infobox.html" (dict "page" $page "cap" 6) }}
+      {{ partial "world_infobox.html" (dict "page" $page "cap" 6 "showTags" false) }}
     </div>
     {{ end }}
   {{ end }}

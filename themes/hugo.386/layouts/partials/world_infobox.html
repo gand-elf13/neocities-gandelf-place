@@ -44,16 +44,17 @@
     {{ $count := 0 }}
     {{ range $key, $val := $page.Params }}
       {{ if not (in $skip $key) }}
+        {{ $valStr := "" }}
+        {{ $isFlag := false }}
+        {{ if reflect.IsSlice $val }}
+          {{ $valStr = delimit $val ", " }}
+        {{ else }}
+          {{ $valStr = $val }}
+          {{ if or (eq $valStr "1") (eq $val 1) }}{{ $isFlag = true }}{{ end }}
+        {{ end }}
         {{ if or (lt $cap 0) (lt $count $cap) }}
       <li class="infobox-row">
-        <span class="infobox-key">{{ $key | humanize }}</span>
-        <span class="infobox-val">
-          {{ if reflect.IsSlice $val }}
-            {{ delimit $val ", " }}
-          {{ else }}
-            {{ $val }}
-          {{ end }}
-        </span>
+        <span class="infobox-key">{{ $key | humanize }}</span>{{ if not $isFlag }}<span class="infobox-val">{{ $valStr }}</span>{{ end }}
       </li>
         {{ $count = add $count 1 }}
         {{ end }}

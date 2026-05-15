@@ -50,7 +50,7 @@ refLinksNotFoundURL = "/not-here-yet"
     name = "gand_elf"
 
     # The url to use as link in the copyright name in the footer. Leave empty to use none.
-    url = "https://matrix.to/#/@gandelf:federated.nexus"
+    url = "/contact/"
 
     # Text to go before copyright information
     prefix = "[Source available on Codeberg](https://codeberg.org/gand_elf/neocities-gandelf-place.git)"

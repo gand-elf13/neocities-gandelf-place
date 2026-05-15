@@ -54,8 +54,15 @@
   .random-infobox-wrapper.active {
     display: block;
   }
+
+  @media (max-width: 768px) {
+    #random-infobox-section {
+      display: none !important;
+    }
+  }
 </style>
 
+<div id="random-infobox-section">
 <h1>World: <a href="" id="random-infobox-title"></a></h1>
 <p></p>
 <div id="random-infobox-container">
@@ -67,6 +74,7 @@
     </div>
     {{ end }}
   {{ end }}
+</div>
 </div>
 
 <script>

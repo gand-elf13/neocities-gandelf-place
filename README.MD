@@ -1,4 +1,4 @@
-# My Neocitie Website Source
+# My Neocities Website Source
 Go take a look
 https://gand-elf.neocities.org
 

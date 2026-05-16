@@ -1,4 +1,4 @@
-# My Neocities Website Source
+# My Neocitie Website Source
 Go take a look
 https://gand-elf.neocities.org
 
@@ -9,6 +9,6 @@ credit to hugo.386 theme that is use
 
 - [ ] investigate table weird rendering
 - [ ] cleanely fill the empty space under recent posts
-- [ ] add a good looking link to KYRKOS fan fics
+- [x] add a good looking link to KYRKOS fan fics
 - [x] add a licence for both code and content
 - [ ] fine tune the vines

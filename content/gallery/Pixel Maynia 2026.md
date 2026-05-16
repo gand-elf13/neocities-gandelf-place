@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-15
+date modified: 2026-05-16
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-15T21:45:38.272Z
+lastmod: 2026-05-16T20:46:26.285Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -127,9 +127,15 @@ Keep the perspective above the subject. I legit dont know which way the perspect
 
 Include a plant of some sort in your image
 
-![Lets get cracking.png](/ob/attachements/Lets%20get%20cracking.png)
+{{< figure src="/ob/attachements/Lets%20get%20cracking.png" alt="Lets get cracking.png" width="621" >}}
 
-16. That fast eh?
+***
+
+### That Fast Eh?
+
+Take an IRL picture, use that as a reference for something in your image : Done ! (kidding)
+
+![That fast eh.png](/ob/attachements/That%20fast%20eh.png)
 
 17. Perfection
 
@@ -162,8 +168,6 @@ Include a plant of some sort in your image
 31. Oath
 
 ## Official Optional Constraints:
-
-16. Take an IRL picture, use that as a reference for something in your image
 
 17. Follow the theme, but also create an original character
 

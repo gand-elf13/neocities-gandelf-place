@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-16
+date modified: 2026-05-17
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-16T20:46:26.285Z
+lastmod: 2026-05-17T19:52:06.620Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -24,7 +24,7 @@ Include an item that could make our lives better : More Orange JUICE !!!
 
 Try to make the viewer feel sad : idk maybe it does, kinda for me.
 
-{{< figure src="/ob/attachements/Dont%20let%20go%201.png" alt="Dont let go 1.png" width="576" >}}
+{{< figure src="/ob/attachements/Dont%20let%20go%201.png" alt="Dont let go 1.png" width="485" >}}
 
 ***
 
@@ -32,7 +32,7 @@ Try to make the viewer feel sad : idk maybe it does, kinda for me.
 
 Use this palette:: <https://lospec.com/palette-list/honeygb> cheated with the CRT effect but i dont care.
 
-{{< figure src="/ob/attachements/Hacker.png" alt="Hacker.png" width="589" >}}
+{{< figure src="/ob/attachements/Hacker.png" alt="Hacker.png" width="487" >}}
 
 ***
 
@@ -40,7 +40,7 @@ Use this palette:: <https://lospec.com/palette-list/honeygb> cheated with the CR
 
 Repeat something (in the art or from the past) : there is only repetition, from the past, to the future...
 
-{{< figure src="/ob/attachements/Ring%201.png" alt="Ring 1.png" width="602" >}}
+{{< figure src="/ob/attachements/Ring%201.png" alt="Ring 1.png" width="529" >}}
 
 ***
 
@@ -48,7 +48,7 @@ Repeat something (in the art or from the past) : there is only repetition, from 
 
 Use exactly 8 colors yep, and it was flippin hard
 
-{{< figure src="/ob/attachements/Disassemble.png" alt="Disassemble.png" width="608" >}}
+{{< figure src="/ob/attachements/Disassemble.png" alt="Disassemble.png" width="493" >}}
 
 ***
 
@@ -56,7 +56,7 @@ Use exactly 8 colors yep, and it was flippin hard
 
 Trace the outline of something unusual and keep it in your image. (you don't have to draw the thing you outlined, but the outline must remain, even if it ends up being the outline of something completely different.) : Cany you see it ? I'll reveal if you ask me kindly
 
-{{< figure src="/ob/attachements/Good%20view.png" alt="Good view.png" width="618" >}}
+{{< figure src="/ob/attachements/Good%20view.png" alt="Good view.png" width="514" >}}
 
 ***
 
@@ -64,7 +64,7 @@ Trace the outline of something unusual and keep it in your image. (you don't hav
 
 Use this palette: <https://lospec.com/palette-list/ephemera>
 
-{{< figure src="/ob/attachements/Its%20my%20favorite.png" alt="Its my favorite.png" width="625" >}}
+{{< figure src="/ob/attachements/Its%20my%20favorite.png" alt="Its my favorite.png" width="538" >}}
 
 ***
 
@@ -72,7 +72,7 @@ Use this palette: <https://lospec.com/palette-list/ephemera>
 
 Pick a color palette you feel uncomfortable with : <https://lospec.com/palette-list/101-tilez>. I don't like bright palette with little colors. and i chose the palette before i had the idea
 
-{{< figure src="/ob/attachements/By%20itself.png" alt="By itself.png" width="626" >}}
+{{< figure src="/ob/attachements/By%20itself.png" alt="By itself.png" width="518" >}}
 
 ***
 
@@ -81,7 +81,7 @@ Pick a color palette you feel uncomfortable with : <https://lospec.com/palette-l
 Add a sparkle effect (it doesn't need to be animated, just sparkly, you decide what that means.)\
 That game is a sparkle, but just to be sure i have also added one (less sparkly than the game though)
 
-{{< figure src="/ob/attachements/Better%20than%20the%20alternative.png" alt="Better than the alternative.png" width="624" >}}
+{{< figure src="/ob/attachements/Better%20than%20the%20alternative.png" alt="Better than the alternative.png" width="526" >}}
 
 ***
 
@@ -89,7 +89,7 @@ That game is a sparkle, but just to be sure i have also added one (less sparkly 
 
 Include a window : yep
 
-{{< figure src="/ob/attachements/GO%20BACK.png" alt="GO BACK.png" width="627" >}}
+{{< figure src="/ob/attachements/GO%20BACK.png" alt="GO BACK.png" width="539" >}}
 
 ***
 
@@ -105,7 +105,7 @@ Your subject must suggest motion. (You don't have to animate it, but the image m
 
 Have two light sources somewhere in your image : wont lie, had no time no inspiration so i cheated in every way i could.
 
-{{< figure src="/ob/attachements/Dance.png" alt="Dance.png" width="673" >}}
+{{< figure src="/ob/attachements/Dance.png" alt="Dance.png" width="563" >}}
 
 ***
 
@@ -113,7 +113,7 @@ Have two light sources somewhere in your image : wont lie, had no time no inspir
 
 Have a set of something as your main subject : Nop.
 
-{{< figure src="/ob/attachements/Mask.png" alt="Mask.png" width="681" >}}
+{{< figure src="/ob/attachements/Mask.png" alt="Mask.png" width="557" >}}
 
 ***
 
@@ -121,7 +121,9 @@ Have a set of something as your main subject : Nop.
 
 Keep the perspective above the subject. I legit dont know which way the perspective should have been, i'll convince myself that i did it correctly
 
-{{< figure src="/ob/attachements/Time%20travel.png" alt="Time travel.png" width="691" >}}
+{{< figure src="/ob/attachements/Time%20travel.png" alt="Time travel.png" width="571" >}}
+
+***
 
 ### Let's Get Cracking!
 
@@ -135,9 +137,15 @@ Include a plant of some sort in your image
 
 Take an IRL picture, use that as a reference for something in your image : Done ! (kidding)
 
-![That fast eh.png](/ob/attachements/That%20fast%20eh.png)
+{{< figure src="/ob/attachements/That%20fast%20eh.png" alt="That fast eh.png" width="565" >}}
 
-17. Perfection
+***
+
+### Perfection
+
+Follow the theme, but also create an original character : Fight me
+
+![Perfection.png](/ob/attachements/Perfection.png)
 
 18. Illusions
 
@@ -168,8 +176,6 @@ Take an IRL picture, use that as a reference for something in your image : Done 
 31. Oath
 
 ## Official Optional Constraints:
-
-17. Follow the theme, but also create an original character
 
 18. Include a reflection
 

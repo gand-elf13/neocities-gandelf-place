@@ -12,13 +12,17 @@
 
   #random-infobox-container .world-infobox .infobox-image {
     float: left;
-    max-width: 150px;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
     margin: 0 12px 4px 0;
   }
 
   #random-infobox-container .world-infobox .infobox-image img {
-    width: 150px;
-    height: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     display: block;
   }
 
@@ -29,6 +33,8 @@
   #random-infobox-container .world-infobox .infobox-row {
     display: flex;
     gap: 0.5em;
+    height: 1.5em;
+    overflow: hidden;
   }
 
   #random-infobox-container .world-infobox .infobox-key {
@@ -36,10 +42,16 @@
     font-weight: bold;
     flex-shrink: 0;
     min-width: 140px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   #random-infobox-container .world-infobox .infobox-val {
     color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   #random-infobox-container .world-infobox .infobox-tags-title,
@@ -70,7 +82,7 @@
     {{ $infoboxTitle := or $page.Params.infobox $page.Params.subtitle }}
     {{ if $infoboxTitle }}
     <div class="random-infobox-wrapper" data-title="{{ $page.Title }}" data-url="{{ $page.Permalink }}">
-      {{ partial "world_infobox.html" (dict "page" $page "cap" 6 "showTags" false) }}
+      {{ partial "world_infobox.html" (dict "page" $page "cap" 5 "showTags" false) }}
     </div>
     {{ end }}
   {{ end }}

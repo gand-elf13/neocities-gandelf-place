@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-19
+date modified: 2026-05-20
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-19T20:49:06.592Z
+lastmod: 2026-05-20T20:52:44.371Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -145,7 +145,9 @@ Take an IRL picture, use that as a reference for something in your image : Done 
 
 Follow the theme, but also create an original character : Fight me
 
-{{< figure src="/ob/attachements/Perfection.png" alt="Perfection.png" width="685" >}}
+{{< figure src="/ob/attachements/Perfection.png" alt="Perfection.png" width="567" >}}
+
+***
 
 ### Illusions
 
@@ -153,13 +155,21 @@ Include a reflection
 
 This one is empty, and like this it shall remain until the end of the month. i fell for the most benign sin : openfront.io, and for it this am punished. may this empty section remind me that convenience bear no fruits.
 
+***
+
 ### Lost
 
 Make it a dutch tilt. (Tip the image to an angle so the horizon or floor is slanted for dramatic effect) : Yep
 
-![Lost.png](/ob/attachements/Lost.png)
+{{< figure src="/ob/attachements/Lost.png" alt="Lost.png" width="581" >}}
 
-20. Change
+***
+
+### Change
+
+Include at least one person in the image
+
+![Change.png](/ob/attachements/Change.png)
 
 21. Persistent
 
@@ -184,12 +194,6 @@ Make it a dutch tilt. (Tip the image to an angle so the horizon or floor is slan
 31. Oath
 
 ## Official Optional Constraints:
-
-18.
-
-19.
-
-20. Include at least one person in the image
 
 21. Bright colors on the left, dark colors on the right.
 

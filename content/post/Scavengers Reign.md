@@ -4,11 +4,11 @@ tags:
   - GPFRS
   - man
 date: 2026-05-10
-date modified: 2026-05-10
+date modified: 2026-05-21
 draft: false
 date created: 2026-04-26
-title: Scavengers Reign - The Power of Death
-lastmod: 2026-05-10T08:03:11.363Z
+title: "Scavengers Reign : The Power of Death"
+lastmod: 2026-05-21T19:20:35.530Z
 ---
 Hello, dans cet épisode, je parle de scavengers reign, un anime incroyable que des connards ont snobé (je ne citerais pas les noms, mais j’espère bien leur avoir cassé les couilles avec les voies russes)\
 Comme le dit si bien DJ peach cobbler, ce n’est pas un résumé, aller regarder l’anime ou un résumé autre part…

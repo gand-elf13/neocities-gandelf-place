@@ -1,10 +1,10 @@
 ---
 tags: []
 date: 2026-03-13
-date modified: 2026-04-29
+date modified: 2026-05-21
 date created: 2026-03-13
-title: How To Quit Discord (Matrix guide)
-lastmod: 2026-04-29T07:59:36.089Z
+title: How to Quit Discord (Matrix guide)
+lastmod: 2026-05-21T19:21:10.076Z
 ---
 2025-07-24Page récupérée de \[@JoinMatrixGuide]\[1]\
 j'y ajoute mes choix comme je suis un nouvel utilisateur de matrix.\

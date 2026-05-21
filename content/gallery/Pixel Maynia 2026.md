@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-20
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-20T20:52:44.371Z
+lastmod: 2026-05-20T20:54:36.966Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -167,7 +167,7 @@ Make it a dutch tilt. (Tip the image to an angle so the horizon or floor is slan
 
 ### Change
 
-Include at least one person in the image
+Include at least one person in the image : I am sorry but yes i have, you should very much read the mystery of amigara's fault by Junji Ito (you can find it Gyo, as an additional short story, it is by itself worth more than the whole rest of the book and i mean it)
 
 ![Change.png](/ob/attachements/Change.png)
 

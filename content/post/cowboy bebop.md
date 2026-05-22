@@ -4,10 +4,10 @@ tags:
   - GPFRS
   - man
 date: 2026-04-10
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2025-06-05
-title: cowboy bebop
-lastmod: 2026-04-26T09:32:11.607Z
+title: Cowboy Bebop
+lastmod: 2026-05-21T19:21:59.290Z
 ---
 PS de debut de lecture regarder cowboy bebop dedans je spoil un episode **ENORME** (je préviendrais mais ne m'en voulez pas après)
 

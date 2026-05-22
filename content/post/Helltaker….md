@@ -4,10 +4,10 @@ tags:
   - technique
   - video_game
 date: 2026-03-18
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-18
 title: Helltaker…
-lastmod: 2026-04-26T09:35:04.309Z
+lastmod: 2026-05-21T19:21:11.704Z
 ---
 Impossible de parler de Helltaker sans parler de la raison de son existence.
 

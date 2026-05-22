@@ -5,10 +5,10 @@ tags:
   - man
   - trigger
 date: 2025-03-27
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-18
 title: Darling in the franXX 2(3, stfu)
-lastmod: 2026-04-26T09:32:18.611Z
+lastmod: 2026-05-21T19:21:53.363Z
 ---
 Retour à la case Départ, il faut qu’on parle.
 

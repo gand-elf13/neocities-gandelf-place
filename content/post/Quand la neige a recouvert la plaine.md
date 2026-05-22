@@ -2,10 +2,10 @@
 tags:
   - music
 date: 2025-04-05
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-13
-title: Quand la neige a recouvert la plaine
-lastmod: 2026-04-26T09:41:21.625Z
+title: Quand La Neige a Recouvert La Plaine
+lastmod: 2026-05-21T19:20:37.693Z
 ---
 Quand la neige a recouvert la plaine\
 Je prend mon cheval et mon traîneau

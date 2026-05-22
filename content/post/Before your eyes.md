@@ -4,10 +4,10 @@ tags:
   - man
   - video_game
 date: 2025-03-19
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-18
-title: Before your eyes
-lastmod: 2026-04-26T09:32:07.909Z
+title: Before Your Eyes
+lastmod: 2026-05-21T19:22:11.639Z
 ---
 Man…
 

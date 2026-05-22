@@ -4,13 +4,11 @@ tags:
   - man
   - video_game
 date: 2025-06-12
-date modified: 2026-04-29
+date modified: 2026-05-21
 date created: 2026-03-18
 title: Gris
-lastmod: 2026-04-29T08:00:19.764Z
+lastmod: 2026-05-21T19:21:25.866Z
 ---
-2026-06-12
-
 ## Gris
 
 *comme j'ai écrit ce texte pour un devoir de philo, c'est probablement le mieux écrit, profitez, ca sera pas comme ca tout le temps*

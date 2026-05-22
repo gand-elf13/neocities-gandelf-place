@@ -4,13 +4,11 @@ tags:
   - GPFRS
   - man
 date: 2025-03-20
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-18
-title: Serial experiment lain
-lastmod: 2026-04-26T09:33:17.393Z
+title: Serial Experiment Lain
+lastmod: 2026-05-21T19:16:53.830Z
 ---
-## Serial Experiment Lain
-
 Diffusé pour la première fois en 1998, Serial Experiment Lain est un animé présentant l’histoire d’une jeune fille nommée Lain. Elle est introvertie et réservée jusqu’au jour où, comme tous les élèves de son école, elle reçoit un e-mail d’une autre jeune fille qui s’était suicidée quelques jours auparavant. Elle explique que son âme a pu s’échapper dans le « Wired » équivalent d’Internet, et qu’elle a trouvé Dieu. À partir de ce moment, on suit l’aventure de Lain, tandis qu’elle explore le Wired et transcende sa condition humaine.\
 Cet animé est extrêmement avant-gardiste. Car, bien que produit en 1998, il aborde des sujets très actuels. La limit entre la réalité et le virtuel ou celle entre un homme et une machine.
 

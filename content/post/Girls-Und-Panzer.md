@@ -4,10 +4,10 @@ tags:
   - GPFRS
   - technique
 date: 2025-06-12
-date modified: 2026-04-29
+date modified: 2026-05-21
 date created: 2026-03-18
 title: Girls-Und-Panzer
-lastmod: 2026-04-29T08:00:28.565Z
+lastmod: 2026-05-21T19:21:33.115Z
 ---
 Grils and panzer, c'est trop bien !!
 

@@ -4,10 +4,10 @@ tags:
   - man
   - manga
 date: 2025-06-12
-date modified: 2026-04-28
+date modified: 2026-05-21
 date created: 2026-03-13
-title: mission in the apocalypse
-lastmod: 2026-04-28T19:04:38.223Z
+title: Mission in the Apocalypse
+lastmod: 2026-05-21T19:20:51.961Z
 ---
 Bonjour à tous, si j’arrive à sortir ça quand je pense, ça aura fait longtemps sans contenu de qualité\
 Par la, je veux dire que pas mal de ce qui précède est des minis articles, du troll ou truc du genre.

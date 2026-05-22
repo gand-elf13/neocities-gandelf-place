@@ -4,10 +4,10 @@ tags:
   - technique
   - video_game
 date: 2025-06-12
-date modified: 2026-04-29
+date modified: 2026-05-21
 date created: 2026-03-13
-title: Doom eternal
-lastmod: 2026-04-29T10:52:53.277Z
+title: Doom Eternal
+lastmod: 2026-05-21T19:21:51.694Z
 ---
 Ce jeu est TOP. Le gameplay est nerveux, hyper rapide, gardant toujours les joueurs attentifs non seulement dans l’optique de tuer des démons, mais aussi de manager ses resources, chaque arme est utile et utilisée. Elles sont satisfaisantes. Les outils comme Grenade, flamethrower, saw, et glorykill le sont tout autant. Le tout force le joueur à utiliser tous les outils à sa disposition à avoir du fun.
 

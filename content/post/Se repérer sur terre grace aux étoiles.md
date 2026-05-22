@@ -3,10 +3,10 @@ tags:
   - maths
   - physics
 date: 2025-06-12
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-13
-title: Se repérer sur terre grace aux étoiles
-lastmod: 2026-04-26T09:41:37.586Z
+title: Se Repérer Sur Terre Grace Aux Étoiles
+lastmod: 2026-05-21T19:20:33.018Z
 ---
 ## Intro
 

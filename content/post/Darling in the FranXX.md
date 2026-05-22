@@ -5,10 +5,10 @@ tags:
   - man
   - trigger
 date: 2025-03-25
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-18
 title: Darling in the FranXX
-lastmod: 2026-04-26T09:32:14.216Z
+lastmod: 2026-05-21T19:21:55.335Z
 ---
 J’ai eu une idée pour commencer cette chose, puis une autre, et une autre. Donc je vais écrire les 3 à la suite, comme c’est clairement la chose rationnelle à faire.
 

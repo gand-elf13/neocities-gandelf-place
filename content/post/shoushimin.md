@@ -4,10 +4,10 @@ tags:
   - GPFRS
   - man
 date: 2025-04-05
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-13
-title: shoushimin
-lastmod: 2026-04-26T09:33:35.555Z
+title: Shoushimin
+lastmod: 2026-05-21T19:16:58.241Z
 ---
 Les cigales… comme evangelion
 

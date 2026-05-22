@@ -2,10 +2,10 @@
 tags:
   - GPFRS
 date: 2026-03-27
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-18
 title: GPFRS
-lastmod: 2026-04-26T09:32:51.264Z
+lastmod: 2026-05-21T19:21:28.589Z
 ---
 ## Le GPFRS:
 

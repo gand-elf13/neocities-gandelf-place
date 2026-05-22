@@ -2,11 +2,11 @@
 tags:
   - video_game
 date created: 2026-04-24
-date modified: 2026-04-26
+date modified: 2026-05-21
 date: 2026-04-24
 draft: false
-title: DRG - Behaving in Pubs
-lastmod: 2026-04-26T13:41:57.531Z
+title: "DRG : Behaving in Pubs"
+lastmod: 2026-05-21T19:21:47.948Z
 ---
 ## Behaving like a Gentlemen in DRG
 

@@ -2,10 +2,10 @@
 tags:
   - IT
 date: 2026-03-13
-date modified: 2026-04-26
+date modified: 2026-05-21
 date created: 2026-03-13
-title: vocabulaire pirate
-lastmod: 2026-04-26T13:41:36.619Z
+title: Vocabulaire Pirate
+lastmod: 2026-05-21T19:20:14.728Z
 ---
 Petite liste de vocabulaire utilisé au piratage comme Kyrkos m’a agacé ; ), peut etre un jour un tuto jsp si j'ai le droit...
 

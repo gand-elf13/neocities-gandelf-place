@@ -3,10 +3,10 @@ tags:
   - IT
   - video_game
 date: 2025-06-12
-date modified: 2026-04-28
+date modified: 2026-05-21
 date created: 2026-03-13
-title: GMTK game Jam 2025
-lastmod: 2026-04-28T21:56:01.465Z
+title: GMTK Game Jam 2025
+lastmod: 2026-05-21T19:21:30.874Z
 ---
 ## Je Participe À La GMTK Game Jam
 

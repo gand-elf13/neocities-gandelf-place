@@ -6,10 +6,10 @@ tags:
   - technique
   - video_game
 date: 2025-03-31
-date modified: 2026-05-03
+date modified: 2026-05-21
 date created: 2025-03-31
-title: Ghost in the shell et cyberpunk
-lastmod: 2026-05-03T20:25:41.679Z
+title: Ghost in the Shell Et Cyberpunk
+lastmod: 2026-05-21T19:21:35.325Z
 ---
 Ghost in the shell ( #man ) est bizarre. Une resemblance frappante avec [Serial experiment lain](/post/serial-experiment-lain), sans surprise.
 

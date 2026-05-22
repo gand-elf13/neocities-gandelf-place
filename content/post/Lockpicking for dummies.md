@@ -2,10 +2,10 @@
 tags:
   - tutorial
 date: 2026-04-06
-date modified: 2026-04-10
+date modified: 2026-05-21
 date created: 2026-04-06
-title: Lockpicking for dummies
-lastmod: 2026-04-10T08:40:01.442Z
+title: Lockpicking for Dummies
+lastmod: 2026-05-21T19:21:00.899Z
 ---
 Un petit guide pour crocheter des serrures comme j'ai eu la joie de m'y initier... je ne suis bien évidemment ni professionnel ni meme très bon. J'ai simplement vu une porte que j'avais très envie d'ouvrir, et je l'ai ouverte.
 

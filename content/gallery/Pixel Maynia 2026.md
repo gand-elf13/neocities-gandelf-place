@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-21
+date modified: 2026-05-22
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-21T21:12:10.550Z
+lastmod: 2026-05-22T16:08:44.791Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -177,9 +177,15 @@ Include at least one person in the image : I am sorry but yes i have, you should
 
 Bright colors on the left, dark colors on the right.
 
-![Persistent.png](/ob/attachements/Persistent.png)
+{{< figure src="/ob/attachements/Persistent.png" alt="Persistent.png" width="568" >}}
 
-22. Abyss
+***
+
+### Abyss
+
+Make the composition feel disorienting : i don't think i tried hard enough
+
+![Abyss.png](/ob/attachements/Abyss.png)
 
 23. Stay together!
 
@@ -201,7 +207,7 @@ Bright colors on the left, dark colors on the right.
 
 ## Official Optional Constraints:
 
-22. Make the composition feel disorienting.
+22.
 
 23. Include a secondary subject in the background
 

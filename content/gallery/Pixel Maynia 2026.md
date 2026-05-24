@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-22
+date modified: 2026-05-24
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-24T06:20:25.521Z
+lastmod: 2026-05-24T20:03:05.525Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -38,7 +38,7 @@ Use this palette:: <https://lospec.com/palette-list/honeygb> cheated with the CR
 
 ### Ring
 
-Repeat something (in the art or from the past) : there is only repetition, from the past, to the future...
+Repeat something (in the art or from the past) : there is only repetition, from the past, to the future…
 
 {{< figure src="/ob/attachements/Ring%201.png" alt="Ring 1.png" width="529" >}}
 
@@ -95,7 +95,7 @@ Include a window : yep
 
 ### Too Low!
 
-Your subject must suggest motion. (You don't have to animate it, but the image must capture something that would otherwise be moving if it wasn't a still image.) : So Technically... they did move, like there was motion soooo...
+Your subject must suggest motion. (You don't have to animate it, but the image must capture something that would otherwise be moving if it wasn't a still image.) : So Technically… they did move, like there was motion soooo…
 
 {{< figure src="/ob/attachements/Too%20low.png" alt="Too low.png" width="692" >}}
 
@@ -189,13 +189,17 @@ Make the composition feel disorienting : i don't think i tried hard enough
 
 ***
 
-### Stay together!
+### Stay Together!
 
 Include a secondary subject in the background
 
-![Stay together.png](/ob/attachements/Stay%20together.png)
+{{< figure src="/ob/attachements/Stay%20together.png" alt="Stay together.png" width="563" >}}
 
-24. Unstable
+### Unstable
+
+Make two, each with different colors
+
+![Unstable.png](/ob/attachements/Unstable.png)
 
 25. Why is it empty?
 
@@ -212,8 +216,6 @@ Include a secondary subject in the background
 31. Oath
 
 ## Official Optional Constraints:
-
-23. Make two, each with different colors
 
 24. Include smoke or steam in your image.
 

@@ -3,10 +3,10 @@ tags:
   - IT
   - video_game
 date: 2025-06-12
-date modified: 2026-05-21
+date modified: 2026-05-24
 date created: 2026-03-13
 title: GMTK Game Jam 2025
-lastmod: 2026-05-21T19:21:30.874Z
+lastmod: 2026-05-24T19:10:24.842Z
 ---
 ## Je Participe À La GMTK Game Jam
 
@@ -20,14 +20,14 @@ lastmod: 2026-05-21T19:21:30.874Z
 
 ### Explications
 
-Vous l'avez sans doute remarqué (ou vous me connaissez...) j'aime bien le jeu vidéo.\
+Vous l'avez sans doute remarqué (ou vous me connaissez…) j'aime bien le jeu vidéo.\
 Et j'aime aussi m'intéresser à comment les jeux sont faits, ce qui les rend bien, etc.
 
 Eh bien pour les mêmes raisons, j'aime bien imaginer des jeux, sauf que jamais, je ne les concrétise, ça prend trop de temps, et je n'ai tout simplement pas les compétences nécessaires, il n'y a qu'à voir la galère pour faire celui-là.
 
 Ducou a l'annonce de la GMTK Game Jam qui je suis tous les ans, je me suis dit : Pourquoi pas ? je suis censé réviser, mais ça ne me prend que quatre jours et je ne vais pas tryhard, juste pour essayer. Voir si j'arrive à concrétiser une idée.
 
-Le Thème, c'est **LOOP** ça tombe bien, j'ai pas mal d'idées de jeux qui tourne autour d'une boucle... Non, je vais rush un jeu pas ouf en quatre jours, et j'aimerais faire quelque chose de bien avec ces idées pas une tech démo pas ouf.
+Le Thème, c'est **LOOP** ça tombe bien, j'ai pas mal d'idées de jeux qui tourne autour d'une boucle… Non, je vais rush un jeu pas ouf en quatre jours, et j'aimerais faire quelque chose de bien avec ces idées pas une tech démo pas ouf.
 
 ducou, je suis parti à la recherche d'une idée de jeux.
 
@@ -35,11 +35,11 @@ ducou, je suis parti à la recherche d'une idée de jeux.
 
 Ma première idée, c'était de faire un jeu dans le style de Swift playgroud, un jeu de programmation autour d'une boucle.
 
-J'ai ouvert Godot, j'ai posé une zone de texte et essayé de lire ce qu'il y avait dedans et... ça ne marchait pas.
+J'ai ouvert Godot, j'ai posé une zone de texte et essayé de lire ce qu'il y avait dedans et… ça ne marchait pas.
 
 Et instantanément, j'ai fermé Godot et cherché sur internet *Motor de jeu débutant*
 
-Alors, j'ai essayé GDevelop et je n'ai rien compris comme je n'ai pas lu le manuel...\
+Alors, j'ai essayé GDevelop et je n'ai rien compris comme je n'ai pas lu le manuel…\
 Donc, je suis passé sur un autre dont je connais plus le nom encore pire, pas de code tout était hyper simplifié et je n'arrivais pas à comprendre comment faire ce que je voulais.
 
 Alors, je suis reparti sur GDevelop et j'ai commencé à réfléchir une autre idée de jeu.
@@ -77,7 +77,7 @@ je me suis donné comme objectif :
 * jour 3 projectiles
 * jour 4 different niveaux
 
-### Jour 3 Projectiles...
+### Jour 3 Projectiles…
 
 les projectiles c'était facile en fait. j'ai juste suivi un tuto et ca marchait persque (juste un peu de debug)
 
@@ -85,7 +85,7 @@ et grace a ma grande experience das le milieu, j'avais concu le systeme d'ennemi
 
 ducou j'ai fusionné les deux objectifs et j'ai finni le jeu au jour 3
 
-Petit conseil que j'aurais dû suivre : ne jamais reporter l'implémentation de qqchose comme **reset()** a la toute fin... c horrible
+Petit conseil que j'aurais dû suivre : ne jamais reporter l'implémentation de qqchose comme **reset()** a la toute fin… c horrible
 
 Noter bien que le changement de jour se passait vers 14h donc c'est bien la troisième nuit.
 

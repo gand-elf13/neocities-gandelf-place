@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-22
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-22T16:17:24.460Z
+lastmod: 2026-05-24T06:20:25.521Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -185,9 +185,15 @@ Bright colors on the left, dark colors on the right.
 
 Make the composition feel disorienting : i don't think i tried hard enough
 
-![Abyss.png](/ob/attachements/Abyss.png)
+{{< figure src="/ob/attachements/Abyss.png" alt="Abyss.png" width="697" >}}
 
-23. Stay together!
+***
+
+### Stay together!
+
+Include a secondary subject in the background
+
+![Stay together.png](/ob/attachements/Stay%20together.png)
 
 24. Unstable
 
@@ -207,22 +213,18 @@ Make the composition feel disorienting : i don't think i tried hard enough
 
 ## Official Optional Constraints:
 
-22.
+23. Make two, each with different colors
 
-23. Include a secondary subject in the background
+24. Include smoke or steam in your image.
 
-24. Make two, each with different colors
+25. Make it seem like it's windy or raining or both
 
-25. Include smoke or steam in your image.
+26. Use a tall canvas
 
-26. Make it seem like it's windy or raining or both
+27. Use this palette: <https://lospec.com/palette-list/cable-01>
 
-27. Use a tall canvas
+28. Give the composition an unusual amount of white space
 
-28. Use this palette: <https://lospec.com/palette-list/cable-01>
+29. Turn it into a playing card
 
-29. Give the composition an unusual amount of white space
-
-30. Turn it into a playing card
-
-31. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)
+30. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)

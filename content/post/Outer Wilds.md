@@ -4,10 +4,10 @@ tags:
   - man
   - video_game
 date: 2025-03-19
-date modified: 2026-05-21
+date modified: 2026-05-24
 date created: 2026-03-18
-title: Outer Wilds
-lastmod: 2026-05-21T19:20:44.041Z
+title: Pourquoi je suis déçu par Outer Wilds
+lastmod: 2026-05-24T10:32:52.320Z
 ---
 On parle d’outer wilds…
 
@@ -17,7 +17,7 @@ J’ai jouer au jeu et j’ai enchaine avec la video de the great review car ell
 
 Jsp si on on parle du bien en premier et du reste apres ou l’inverse ?
 
-J’imagine que comme ca ca fait monter le suspens et la tenseion (meme chose) anyway c’est parti
+J’imagine que comme ca ca fait monter le suspens et la tension (meme chose) anyway c’est parti
 
 C’est le meilleur open world auquel j’ai jamais joué. J’aimais bien botw, mais u bout d’un moment, gagner une animation de korogu et un son horipilant a chaque « découverte » 
 

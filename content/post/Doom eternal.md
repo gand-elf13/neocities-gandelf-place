@@ -4,10 +4,10 @@ tags:
   - technique
   - video_game
 date: 2025-06-12
-date modified: 2026-05-21
+date modified: 2026-05-24
 date created: 2026-03-13
 title: Doom Eternal
-lastmod: 2026-05-21T19:21:51.694Z
+lastmod: 2026-05-24T10:34:58.666Z
 ---
 Ce jeu est TOP. Le gameplay est nerveux, hyper rapide, gardant toujours les joueurs attentifs non seulement dans l’optique de tuer des démons, mais aussi de manager ses resources, chaque arme est utile et utilisée. Elles sont satisfaisantes. Les outils comme Grenade, flamethrower, saw, et glorykill le sont tout autant. Le tout force le joueur à utiliser tous les outils à sa disposition à avoir du fun.
 
@@ -17,4 +17,4 @@ Enfin l’histoire, l’histoire existe, elle est *bien*, mais, elle ne sert à 
 
 Doom eternal est un chef-d'œuvre, c'est du cinéma ou tu agis et tu es à 150 BPM constant, pure extase.
 
-Pas d'analyse pour aujourd'hui (non pas que vous aimiez ça...) y'a rien à analyser, c'est juste addictivement bon.
+Pas d'analyse pour aujourd'hui (non pas que vous aimiez ça…) y'a rien à analyser, c'est juste addictivement bon.

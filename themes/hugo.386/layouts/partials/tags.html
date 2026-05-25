@@ -1,5 +1,13 @@
-{{range first 10 ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+{{ $tags := ($.Site.GetPage "taxonomyTerm" "tags").Pages }}
+{{ $tagData := slice }}
+{{ range $tags }}
+    {{ $count := len (where .Pages "Section" "!=" "world") }}
+    {{ if gt $count 0 }}
+        {{ $tagData = $tagData | append (dict "Page" . "Count" $count) }}
+    {{ end }}
+{{ end }}
+{{ range first 10 (sort $tagData "Count" "desc") }}
 <li>
-    <a href="{{ .Permalink }}">{{.Title}}</a>
+    <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
 </li>
 {{ end }}

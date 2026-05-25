@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-24
+date modified: 2026-05-25
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-24T20:03:05.525Z
+lastmod: 2026-05-25T14:22:47.181Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -195,13 +195,21 @@ Include a secondary subject in the background
 
 {{< figure src="/ob/attachements/Stay%20together.png" alt="Stay together.png" width="563" >}}
 
+***
+
 ### Unstable
 
 Make two, each with different colors
 
 ![Unstable.png](/ob/attachements/Unstable.png)
 
-25. Why is it empty?
+***
+
+### Why is it Empty?
+
+Include smoke or steam in your image.
+
+![Why is it empty.png](/ob/attachements/Why%20is%20it%20empty.png)
 
 26. Does this work?
 
@@ -216,8 +224,6 @@ Make two, each with different colors
 31. Oath
 
 ## Official Optional Constraints:
-
-24. Include smoke or steam in your image.
 
 25. Make it seem like it's windy or raining or both
 

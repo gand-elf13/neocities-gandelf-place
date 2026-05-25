@@ -1,10 +1,11 @@
 ---
-tags: []
+tags:
+  - video_game
 date created: 2026-04-28
 date modified: 2026-05-24
 title: 7 masterpieces ? eh...
 date: 2026-05-24
-lastmod: 2026-05-24T10:59:57.784Z
+lastmod: 2026-05-25T06:34:45.919Z
 ---
 I found myself enjoying the videos of mhswoocer, a hardcore [Monster Hunter](/monster-hunter) and JRPGs fan.
 

@@ -4,10 +4,10 @@ tags:
   - GPFRS
   - man
 date: 2026-04-10
-date modified: 2026-05-21
+date modified: 2026-05-25
 date created: 2025-06-05
 title: Cowboy Bebop
-lastmod: 2026-05-21T19:21:59.290Z
+lastmod: 2026-05-25T10:40:12.034Z
 ---
 PS de debut de lecture regarder cowboy bebop dedans je spoil un episode **ENORME** (je préviendrais mais ne m'en voulez pas après)
 
@@ -46,13 +46,13 @@ Et puis cette scène terrible avec le barbu qui entre, avec des œufs qu’il a 
 
 <https://www.youtube.com/watch?v=0IwEL0IXLDQ> this kills me
 
-Et moi, j’ai la tête chaude, envie de pleurer et je me sens coupable car pour mon plaisir de voir le bebop ensemble, retrouver les situations familières les courses poursuite amusantes... J’aimerais qu’Ed fasse d’autres choix alors qu’ils ne concernent que elle. C’est comme [Berserk](Berserk), est-ce que l’on souhaite vraiment que gut trouve la paix ? Non, je préfère gut quand il coupe des gens en deux.
+Et moi, j’ai la tête chaude, envie de pleurer et je me sens coupable car pour mon plaisir de voir le bebop ensemble, retrouver les situations familières les courses poursuite amusantes… J’aimerais qu’Ed fasse d’autres choix alors qu’ils ne concernent que elle. C’est comme [Berserk](Berserk), est-ce que l’on souhaite vraiment que gut trouve la paix ? Non, je préfère gut quand il coupe des gens en deux.
 
 Sauf que la, on est pas les seules à ressentir ce manque cette disparition, tout le monde la ressent, et on se rend compte de à quel point on aime le bebop, c’est quand on perd que l’on se rend compte de tout ce qu’on avait.
 
 Tout ça pour dire, je regarde [shoushimin](/post/shoushimin) et pour l’instant c’est une dinguerie, juste que le style resemble à celui de bebop surtout dans le fonctionnement des épisode, donc j’ai peur de rater l’essentiel.\
 Je fais de mon mieux, j’espère que tu me pardonnera d’adorer [Darling in the FranXX](/post/darling-in-the-franxx) au point de négliger bebop KYRKOS (je met ton pseudo car je prépare un truc pour publier ça et je préfère éviter au max les noms du coup)
 
-retour sur mon texte quelque temps après, Cow boy bebop est ouf, #man... tier, que ce soit par l'ambiance ou par l'attachement aux personnages. je n'ai pas été captivé par le mystère sous jasant mais le reste as bien suffit.
+retour sur mon texte quelque temps après, Cow boy bebop est ouf, #man… tier, que ce soit par l'ambiance ou par l'attachement aux personnages. je n'ai pas été captivé par le mystère sous jasant mais le reste as bien suffit.
 
 Il faudra que je parle un jour de [Star Trucker](Star%20Trucker) c'est un jeu plutôt bon ont l'ambiance resemble tellement à cowboy bebop, c'est impressionnant ! en particulier heavy metal queen.

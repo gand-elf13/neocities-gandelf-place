@@ -2,10 +2,10 @@
 tags:
   - video_game
 date created: 2026-04-28
-date modified: 2026-05-24
+date modified: 2026-05-25
 title: 7 masterpieces ? eh...
 date: 2026-05-24
-lastmod: 2026-05-25T06:34:45.919Z
+lastmod: 2026-05-25T06:40:30.425Z
 ---
 I found myself enjoying the videos of mhswoocer, a hardcore [Monster Hunter](/monster-hunter) and JRPGs fan.
 
@@ -116,4 +116,4 @@ It takes a lot to get to the top, way more than nostalgia.
 
 Also a quick note i didn't include games i haven't played, **Not because i think i played every good game** far from it, i think that by including a game i haven't played and only heard good press from, i give way to much credit to legacy instead of actual quality
 
-Also some links are broken, they will one day be fixed, i just don't have time to write a lot a finish everything i started.
+Also some links are broken, they will one day be fixed, i just don't have time to write a lot and finish everything i started.

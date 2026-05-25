@@ -3,10 +3,10 @@ tags:
   - maths
   - physics
 date: 2025-06-12
-date modified: 2026-05-21
+date modified: 2026-05-25
 date created: 2026-03-13
 title: Se Repérer Sur Terre Grace Aux Étoiles
-lastmod: 2026-05-21T19:20:33.018Z
+lastmod: 2026-05-25T10:39:36.866Z
 ---
 ## Intro
 
@@ -93,7 +93,7 @@ La latitude d'un astre est appelée Angle Horaire et sa longitude Déclinaison.
 
 ## V/ Un Problème
 
-Cela fonctionne très bien... en théorie. En effet, la Terre n'est pas plate et tracer des cercles dessus n'est pas si facile. De plus, pour une application pratique, aucune carte n'est à la fois précise et capable de montrer à la fois notre position et celle du pied d'un astre situé la plupart du temps à des milliers de kilomètres.
+Cela fonctionne très bien… en théorie. En effet, la Terre n'est pas plate et tracer des cercles dessus n'est pas si facile. De plus, pour une application pratique, aucune carte n'est à la fois précise et capable de montrer à la fois notre position et celle du pied d'un astre situé la plupart du temps à des milliers de kilomètres.
 
 Pour résoudre ce problème, Marc-Saint-Hilaire a eu cette idée :
 

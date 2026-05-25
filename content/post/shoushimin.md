@@ -47,7 +47,7 @@ La fin de shoushimin, est dure. C’est pourquoi je voulait pas que vous vous sp
 
 WAIT il ya as une saison 2 ?
 
-En fait je contextualise toute la fin dans ma tête avec une saison deux. Le mec que je regardait disait que shoushimin est sombre. Je suis d’accord, un peu. Si il est sombre il montre aussi que la lumière est la ([cobbler crackdown](/cobbler-crackdown)) dans la vie de tout les jours pas si ordinaire que ça.\
+En fait je contextualise toute la fin dans ma tête avec une saison deux. Le mec que je regardait disait que shoushimin est sombre. Je suis d’accord, un peu. Si il est sombre il montre aussi que la lumière est la ([cobbler crackdown](/post/cobbler-crackdown)) dans la vie de tout les jours pas si ordinaire que ça.\
 Les nouveaux personnages je l’espère seront développé aussi bien, et sans prendre la place des anciens. Et surtout j’espère qu’ils redeviennent amis. Et la scène finale ptn.
 
 Encore un truc, j’ai vu quelqu’un dire que dans shoushimin, ce sont “2 broken and flawed character that bring each other down” je ne sait pas vraiment quoi penser. Je suis pas d’accord, je pense.

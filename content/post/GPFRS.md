@@ -2,10 +2,10 @@
 tags:
   - GPFRS
 date: 2026-03-27
-date modified: 2026-05-21
+date modified: 2026-05-25
 date created: 2026-03-18
 title: GPFRS
-lastmod: 2026-05-21T19:21:28.589Z
+lastmod: 2026-05-25T11:08:28.128Z
 ---
 ## Le GPFRS:
 
@@ -73,4 +73,4 @@ Les clés pour repérer sont, les micros transactions supplante le game-play, le
 
 ### Conclusion
 
-Chacune de ces catégories est disponible en tag, pour filtrer les posts par leur classement, certaines catégories sont mieux remplies que d'autre, j'ai étonnamment rarement envie d'écrire sur de la merde...
+Chacune de ces catégories est disponible en tag, pour filtrer les posts par leur classement, certaines catégories sont mieux remplies que d'autre, j'ai étonnamment rarement envie d'écrire sur de la merde…

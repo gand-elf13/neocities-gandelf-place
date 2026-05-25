@@ -4,12 +4,12 @@ tags:
   - GPFRS
   - man
 date: 2025-03-19
-date modified: 2026-05-21
+date modified: 2026-05-25
 date created: 2026-03-18
 title: Arcane
-lastmod: 2026-05-21T19:22:13.478Z
+lastmod: 2026-05-25T10:38:46.816Z
 ---
-Man...
+Man…
 
 La manière dont ils montrent l’histoire de magicien, la grandeur de la ville, c’est merveilleux, car on ne veut pas le voir.
 
@@ -21,7 +21,7 @@ Discours de merde
 
 Pourquoi je le mets à écrire en boucle ? Le mec renonce, fausse joie.
 
-*faites pas attention a tout ça, je prenait des notes en même temps que je regardais...*
+*faites pas attention a tout ça, je prenait des notes en même temps que je regardais…*
 
 Bon, c’est légendaire, cet anime.
 
@@ -63,7 +63,7 @@ C’est un drame, celui de darling in the franXX, sauf que le darling, il est mo
 
 C’est dommage. Vous ne me voyez pas écrire, vous n’avez que le produit fini. Vous ne les voyez pas apparaître à un rythme effréné, s’arrêter, reprendre, revenir pour repartir de plus belle.
 
-*btw je me rend compte que j'ai écrit un beau bordel incompréhensible... vous avez aimé ?*
+*btw je me rend compte que j'ai écrit un beau bordel incompréhensible… vous avez aimé ?*
 
 Ça fait 3 (edit : 4) presques d’affilée d'animes qui parlent d’humanité, et moi je n’ai pas changé d’avis, je pense toujours comme je l’ai dit à *name censored* en to de physique (pauvre *name censored* il n’avait pas l’air d’accord). Un être humain, c’est pas défini physiquement. Un être humain, ça se définit par les autres par comparison. Si tu crois que quelque chose ou quelqu’un est humain, alors il l’est, et la partie sombre ; si tu considères que quelqu’un ne l’est pas, alors il ne l’est pas.
 
@@ -87,7 +87,7 @@ J’aime les fins ouvertes, j’aime quand, plutôt que de nous montrer comment 
 
 Bon, maintenant, on analyse, nan ?
 
-Jsp Comment expliquer le thème principal ? L’amour, certains disent, le trauma, j’ai bien l’impression. Il y a tellement de choses, c’est toujours plus facile de trouver des éléments qui vont dans le sens d’une théorie qu’une théorie à partir d’éléments. Je vais probablement le voir 3 fois, cet anime… une fois avec mes parents, une fois avec toi (*censored name... en fait quand j'ai écrit ca, j'avais pas prévu de le partager a qulqu'un d'autre que monsieur X*, pour l’instant je n’ai pas d’autres lecteurs ; si tu es intéressé par l’anime @gand\_elf sur Discord, on peut s’arranger pour le voir ensemble :) ), et une fois tout seul pour la plupart avec la compagnie horripilante de *name*, sage de *name*, moqueuse de *name* et sexy de *name-chan*.
+Jsp Comment expliquer le thème principal ? L’amour, certains disent, le trauma, j’ai bien l’impression. Il y a tellement de choses, c’est toujours plus facile de trouver des éléments qui vont dans le sens d’une théorie qu’une théorie à partir d’éléments. Je vais probablement le voir 3 fois, cet anime… une fois avec mes parents, une fois avec toi (*censored name… en fait quand j'ai écrit ca, j'avais pas prévu de le partager a qulqu'un d'autre que monsieur X*, pour l’instant je n’ai pas d’autres lecteurs ; si tu es intéressé par l’anime @gand\_elf sur Discord, on peut s’arranger pour le voir ensemble :) ), et une fois tout seul pour la plupart avec la compagnie horripilante de *name*, sage de *name*, moqueuse de *name* et sexy de *name-chan*.
 
 Donc j’aurai le temps de décortiquer toutes les scènes, si je ne me fais pas emporter par la narration (j’espère, ça serait triste…).
 

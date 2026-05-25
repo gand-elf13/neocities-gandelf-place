@@ -5,7 +5,7 @@ title: The "Join Matrix!" Guide
 date created: 2026-03-13
 date modified: 2026-05-25
 date: 2026-03-13T12:13:02.340Z
-lastmod: 2026-05-25T11:08:55.273Z
+lastmod: 2026-05-25T12:14:46.828Z
 ---
 ## The "Join Matrix!" Guide: Basics
 
@@ -18,19 +18,19 @@ Matrix is the long-awaited middleground between one-to-one messaging platforms (
 * **Freedom.** You get to choose how to use the platform and how your data is treated.
   * Conversations can be end-to-end encrypted\[^1]. This is enabled by default for direct and group messages\[^2].
   * Automatic collection of data is minimized: no address book syncing\[^3], no "are you human?" checks beyond registration, phone numbers are optional, even email addresses are optional (on select homeservers)!
-  * You can host your own server, or you can join [an existing public homeserver](../servers) that suits you. Either way, your access to the Matrix federation is the same\[^4]!
-  * [Bridges](./features/#all-about-bridges) allow you to chat with users on other platforms, minimizing the social cost of moving to Matrix!
+  * You can host your own server, or you can join [an existing public homeserver](https://joinmatrix.org/servers) that suits you. Either way, your access to the Matrix federation is the same\[^4]!
+  * [Bridges](https://joinmatrix.org/guide/features/#all-about-bridges) allow you to chat with users on other platforms, minimizing the social cost of moving to Matrix!
   * Since Matrix is an open protocol, it is extensible and can be used for purposes beyond just chatting. For example: [help desk](https://www.safesupport.chat/), [social media](https://minestrix.henri2h.fr/), real-time collaboration…
 * **Trust.** You get to actually trust the software you use.
   * Matrix is an open protocol, and most\[^5] of its [apps](#what-app-should-i-use) and servers\[^6] are both open source, which you may contribute to!
-  * Matrix is federated, just like email: Unlike conventional platforms which are [centralized](./matrix-vs-al/#centralized-platforms), no single specific entity can control the entirety of the Matrix federation, where homeservers, operated independently from each other, communicate with each other using an agreed-upon protocol.
+  * Matrix is federated, just like email: Unlike conventional platforms which are [centralized](https://joinmatrix.org/guide/matrix-vs-al/#centralized-platforms), no single specific entity can control the entirety of the Matrix federation, where homeservers, operated independently from each other, communicate with each other using an agreed-upon protocol.
     * Furthermore, while individual homeservers may experience outage, the entire federation *cannot* go offline.
   * You are welcomed to improve Matrix by creating new apps around it, or by [reviewing or submitting](https://spec.matrix.org/unstable/proposals/) proposals. You can shape your platform towards a better direction!
   * Matrix is backed by the public sector, most notably by the Germans ([healthcare](https://matrix.org/blog/2021/07/21/germanys-national-healthcare-system-adopts-matrix), [army](https://element.io/case-studies/bundeswehr), [universities](https://doc.matrix.tu-dresden.de/en/why/)) as well as [the French](https://element.io/case-studies/tchap).
 
 And of course, Matrix has everything that a modern messaging platform offers: cross-platform, real-time, usefulness, etc. But that's not the point. Matrix shows that it is **possible** to have a decent chat platform that actually **respects you**.
 
-If these reasons did not convince you, how about comparing Matrix [with other platforms](./matrix-vs-al) like [Discord](./matrix-vs-discord) and [Telegram](./matrix-vs-telegram)?
+If these reasons did not convince you, how about comparing Matrix [with other platforms](https://joinmatrix.org/guide/matrix-vs-al) like [Discord](https://joinmatrix.org/guide/matrix-vs-discord) and [Telegram](https://joinmatrix.org/guide/matrix-vs-telegram)?
 
 <div class="flash">
   Matrix is not spotless, but it is constantly improving! You can also follow <a href="https://matrix.org/blog/posts">the Matrix.org blog</a> for all the news around Matrix!
@@ -53,7 +53,7 @@ If you have the infrastructure and the technical skills required to host an inte
 
 However, hosting is still undesirable for many. In that case, you can…
 
-* Join an existing homeserver by picking one from [our public homeserver list](../servers), or
+* Join an existing homeserver by picking one from [our public homeserver list](https://joinmatrix.org/servers), or
 * Reaching out to a friend who hosts a homeserver, or
 * Purchase [managed homeserver hosting](https://matrix.org/hosting/).
 
@@ -71,7 +71,7 @@ For simplicity, the guide is prepared in such a way that recommends registration
 
 1. If you're using our homeserver list which has provided you with a link to the homeserver's in-house Element client, then you may use that. Otherwise, use the official [Element Web client](https://app.element.io) to register.
 2. Click "Create Account".
-3. On the top of the registration dialog, verify that you are registering on the correct server. If necessary, click "edit" and enter the appropriate domain (consult your public/private/managed homeserver's instructions, or the "Registration method" column of the [homeserver list](../servers)). Once verified, **note the domain down.** You will need it to login\[^7].
+3. On the top of the registration dialog, verify that you are registering on the correct server. If necessary, click "edit" and enter the appropriate domain (consult your public/private/managed homeserver's instructions, or the "Registration method" column of the [homeserver list](https://joinmatrix.org//servers). Once verified, **note the domain down.** You will need it to login\[^7].
 4. Fill out the required information.
 5. If you did not enter an email address, then you're in. Otherwise, verify your email, after which you will be prompted to [login](#log-into-an-existing-account).
 
@@ -131,7 +131,7 @@ There exists [many different apps](https://matrix.org/clients/) that can access 
 For those living on the edge: [gomuks](https://github.com/tulir/gomuks) and [Syphon](https://syphon.org/).
 
 <div class="flash">
-  For desktop users, if you want a better experience when using Element Desktop or SchildiChat, place <a href="../assets/config.json">this config file</a> in your <a href="https://github.com/vector-im/element-desktop#user-specified-configjson">configuration folder</a>, where <code>$NAME</code> is either "Element", "Element Nightly" or "SchildiChat". The config file enables the "Labs" tab in settings, enables custom themes, preloads <a href="https://github.com/aaronraimist/element-themes">a few custom themes</a>, and preloads a few homeservers for room directory searches.
+  For desktop users, if you want a better experience when using Element Desktop or SchildiChat, place <a href="https://joinmatrix.org/assets/config.json">this config file</a> in your <a href="https://github.com/vector-im/element-desktop#user-specified-configjson">configuration folder</a>, where <code>$NAME</code> is either "Element", "Element Nightly" or "SchildiChat". The config file enables the "Labs" tab in settings, enables custom themes, preloads <a href="https://github.com/aaronraimist/element-themes">a few custom themes</a>, and preloads a few homeservers for room directory searches.
 </div>
 
 ### What Rooms Can I Join?
@@ -152,11 +152,11 @@ On Element and SchildiChat, Spaces show up on the left of your room list. Select
 
 ### I Want to Create My Own Rooms!
 
-Great! Most clients allow you to create rooms and spaces. Decorate them to your heart's desire, and don't forget to set your [room address](./features#promotion) and tell that to others!
+Great! Most clients allow you to create rooms and spaces. Decorate them to your heart's desire, and don't forget to set your [room address](https://joinmatrix.org/guide/features#promotion) and tell that to others!
 
-Room-based moderation on Matrix is a bit tricky. Most large rooms use [moderation bots](./features#moderation); consider setting up one for your rooms.
+Room-based moderation on Matrix is a bit tricky. Most large rooms use [moderation bots](https://joinmatrix.org/guide/features#moderation); consider setting up one for your rooms.
 
-Don't want to lose connections to your friends at other platforms? You don't have to! Set up [bridges](./features#all-about-bridges) to connect your communities together.
+Don't want to lose connections to your friends at other platforms? You don't have to! Set up [bridges](https://joinmatrix.org/guide/features#all-about-bridges) to connect your communities together.
 
 ## Go Deeper
 
@@ -170,9 +170,9 @@ Don't want to lose connections to your friends at other platforms? You don't hav
 
 If you're using Element or SchildiChat, then keep the [Element User Guide](https://element.io/user-guide) handy for a quick reference to the interface!
 
-* [More Features of Matrix](./features): An introduction to more of Matrix's features!
-* [Public homeserver list](../servers)
-* [Questions & Answers](./qna)
+* [More Features of Matrix](https://joinmatrix.org/guide/features): An introduction to more of Matrix's features!
+* [Public homeserver list](https://joinmatrix.org/servers)
+* [Questions & Answers](https://joinmatrix.org/guide/qna)
 
 ## Footnotes
 
@@ -182,7 +182,7 @@ If you're using Element or SchildiChat, then keep the [Element User Guide](https
 
 \[^3]: Element allows you to opt into (not enabled by default as of late 2021) using an "identity server" - think of it as a big online address book. This allows users to share their email addresses and username, which can be looked up manually by other users. However, here "address book" means that Matrix will not store the one locally on your phone; homeservers *can* see who you are talking to, as such information are not encrypted. There is [a proposal](https://github.com/matrix-org/matrix-doc/pull/3414) to address this. See also footnote 1.
 
-\[^4]: Note that public rooms may block certain servers - just like banning individual users - due to prevalence of unacceptable content (spam, hate speech, etc.). If you're not running your own homeserver, don't join homeservers that are known to harbour such content. This does not apply to homeservers listed on [our public list](../servers) as they are vetted against any presence of bad reputation. In any case, behave yourselves, remember the human.
+\[^4]: Note that public rooms may block certain servers - just like banning individual users - due to prevalence of unacceptable content (spam, hate speech, etc.). If you're not running your own homeserver, don't join homeservers that are known to harbour such content. This does not apply to homeservers listed on [our public list](https://joinmatrix.org/servers) as they are vetted against any presence of bad reputation. In any case, behave yourselves, remember the human.
 
 \[^5]: This includes all clients and servers that an average user uses.
 
@@ -192,6 +192,6 @@ If you're using Element or SchildiChat, then keep the [Element User Guide](https
 
 \[^8]: Title and description.
 
-\[^9]: Which is not a reasonable gauge of activity. First, accounts can be inactive. Second, if a room uses [bridges](./features/#all-about-bridges), then these accounts are counted as well, even if their activity is mostly not from Matrix (you can still interact with them, however).
+\[^9]: Which is not a reasonable gauge of activity. First, accounts can be inactive. Second, if a room uses [bridges](https://joinmatrix.org/guide/features/#all-about-bridges), then these accounts are counted as well, even if their activity is mostly not from Matrix (you can still interact with them, however).
 
 \[^10]: Which, to be exact, is a special type of rooms. Other than that you can list rooms (and Spaces) instead of sending messages, there are no differences between a Space and a room.

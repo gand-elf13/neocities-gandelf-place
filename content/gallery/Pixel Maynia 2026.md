@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-25
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-25T14:22:47.181Z
+lastmod: 2026-05-25T15:00:59.278Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -201,7 +201,7 @@ Include a secondary subject in the background
 
 Make two, each with different colors
 
-![Unstable.png](/ob/attachements/Unstable.png)
+{{< figure src="/ob/attachements/Unstable.png" alt="Unstable.png" width="608" >}}
 
 ***
 

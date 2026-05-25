@@ -3,9 +3,9 @@ date: 2025-03-27
 draft: false
 tags: []
 title: 9b9t
-date modified: 2026-04-10
+date modified: 2026-05-25
 date created: 2026-03-13
-lastmod: 2026-04-10T08:40:02.228Z
+lastmod: 2026-05-25T15:06:13.323Z
 ---
 ## ✅ 9b9t Collectibles, Mapart & Trading - Achievement Checklist
 
@@ -44,14 +44,14 @@ lastmod: 2026-04-10T08:40:02.228Z
 * \[ ] Never Surrender *– Unknown. Help us hunt it!*
 * \[x] Unaxeptable *– Break a sign that contains a date*
 * \[ ] Random Pyramid *– Build a really big pyramid and put a beacon on the top*
-* \[ ] Maggut's apprentice *– Place 20 withers on a Highway*
+* \[ ] Maggut's apprentice *– Place withers on a Highway*
 * \[x] The Seed of 9b9t *– Do /seed*
 * \[ ] Riga's dream *– Obtain a Knowledge book*
 * \[ ] Taking it up a Notch *– Say the n word 50000 times (To be confirmed)*
 * \[ ] Homies *– Sleep next to another player*
-* \[ ] Loaf Lover *– Unknown. Help us hunt it!*
+* \[ ] Loaf Lover *– Eat 5184 breads*
 * \[ ] Professional Janitor *– Break 10000 obsidian in nhub*
-* \[ ] Aspiring Turk *– Placing a high amount of obsidian in nhub (To be confirmed)*
+* \[ ] Aspiring Turk *– Place 20,000 obsidian in nhub*
 * \[x] Spawn kill *– Kill a naked player under the 500 radius*
 * \[x] Travel Log *– Put a sign with your IGN on the first row, "was here" on the second row, and the actual date on the third row like this: DD/MM/YYYY*
 * \[x] History Fraudster *– Write on a sign a date years older than today*
@@ -59,8 +59,13 @@ lastmod: 2026-04-10T08:40:02.228Z
 * \[x] I'm friendly! *– Shift while naked to a geared player*
 * \[ ] Betrayal *– Kill a naked player who did shift in front of you*
 * \[x] NaN *– Have an enderchest full of shulkers*
-* \[ ] full irin *– Wear an iron armor in nhub in front of full geared players (To be confirmed)*
+* \[ ] full irin *– Kill someone (at nhub?) while wearing full iron set*
 * \[ ] Crab Mentality *– Unknown. Help us hunt it!*
 * \[ ] Bedtrapped *– Unknown. Help us hunt it!*
 * \[ ] Good Content *– Get /ignore'd by another player*
 * \[ ] Blackface *– Unknown. Help us hunt it!*
+* \[ ] AAACK *– While attached to a player/mob with a lead, get pushed onto the void and die*
+* \[ ] Matryoshka *– Wear your own playerhead*
+* \[ ] Know Your Betters *– Do /jd on a player who joined before you*
+* \[ ] Newfag! *– Do /jd on a player who joined after you*
+* \[ ] Non Plus Ultra *– Do /jd on ltnk, the first player to join 9b9t*

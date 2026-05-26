@@ -5,14 +5,14 @@ tags:
   - man
   - trigger
 date: 2025-03-27
-date modified: 2026-05-21
+date modified: 2026-05-25
 date created: 2026-03-18
 title: Darling in the franXX 2(3, stfu)
-lastmod: 2026-05-21T19:21:53.363Z
+lastmod: 2026-05-25T16:06:06.022Z
 ---
 Retour à la case Départ, il faut qu’on parle.
 
-J’ai adoré l’anime (man… ). Et comme à chaque fois, quand j’aime quelque chose, je regarde pour voir si les autres sont d’accord. Et bon, j’ai l’habitude, hein... [Kill la Kill](/post/kill-la-kill), ça a été une claque de se rendre compte que 90 % des gens pensent que c’est juste un prétexte pour mater des culs mineurs…
+J’ai adoré l’anime (man… ). Et comme à chaque fois, quand j’aime quelque chose, je regarde pour voir si les autres sont d’accord. Et bon, j’ai l’habitude, hein… [Kill la Kill](/post/kill-la-kill), ça a été une claque de se rendre compte que 90 % des gens pensent que c’est juste un prétexte pour mater des culs mineurs…
 
 Bah là, j’ai l’impression que c’est similaire. Tout le monde crache dessus, en particulier épisode 19/20.
 

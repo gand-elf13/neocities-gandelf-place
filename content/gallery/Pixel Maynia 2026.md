@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-25
+date modified: 2026-05-26
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-25T15:00:59.278Z
+lastmod: 2026-05-26T20:55:57.017Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -209,9 +209,13 @@ Make two, each with different colors
 
 Include smoke or steam in your image.
 
-![Why is it empty.png](/ob/attachements/Why%20is%20it%20empty.png)
+{{< figure src="/ob/attachements/Why%20is%20it%20empty.png" alt="Why is it empty.png" width="579" >}}
 
-26. Does this work?
+### Does This Work?
+
+Make it seem like it's windy or raining or both : maybe i focused too much on the optional bit… anyways, maybe it's the lighthouse that isn't really working or simply my rain effect, you chose.
+
+![Does this work.png](/ob/attachements/Does%20this%20work.png)
 
 27. Oh that's gold
 
@@ -225,14 +229,12 @@ Include smoke or steam in your image.
 
 ## Official Optional Constraints:
 
-25. Make it seem like it's windy or raining or both
+25. Use a tall canvas
 
-26. Use a tall canvas
+26. Use this palette: <https://lospec.com/palette-list/cable-01>
 
-27. Use this palette: <https://lospec.com/palette-list/cable-01>
+27. Give the composition an unusual amount of white space
 
-28. Give the composition an unusual amount of white space
+28. Turn it into a playing card
 
-29. Turn it into a playing card
-
-30. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)
+29. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)

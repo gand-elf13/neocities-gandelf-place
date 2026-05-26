@@ -137,6 +137,12 @@ refLinksNotFoundURL = "/not-here-yet"
     url = "/9b9tgoals/"
     parent = "misc"
     weight = 20
+
+  [[menu.main]]
+    identifier = "writers-lane"
+    name = "Writters Lane"
+    url = "https://nightfall.city/writers-lane/"
+    weight = 40
     
 [taxonomies]
     tag = "tags"

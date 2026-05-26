@@ -1,16 +1,16 @@
 ---
 tags: []
 date: 2025-06-12
-date modified: 2026-05-21
+date modified: 2026-05-25
 date created: 2026-03-13
 title: Cool Text Sysiphus
-lastmod: 2026-05-21T19:22:04.955Z
+lastmod: 2026-05-25T16:06:20.017Z
 ---
 Trouvé sur internet, faute de recherches assez approfondies, je n'ai pas la source.
 
 ***
 
-Ahh... free at last. O Gabriel, now dawns thy reckoning, and thy gore shall GLISTEN before the temples of Man!
+Ahh… free at last. O Gabriel, now dawns thy reckoning, and thy gore shall GLISTEN before the temples of Man!
 
 Machine, I will cut you down. I will slay the gore of your profaned form across the land!
 

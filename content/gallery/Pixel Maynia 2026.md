@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-26
+date modified: 2026-05-27
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-26T20:55:57.017Z
+lastmod: 2026-05-27T20:36:04.879Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -211,13 +211,21 @@ Include smoke or steam in your image.
 
 {{< figure src="/ob/attachements/Why%20is%20it%20empty.png" alt="Why is it empty.png" width="579" >}}
 
+***
+
 ### Does This Work?
 
 Make it seem like it's windy or raining or both : maybe i focused too much on the optional bit… anyways, maybe it's the lighthouse that isn't really working or simply my rain effect, you chose.
 
-![Does this work.png](/ob/attachements/Does%20this%20work.png)
+{{< figure src="/ob/attachements/Does%20this%20work.png" alt="Does this work.png" width="614" >}}
 
-27. Oh that's gold
+***
+
+### Oh That's Gold
+
+Use a tall canvas
+
+![Oh thats gold.png](/ob/attachements/Oh%20thats%20gold.png)
 
 28. Oh so good
 
@@ -228,8 +236,6 @@ Make it seem like it's windy or raining or both : maybe i focused too much on th
 31. Oath
 
 ## Official Optional Constraints:
-
-25. Use a tall canvas
 
 26. Use this palette: <https://lospec.com/palette-list/cable-01>
 

@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-27
+date modified: 2026-05-28
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-27T20:36:04.879Z
+lastmod: 2026-05-28T20:43:01.793Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -225,9 +225,17 @@ Make it seem like it's windy or raining or both : maybe i focused too much on th
 
 Use a tall canvas
 
-![Oh thats gold.png](/ob/attachements/Oh%20thats%20gold.png)
+{{< figure src="/ob/attachements/Oh%20thats%20gold.png" alt="Oh thats gold.png" width="275" >}}
 
-28. Oh so good
+***
+
+### Oh so Good
+
+Oh so good : 1 pill 1 mill
+
+Use this palette: <https://lospec.com/palette-list/cable-01>
+
+![Oh-so-good.jpeg](/ob/attachements/Oh-so-good.jpeg)
 
 29. Against all odds
 
@@ -236,8 +244,6 @@ Use a tall canvas
 31. Oath
 
 ## Official Optional Constraints:
-
-26. Use this palette: <https://lospec.com/palette-list/cable-01>
 
 27. Give the composition an unusual amount of white space
 

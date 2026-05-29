@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-28
+date modified: 2026-05-29
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-28T20:43:01.793Z
+lastmod: 2026-05-29T20:40:22.593Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -235,17 +235,21 @@ Oh so good : 1 pill 1 mill
 
 Use this palette: <https://lospec.com/palette-list/cable-01>
 
-![Oh-so-good.jpeg](/ob/attachements/Oh-so-good.jpeg)
+{{< figure src="/ob/attachements/Oh-so-good.jpeg" alt="Oh-so-good.jpeg" width="447" >}}
 
-29. Against all odds
+***
+
+### Against All Odds
+
+Give the composition an unusual amount of white space : life is a game… achimsp144
+
+![against-all-odds.jpeg](/ob/attachements/against-all-odds.jpeg)
 
 30. Birb
 
 31. Oath
 
 ## Official Optional Constraints:
-
-27. Give the composition an unusual amount of white space
 
 28. Turn it into a playing card
 

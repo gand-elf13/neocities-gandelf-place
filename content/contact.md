@@ -5,7 +5,7 @@ date modified: 2026-05-30
 draft: false
 date created: 2026-05-14
 title: contact
-lastmod: 2026-05-30T12:20:07.611Z
+lastmod: 2026-05-30T12:23:03.843Z
 ---
 Vous pouvez suivre ce site sur ce lien [RSS](https://gand-elf.neocities.org/post/index.xml)
 
@@ -45,6 +45,6 @@ B6uO6Gg=
 
 ***
 
-ancienne cle, considérée comme invalide a partir du 30 mai 2026\
+ancienne clé, considérée comme invalide a partir du 30 mai 2026\
 [Openpgp](https://keys.openpgp.org/search?q=gandelfistaken@firemail.cc)\
 [BAB35582A84126CB3A0AC73C6ECAB7ADB86EEF6C.asc](/ob/attachements/BAB35582A84126CB3A0AC73C6ECAB7ADB86EEF6C.asc)

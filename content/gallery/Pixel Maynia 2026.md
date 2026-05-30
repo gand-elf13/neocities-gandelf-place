@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-29
+date modified: 2026-05-30
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-29T20:42:19.077Z
+lastmod: 2026-05-30T20:45:31.249Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -243,14 +243,16 @@ Use this palette: <https://lospec.com/palette-list/cable-01>
 
 Give the composition an unusual amount of white space : life is a game… achimsp144
 
-![against-all-odds.jpeg](/ob/attachements/against-all-odds.jpeg)
+{{< figure src="/ob/attachements/against-all-odds.jpeg" alt="against-all-odds.jpeg" width="446" >}}
 
-30. Birb
+### Birb
+
+Turn it into a playing card
+
+![Bird.png](/ob/attachements/Bird.png)
 
 31. Oath
 
 ## Official Optional Constraints:
-
-30. Turn it into a playing card
 
 31. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)

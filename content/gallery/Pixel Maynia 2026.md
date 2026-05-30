@@ -4,7 +4,7 @@ date created: 2026-05-01
 date modified: 2026-05-29
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-29T20:40:22.593Z
+lastmod: 2026-05-29T20:42:19.077Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -251,6 +251,6 @@ Give the composition an unusual amount of white space : life is a game… achims
 
 ## Official Optional Constraints:
 
-28. Turn it into a playing card
+30. Turn it into a playing card
 
-29. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)
+31. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)

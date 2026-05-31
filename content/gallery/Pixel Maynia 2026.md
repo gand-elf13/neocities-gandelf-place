@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-30
+date modified: 2026-05-31
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-30T20:45:31.249Z
+lastmod: 2026-05-31T21:31:18.614Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 
@@ -249,10 +249,15 @@ Give the composition an unusual amount of white space : life is a game… achims
 
 Turn it into a playing card
 
-![Bird.png](/ob/attachements/Bird.png)
+{{< figure src="/ob/attachements/Bird.png" alt="Bird.png" width="364" >}}
 
-31. Oath
+### Oath
 
-## Official Optional Constraints:
+Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)
 
-31. Convey at least 2 textures. (metallic, fabric, leather, latex, plastic, wooden, etc)
+![Oath.png](/ob/attachements/Oath.png)
+
+Here we go…\
+31 days on pixel art, minus one miss…\
+that was a ride !\
+hope you liked it.

@@ -4,10 +4,10 @@ tags:
   - man
   - video_game
 date: 2025-06-12
-date modified: 2026-05-21
+date modified: 2026-05-31
 date created: 2026-03-18
 title: Gris
-lastmod: 2026-05-31T06:18:20.153Z
+lastmod: 2026-05-31T06:19:20.378Z
 ---
 ## Gris
 

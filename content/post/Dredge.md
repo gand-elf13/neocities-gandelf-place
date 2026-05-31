@@ -4,10 +4,10 @@ tags:
   - technique
   - video_game
 date: 2025-03-25
-date modified: 2026-05-21
+date modified: 2026-05-31
 date created: 2026-03-18
 title: Dredge
-lastmod: 2026-05-31T06:22:50.397Z
+lastmod: 2026-05-31T06:24:46.021Z
 ---
 Comme j’ai prise la mauvaise habitude d’analyser ce que je vois et de l’écrire, eh bien, je\
 suis de retour et, aujourd’hui, on parle de Dredge.

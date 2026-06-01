@@ -1,10 +1,10 @@
 ---
 tags: []
 date created: 2026-05-01
-date modified: 2026-05-31
+date modified: 2026-06-01
 date: 2026-05-01
 title: Pixel Maynia 2026
-lastmod: 2026-05-31T21:31:18.614Z
+lastmod: 2026-06-01T19:43:46.894Z
 ---
 Pixel Maynia is a month long pixel art event with one them per day to challenge you! Only by consistent practice can we get better at anything we do, so this is your opportunity to become great at pixel art! 
 

@@ -158,8 +158,22 @@ refLinksNotFoundURL = "/not-here-yet"
       inline = [['\(', '\)'], ['$', '$']]
 
 
+[mediaTypes]
+  [mediaTypes.'text/gemini']
+    suffixes = ['gmi']
+
+[outputFormats.GEMINI]
+  name = "GEMINI"
+  isPlainText = true
+  isHTML = false
+  mediaType = "text/gemini"
+  protocol = "gemini://"
+  permalinkable = true
+  path = "gemini"
+
 [outputs]
-  home = ['html', 'rss']
-  section = ['html', 'rss']
+  page = ['html', 'GEMINI']
+  home = ['html', 'rss','GEMINI']
+  section = ['html', 'rss', 'GEMINI']
   taxonomy = ['html']
   term = ['html']

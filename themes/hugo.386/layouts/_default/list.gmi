@@ -1,0 +1,7 @@
+## {{.Title}} grouped by year
+{{ range .RegularPages.GroupByDate "2006" }}
+### {{ .Key }}
+{{ range .Pages.ByDate.Reverse }}
+=> {{ .RelPermalink | strings.TrimPrefix "/gemini" }} {{ .Title }}
+{{- end }}
+{{ end }}

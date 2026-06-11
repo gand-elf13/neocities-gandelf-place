@@ -670,7 +670,7 @@ small {
 }
 
 strong {
-  font-weight: normal;
+  font-weight: bold;
   color: #ffffff;
 }
 
@@ -685,7 +685,7 @@ cite {
 
 i,
 cite,
-em,
+/*em,*/
 var,
 address,
 dfn {
@@ -694,13 +694,13 @@ dfn {
 
 i:before,
 cite:before,
-em:before,
+/*em:before,*/
 var:before,
 address:before,
 dfn:before,
 i:after,
 cite:after,
-em:after,
+/*em:after,*/
 var:after,
 address:after,
 dfn:after {

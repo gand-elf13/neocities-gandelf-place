@@ -4,7 +4,14 @@ title = 'gand_elf place'
 theme = 'hugo.386'
 description = "Welcome to gand_elf's place, a magical world where i talk a lot."
 
-DefaultContentLanguage = "en" # Change this to change the site's language
+DefaultContentLanguage = "fr" # Change this to change the site's language
+[languages]
+#  [languages.en]
+#    weight = 2
+#    title = "English"
+  [languages.fr]
+    weight = 1
+    title = "Français"
 
 preserveTaxonomyNames = true
 refLinksErrorLevel = "WARNING"

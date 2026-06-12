@@ -83,8 +83,7 @@ refLinksNotFoundURL = "/not-here-yet"
     identifier = "guestbook"
     name = "Livre d'or/Guestbook"
     url = "/guestbook"
-    parent = "info"
-    weight = 30
+    weight = 40
 
   [[menu.main]]
     identifier = "category"
@@ -142,7 +141,8 @@ refLinksNotFoundURL = "/not-here-yet"
     identifier = "writers-lane"
     name = "Writters Lane"
     url = "https://nightfall.city/writers-lane/"
-    weight = 40
+    parent = "misc"
+    weight = 30
     
 [taxonomies]
     tag = "tags"

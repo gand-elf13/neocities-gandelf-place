@@ -8,16 +8,12 @@
 {{ $content := $content | replaceRE `<a .*href="(.+?)".*>(.+?)</a>` "[$2]($1)" -}}
 {{ $content := $content | replaceRE `\sgemini://(\S*)` " [gemini://$1](gemini://$1)" -}}
 {{ $figurePattern := printf "%s" `\{\{<\s*figure\s+src="([^"]+)"\s+alt="([^"]+)"[^}]*\}\}` }}
-{{ $content := $content | replaceRE $figurePattern "\n\n=> $1 Image: $2" -}}
+{{ $content := $content | replaceRE $figurePattern "\n\n=> /gand_elf$1 Image: $2" -}}
 {{ $figurePatternNoAlt := printf "%s" `\{\{<\s*figure\s+src="([^"]+)"[^}]*\}\}` }}
-{{ $content := $content | replaceRE $figurePatternNoAlt "\n\n=> $1 Embedded Image: $1" -}}
-{{ $content := $content | replaceRE `{{ < audio "(.+?)" >}}` "=> https://brainbaking.com/$1 Embedded Audio link - $1" -}}
-{{ $content := $content | replaceRE `{{ < video "(.+?)" >}}` "=> https://brainbaking.com/$1 Embedded Video link - $1" -}}
-{{ $content := $content | replaceRE `{{ < youtube (.+?) >}}` "=> https://www.youtube.com/watch?v=$1 YouTube Video link to $1" -}}
-{{ $content := $content | replaceRE `{{ < vimeo (.+?) >}}` "=> https://vimeo.com/$1 Vimeo Video link to $1" -}}
+{{ $content := $content | replaceRE $figurePatternNoAlt "\n\n=> /gand_elf$1 Embedded Image: $1" -}}
 {{ $content := $content | replaceRE "([^`])<.*?>([^`])" "$1$2" -}}
-{{ $content := $content | replaceRE `\n\n!\[.*\]\((.+?) \"(.+?)\"\)` "\n\n=> $1 Image: $2" -}}
-{{ $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> $1 Embedded Image: $1" -}}
+{{ $content := $content | replaceRE `\n\n!\[.*\]\((.+?) \"(.+?)\"\)` "\n\n=> /gand_elf$1 Image: $2" -}}
+{{ $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> /gand_elf$1 Embedded Image: $1" -}}
 {{ $links := findRE `\n=> ` $content }}{{ $scratch.Set "ref" (add (len $links) 1) }}
 {{ $refs := findRE `\[.+?\]\(.+?\)` $content }}
 {{ $scratch.Set "content" $content }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $contentInLoop := $scratch.Get "content" }}{{ $url := (printf "%s #%d" . $ref) }}{{ $contentInLoop := replace $contentInLoop . $url -}}{{ $scratch.Set "content" $contentInLoop }}{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}{{ $content := $scratch.Get "content" | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$1 [$3]" -}}
@@ -25,7 +21,7 @@
 ---
 ## References
 {{ $scratch.Set "ref" (add (len $links) 1) }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $url := (printf "%s #%d" . $ref) }}
-=> {{ $url | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$2 [$3] $1 ($2)" -}}
+=> {{ $url | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "/gand_elf$2 [$3] $1 ($2)" -}}
 {{ $scratch.Set "ref" (add $ref 1) }}{{ end}}
 {{ $related := first 3 (where (where .Site.RegularPages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
 {{ if $related }}

@@ -169,7 +169,7 @@ refLinksNotFoundURL = "/not-here-yet"
   mediaType = "text/gemini"
   protocol = "gemini://"
   permalinkable = true
-  path = "gemini"
+  path = "gand_elf"
 
 [outputs]
   page = ['html', 'GEMINI']

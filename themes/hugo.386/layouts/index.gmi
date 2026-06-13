@@ -19,12 +19,12 @@ lI _______________________________  _____  _________I]
 # gang_elf Place on gemini
 
 ## Me
-=>/contact/ Contact
-=>/about/ About
+=>/gand_elf/contact/ Contact
+=>/gand_elf/about/ About
 
 ## Posts
-=>/post/ Mon Blog (gand_elf)
-=>/world fanfic WH40k de Kyrkos
-=>/gallery/ Ma gallerie, figurines, dessin, etc...
+=>/gand_elf/post/ Mon Blog (gand_elf)
+=>/gand_elf/world fanfic WH40k de Kyrkos
+=>/gand_elf/gallery/ Ma gallerie, figurines, dessin, etc...
 
 

@@ -33,5 +33,5 @@
 {{ range $related }}
 => {{ .RelPermalink | strings.TrimPrefix "/gemini" }} {{ .Title }}{{ end }}{{ end }}
 ---
-=> / Back to the Index
-=> https://gand-elf.neocities.org{{ .RelPermalink | strings.TrimPrefix "/gemini" | strings.TrimSuffix "index.gmi" }} View this article on the WWW
+=> /gand_elf Back to the Index
+=> https://gand-elf.neocities.org{{ .RelPermalink | strings.TrimPrefix "/gand_elf" | strings.TrimSuffix "index.gmi" }} View this article on the WWW

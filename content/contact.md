@@ -27,24 +27,20 @@ https://keys.openpgp.org/search?q=gand_elf%40disroot.org
 mailto:gand_elf@disroot.org
 
 gand_elf, propriétaire de https://gand-elf.neocities.org/
+
+miroir gemini : gemini://unbon.cafe/gand_elf
 -----BEGIN PGP SIGNATURE-----
 
-iQGyBAEBCgAdFiEE+IcPNXctXKEepBXfG8psBe3hLH8FAmoa1dkACgkQG8psBe3h
-LH+g+Qv3S4PKNrUscKutVjVqUhrJfvRPrtBMvcQoos1TeRmt+aGWqvVM+nrEJPOG
-fGCSQ4Srd9ErUoJunqGBCH+efEpI/H2lxjuo2jxzY9FXm9alPhcp10p4cfc7aXdY
-LkKHfSn5pHcsHFM4ymCWqZ5Dto9OslK43xky6QQ0pE1CM7wSa0HgxQ2sGSQm4TCX
-w/xmNBTydmljUz1dvE5Sgbq92ezRZal7SN5iMKwvpxH2lyUsDw2vT7ghSaWiFF1P
-ZB6jeXLFoOXIwqyWc7N+SoQhshcnk7dHO3Lubytbs5R7YNMQA8OqkHhaHPXQTJFh
-NAOBEHYfjzbQdoh4eXMYeOnkr2q/GxyKqhIIB45KtxLR/qJL+pqgY6fiyTPAE4A6
-nzOH6W8VBIOiP+T18Kq1l2qZWJ6HaVAoZ3W7lVqxt3bRHVriOC52FxW49e3n2k8W
-DJqX9/XpXCpUQ9mY+7X8RZ1yff8sAX75VrP0gDW5XHl12fjkgeBSdBs+ysfToqDp
-B6uO6Gg=
-=z7NT
+iQGzBAEBCgAdFiEE+IcPNXctXKEepBXfG8psBe3hLH8FAmotWqYACgkQG8psBe3h
+LH/B8Qv/QMW9d6fpQO2cwAQBnG2VnvuZh4zVhwBWN5QaWcxbYUjmUny2crKZCHnf
+c8ampIvO6kDWxn0Pa/YltvmiS8iJS7Qm1LthFZM6QCoGCYwT1hTJzDctzI3lBzV6
+wTSA4Tk9lBmIDPjp8xYjyn/z6hvh+VzXMHNHDtDUHrq3c5zypjVe5Hk+eeJ+VEP1
+GE7ZZSodX4Hkh9nuf663Ac0F5BrsIa8bmiTywSImb8/v4dXUf5s+TgNeZrBB1qCF
+LwpIlvHuIVgVU4thXnI8SE+2oP7cUZIIJDBt84Ix+dB+jwwXNY9box///kWFFuaD
+K8XNRBHe2IOZ9c08++Gi/bk5fT2e2I1nzdNm4ZJJ/PvYBNlMx0gc7T8XG4A8ICSK
+Nzi7BAI/10eu7bymUe6gHcO0WnXosKZAteKtXSFPnN05a61gndd9bPnPf7HIVqap
+EJABY4Xpl2jYRgh0F+1HB1BZKX9XVhDuYDirShCyxjhLroWAqStcCmPaxy9HiD/+
+ZDHrwzSP
+=7M5n
 -----END PGP SIGNATURE-----
 ```
-
-***
-
-ancienne clé, considérée comme invalide a partir du 30 mai 2026\
-[Openpgp](https://keys.openpgp.org/search?q=gandelfistaken@firemail.cc)\
-[BAB35582A84126CB3A0AC73C6ECAB7ADB86EEF6C.asc](/ob/attachements/BAB35582A84126CB3A0AC73C6ECAB7ADB86EEF6C.asc)

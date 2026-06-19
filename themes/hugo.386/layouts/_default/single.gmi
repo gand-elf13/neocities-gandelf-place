@@ -16,18 +16,19 @@
 {{ $content := $content | replaceRE `\n\n!\[.*]\((.+?)\)` "\n\n=> /gand_elf$1 Embedded Image: $1" -}}
 {{ $links := findRE `\n=> ` $content }}{{ $scratch.Set "ref" (add (len $links) 1) }}
 {{ $refs := findRE `\[.+?\]\(.+?\)` $content }}
+{{ $related := first 3 (where (where .Site.RegularPages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
 {{ $scratch.Set "content" $content }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $contentInLoop := $scratch.Get "content" }}{{ $url := (printf "%s #%d" . $ref) }}{{ $contentInLoop := replace $contentInLoop . $url -}}{{ $scratch.Set "content" $contentInLoop }}{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}{{ $content := $scratch.Get "content" | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$1 [$3]" -}}
 {{ $content | safeHTML }}
 ---
 ## References
-{{ $scratch.Set "ref" (add (len $links) 1) }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $url := (printf "%s #%d" . $ref) }}
-=> {{ $url | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "/gand_elf$2 [$3] $1 ($2)" -}}
-{{ $scratch.Set "ref" (add $ref 1) }}{{ end}}
-{{ $related := first 3 (where (where .Site.RegularPages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
-{{ if $related }}
+{{ $scratch.Set "ref" (add (len $links) 1) }}
+{{- range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $rawURL := . | replaceRE `\[.+?\]\((.+?)\)` "$1" }}{{ $isExternal := or (hasPrefix $rawURL "http") (hasPrefix $rawURL "gemini://") }}{{ $prefixed := cond $isExternal $rawURL (printf "/gand_elf%s" $rawURL) }}
+=> {{ $prefixed }} [{{ $ref }}] {{ . | replaceRE `\[(.+?)\]\(.+?\)` "$1" }} ({{ $prefixed }})
+{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}
+{{- if $related }}
 ## Related articles
-{{ range $related }}
-=> {{ .RelPermalink | strings.TrimPrefix "/gemini" }} {{ .Title }}{{ end }}{{ end }}
+{{- range $related }}
+=> {{ .RelPermalink }} {{ .Title }}{{ end }}{{ end }}
 ---
-=> /gand_elf Back to the Index
+=> /gand_elf/ Back to the Index
 => https://gand-elf.neocities.org{{ .RelPermalink | strings.TrimPrefix "/gand_elf" | strings.TrimSuffix "index.gmi" }} View this article on the WWW

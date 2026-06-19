@@ -1,4 +1,4 @@
-baseURL = 'https://gand-elf.neocities.org/'
+baseURL = 'gemini://unbon.cafe/gand_elf/'
 languageCode = 'en-us'
 title = 'gand_elf place'
 theme = 'hugo.386'
@@ -150,14 +150,6 @@ refLinksNotFoundURL = "/not-here-yet"
 [markup.goldmark.renderer] 
     unsafe=true
 
-[markup.goldmark.extensions]
-  [markup.goldmark.extensions.passthrough]
-    enable = true
-    [markup.goldmark.extensions.passthrough.delimiters]
-      block = [['\[', '\]'], ['$$', '$$']]
-      inline = [['\(', '\)'], ['$', '$']]
-
-
 [mediaTypes]
   [mediaTypes.'text/gemini']
     suffixes = ['gmi']
@@ -169,11 +161,8 @@ refLinksNotFoundURL = "/not-here-yet"
   mediaType = "text/gemini"
   protocol = "gemini://"
   permalinkable = true
-  path = "gand_elf"
 
 [outputs]
-  page = ['html', 'GEMINI']
-  home = ['html', 'rss','GEMINI']
-  section = ['html', 'rss', 'GEMINI']
-  taxonomy = ['html']
-  term = ['html']
+  page = ['GEMINI']
+  home = ['rss','GEMINI']
+  section = ['rss', 'GEMINI']

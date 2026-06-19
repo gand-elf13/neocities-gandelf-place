@@ -1,5 +1,17 @@
 # {{ .Title }}{{ $scratch := newScratch }}
 {{ $content := .RawContent -}}
+
+{{/* --- Protect fenced code blocks before any rewriting --- */}}
+{{ $codeBlocks := findRE "(?s)```.*?```" $content }}
+{{ $scratch.Set "content" $content }}
+{{ range $i, $block := $codeBlocks }}
+  {{ $placeholder := printf "\u0000CODEBLOCK%d\u0000" $i }}
+  {{ $c := $scratch.Get "content" }}
+  {{ $c := replace $c $block $placeholder }}
+  {{ $scratch.Set "content" $c }}
+{{ end }}
+{{ $content := $scratch.Get "content" }}
+
 {{ $content := $content | replaceRE `#### ` "### " -}}
 {{ $content := $content | replaceRE `\n- (.+?)` "\n* $1" -}}
 {{ $content := $content | replaceRE `\n(\d+). (.+?)` "\n* $2" -}}
@@ -18,6 +30,17 @@
 {{ $refs := findRE `\[.+?\]\(.+?\)` $content }}
 {{ $related := first 3 (where (where .Site.RegularPages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
 {{ $scratch.Set "content" $content }}{{ range $refs }}{{ $ref := $scratch.Get "ref" }}{{ $contentInLoop := $scratch.Get "content" }}{{ $url := (printf "%s #%d" . $ref) }}{{ $contentInLoop := replace $contentInLoop . $url -}}{{ $scratch.Set "content" $contentInLoop }}{{ $scratch.Set "ref" (add $ref 1) }}{{ end }}{{ $content := $scratch.Get "content" | replaceRE `\[(.+?)\]\((.+?)\) #(\d+)` "$1 [$3]" -}}
+
+{{/* --- Restore the protected code blocks, untouched --- */}}
+{{ $scratch.Set "content" $content }}
+{{ range $i, $block := $codeBlocks }}
+  {{ $placeholder := printf "\u0000CODEBLOCK%d\u0000" $i }}
+  {{ $c := $scratch.Get "content" }}
+  {{ $c := replace $c $placeholder $block }}
+  {{ $scratch.Set "content" $c }}
+{{ end }}
+{{ $content := $scratch.Get "content" }}
+
 {{ $content | safeHTML }}
 ---
 ## References

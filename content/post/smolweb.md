@@ -1,12 +1,12 @@
 ---
 tags:
   - IT
-date:
+date: 2026-06-19
 date modified: 2026-06-19
 draft: false
 date created: 2026-06-19
 title: Fascination pour le smolweb
-lastmod: 2026-06-19T17:44:13.163Z
+lastmod: 2026-06-19T20:41:32.998Z
 ---
 Ce n'est pas un secret, j'aime ce qui sort de l'ordinaire. Des livre, films, qui repoussent les limites, mais aussi des projets un peu bizarre, et internet est le lieu idéal pour en trouver.\
 Et récemment, j'ai trouvé beaucoup de choses ! Aujourd'hui je vous parle du *smolweb*, de comment je l'ai découvert et tout ce que j'ai trouvé a coté.

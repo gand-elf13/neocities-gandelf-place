@@ -13,7 +13,7 @@ credit to hugo.386 theme that is use
 ## TO-DO
 
 - [ ] investigate table weird rendering
-- [ ] cleanely fill the empty space under recent posts
+- [x] cleanely fill the empty space under recent posts : clean enough
 - [x] add a good looking link to KYRKOS fan fics
 - [x] add a licence for both code and content
-- [ ] fine tune the vines
+- [x] fine tune the vines : i guess they're good now, let me know what you think

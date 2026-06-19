@@ -11,7 +11,7 @@ DefaultContentLanguage = "fr" # Change this to change the site's language
 #    title = "English"
   [languages.fr]
     weight = 1
-    title = "Français"
+    title = "gand_elf place"
 
 preserveTaxonomyNames = true
 refLinksErrorLevel = "WARNING"

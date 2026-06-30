@@ -3,15 +3,16 @@ tags:
   - man
   - video_game
 date:
-date modified: 2026-06-29
+date modified: 2026-06-30
 date created: 2026-06-29
 draft: false
 title: ARMACULTURE, peut-on gagner la guerre ?
-lastmod: 2026-06-29T18:12:24.810Z
+extra_js: /js/snow.js
+lastmod: 2026-06-30T11:00:39.188Z
 ---
 Arma culture est un jeu indépendant gratuit !
 
-<https://store.steampowered.com/app/1617190/ArmaCulture/>
+[armaculture](https://store.steampowered.com/app/1617190/ArmaCulture/)
 
 Allez y jouer, il est excellent !\
 c'est d'ailleurs ce qui nous intéresse aujourd'hui, pourquoi ce jeu est excellent.

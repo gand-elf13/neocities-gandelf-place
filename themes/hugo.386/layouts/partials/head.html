@@ -12,4 +12,7 @@
     <link rel="canonical" href="{{ .Site.BaseURL }}">
     {{/* Don't ask why it's like this. This original theme is a mess... */}}
     <!-- <noscript><style>body { visibility: visible }</style></noscript> -->
+  {{ if .Params.extra_js }}
+    <script src="{{ .Params.extra_js }}" defer></script>
+  {{ end }}
 </head>

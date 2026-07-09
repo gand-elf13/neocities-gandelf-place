@@ -1,11 +1,11 @@
 ---
 tags: []
-date:
+date: 2026-07-09
 date modified: 2026-07-09
 date created: 2026-07-09
 draft: false
 title: The Witcher III est déséquilibré
-lastmod: 2026-07-09T14:58:45.123Z
+lastmod: 2026-07-09T15:03:20.352Z
 ---
 ## Le Sorceleur 3 Chasse Sauvage
 

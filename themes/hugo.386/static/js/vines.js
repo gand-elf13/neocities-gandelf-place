@@ -70,6 +70,9 @@ window.VINE_CFG = {
   /* ── TAG INJECTION ───────────────────────────────────────── */
   tagSource: { type: 'bodyAttr', attr: 'data-tags' },
 
+  /* ── PROPERTY INJECTION (single value, e.g. Hugo front-matter) ── */
+  propertySource: { type: 'bodyAttr', attr: 'data-flower' },
+
   /* ── TRIGGERS ───────────────────────────────────────────── */
   triggers: {
     onLoad:           { clusters: 2, depth: 3, chance: 0.5,   cooldownMs: 0     },
@@ -192,6 +195,17 @@ window.VINE_DECORATION_TYPES = {
     stemPalettes: [['#0a1a06','#102808','#16380a']],
     clusters(drawPixel, x, y, px, rgb, cfg, rng) {
       _thorn(drawPixel, x, y, px, rng, {r:15, g:12, b:10 });
+    },
+  },
+
+  thorns_white_burned: {
+    label: 'Burned vines, white thorns',
+    stemPalettes: [
+      ['#0a0a0a','#1a1a1a','#2a2a2a','#3a3a3a','#4a4a4a'], // charred/ash black-grey
+      ['#120e0a','#221a12','#32261a','#423222','#523e2a'], // burnt umber / scorched wood
+    ],
+    clusters(drawPixel, x, y, px, rgb, cfg, rng) {
+      _thorn(drawPixel, x, y, px, rng, {r:235,g:235,b:230});
     },
   },
 
@@ -325,13 +339,38 @@ function _thorn(drawPixel, x, y, px, rng, col) {
     }
   }
 
+  /* ── SINGLE-PROPERTY DETECTION (e.g. Hugo front-matter field) ── */
+  function resolvePageProperty() {
+    if (!CFG.propertySource) return null;
+    let raw = null;
+    if (CFG.propertySource.type === 'bodyAttr')
+      raw = document.body.getAttribute(CFG.propertySource.attr);
+    else if (CFG.propertySource.type === 'meta') {
+      const m = document.querySelector(`meta[name="${CFG.propertySource.name}"]`);
+      if (m) raw = m.getAttribute('content');
+    }
+    if (!raw) return null;
+    return raw.trim().toLowerCase() || null;
+  }
+
   const pageTags = resolvePageTags();
+  const pageProperty = resolvePageProperty();
 
   function decoFromTags(tags) {
     for (const tag of tags) {
       const mapped = CFG.tagDecorationMap[tag];
       if (mapped && TYPES[mapped]) return mapped;
     }
+    return null;
+  }
+
+  function decoFromProperty(prop) {
+    if (!prop) return null;
+    // Direct match: property value IS a decoration key (e.g. flower: "thorns_white_burned")
+    if (TYPES[prop]) return prop;
+    // Mapped match: property value is a friendly keyword (e.g. flower: "burned")
+    const mapped = CFG.propertyDecorationMap && CFG.propertyDecorationMap[prop];
+    if (mapped && TYPES[mapped]) return mapped;
     return null;
   }
 
@@ -355,8 +394,9 @@ function _thorn(drawPixel, x, y, px, rng, col) {
 
   for (const key in sessionCfg.variance) CFG[key] = sessionCfg.variance[key];
 
-  const pageTagDeco = decoFromTags(pageTags);
-  let activeDecoKey = pageTagDeco || sessionCfg.decoType;
+  const pagePropertyDeco = decoFromProperty(pageProperty);
+  const pageTagDeco      = decoFromTags(pageTags);
+  let activeDecoKey = pagePropertyDeco || pageTagDeco || sessionCfg.decoType;
   if (!TYPES[activeDecoKey]) activeDecoKey = Object.keys(TYPES)[0];
 
   const decoPlugin      = Object.assign({}, TYPES[activeDecoKey]);

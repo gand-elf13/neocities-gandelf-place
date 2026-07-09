@@ -5,7 +5,9 @@ date modified: 2026-07-09
 date created: 2026-07-09
 draft: false
 title: The Witcher III est déséquilibré
-lastmod: 2026-07-09T15:03:20.352Z
+extra_js: /js/fire.js
+flower: thorns_white_burned
+lastmod: 2026-07-09T15:34:48.145Z
 ---
 ## Le Sorceleur 3 Chasse Sauvage
 

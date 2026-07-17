@@ -11,6 +11,8 @@ Vous pouvez suivre ce site sur ce lien [RSS](https://gand-elf.neocities.org/post
 
 Parlez moi sur Matrix : [@gand\_elf:federated.nexus](https://matrix.to/#/@gandelf:federated.nexu)
 
+Ou sur SimpleX : [gand_elf](https://smp17.simplex.im/a#N5YajW8KWg8fkiM003DYYCHkIv0HP7isr2dQhMa0pZU)
+
 Ou par mail : <gand_elf@disroot.org>\
 **n'oubliez pas d'utiliser [Openpgp](https://keys.openpgp.org/search?q=gand_elf%40disroot.org)** et de me communiquer votre clé publique si vous attendez une réponse.
 

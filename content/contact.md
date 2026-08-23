@@ -1,11 +1,11 @@
 ---
 tags: []
 date:
-date modified: 2026-05-30
+date modified: 2026-08-17
 draft: false
 date created: 2026-05-14
 title: contact
-lastmod: 2026-08-16T13:18:12.230Z
+lastmod: 2026-08-17T13:48:29.662Z
 ---
 Vous pouvez suivre ce site sur ce lien [RSS](https://gand-elf.neocities.org/post/index.xml)
 

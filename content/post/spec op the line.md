@@ -5,10 +5,10 @@ tags:
 date: 2026-08-23
 date modified: 2026-08-24
 date created: 2026-08-18
-draft: true
+draft: false
 title: "Do you feel like a hero yet? Spec Ops: The Line"
 extra_js: /js/phosphorus.js
-lastmod: 2026-08-24T09:49:45.107Z
+lastmod: 2026-08-24T10:09:34.818Z
 ---
 Le héros arrive en haut de la tour, prêt à confronter le boss final, le vilain, à lui faire payer la mort de ses compagnons. Le héros, c'est toi, quand une fois arrivé, on te laisse un choix. Tu as 5 secondes pour tuer Konrad, le tortionnaire qui t'a forcé à tuer tant d'innocents. Prends trop de temps, et c'est lui qui te tuera.
 

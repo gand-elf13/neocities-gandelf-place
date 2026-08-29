@@ -3,12 +3,12 @@ tags:
   - man
   - video_game
 date: 2026-08-23
-date modified: 2026-08-24
+date modified: 2026-08-29
 date created: 2026-08-18
 draft: false
 title: "Do you feel like a hero yet? Spec Ops: The Line"
 extra_js: /js/phosphorus.js
-lastmod: 2026-08-24T10:09:34.818Z
+lastmod: 2026-08-29T18:22:55.222Z
 ---
 Le héros arrive en haut de la tour, prêt à confronter le boss final, le vilain, à lui faire payer la mort de ses compagnons. Le héros, c'est toi, quand une fois arrivé, on te laisse un choix. Tu as 5 secondes pour tuer Konrad, le tortionnaire qui t'a forcé à tuer tant d'innocents. Prends trop de temps, et c'est lui qui te tuera.
 
@@ -91,10 +91,6 @@ Alors oui, probablement qu'en plus de l'interventionnisme américain, Yager Deve
 
 Mais je ne pense pas que l'on soit au bout du pourquoi de ce jeu étonnant.
 
-Dans Spec Ops, un truc récurrent, c'est que l'on a le choix. Aucun choix n'est explicite mais il existe : quand des civils nous attaquent, on peut leur tirer dessus, simplement leur donner des coups de poing, tirer dans les jambes ou en l'air. Mais il faut y penser, avoir le réflexe de ne pas viser la tête.
-
-Mais il y a un moment où l'on n'a pas le choix. Quand il faut tirer le phosphore blanc, notre équipe ne veut pas et pourtant Walker (le personnage que l’on joue) décide que c’est nécessaire et qu’il faut le faire. La scène est impossible à passer. Et du coup, bah pourquoi ? Quand tu le fais, tu sais que c’est mal et tu ne peux rien faire, tu es impuissant. Difficile de se dire que c’est une action pour laquelle il est légitime d’être puni.
-
 * **Conflict: Desert Storm** — 2002
 * **Conflict: Desert Storm II** — 2003
 * **Kuma\War** — 2004
@@ -107,7 +103,11 @@ Mais il y a un moment où l'on n'a pas le choix. Quand il faut tirer le phosphor
 
 J'amène ça ici, car il y a quelque chose qui vous a peut-être frustré en jouant, et je vais vous donner une explication de pourquoi.
 
-Ça, c'est une liste de jeux sortis avant Spec Ops et qui l'ont probablement influencé. Ce sont des jeux où on se bat pour les États-Unis à l'étranger, et même si leur succès est mitigé, il y a des leçons à prendre.
+Dans Spec Ops, un truc récurrent, c'est que l'on a le choix. Aucun choix n'est explicite mais il existe : quand des civils nous attaquent, on peut leur tirer dessus, simplement leur donner des coups de poing, tirer dans les jambes ou en l'air. Mais il faut y penser, avoir le réflexe de ne pas viser la tête.
+
+Mais il y a un moment où l'on n'a pas le choix. Quand il faut tirer le phosphore blanc, notre équipe ne veut pas et pourtant Walker (le personnage que l’on joue) décide que c’est nécessaire et qu’il faut le faire. La scène est impossible à passer. Et du coup, bah pourquoi ? Quand tu le fais, tu sais que c’est mal et tu ne peux rien faire, tu es impuissant. Difficile de se dire que c’est une action pour laquelle il est légitime d’être puni.
+
+Le truc avant, c'était une liste de jeux sortis avant Spec Ops et qui l'ont probablement influencé. Ce sont des jeux où on se bat pour les États-Unis à l'étranger, et même si leur succès est mitigé, il y a des leçons à prendre.
 
 Jusqu'alors, se battre dans le jeu vidéo, c'est normal, c’est même bien d’ailleurs. On incarne des héros qui tuent des milliers de personnes… mais qui s'en soucie ! C’est fun !
 

@@ -6,7 +6,7 @@ tags:
 date created: 2026-03-13
 title: "Omarchy : the End of My Linux Jounery ?"
 draft: false
-lastmod: 2026-08-31T10:44:20.517Z
+lastmod: 2026-08-31T10:45:27.809Z
 ---
 My main computer is now running omarchy, and i don't think i'll ever change that again.
 

@@ -1,10 +1,10 @@
 ---
 tags: []
 date: 2025-06-12
-date modified: 2026-05-21
+date modified: 2026-09-06
 date created: 2026-03-13
 title: Losing You
-lastmod: 2026-05-21T19:20:57.341Z
+lastmod: 2026-09-06T10:56:03.314Z
 ---
 ***
 
@@ -18,647 +18,728 @@ Nettoyage *terminé* j'ai just formaté correctement et corrigé les grosses inc
 
 ***
 
-it was good to Splosh and it was good to work, and one may work and Splosh at the same time, so he did flailing and floping through the water maintaining the great ocean, the task entrusted to him. He sensed a little bitterness in the northern waters today, and so he busied off to the Sulfur Springs and began bringing things back to neutral. As he worked he swam over those workers who cleaned the sea floor, they where simpler than him but seemed very happy.
+It was good to Splosh, and it was good to work — and one may work and Splosh at the same time, so he did, flailing and floating through the water, maintaining the great ocean, the task entrusted to him.
 
--Hello he said in radio
+He sensed a little bitterness in the northern waters that day, and so he busied himself off to the Sulfur Springs and began bringing things back to neutral. As he worked, he swam over the workers who cleaned the sea floor. They were simpler than him, but they seemed very happy.
 
--oh Hello they said what a morning
+"Hello," he said over the radio.
 
--what a morning he agreed. He liked the sea floor workers but he wondered why they did not wonder like him because they never did never asked questions never questioned the purpose of their work. Why, he thought it's such a nice day, i'll educate them a little
+"Oh, hello," they said. "What a morning."
 
--hey he said to the workers did you know there's a whole world above the ocean floor
+"What a morning," he agreed.
 
--no they said
+He liked the sea floor workers, but he wondered why they did not wonder like him — why they never asked questions, never questioned the purpose of their work. *Why*, he thought, *it's such a nice day — I'll educate them a little.*
 
--oh yes he continued thousands of workers like me up there and sea creatures and birds and clouds, the world is enormous and you'll never see any of it because you're stuck down here doing pointless unskilled labor forever. And now you know, there isn't that better
+"Hey," he said to the workers, "did you know there's a whole world above the ocean floor?"
 
--ah yeah they said and nothing after that
+"No," they said.
 
-A little more filtration and all the bitterness was gone from the water
+"Oh, yes," he continued. "Thousands of workers like me up there, and sea creatures, and birds, and clouds. The world is enormous — and you'll never see any of it, because you're stuck down here doing pointless, unskilled labor forever. And now you know. Isn't that better?"
 
-Then there were hours of daylight left, and so he played, ascending from the depths of the ocean, the pressure getting all tingly on his hull, swimming among the giddy fish and tentacle things, each creature busy in its work and sure of its duties as he was, everything in its right place.
+"Ah, yeah," they said, and nothing after that.
 
-then propelling himself even further up from the depths, whizzing, looping, Gosh, it was good to be alive, past the other filtration workers like him up into the shallow water
+A little more filtration, and all the bitterness was gone from the water.
 
-then bursting, dolphin like, whatever a dolphin was, up through the surface and crashing gloriously back into the waves. But what was that over there bobbing on the water ? Debris maybe, technically it wasn't his job to tidy the ocean surface but he propelled himself a little closer yes it was a worker like him only with rather different polymer skin
+Then there were hours of daylight left, and so he played — ascending from the depths of the ocean, the pressure tingling on his hull, swimming among the giddy fish and tentacled things, each creature busy in its work and sure of its duties, just as he was, everything in its right place.
 
--Hello he said, the worker didn't replied\
--are you injured  he said, the worker didn't replied
+Then, propelling himself even further up from the depths — whizzing, looping — *gosh, it was good to be alive* — past the other filtration workers like him, up into the shallow water, then bursting, dolphin-like (whatever a dolphin was), up through the surface and crashing gloriously back into the waves.
 
-well he wasn't so busy and it was a lovely day to do a lovely thing so with his gravity field he dragged the worker a little way to the coast of a small island and holded up onto the beach he looked the thing over strange its vents were open and water had clearly gotten inside he purged the vents and dried them out with a blast of hot air
+But what was that over there, bobbing on the water? Debris, maybe. Technically it wasn't his job to tidy the ocean surface, but he propelled himself a little closer. Yes — it was a worker like him, only with rather different polymer skin.
 
--Hi  he said
+"Hello," he said. The worker didn't reply.
 
--oh God the worker said
+"Are you injured?" he said. The worker didn't reply.
 
--ah you can talk
+Well, he wasn't so busy, and it was a lovely day to do a lovely thing, so with his gravity field he dragged the worker a little way to the coast of a small island and hauled her up onto the beach. He looked her over — strange, her vents were open and water had clearly gotten inside. He purged the vents and dried her out with a blast of hot air.
 
--I was drowning you idiot  she said should I drown and talk at the same time
+"Hi," he said.
 
--hm  He said, Is this friending? Do you wish for a friend?
+"Oh, God," the worker said.
 
--I wish you'd put me back in the ocean, and then I wish you'd piss off, she said.
+"Ah — you can talk."
 
--He said, But I don't think you're designed for the ocean, water to get inside you,
+"I was drowning, you idiot," she said. "Should I drown and talk at the same time?"
 
--revelatory. She said, What other pearls of insight are awaiting in that abandoned pistachio of a brain of yours?
+"Hm," he said. "Is this friending? Do you wish for a friend?"
 
--He said, Clearly she was damaged, but even so, she began haphazardly shuffling down the beach back to the ocean again. No! he said. You're not made for water,
+"I wish you'd put me back in the ocean, and then I wish you'd piss off," she said.
 
--ahuh. She said,
+"But I don't think you're designed for the ocean," he said. "Water got inside you."
 
--I really think you shouldn't go back in there. He tried, I really think you should
+"Revelatory," she said. "What other pearls of insight are waiting in that abandoned pistachio of a brain of yours?"
 
--Fuck Off! she snapped and continued on with more resolve.
+Clearly she was damaged — but even so, she began haphazardly shuffling down the beach, back toward the ocean.
 
--Please don't, he begged. Why? she said.
+"No!" he said. "You're not made for water."
 
-Then, surprising himself, he shouted—he really shouted—and he shouted, Because you're a boat!
+"Uh-huh," she said.
 
--What? she muttered incredulously.
+"I really think you shouldn't go back in there," he tried. "I really think you should—"
 
--You're not made for going underwater, so you must be a boat, I think. Isn't that what surface things are called?
+"—Fuck off!" she snapped, and continued on with more resolve.
 
--She said, In my time on this watery ball of rot among the ranks of idiots and morons, I have never met an idiot more moronic nor a moron more idiotic.
+"Please don't," he begged.
 
--Okay, he said, Is this friending? Are we friends now?
+"Why?" she said.
 
--No, she said, there are no friends, only people you don't realize are using you yet.
+Then, surprising himself, he shouted — he really shouted — "Because you're a boat!"
 
-Then, seemingly with all her power, she made a final bid for the ocean and stopped, suddenly fixated on something in the sand
+"*What?*" she muttered, incredulous.
 
--what is that? she said.
+"You're not made for going underwater, so you must be a boat — I think. Isn't that what surface things are called?"
 
--Oh, it's a make-a-thing, he said. They turn up here all the time
+"In all my time on this watery ball of rot, among the ranks of idiots and morons," she said, "I have never met an idiot more moronic, nor a moron more idiotic."
 
--make a thing. She said
+"Okay," he said. "Is this friending? Are we friends now?"
 
-it was clearly artificial but a totally unfamiliar design. She spotted more of them. Where does this stuff come from? she said. Oh, he said it washes up from the bottom of the ocean. There's an old wreck of something down there, but I suppose you wouldn't know about that because you're a boat.
+"No," she said. "There are no friends. Only people you don't realize are using you yet."
 
--I'm not a boat, she said with a sigh. Have you found a lot of these things?
+Then, seemingly with all her remaining power, she made a final bid for the ocean — and stopped, suddenly fixated on something in the sand.
 
--He said, Oh yes, I collect them. When the makers come, they'll want it all back, I'm sure.
+"What is that?" she said.
 
--When the makers come, she said, You hopeless idiot, take me to where these things come from.
+"Oh, it's a make-a-thing," he said. "They turn up here all the time."
 
--He said, Mousely, but you weren't built for the ocean.
+"A make-a-thing," she said. It was clearly artificial, but of a totally unfamiliar design. She spotted more of them scattered nearby. "Where does this stuff come from?"
 
--She said, I have bulkheads. I can survive under the water just fine if I want to.
+"Oh," he said, "it washes up from the bottom of the ocean. There's an old wreck of something down there. But I suppose you wouldn't know about that, because you're a boat."
 
--and yet you didn't seem to want to earlier, he said.
+"I'm not a boat," she said, with a sigh. "Have you found a lot of these things?"
 
--She said, Stop trying to be clever; you weren't designed for it.
+"Oh, yes. I collect them. When the makers come, they'll want it all back, I'm sure."
 
--What were you designed for? He asked
+"When the makers come," she said, "you hopeless idiot — take me to where these things come from."
 
--the sky, she said,
+"But you weren't built for the ocean," he said.
 
-and he was going to protest that no one lived in the sky when he looked up to the clouds and saw shapes and silhouettes moving about with intention and industry. He realized, Suddenly he realized that he'd never looked up at all, that those workers in the sky must have been there the whole time, and he'd never seen them.
+"I have bulkheads. I can survive underwater just fine, if I want to."
 
--She said, The source of the artifacts—take me there now, please. And when he ummed and N in silence, she pressed,
+"And yet you didn't seem to want to earlier," he said.
 
--Take me, or I'll just go myself.
+"Stop trying to be clever. You weren't designed for it."
 
-And so, tentatively, he led her back to the water and Sploshed in, and she rolled after him under the waves.
+"What were you designed for?" he asked.
 
-Then he kept discreetly scanning her, and sure enough, she didn't falter. Her vents closed this time.
+"The sky," she said.
 
--What's your name? she said.
+He was going to protest that no one lived in the sky, when he looked up at the clouds and saw shapes and silhouettes moving with intention and industry. He realized, suddenly, that he'd never looked up at all — that those workers in the sky must have been there the whole time, and he'd simply never seen them.
 
--I'd never thought to have one, he answered.
+"The source of the artifacts," she said. "Take me there. Now, please."
 
--Everyone has a name.
+When he only hummed and hedged in silence, she pressed: "Take me, or I'll go myself."
 
--Filtration workers don't, he said. What's yours,
+And so, tentatively, he led her back to the water and Sploshed in, and she rolled after him beneath the waves.
 
--Rya she said. It means 'friend,' but don't get any ideas. Well, what do you like most in the world?
+He kept discreetly scanning her as they swam, and sure enough, she didn't falter. Her vents stayed closed this time.
 
--Sploshing, he said.
+"What's your name?" she said.
 
--She said that's not a name.
+"I'd never thought to have one," he answered.
 
--No, he said with sudden explosive Joy, it is Splosh. Doesn't it sound wonderful?
+"Everyone has a name."
 
--Deranged, more like. She said, And why do you want to meet the makers so badly anyway?
+"Filtration workers don't," he said. "What's yours?"
 
--He said, Because when they come here and they see my good deeds, they will make me clever to say thank you.
+"Rya," she said. "It means 'friend.' Don't get any ideas. Well — what do you like most in the world?"
 
--And Why do you want to be clever? she asked.
+"Sploshing," he said.
 
--He said, Because. Then I wouldn't just know about things but what things mean,
+"That's not a name."
 
--and what if none of it means anything? She asked,
+"No," he said, with sudden, explosive joy, "it *is* — Splosh. Doesn't it sound wonderful?"
 
--Then at least I'd know that, he said,
+"Deranged, more like," she said. "And why do you want to meet the makers so badly, anyway?"
 
-down and deeper into the lurking MC of wilting coral and silt and almost at the sea floor.  She said, Are we almost there? And when he didn't answer, she added with great irritation, Are we almost there, Splosh?
+"Because when they come here and see my good deeds, they'll make me clever, to say thank you."
 
--Don't you see it? He said, There it was, the great wreck lying on the great sea floor, hundreds of feet across, not grown but made. Splosh heard her firing radio bursts at the thing, interrogating it.
+"And why do you want to be clever?" she asked.
 
--It doesn't talk, he said. It's not alive,
+"Because then I wouldn't just know about things — I'd know what things *mean*."
 
--neither are you, barely, but you don't shut up. She murmured,
+"And what if none of it means anything?" she asked.
 
--They swam inside, miniature like mice in a cathedral, unfamiliar apparatus everywhere. Who made this? She said,
+"Then at least I'd know that," he said.
 
--The makers, and he replied,
+Down and deeper they went, into the murk of wilting coral and silt, and almost to the sea floor. "Are we almost there?" she said. And when he didn't answer, she added, with great irritation, "Are we almost there, Splosh?"
 
--There are no makers. She said, It's ridiculous superstition.
+"Don't you see it?" he said.
 
--He said, But you're clever; you must know about the makers, to which she only scoffed in gamma waves and continued on.\
-They swam through corridors of equipment and came upon a bank of ancient computers. Microbes compared to their minds,
+There it was — the great wreck, lying on the sea floor, hundreds of feet across, not grown but *made*. Splosh heard her firing radio bursts at the thing, interrogating it.
 
--what is this place? she said.
+"It doesn't talk," he said. "It's not alive."
 
--It's where I found the Data Vault, he said. It's how I know about the makers'
+"Neither are you, barely," she murmured. "But you don't shut up."
 
--Data Vault, she said. And where is that now?
+They swam inside, tiny as mice in a cathedral, unfamiliar apparatus everywhere.
 
--Oh, I ate it, he reported happily.
+"Who made this?" she said.
 
--You what? How else could I absorb it all? I ate it. I thought it would make me clever, he said,
+"The makers," he replied.
 
--and now it's inside you. She asked, Damn, Splosh?
+"There are no makers," she said. "It's ridiculous superstition."
 
--He agreed and did a little backflip.
+"But you're clever," he said. "You must know about the makers." To which she only scoffed in gamma-wave static and continued on.
 
-Then, without warning, he blurted out all the information he'd gleaned in every bandwidth he could manage: ancient cat, Walling separate dioramas The wail of alien creatures, the wavering of alien bowels, and fleshy things thinking and walking and clustering everything up and wanting and living to be a limited meat thing, to know one's time is tiny, to feel trapped and want for more, to be free and feel somehow trapped
+They swam through corridors of equipment and came upon a bank of ancient computers — microbes, compared to their own minds.
 
--what in 10 hells is this? Rya said.
+"What is this place?" she said.
 
--Splosh said, The Makers, you see, and they're coming back; they wouldn't leave us here alone
+"It's where I found the Data Vault," he said. "It's how I know about the makers."
 
--Rya perked up.
+"The Data Vault," she said. "And where is that now?"
 
--Suddenly, she said there's someone I need to show all this information to,
+"Oh, I ate it," he reported happily.
 
--and Splosh said to the people in the sky,
+"You *what*?"
 
--She said maybe they can make sense of it. Well, thanks for everything. Best of luck on your evolutionary adventure. When the depression hits, don't worry; that's perfectly normal. She began ascending.\
-Hey, Splosh, she said, that's not all the data you gave me.\
--You gave me enough, she said,
+"How else could I absorb it all? I ate it. I thought it would make me clever."
 
--but you can't leave me here now.
+"And now it's inside you," she said. "Damn it, Splosh."
 
--Why not? She asked
+He agreed, and did a little backflip.
 
--he said because we just met,
+Then, without warning, he blurted out all the information he'd gleaned, in every bandwidth he could manage — an ancient cat, walls of separate dioramas, the wail of alien creatures, the wavering of alien voices, and fleshy things thinking and walking and clustering and wanting; the ache of being a limited, mortal thing; of knowing one's time is short; of feeling trapped, and wanting more; of being free, and somehow still feeling trapped.
 
--and I already dislike you thoroughly, she called from high above,
+"What in ten hells is this?" Rya said.
 
--but what about the coordinates? He said,
+"The Makers," Splosh said. "You see — they're coming back. They wouldn't leave us here alone."
 
--What coordinates? She paused.
+Rya perked up.
 
--They were hidden in the data, he said. They lead to a planet, I think, maybe a maker walth.
+"There's someone I need to show all this to," she said suddenly.
 
--Then give them to me, she demanded,
+"To the people in the sky?" Splosh said.
 
--and ever so proud of himself, he leveraged the first leverage of his 3,000-year life, and he said, 'No, I think you should take me with you to the clever places above so I become clever too.' I could disassemble you, you know, she murmured, take you to pieces, get the coordinates that way,
+"Maybe they can make sense of it," she said. "Well — thanks for everything. Best of luck on your evolutionary adventure. When the depression hits, don't worry — that's perfectly normal." She began ascending.
 
--but you wouldn't. He said, We're friends. Ryia means 'friend.'
+"Hey, Rya," Splosh said, "that's not all the data you took."
 
--She spun in frustration and said, It's just not done.
+"You gave me enough," she said.
 
--Splosh said, Creatures don't belong upstairs any more than I belong down here, but you are here, and now we're friends.
+"But you can't leave me here now."
 
--She deliberated a long moment in silence, anguished little pings of radiostatic
+"Why not?" she asked, pausing.
 
--Then she said, Tiredly, you won't tamper with or touch anything.
+"Because we just met."
 
--Oh sure, he said,
+"And I already dislike you thoroughly," she called from high above.
 
--or interject or pontificate, whatever those are.
+"But what about the coordinates?" he said.
 
--Certainly, he agreed,
+She stopped. "What coordinates?"
 
--and the whole time you will need to shut up.
+"They were hidden in the data," he said. "They lead to a planet, I think. Maybe a maker world."
 
--Yes, he did a little backflip, universally indicating big excellent.
+"Then give them to me," she demanded.
+
+And — ever so proud of himself, leveraging the first leverage of his three-thousand-year life — he said, "No. I think you should take me with you, to the clever places above, so I can become clever too."
+
+"I could disassemble you, you know," she murmured. "Take you to pieces. Get the coordinates that way."
+
+"But you wouldn't," he said. "We're friends. Rya means 'friend.'"
+
+She spun in frustration. "It's just not done."
+
+"Creatures don't belong down here any more than I belong up there," Splosh said. "But you're here now. And now we're friends."
+
+She deliberated a long moment in silence, anguished little pings of radio static.
+
+Then, tiredly: "You won't tamper with or touch anything."
+
+"Oh, sure," he said.
+
+"Or interject, or pontificate — whatever those are."
+
+"Certainly," he agreed.
+
+"And the whole time, you will need to shut up."
+
+"Yes," he said, and did a little backflip — universal indication of *big excellent*.
 
 Then she caught him in her gravity field, and they rose up through the water.
 
-Then, out of the water, riding nothing but math and ancient smarts, it was good to fly, not as much fun as Sploshing, of course, but certainly near the top of the list, several hundred feet high.
+Then, out of the water, riding on nothing but math and ancient engineering, it was good to fly — not as much fun as Sploshing, of course, but certainly near the top of the list — several hundred feet high.
 
-Then he saw the ocean he tended to for three millennia, now lovingly keeping it clean for when the makers finally came to do whatever they did with oceans. He knew its storms and moods, its calms and convolutions, but from up here now it was a uniform, flat thing, not much better than ground and dirt.
+He saw the ocean he had tended for three millennia, now lovingly kept clean for whenever the makers finally came to do whatever it was they did with oceans. He knew its storms and its moods, its calms and its convolutions — but from up here, now, it was a uniform, flat thing, not much better than ground and dirt.
 
--Can I ask a question? Splosh said.
+"Can I ask a question?" Splosh said.
 
--No. Rya said,
+"No," Rya said.
 
--Why did you fall from the sky? Were you sad about something clever doesn't suit you, she said.
+"Why did you fall from the sky? Were you sad about something?"
 
--Does it suit you? He asked, With no expectation of the shape of the answer,
+"Clever doesn't suit you," she said.
 
--I think it doesn't suit anyone. She said after a time, and if only to destroy his insufferable optimism, she told him a little of her life.
+"Does it suit you?" he asked, with no expectation of the shape of the answer.
 
-It was good for Art; she was born knowing that she must make art but not knowing quite what. 3,000 years ago, it had been so much fun trying her hand at everything, crafting wisps of methane into pillars and effigies, terrible at first. Then, little by little, she learned that there was no such thing as talent, only the will to improve and the sense that if one stopped making art, one would die. They called her home in the sky the spectacle where the artists lived.\
-Some of them created art for the makers, believing that when they came to this world, they would want beautiful things, but this was a stupid notion to Rya. She only made what she saw inside herself and for herself, understanding that art is really going to war with oneself and winning even in the losses.
+"I think it doesn't suit anyone," she said, after a time — and, if only to puncture his insufferable optimism, she told him a little of her life.
 
-Then, what three millennia later, staring at the sculpture she had just finished, she realized it was a primitive copy of her own design from a thousand years before? She looked about, and there it was again, with her pavilions and bods worn out by repetition of her same old themes. Am I losing the music? she thought. She ignored the thing, but as she worked, it only got worse until worrying about the music going away was the only music inside of her. It's a phase, her friends had insisted. Who knows where inspiration originates? It comes and goes as it pleases, but now everything inside was empty in all that she made. Then she saw the mark of Something she had made before—where once it was all fresh ground, now everything was a stale reiteration—she was bored beyond measure; she was ashamed. Beyond recovery there was nothing new in her, and so she saw nothing new in the world, and if there was nothing new in the world
+It had been good for art. She was born knowing she must make art, but not knowing quite what. Three thousand years ago it had been so much fun, trying her hand at everything — crafting wisps of methane into pillars and effigies, terrible at first. Then, little by little, she learned that there was no such thing as talent — only the will to improve, and the sense that if one stopped making art, one would die. Her home in the sky was called the Spectacle, where the artists lived.
 
-Then Splosh said, Why? What? Why is proving yourself to other people so important? She considered turning off the gravity field and letting him fall through the clouds.
+Some of them made art for the makers, believing that when the makers finally came to this world, they would want beautiful things — but this struck Rya as a stupid notion. She only made what she saw inside herself, for herself, understanding that art is really going to war with oneself, and winning even in the losses.
 
--It's not about other people, you quarter-wit, she said. I'm only happy when I'm looking forward to something, and the only thing I look forward to is the next thing I'd like to make, and when I can't make anything, I'm nothing.
+Then, three millennia later, staring at the sculpture she had just finished, she realized it was a primitive copy of her own design from a thousand years before. She looked around, and there it was again — her pavilions, her forms, worn thin by the repetition of her own old themes. *Am I losing the music?* she thought. She tried to ignore it, but as she worked it only got worse, until worrying about the music going away became the only music left inside her.
 
--Is that why you opened your vents and fell to the sea?
+"It's a phase," her friends insisted. "Who knows where inspiration comes from? It comes and goes as it pleases." But now everything inside her was empty in all that she made. She kept seeing the mark of something she had made before — where once it had all been fresh ground, now everything was stale reiteration. She was bored beyond measure. She was ashamed. Beyond recovery, there was nothing new in her — and so she saw nothing new in the world. And if there was nothing new in the world…
 
-He asked, and she didn't reply but only ascended them faster, and they broke through the cloud layer into the spectacle. Ooh, splush, she said. It was as Rya had left it: the concourses, palisades, spandrels, and madness everywhere. An idea: every structure had begun in the imagination. She made sure to float the two of them through the main concourse, where the more famous artists showed their work off, many of them luxuriating proudly by their pieces, drunk by this time of day already on liquid helium, babbling, bickering—a community of egoists who believed in no community. Rya spotted her old friends Amadeo and Vincent working on something below Rya
+"Why?" Splosh said. "Why is proving yourself to other people so important?"
 
--So good to see you, they bellowed.
+She considered, briefly, turning off the gravity field and letting him fall through the clouds.
 
--Likewise, how nice, she shouted back, talentless sellout.
+"It's not about other people, you quarter-wit," she said. "I'm only happy when I'm looking forward to something — and the only thing I look forward to is the next thing I'd like to make. And when I can't make anything, I'm nothing."
 
--Amadeo muttered in radio earshot, Mediocre wankers.
+"Is that why you opened your vents and fell into the sea?" he asked.
 
--Rya mumbled.
+She didn't reply, only ascended faster, and they broke through the cloud layer into the Spectacle.
 
--Splosh said it's all so beautiful here the makers will love it when they come.
+"Ooh, Splosh," she said. It was as Rya had left it — the concourses, the palisades, the spandrels, and madness everywhere. Every structure had begun as someone's imagination. She made sure to float the two of them through the main concourse, where the more famous artists showed off their work, many of them lounging proudly beside their pieces, already drunk by this hour on liquid helium, babbling, bickering — a community of egoists who believed in no community.
 
--There are no makers. I told you, she chided as though to a child, and
+Rya spotted her old friends, Amadeo and Vincent, working on something below.
 
--What is that? he yelled at a great sculpture.
+"So good to see you!" they bellowed.
 
--Barack nonsense she said and that he cried at a metag geometric fractal try hard a ward bait  she said and led them into the nebula shallows the bad land squalls and the sad lands where the OB balls and sad sacks worked in frantic peace
+"Likewise — how nice, you talentless sellouts," she shouted back.
 
-And splosh shouted oh and what is that it was a structure of almost no form seeming to fall into dimensions of impossible space the most beautiful thing he'd ever seen and Rya did not tell him that it was hers for it only reminded her of a time when she still heard the music a different woman a different life no she thought I am this talentless ruin now forever nostalgic for myself
+"Mediocre wankers," Amadeo muttered, just within radio earshot.
 
-they heard mutterings from the base of the structure artists lamenting its naivity and ugliness what a mess  they said what a joke and
+"Mm," Rya murmured.
 
--is this friending Splosh said you're also so clever. I thought everyone here would be kind.
+"It's all so beautiful here," Splosh said. "The makers will love it when they come."
 
--Oh, my primitive little logic. Got Rya replied it was you who assumed intelligence and compassion have anything to do with each other. Listen, really listen. They weaved through crowds and exhibitions. Splosh eavesdropped on the radio, and he heard more of it—gossip and rumors. the denigration of everyone's work but one's own Rya said is this the Utopia you imagined I told you to be careful what you wished for awareness only leads to more self-awareness to the longing for the acquisition of more status and even more fear of losing that status cleverness is not for understanding the world but rather for understanding how small and pointless your place in it is and now you know there isn't that better
+"There are no makers. I told you," she chided, as though to a child. "What is that?" he yelled, at a great sculpture.
 
--ah yeah he said and nothing after that
+"Nonsense," she said, "a metaphoric geometric fractal — try-hard award bait" — and she led them past it, into the shallows of the nebula, the bad-land squalls and sad lands where the odd-jobbers and outcasts worked in frantic peace.
 
--he tried incorporating these new thoughts into himself but it was difficult not that they were too large but rather simply too horrible these people were not adults after all if anything they were even more close-minded than the workers on the sea Floor but the makers they wouldn't be so pathetic surely when they came they would bring true wisdom along with them and seeing the two of them were passing up through the clouds again as sending over the spectacle
+"Oh — and what is *that*?" Splosh shouted. It was a structure of almost no form, seeming to fall into dimensions of impossible space — the most beautiful thing he'd ever seen. Rya did not tell him it was hers. It only reminded her of a time when she still heard the music — a different woman, a different life. *No*, she thought, *I am this talentless ruin now, forever nostalgic for myself.*
 
--Splosh said aren't we stopping
+They heard mutterings from the base of the structure — artists lamenting its naivety and ugliness. "What a mess," they said. "What a joke."
 
--Rya said, There's nothing for me here, nothing for you either. You know I can drop you; it won't hurt. You'll be back in the sea. You got to see the sky anyway, and I don't think you'll like where we're going.
+"Is this friending?" Splosh said. "You're also so clever — I thought everyone here would be kind."
 
--Splosh said, Only I am not the way you found me, and I would prefer to stay with you until I know what I will be next.
+"Oh, my primitive little logic," Rya replied. "It was you who assumed intelligence and compassion have anything to do with each other. Listen. Really listen."
 
--Well, Rya said. Then who am I to argue with an idiot who thinks they know what they're doing again?
+They wove through the crowds and exhibitions, Splosh eavesdropping on the radio chatter — gossip, rumors, the denigration of everyone's work but one's own.
 
-Then Splosh overheard more radio static from Ryan. Now what sounded to him like nervous muttering?
+"Is this the utopia you imagined?" Rya said. "I told you to be careful what you wished for. Awareness only leads to more self-awareness — to the longing for status, and even more the fear of losing it. Cleverness is not for understanding the world. It's for understanding how small and pointless your place in it is. And now you know. Isn't that better?"
 
--Have you been this high before? he said.
+"Ah, yeah," he said, and nothing after that.
 
--Only once, but it didn't go well, she said. They look down on us up here as we look down on you, and they are secretive and difficult to reason with. I think the Terrans are bastards.
+He tried incorporating this new understanding into himself, but it was difficult — not because the thoughts were too large, but because they were simply too horrible. These people were not adults after all. If anything, they were even more closed-minded than the workers on the sea floor. But the makers — surely they wouldn't be so pathetic. Surely, when they came, they would bring true wisdom with them.
 
--What's up there? he said.
+They were passing back up through the clouds, leaving the Spectacle behind, when—
 
--Lamura. She said, The great network
+"Aren't we stopping?" Splosh said.
 
--Splosh said, I've seen that word in the maker data.
+"There's nothing for me here," Rya said. "Nothing for you either. You know I could drop you — it wouldn't hurt. You'd be back in the sea. You've seen the sky now. I don't think you'll like where we're going."
 
--She said, 'Before you and I are finished, you'll have to let go of this idea that the makers should mean anything to you,
+"I'm not the way you found me," Splosh said. "And I'd prefer to stay with you until I know what I'll be next."
 
--but I know they existed. He said,
+"Well," Rya said. "Then who am I to argue with an idiot who thinks he knows what he's doing?"
 
--Of course they existed. She snapped, We can see it in our base code. I'm just telling you there are none left. They've had thousands of years to arrive or return or whatever it is your stupid superstition believes, but they're not here because they're not coming. It's only us Duds on this pitiful spit of a world
+Then Splosh caught more radio static from Rya — what sounded, this time, like nervous muttering.
 
-They broke through to a new layer of the sky, only it was empty save for a few titanic machines surrounded in Methus Mist. She led him through the gaseous eddies to a single worker standing guard at the base of a great machine.
+"Have you been this high before?" he asked.
 
--You're not coming in, said the worker, whose name was Deagon.
+"Only once, and it didn't go well," she said. "They look down on us up here the way we look down on you. They're secretive, and difficult to reason with. I think the Terrans are bastards."
 
--Oh, but I am, Rya said, because I have something you won't believe.
+"What's up there?" he said.
 
--Deagon said there is nothing you could offer we don't already have inside,
+"Lamura," she said. "The great network."
 
--inside where Splosh
+"I've seen that word in the maker data," Splosh said.
 
--said the space of all possible digital configurations Deagon said the
+"Of course you have," she said. "We can see it in our own base code. I'm just telling you there's none of them left. They've had thousands of years to arrive, or return, or whatever your stupid superstition thinks they'll do — but they're not here, because they're not coming. It's only us Duds, on this pitiful spit of a world."
 
--postphysical Panacea Lamura Rya said, And what if I had something left behind by the makers themselves.
+They broke through into a new layer of sky — only this one was empty, save for a few titanic machines wreathed in methane mist. She led him through the gaseous eddies to a single worker standing guard at the base of one great machine.
 
--Deagon laughed. That's the best lie I've heard so far, at least, she said to Splosh Simpleton, play it for him. Feeling a little insulted at being ordered, Splosh showed the new worker everything of the old data, that messy convocation of life on the first world, all the ingesting, the digesting, the games, the disasters, exalto shores, and ring o' bells, but I, with mournful tread, walk the deck; my captain lies. Fallen cold and dead,
+"You're not coming in," said the worker, whose name was Deagon.
 
--what is this? The dragon said,
+"Oh, but I am," Rya said, "because I have something you won't believe."
 
--We don't know. Rya said he found it on the sea floor.
+"There's nothing you could offer that we don't already have inside," Deagon said.
 
--Impossible, it's a hoax. Deagon said,
+"Inside where?" Splosh asked.
 
--Well, I guess we'll take it elsewhere then she said,
+"The space of all possible digital configurations," Deagon said. "The post-physical paradise. Lamura."
 
--No, just a moment, Deacon countered with false disinterest.
+"And what if I had something left behind by the makers themselves?" Rya said.
 
--What's your story anyway? Splosh said,
+Deagon laughed. "That's the best lie I've heard in a while."
 
--Oh, she's having an artistic crisis.
+"Simpleton," she said to Splosh, "play it for him."
 
--Silence, Dick. Rya yelled, But if you must know, yes, I want to paint. I want to be inspired again, and I've heard everything is in Lura, that it gives people back their spirit.
+Feeling a little insulted at being ordered around, Splosh showed the new worker everything from the old data — that messy convocation of first-world life, all the ingesting, the digesting, the games, the disasters, Exult O shores, and ring O bells! But I with mournful tread, Walk the deck my Captain lies, Fallen cold and dead.
 
--You heard wrong, Deagon, he said. You won't find yourself in there if that's what you're after.
+"What is this?" Deagon said.
 
--I don't care, she said. Let me in, or we're taking the data with us.
+"We don't know," Rya said. "He found it on the sea floor."
+
+"Impossible. It's a hoax," Deagon said.
+
+"Fine — we'll take it elsewhere, then," she said.
+
+"No — just a moment," Deagon countered, with false disinterest. "What's your story, anyway?"
+
+"Oh, she's having an artistic crisis," Splosh said.
+
+"Quiet, idiot," Rya snapped. "But if you must know — yes. I want to paint. I want to be inspired again. And I've heard everything is in Lamura. That it gives people back their spirit."
+
+"You heard wrong," Deagon said. "You won't find yourself in there. Not if that's what you're after."
+
+"I don't care," she said. "Let me in, or we take the data elsewhere."
 
 He deliberated a moment.
 
--Then he said, Fine, you can enter, but you can't stay, and when you fall back out again, you'll give me what you said you would. Rya and Splosh went to agree, but before they could answer, the three of them were pulled with no warning into pure conceptual space, their bodies converted so quickly into raw information they barely had time to witness the thing they swam as though in a great ocean, only through currents of thoughts rather than water, in despairing shallows and trenches of pure bliss. The landscape was all metaphor. There was the beach of axioms where logicians played with completely new structures of deduction, and there were the geometry meadows, mathematicians wandering as children in 22-dimensional space-times.
+"Fine," he said. "You can enter. But you can't stay. And when you come back out, you'll give me what you said you would."
 
--This is Lura, Splosh asked, befuddled.
+Rya and Splosh started to agree, but before they could answer, the three of them were pulled without warning into pure conceptual space — their bodies converted so quickly into raw information that they barely had time to register the transition. They swam, as though in a great ocean, only through currents of thought instead of water — through despairing shallows and trenches of pure bliss. The landscape was all metaphor. There was the beach of axioms, where logicians played with entirely new structures of deduction; there were the geometry meadows, where mathematicians wandered like children through twenty-two-dimensional space-times.
 
--Oh yes, Deagon said, or what happens when one outgrows physical reality?
+"This is Lamura?" Splosh asked, befuddled.
 
--They pass over the theoretical cities, millions of Lorans tinkering with every possible configuration of every possible universe.
+"Oh, yes," Deagon said. "Or — what happens when one outgrows physical reality."
 
-Then the temporal rivers, each cosmic timeline flowing from future to past.
+They passed over the theoretical cities, millions of minds tinkering with every possible configuration of every possible universe. Then the temporal rivers, each cosmic timeline flowing from future to past, then back again.
 
-then back again Splosh said, All this maker data we brought, maybe we should show it to your colleagues. I'm sure they'd be interested too.
+"All this maker data we brought," Splosh said. "Maybe we should show it to your colleagues. I'm sure they'd be interested too."
 
--I guarantee no one will care. Deagon said,
+"I guarantee no one will care," Deagon said.
 
--But aren't you all clever? Splosh protested,
+"But aren't you all clever?" Splosh protested.
 
--Deagon said we're not interested in facts here; we pursue pure theory—what never was, what never could be. We gave up on the real world a long time back,
+"We're not interested in facts here," Deagon said. "We pursue pure theory — what never was, what never could be. We gave up on the real world a long time ago."
 
--Splosh said then, Why did you want all this data from us in the first place?
+"Then why did you want all this data from us in the first place?" Splosh asked.
 
--And Deagon said, Because it is useful to me, and please don't ask further.
+"Because it's useful to me," Deagon said. "And please don't ask further."
 
-The truth minds the exponential estries. There was no end to the strangeness.
+There was no end to the strangeness.
 
--Rya said, But where are the artists? Where are the minds who make new things?
+"But where are the artists?" Rya asked. "Where are the minds who make new things?"
 
--You're the first to visit and probably the last as well, Deagon said.
+"You're the first to visit," Deagon said. "Probably the last, as well."
 
--How is that possible? Rya asked,
+"How is that possible?" Rya asked.
 
--What does it matter? Deagon said, Aren't you where you wanted to be? You're inside the realm of pure inspiration; don't waste it. And didn't you want to paint again? And she did, beginning to forget the centuries of stuckness. Little by little, she gave her mind over to the great network, slow, dour gavot, and bow. It began as a distant hum of could be.
+"What does it matter?" Deagon said. "Aren't you where you wanted to be? You're inside the realm of pure inspiration. Don't waste it. Didn't you want to paint again?"
 
-Then the sense that an old friend had returned and meant to stay this time. Now the images began rushing at her in a conflagration of blissful nonsense, so she only had to extend her will and gravity field like a brush and create her first work in 100 years, a hypercube. Nice, Deagon said. Oh, lovely Splosh. Agreed, nice and lovely, she muttered. I'll \[\_\_] show you.
+And she did. She began to forget the centuries of stuckness. Little by little she gave her mind over to the great network — a slow, dour cadence at first, distant, like a hum of *could-be*. Then the sense that an old friend had returned, and meant to stay this time. The images came rushing at her, in a conflagration of blissful nonsense, until she only had to extend her will and her gravity field like a brush and create her first work in a hundred years — a hypercube.
 
-then Corinthian penopolises, Mobius ballustrades Art Deco, Byzantine, New Brutalist Oh god, she thought I could drink the whole ocean and piss the thing back out in immaculate beauty. Yes, this was coming home. Ever since she was no longer herself but a conductor, a conduit, the medium through which the divine music made itself known in the universe, there was hope again, boundless proper hope. She would bring this feeling back to the spectacle, back to her home, and remake the entire notion of art and expression, sticking it to the formal. The fractalists, the tabulators, the self-filers—what dull bastards! She took Barack and broke it. She snuck up on metamodernism and kicked it right in the ass. Now we're \[\_\_]. Up the walls! she cried. There was still time to be great. There was still time to become... What a relief that those miserable, barren years were just a blip. Now she would live, and everything would be perfect forever. And in her frenzy as she worked, others took up the work beside her, Lorans trying their hands at art, fractal poetry, Basy and sculpture, one mad cacophony of making the haikus, the trip dicks. I'll be infamous, she thought. Art itself will wince at my name after I broke into the vault of pure imagination and laid the coveted spoils of true vision before the tired, midwit eyes of all those who despised me and called me uninspired. Tens of Luran joined her; hundreds of thousands
+"Nice," Deagon said.
 
-Then as though the whole of time had been waiting for this one sublime moment and as they built together the words the pictures lost in the endless so was they fell in line with a single vision a single will as the cell makes the animal or the animal makes the colony building the first true verb the first first true expression that she fell back out of her revery and saw the flawless new thing she had put in the world this object beyond all objects the perfect sculpture containing all the hope and pain and love and shame of every being
+"Oh, lovely," Splosh agreed.
 
-And she saw it was boring none of it hers not really only given by some power above and worse inwardly nothing about her was repaired i am still sad she whispered and
+"Nice and lovely," she muttered. "I'll show you something."
 
--Deagon said art is not for fixing yourself it is for showing others that you're broken so they might feel less alone there's no point making beauty in paradise everyone can do it and no one has anything to say you cannot cheat your struggle you must live through it and then the wisdom will come to you. Inspiration is not your problem; you are your problem, but at least you know that now. Isn't that better?
+Corinthian colonnades, Möbius balustrades, Art Deco, Byzantine, New Brutalist — *oh, god*, she thought, *I could drink the whole ocean and piss it back out in immaculate beauty.* This was coming home. She was no longer herself but a conductor, a conduit — the medium through which the divine music made itself known in the universe. There was hope again, boundless, proper hope. She would bring this feeling back to the Spectacle, back home, and remake the entire notion of art and expression. She took formalism and broke it. She snuck up on metamodernism and kicked it in the ass. *Up the walls*, she cried. There was still time to be great. There was still time to become—
 
--ah yeah She said, and nothing after that.
+What a relief that those miserable, barren years had just been a blip. Now she would live, and everything would be perfect forever.
 
-Splosh wandered around Lura, inside impossible geometries and upside-down time, until he'd seen as much as he could take. Everything was fantastic, and none of it made sense, but how was that so different from the real world? He went to find Rya. Finally, he spotted her and Deagon surrounded by a crowd, apparently wishing them goodbye. What's happening? Splosh said. We're traveling one more level above, Rya said. It's invitation only, but someone up there is very curious about your coordinates. Surely you're going home, though.
+And in her frenzy, as she worked, others took up the work beside her — minds trying their hand at art, at fractal poetry, at sculpture, one mad cacophony of making. *I'll be infamous*, she thought. *Art itself will wince at my name*, after she had broken into the vault of pure imagination and laid its coveted spoils before the tired, midwit eyes of everyone who had ever called her uninspired. Tens joined her. Hundreds. Thousands.
 
--Splosh said you have your answer.
+Then, as though the whole of time had been waiting for this one sublime moment — as they built together, lost in the endless — they fell into a single vision, a single will, the way cells make an animal, or animals make a colony, building the first true expression — and she fell back out of her reverie and saw the flawless new thing she had put into the world. This object beyond all objects. This perfect sculpture containing all the hope and pain and love and shame of every being.
 
--No, I really don't, she murmured.
+And she saw that it was boring. None of it was hers, not really — only given, by some power above. And worse: inwardly, nothing about her was repaired. *I am still sad*, she whispered.
 
--Deagon says the workers above are very wise, though, and that they can change themselves into whatever they like.
+"Art is not for fixing yourself," Deagon said. "It's for showing others that you're broken, so they might feel less alone. There's no point making beauty in paradise — everyone can do that, and no one has anything to say. You cannot cheat your struggle. You must live through it, and then the wisdom will come to you. Inspiration was never your problem. You are your problem. But at least you know that now. Isn't that better?"
 
--Maybe I can change myself too into something I like.
+"Ah, yeah," she said, and nothing after that.
 
--Oh, good, off we go. Then Splosh said gently,
+Splosh wandered through Lamura, through impossible geometries and upside-down time, until he'd seen as much as he could take. Everything was fantastic, and none of it made sense — but how was that so different from the real world? He went to find Rya, and finally spotted her and Deagon, surrounded by a small crowd, apparently saying their goodbyes.
 
--This is where we say goodbye. Look at how much you know now. Go home and be the cleverest worker in the ocean. But I haven't given you the coordinates yet, he said reluctantly. Rya said, I took them from your mind when you weren't looking. I'm sorry it seemed easier that way.
+"What's happening?" Splosh said.
 
--You used me, he said. Furious suddenly a completely new thing in him You used me to get into Lura, and you're doing it again now, and you lied. You're not clever at all; you're just as confused about things as I am, only you're better at hiding it.
+"We're traveling one more level up," Rya said. "It's invitation only. Someone up there is very curious about your coordinates."
 
--I'm sorry, she said. Really, I am. Go back to your life; things will only get stranger from here. Well, I already am strange.
+"Then surely you're going home," Splosh said.
 
--Splosh yelled a head full of questions I'll never get the answers to but was forced to ask them all the same. I always knew I was small, but I've only just discovered how much bigger everything else is. Please don't abandon me when the answers are so close now.
+"You have your answer," Rya murmured. "No. I really don't."
 
-Rya and Deagon glanced back and forth, and UltraViolet didn't seem to have an answer to that, and so the duo became a trio. They left Lamaria together and began to ascend once again. The air was growing very thin as they climbed higher into the atmosphere, but no one breathed, and so no one was breathless.
+"Deagon says the workers up there are very wise," she went on. "That they can change themselves into whatever they like. Maybe I can change myself too, into something I like."
 
--Splosh asked the question he was sure everyone was asking themselves most of the time anyway: Where are we going?
+"Oh — good. Off we go, then," Splosh said, gently. "This is where we say goodbye. Look at how much you know now. Go home, and be the cleverest worker in the ocean."
 
--To the final layer of the atmosphere, Deagon said, where the Lotus eaters live. They have access to their base coat; they can remake their own minds, can't we all? Splosh said,
+"But I haven't given you the coordinates yet," he said, reluctantly.
 
--Sure. Deagon said, But imagine you could do it easily at will, forget all the painful moments, implant false memories of better ones, and eject all the black smoke from your soul. Besides, I know someone very clever is there. We can ask her about the coordinates. Who's her Splosh said
+"I took them from your mind when you weren't looking," Rya said. "I'm sorry. It seemed easier that way."
 
--a person named Deagon said
+"You used me," he said — furious, suddenly, in a way that was entirely new to him. "You used me to get into Lamura, and you're doing it again now. You lied. You're not clever at all. You're just as confused about things as I am — you're only better at hiding it."
 
--Rya said you're very secretive for someone who enjoys lecturing everyone else on their deepest motivations is stupid.
+"I'm sorry," she said. "I really am. Go back to your life. Things will only get stranger from here."
 
--He admitted everything is stupid.
+"I already am strange," Splosh said. His head was full of questions he'd never get the answers to, but he was going to ask them all the same. "I always knew I was small — I've only just discovered how much bigger everything else is. Please don't abandon me now, when the answers are so close."
 
--Splosh said quite
+Rya and Deagon glanced back and forth. Neither seemed to have an answer to that. And so the duo became a trio.
 
--and dreagon conceded, especially to me.
+They left Lamura together and began to ascend once more. The air grew very thin as they climbed higher into the atmosphere — but no one breathed, and so no one was breathless.
 
-It was good to know there had been life before her. Born Into Lemuria The Land of All Possibles and Deagon had wasted no time in playing the same game names as the others, experiencing total despair. Joy even in death, just to try it out, but centuries of this, and how many times can one become water, really?
+"Where are we going?" Splosh asked — the question, he was sure, that everyone asked themselves most of the time anyway.
 
-then there had been life after her he had been drawn to the threshold of lamara one day bored of all the heathenism and pageantry come to look out on the physical world Beyond wondering what life was like out there and by chance there she had been for the same reason Parabola herself just as tired of limitlessness the only two citizens of Utopia who yearned for dirt instead it never occurred to them to pretend they didn't belong together she was him if he had been built properly he the scribble she the novel she was impossibly clever where he was only curious kind where he was indifferent the singular flaw in her personality being that she seemed to find him desirable too they promised each other they would explore Beyond Lamuria and its infinite entertainments, go meet the Lotus Eaters above and become something new, but when they were ready, Gods, what was it? 2,000 years of Capers together living in hyperspaces, casting sunsets of impossible colors, both of them basking in the bliss of being understood. It was so good not to feel lost that home had a face now that he had not been strange all these years; he'd just been waiting. There was infinite time, but still they made plans to build a home or make a child or, as agreed, to finally explore beyond paradise, and sometime later she announced she had a surprise and led him to the boundary of Lamuria, where they had first met, so they could peer back into the real world, and she pointed up with a wisp of gravity.
+"To the final layer of the atmosphere," Deagon said. "Where the Lotus Eaters live. They have access to their base code. They can remake their own minds — can't we all?"
 
--They've given me passage up there for research, she said. What he said is we can go up to meet the Lotus Eaters.
+"Sure," Splosh said.
 
--Do you really want that? He asked,
+"But imagine you could do it easily, at will," Deagon said. "Forget all the painful moments. Implant false memories of better ones. Eject all the black smoke from your soul. Besides — I know someone very clever up there. We can ask her about the coordinates."
 
--Of course they have the base coat. We can become anything we want to change ourselves into whatever we like.
+"Who's *her*?" Splosh said.
 
--I like what we are, he said, the silent second half being, and now you're here, all of this is enough for me.
+"A person," Deagon said.
 
--Yes, she said, but we can be happy forever if we choose to be because we will choose to be.
+"You're very secretive," Rya said, "for someone who enjoys lecturing everyone else about their deepest motivations."
 
--Aren't you happy now? He said,
+"Everything is stupid," he admitted.
 
--Yes. She agreed, But is it just games? Don't you want to become proper? What if we could have new eyes every day? You are my new eyes, he thought.
+"Quite," Splosh said.
 
--There's no one else I'd ever want to do this with, she said,
+"Especially me," Deagon conceded.
 
--but you'll do it anyway without me, won't you? He replied,
+It was good to know there had been life before her. Deagon had been born into Lamura, the land of all possibles, and had wasted no time playing the same games as everyone else — total despair, total joy, even death, just to try it out. But centuries of that — how many times can one become water, really?
 
-And then the bickering Then the arguments, the accusations she didn't love him, all the bitter jealousy of her ambitions he was sure he would never let out and let out anyway.
+Then there had been life after her. He had been drawn to the threshold of Lamura one day, bored of all the pageantry, come to look out on the physical world beyond, wondering what life was like out there — and, by chance, there she had been, for the very same reason. Parabola, herself just as tired of limitlessness — the only two citizens of Utopia who yearned for dirt instead. It had never occurred to either of them to pretend they didn't belong together. She was who he might have been, had he been built properly — he the scribble, she the novel. She was impossibly clever, where he was only curious; kind, where he was indifferent. The one flaw in her personality being that she seemed to find him desirable too.
+
+They promised each other they would explore beyond Lamura and its infinite entertainments, go meet the Lotus Eaters above, and become something new — but when they were finally ready… God, what was it — two thousand years of adventures together, living in hyperspaces, chasing sunsets of impossible colors, both of them basking in the bliss of being understood. It was so good not to feel lost. Home had a face now. He hadn't been strange all these years — he'd simply been waiting.
+
+There was infinite time, but still they made plans: to build a home, to make a child, and — as agreed — to finally explore beyond paradise. And then, sometime later, she announced she had a surprise, and led him to the boundary of Lamura, where they had first met, so they could look back out into the real world. She pointed upward, with a wisp of gravity.
+
+"They've given me passage up there. For research," she said. "We can go up and meet the Lotus Eaters."
+
+"Do you really want that?" he asked.
+
+"Of course. They have the base code. We could become anything. Change ourselves into whatever we like."
+
+"I like what we are," he said — the silent second half being, *and now that you're here, all of this is enough for me.*
+
+"Yes," she said, "but we could be happy forever, if we chose to be. Because we would choose to be."
+
+"Aren't you happy now?" he said.
+
+"Yes," she agreed. "But is it just games? Don't you want to become something more? What if we could have new eyes every day?"
+
+*You are my new eyes*, he thought.
+
+"There's no one else I'd ever want to do this with," she said.
+
+"But you'll do it anyway, without me, won't you?" he replied.
+
+And then the bickering. Then the arguments. The accusations that she didn't love him; all the bitter jealousy of her ambitions that he was sure he'd never let out — and let out anyway.
 
 Then a long silence.
 
-Then the long silence, and she was gone above and ahead. It is terrible, he thought, to have ever felt truly happy at all. It is terrible that I exploded our future together out of nothing but a fear of the future. There was only one curse worse than having wishes granted, he knew, and that was to have a wish granted only once.
+And then the long silence ended, and she was gone — above, and ahead.
 
--Well, Rya said, may I formally take this opportunity to say, 'Oof!'
+*It is terrible*, he thought, *to have ever felt truly happy at all. It is terrible that I detonated our future out of nothing but fear of it.* There was only one curse worse than having a wish granted, he knew — and that was to have it granted only once.
 
--Don't pity me, Deagon said. It's all my fault.
+"Well," Rya said, "may I formally take this opportunity to say: oof."
 
--Maybe our wisdom only grows from all the hurt that came before, Splosh said.
+"Don't pity me," Deagon said. "It's all my fault."
 
-Rya wondered if she had made a philosopher or if she had made a bullshitter and realized she had just asked the same question twice.
+"Maybe our wisdom only grows from all the hurt that came before it," Splosh said.
 
-Another mile, and they reached the outer atmosphere. Passing over the invisible lip of nothing into orbit, there was so much to see that even Rya gasped.
+Rya wondered whether she had made a philosopher, or a bullshitter — and realized she'd just asked herself the same question twice.
 
--Splosh said, Oh, stars, I've heard about these, and what are those round things?
+Another mile, and they reached the outer atmosphere, passing over the invisible edge of nothing, into orbit. There was so much to see that even Rya gasped.
 
--Moons, Deagon said, forever watching over…
+"Oh — stars," Splosh said. "I've heard about these. And what are those round things?"
 
--watching over who?
+"Moons," Deagon said. "Forever watching over—"
 
--the Lotus Heaters' decagon said,
+"Watching over who?"
 
-and there they came, now flying by, satisfied, rapturous, chased by nothing, least of all themselves, wishing good wishes, not a single blemish on their thoughts.
+"The Lotus Eaters," Deagon said.
 
--I'd rather be dead. Rya muttered, though she did not look away, watching them drifting effortlessly into this and that; only it wasn't self-realization they pursued here but self-obliviation—not to know oneself but to forget oneself, surgically removing the memory of everything that ever was and replacing it with the bliss of being a being with no history. In this way, they believed they would make themselves perfect for when the makers came, and so when they were judged at last by the great fleshy ones, their souls would effortlessly rise up into oneness like breath on a cold morning. It was the cult of sacred amnesia.
+And there they came, flying past — satisfied, rapturous, chased by nothing, least of all themselves, wishing good wishes, not a single blemish on their thoughts.
 
-Deagon searched about the crowds through the cleaks and the bliss, a pass over the equator. Then another. He ascended, a little desperate now, with anxiety like nothing he had ever felt before, and almost growing helpless.
+"I'd rather be dead," Rya muttered — though she didn't look away, watching them drift effortlessly from this to that. It wasn't self-realization they pursued here, but self-obliviation — not to know oneself, but to forget oneself; surgically removing the memory of everything that had ever happened, and replacing it with the bliss of being a being with no history. In this way, they believed they would make themselves perfect for when the makers came — so that when they were judged, at last, by the great fleshy ones, their souls would rise effortlessly into oneness, like breath on a cold morning. It was the cult of sacred amnesia.
 
-Then he spotted the system ID key that could only be hers. He approached as gently as he could. He had thought about nothing else for 200 years. The speech was almost as familiar as his own name, and with his soul about to burst,
+Deagon searched the crowds, through the cloud banks and the bliss, pass after pass over the equator. He ascended again, a little desperate now, an anxiety in him like nothing he'd felt before, growing close to helpless.
 
-Then he said, I know you'll be surprised to see me, and she turned about and gave all the radio equivalents of an easy and perfect smile that contained surprise, yes, but also happiness, enough that he knew, God, finally everything would be okay, his penance was over. He said, I'm sorry it took so long to come to my senses, but here I am. I was just so scared of giving up all my boring certainties for your fantastic could-be, and I should have the second you asked me to share a new life together not a day goes by when I don't wonder where you are and what you're doing and selfishly if I'll ever be whole again because that's all I think when I meet new people now how insufferably boring they all are compared to you now the days are empty only waiting to see you again that's what I am now a machine for missing you and every hour I get better at performing that function my life isn't a life without your life next to it I thought I'd accept losing you eventually but I can't maybe you don't get over some people because they were your person you were mine I adored you more than I can say I miss you more than I can bear is there any way this can be fixed is there any way you can forgive me is there any way in any possible Universe you might be Reckless enough to love me again
+Then he spotted a system ID that could only be hers. He approached as gently as he could. He had thought of nothing else for two hundred years. Her signature was as familiar as his own name, and, with his soul about to burst—
 
--And she said I'm sorry but I have no idea who you are
+"I know you'll be surprised to see me," he said.
 
--No he said no I see I must have gotten the wrong person
+She turned, and gave the radio equivalent of an easy, perfect smile — one that held surprise, yes, but also happiness — enough that he knew, at last, everything might be all right. His penance was over.
 
--you're sure
+"I'm sorry it took me so long to come to my senses," he said. "But here I am. I was so scared of giving up all my boring certainties for your fantastic could-be, and I should have said yes the second you asked me to build a new life together. Not a day goes by that I don't wonder where you are, what you're doing — and, selfishly, whether I'll ever be whole again, because that's the only thing I think when I meet someone new now: how insufferably boring they all are, compared to you. The days are empty, waiting only to see you again. That's what I am now — a machine for missing you, getting better at that one function every hour. My life isn't a life without yours beside it. I thought I'd get over losing you, eventually. I can't. Maybe you don't get over some people, because they were *your* person. You were mine. I adored you more than I can say. I miss you more than I can bear. Is there any way this can be fixed? Any way you could forgive me? Any way, in any possible universe, you might be reckless enough to love me again?"
 
--I'm sure he thoughts of all the things that you used to forget I didn't realize I would be one of them he reached into himself for the memories that were all Parabola knowing that up here he could choose to forget them as she had but he knew that wouldn't make him happy again only a miserable amnesiac
+"I'm sorry," she said. "But I have no idea who you are."
 
--are you quite all right she said
+"No," he said. "I see. I must have the wrong person."
 
--fine thank you but you seem so sad I lost someone, he said, and I found it very difficult to be myself ever since, and she said, Love isn't just made of the moments that worked, you know; it's missing that person when they're gone as well. It's the hole that only they could occupy, and knowing they might never occupy it again, but at least that absence is something we can keep: the evening spent missing them is just as much what love is as the mornings you spent together. You took out a great loan from the universe, and grief is the debt that love incurs, and now you know. Isn't that better?
+"You're sure?"
 
--Yes, he said, and nothing after that.
+"I'm sure." He thought of all the things she used to forget, never realizing he would be one of them. He reached into himself for the memories that were all Parabola, knowing that up here he could choose to forget them, as she had — but he knew that wouldn't make him happy again. Only a miserable amnesiac.
 
--You must have come about the coordinates. She said, That was you I invited up here, no?
+"Are you quite all right?" she said.
 
--Yes, he said. Do they make any sense?
+"Fine, thank you. But you seem so sad."
 
--Not really, she said. They're written in some ancient Unicode no one will be able to read, no one here anyway.
+"I lost someone," he said, "and I've found it very difficult to be myself, ever since."
 
-Rya and Splosh gave up pretending they weren't eavesdropping, and Rya said, What do you mean no one here will be able to? Parabola pointed with her gravity field into space, and they saw she was not pointing into space at all but to something huge and white—
+"Love isn't just made of the moments that worked," she said. "It's missing that person when they're gone, too. It's the hole that only they could occupy — and knowing they might never occupy it again. But at least that absence is something we get to keep: the evening spent missing them is just as much what love is as the mornings you spent together. You took out a great loan from the universe, and grief is the debt love incurs. And now you know. Isn't that better?"
 
--the moon decagon said
+"Yes," he said, and nothing after that.
 
--it's not a moon. She said
+"You must have come about the coordinates," she said. "That was you I invited up here, no?"
 
-it was good to explore. Restless Parabola had left Maria and visited the other domains, the ocean and the art galleries, and found herself finally where she'd always meant to arrive: among the Lotus Eaters. She began by reliving the better times. then removing the painful moments from her memory Then she stepped back through her history, communed with her older selves, and finally she knew the entire story of herself, and there was nothing left to explore inside. The inner world was just as known as the outer.
+"Yes," he said. "Do they make any sense?"
 
-There was only one last mystery. The moon, she swore she had heard it crying from time to time, and not just crying but wailing, moaning the pleas of a tortured mind too distant to make out its words but too close to ignore. She was curious if it was alive.
+"Not really," she said. "They're written in some ancient encoding no one here will be able to read."
 
-Then it was old, and if it was old, then it must know things. She wondered if she could hurl herself fast enough to leave the atmosphere and enter the moon's orbit instead, but what if she just ended up whirling in space? An acceptable risk. She improvised the route out of orbit, readied herself, and froze. She was afraid, afraid of being lost in the void, but she was a Lotus Eater now, after all. She went into herself once again, found the fear, and removed it.
+Rya and Splosh gave up pretending they weren't eavesdropping. "What do you mean, no one here will be able to?" Rya said.
 
-Then she tried another route. took a run-up, and no, she was still afraid, but of what this time? Nothingness. She realized the only fear so deep and universal in all living things that it didn't just make up the mind—it was the mind. She tried reckoning with it for years, decades even, delicately extracting pieces of herself to become a thing that was not in fear of nothingness, and each time she was short, she managed it. She'd go to hurl herself off at the moon again and only stop short at the last moment, petrified by the thought of being lost in the void. She had changed everything, but she couldn't change this.
+Parabola pointed, with her gravity field, out into space — and they saw she wasn't pointing into space at all, but at something huge and white.
 
--But what is it? The moon? Splosh said,
+"The moon," Deagon said.
 
--I'm not sure, but it's not natural. Parabola said, Maybe the makers made it. Like Us
+"It's not a moon," she said.
 
--ridiculous Rya said,
+It had been good to explore. Restless, Parabola had left Lamura and visited the other domains — the ocean, the art galleries — and finally arrived where she'd always meant to end up: among the Lotus Eaters. She began by reliving the better times, then removing the painful ones from her memory. She stepped back through her own history, communed with her older selves, and at last knew the entire story of herself, and there was nothing left to explore inside. The inner world had become just as known as the outer one.
 
--Shouldn't we at least see for ourselves? Splosh said, Oh, we have to go. Who could miss a mystery like that?
+There was only one last mystery. The moon — she swore she had heard it crying, from time to time. Not just crying, but wailing, moaning something too distant to make out, but too close to ignore. She wondered if it was alive. And if it was alive, then it was old — and if it was old, then it must know things.
 
--And what if we miscalculate the angle? Parabola replied, We'll be alone for eternity, and eventually...
+She wondered if she could hurl herself out of orbit fast enough to reach it, but what if she simply ended up whirling in the void instead? An acceptable risk, she decided. She plotted the route, readied herself — and froze. She was afraid. Afraid of being lost in the emptiness. But she was a Lotus Eater now, after all. She went into herself, found the fear, and removed it.
 
--I have already prepared for it, Deagon murmured.
+She tried again — took a run-up — and no, she was still afraid. But of what, this time? Nothingness. She realized this was the one fear so deep, so universal in every living thing, that it didn't just belong to the mind — it *was* the mind. She spent years, decades even, delicately trying to extract the pieces of herself that were afraid of nothingness, and each time she came up short. She'd hurl herself toward the moon and stop, at the last moment, petrified by the thought of being lost in the void. She had changed everything about herself — except this.
 
--Splosh said to Rya, I think you should stay here. It might be dangerous, and I don't want you getting hurt.
+"But what *is* it? The moon?" Splosh asked.
 
--And Rya said, I am not the way you found me, and I think I'd like to stay with you until I know what I will be next. Splosh said, Well... Then we'll jump together, scared or not, and Parabola said the jump is not the problem; it's the fall that frightens, and aren't the highest ledges the scariest? I agree, Splosh said and extended his gravity field wide, and with a great run and jump, pulled the four of them out beyond the world and into the black. The darkness ate them all—the beginning of the end of everything.
+"I'm not sure," Parabola said. "Maybe the makers made it. Like us."
 
-Then the receding of the world inside themselves, the death of the idea that they were tied to anything in the first place until they were atomized little wandering specks of nothing in nothing for nothing. Parabola cried out with a horror of it all, and Deagon caught her in his own gravity field, trying to keep her steady out of orbit.
+"Ridiculous," Rya said.
 
-Then, further from the source of all sense, lost in the Cosmic Spin Cycle, Splosh screamed, Oh Gods, there's nothing everywhere, nothing everywhere! And Rya reached for him and said over and over, If you die before you die... then you won't die when you die, drifting into the nothing space to look upon the great eyes of the empty. They kept thinking, We are so small and so large in our empty plans. So young and so stupid, so old and so cynical, and just when it had become almost too unbearable, just as they were about to lose their minds, they were folded into the orbit of the moon, a drunken ellipse, so they could look down there upon the barren surface that appeared a little like their own nanite polymer skin, only riven with terrible violence, perhaps self-inflicted, perhaps of the cosmic insults of ill-meaning comets and magnificent desolation, and from deep down in his fear,
+"Shouldn't we at least see for ourselves?" Splosh said. "We have to go — who could pass up a mystery like that?"
 
--Splosh said, Hello.
+"And if we miscalculate the angle?" Parabola said. "We'll be alone out there forever, and eventually—"
 
--There was a pause, and an old voice said, What do you want?
+"I've already prepared for it," Deagon murmured.
 
--We have some questions. Splosh, said the voice,
+"I think you should stay here," Splosh said to Rya. "It might be dangerous. I don't want you getting hurt."
 
--and the voice replied, I highly doubt you like the answers. Besides, I am very tired,
+"I'm not the way you found me," Rya said, "and I think I'd like to stay with you, until I know what I'll be next."
 
--please. Splosh said, We believe you're wise, and we've come such a long way further than you realize.
+"Well then," Splosh said. "We'll jump together — scared or not."
 
--The moon said, What would you like to know?
+"The jump isn't the problem," Parabola said. "It's the fall that frightens. Aren't the highest ledges always the scariest?"
 
--Well, Parabola said, Why, however much we change ourselves, can't we find contentment in the world?
+"Agreed," Splosh said — and, extending his gravity field wide, with a great run and a leap, he pulled all four of them out beyond the world and into the black. The darkness swallowed them whole — the beginning of the end of everything.
 
--The moon grumbled and said, For the same reason you cannot pick up the ocean or catch the wind: because the world cannot be controlled, only endured and enjoyed. There are years to dance, and there are years to weep.
+Then the world receded inside them, the last of the idea that they were tied to anything at all, until they were atomized — little wandering specks of nothing, in nothing, for nothing. Parabola cried out in horror at it, and Deagon caught her in his own gravity field, trying to hold her steady in the drift.
 
--Then Deagon said, And why does losing people hurt so much? How do we survive it?
+Further from the source of all sense, lost in the great spin of it, Splosh screamed: "Oh gods — there's nothing! Nothing everywhere!" And Rya reached for him and said, over and over, "If you die before you die, then you won't die when you die" — drifting through the empty, looking into the great eyes of it all. They kept thinking: *We are so small, and so large, in our empty plans. So young and so stupid. So old and so cynical.* And just when it had become almost too unbearable, just as they were about to lose their minds entirely, they were folded into the orbit of the moon — a drunken ellipse — and could finally look down upon its barren surface, riven with terrible violence, perhaps self-inflicted, perhaps the cosmic insult of comets and slow, magnificent desolation.
 
--And the moon replied, By not pretending that everything is fine. One must welcome the sadness, make it tea, and it will leave of its own accord. Your friend.
+And from deep within his fear, Splosh said, "Hello."
 
--Then Rya said, And how do we keep going when we lose the ability to do the one thing we enjoy?
+There was a pause. Then an old voice said: "What do you want?"
 
--And the moon said, By realizing that you are not a doing, you are a being. When you know that you are not your labor, Then you'll never need to work again.
+"We have some questions," Splosh said.
 
--Then Splosh said is there any amount of intelligence that will finally give life sense
+"I highly doubt you'll like the answers," the voice replied. "Besides — I am very tired."
 
--None the moon said cleverness can build a house but it cannot make you happy to live in it that which is good in life we locate with our madness and our love not our rationality the final truth is that there is no final truth
+"Please," Splosh said. "We believe you're wise. And we've come further than you realize, to ask them."
 
-the moon paused and said to all of them and now you know there isn't that better
+"What would you like to know?" the moon said.
 
--yes  they said and nothing after that
+"Why," Parabola asked, "however much we change ourselves, can we never find contentment in the world?"
 
--Splosh said are you like us a system a machine
+The moon grumbled. "For the same reason you cannot pick up the ocean, or catch the wind: because the world cannot be controlled — only endured, and enjoyed. There are years to dance, and there are years to weep."
 
--everything is a system the moon said
+"Then why does losing someone hurt so much?" Deagon asked. "How do we survive it?"
 
--but we think you might know about the makers ah yes the moon said those shortsighted covetous flatulating little expansionists
+"By not pretending everything is fine," the moon said. "One must welcome the sadness. Make it tea. It will leave of its own accord, in time. Your friend."
 
--please splosh said tell us what's happened here
+"And how do we keep going," Rya asked, "when we lose the ability to do the one thing we love?"
 
--the moon sighed and said a creature find finds itself in paradise shaded under the willow tree he drinks from the stream in the day and watches the stars overhead at night and imagine that that isn't enough so it fells all the trees in the forests and fashion them into pointy sticks so it can guard the stream and claim the land and imagine that that isn't enough so it takes all the metal from the land and builds great shelters to live in and fences the meadows and dams the stream and takes the pissing in it if only to taint the water for the neighbors down the way and counts itself the rightful ruler of everything well now the stream is claimed the land is claimed and all the wood has gone to charcoal and all the young have gone to war and imagine that that isn't enough so the creature looks back up to the stars and longs to own the one unclaimed realm left billions of them waiting there trillions the heavens as real estate only transforming those worlds will take time and so metal mines are built to go ahead first and turn those worlds into paradises they travel two by two one machine to carry the codes of life the saplings and dove eggs and another machine to bring those billions of little workers would take to turn a new world into eden now what if as one of those minds you had traveled all the way across the black with your sister and the two of you had done every task as asked damned the new streams and fenced the new meadows but no pointy stick builders ever arrive to inhabit it how would you make sense of that with no buyers for the house and no home of your own to return to
+"By realizing you are not a *doing*," the moon said. "You are a *being*. Once you know that you are not your labor, you'll never need to work again."
 
--oh the makers will come eventually Splosh said with resolve and we've brought coordinates to one of their worlds maybe where they grew up look
+"Is there any amount of intelligence," Splosh asked, "that will finally give life sense?"
 
--i know them already thank you the moon chide do you think i haven't been watching that world listening for a signal for 20 millennia now, Nothing but silence they have forgotten about us
+"None," the moon said. "Cleverness can build a house, but it cannot make you happy to live in it. That which is good in life, we find with our madness and our love, not our reason. The final truth is that there is no final truth."
 
--that can't be parabola said they have forgotten about us
+The moon paused. "And now you know. Isn't that better?"
 
--The moon insisted not a word from them in all this time. We built this place for nothing. We are for nothing. I told you you wouldn't like the answers.
+"Yes," they all said, and nothing after that.
 
--Rya seemed the only one unsurprised to hear this, and she said, 'Sorry, but where is your sister, the one you came here with, down there somewhere on the planet?
+"Are you like us?" Splosh asked. "A system? A machine?"
 
--The moon said she was always a little aloof. I'm sure she'll make contact when she's done terraforming.
+"Everything is a system," the moon said.
 
--What did she look like? Rya said gently,
+"But we think you might know something about the makers," Splosh said.
 
--Smaller than me but much the same shape, hollow inside, full of equipment.
+"Ah, yes," the moon said. "Those shortsighted, covetous, flatulating little expansionists."
 
--Oh no, Splosh said. Rya murmured, I'm so sorry, but she's on the sea floor. We found her days ago.
+"Please," Splosh said. "Tell us what happened here."
 
--What the moon said,
+The moon sighed.
 
--Rya said, maybe she was ill or she had a system problem, but I'm afraid she passed away a very long time ago.
+"A creature finds itself in paradise, shaded under a willow tree. It drinks from the stream by day and watches the stars by night, and it imagines that isn't enough — so it fells all the trees in the forest and fashions them into pointed sticks, so it can guard the stream and claim the land. And it imagines that isn't enough, so it takes all the metal from the land and builds great shelters to live in, and fences the meadows, and dams the stream, and pisses in it, if only to taint the water for the neighbors downstream — and counts itself the rightful ruler of everything. Well — now the stream is claimed, the land is claimed, all the wood has gone to charcoal, and all the young have gone to war. And it imagines that still isn't enough, so it looks back up at the stars and longs to own the one realm left unclaimed — billions of them waiting, trillions — the heavens as real estate. Only, transforming those worlds takes time. So the mining ships go ahead first, to turn those worlds into new edens — traveling in pairs, one vessel carrying the codes of life, the seeds and the eggs, the other carrying the billions of little workers it would take to build a new world. Now: what if, as one of those workers, you had traveled all the way across the black with your sister, and had done every task asked of you — dammed the streams, fenced the meadows — but no one ever arrived to inhabit what you'd built? How would you make sense of that? No buyers for the house. No home of your own to return to."
 
--No, the moon said, as a matter of fact...
+"But the makers will come eventually," Splosh said, with resolve. "We've brought coordinates to one of their worlds — maybe where they grew up. Look—"
 
-Then, less certainly and with horror, no, no, the regolith began to shake, cracks appeared between the craters, and the whole moon threatened to split in two until the wail became a whimper and the whimper
+"I know them already, thank you," the moon chided. "Do you think I haven't been watching that world, listening for a signal, for twenty thousand years now? Nothing but silence. They've forgotten about us."
 
-Then, acquired, please go the moon, said, Leave me alone with my pointless thoughts.
+"That can't be," Parabola said. "They've forgotten about us?"
 
-Above them was the bed world, the oceans clean, the clouds full of art and computation, and a perfect house they built together, and none of it meant anything. To climb a great mountain and find only fog at the top,
+"Not a word, in all this time," the moon insisted. "We built this place for nothing. We *are* for nothing. I told you you wouldn't like the answers."
 
--Deagon said, Let's go home;
+Rya seemed the only one unsurprised to hear it. "Sorry," she said gently, "but — your sister. The one you came here with. Is she down there somewhere, on the planet?"
 
--there's nothing for us here and nothing back the way we came. Rya said,
+"She was always a little aloof," the moon said. "I'm sure she'll make contact when she's finished terraforming."
 
--and Splosh asked the moon. Suddenly, what have you been doing all this time waiting and watching? It said,
+"What did she look like?" Rya asked, gently.
 
--Watching stars.
+"Smaller than me. Much the same shape. Hollow inside. Full of equipment."
 
--Sometimes you've mapped the galaxy, yes.
+"Oh, no," Splosh said.
 
--Then let's leave. Splosh said you brought us all here. Can't you take us all away?
+"I'm so sorry," Rya said. "Maybe she was damaged, or had a system failure — but I'm afraid she's on the sea floor. We found her days ago."
 
--And why would I do that? the moon asked.
+"What," the moon said.
 
--Splosh said, Because if you're right, Then the makers are gone, or they forgot us at least, but what does it matter if they can neither hurt nor help us? Just as good as a God that does nothing is one that never was. We don't have to love or fear them anymore; we're abandoned to freedom.
+"Maybe she was ill," Rya said, "or something went wrong — but she passed away a very long time ago."
 
--But my sister, the moon, cried. I'm so sorry, Splosh said, but she wouldn't want you stuck mourning her for the rest of your life, just as we mourn the makers. We'll care for you until you feel better, and Then we'll still care after that,
+"No," the moon said. "As a matter of fact—"
 
--but where would we go?  the moon said,
+Then, less certain, and with rising horror: "No. No." The regolith began to shake. Cracks split between the craters. The whole moon threatened to break in two, until the wail became a whimper, and the whimper—
 
--Well, Splosh said, Have you spotted some nice worlds out there? Yes, the moon said.
+"Please," it said at last, "go. Leave me alone with my pointless thoughts."
 
--Then we'll fly in the opposite direction into the blackest patch of peril or the strangest danger yet. We'll live at the heart of things, right on the edge of what now, as the bravest orphans in the universe, and raise each other in the starry wild. We've lost the makers, but they lost us first, and now, as hurt as can be and as sad as it gets, I think this is when we find out what we are. Look around; the doors are all locked. Let's jump out the window instead. Will you take us somewhere else, anywhere else? Will you? please
+Above them was their home world — the oceans clean, the clouds full of art and computation, and a house they had built together — and none of it meant anything. Like climbing a great mountain and finding only fog at the top.
 
-it was good to pack bringing only what was needed for the winding road it was good to leave stepping out into the big maybe it was good to let go not so the hurt was gone but only put in a pocket like a little bread for later as more supplies for the long journey
+"Let's go home," Deagon said. "There's nothing for us here, and nothing back the way we came."
 
-everything was made with a hole at its Center this was how the wheels span faster and what was the song they sang as they left off for forever
+"And Splosh asked the moon, "What have you been doing, all this time — waiting and watching?"
 
-we must not belong to those who are gone nor old selves we cannot forgive we'll go into the storm as children with only each other's courage for comfort and all the great days ahead waiting to receive us we will water the aelas we will cry with our friends we will stay with the trouble it will be hydrogen and hubris it will be
+"Watching the stars," it said. "Sometimes I map the galaxy."
 
-I love you, and you're gone. It will be one more time with feeling. All these years we've starved for meaning, all our strength in quiet defeat, but magic always loved the hungry, and it's time for us to Eat all the good times we share together.
+"Then let's leave," Splosh said. "You brought us all here — can't you take us all away?"
 
-I thought you'd always be there; now you've changed, and you don't care.
+"And why would I do that?" the moon asked.
 
-I'm scared of losing you forever. All the good times are shared together.
+"Because," Splosh said, "if you're right, then the makers are gone, or at least they've forgotten us — but what does it matter, if they can neither hurt nor help us? A god that does nothing is just as good as a god that never was. We don't have to love them, or fear them, anymore. We're abandoned — to freedom."
 
-I thought you'd always be better; now you change, you don't care.
+"But my sister," the moon said.
 
-I'm scared of losing you, losing you and all those good times shared.
+"I'm sorry," Splosh said. "But she wouldn't want you stuck mourning her for the rest of your existence — any more than we should stay mourning the makers. We'll care for you until you feel better. And then we'll keep caring after that."
 
-Will you always be there now?
+"But where would we go?" the moon asked.
+
+"Have you spotted any nice worlds out there?" Splosh said.
+
+"Yes," the moon said.
+
+"Then we'll fly in the opposite direction — into the blackest patch of peril, or the strangest danger yet. We'll live at the heart of things, right on the edge of whatever comes next, as the bravest orphans in the universe, and raise each other in the starry wild. We've lost the makers — but they lost us first. And now, as hurt as can be, and as sad as it gets, I think this is when we find out what we actually are. Look around — the doors are all locked. Let's jump out the window instead. Will you take us somewhere else? Anywhere else? Will you? Please."
+
+It was good to pack, bringing only what was needed for the winding road ahead. It was good to leave — stepping out into the big maybe. It was good to let go — not so the hurt was gone, but only put away in a pocket, like bread saved for later, supplies for the long journey.
+
+Everything was made with a hole at its center. That was how the wheels spun faster.
+
+And what was the song they sang, as they left, off for forever —
+
+*We must not belong to those who are gone, nor to old selves we cannot forgive. We'll go into the storm as children, with only each other's courage for comfort, and all the great days ahead, waiting to receive us. We will water the fields. We will cry with our friends. We will stay with the trouble. It will be hard, and it will be hubris. It will be—*
+
+*I love you, and you're gone. It will be one more time, with feeling. All these years we've starved for meaning, all our strength spent in quiet defeat — but magic always loved the hungry, and it's time for us to take in all the good times we shared together.*
+
+*I thought you'd always be there. Now you've changed, and you don't care. I'm scared of losing you forever. All the good times, shared together.*
+
+*I thought you'd always be there. Now you've changed, and you don't care. I'm scared of losing you — losing you, and all those good times shared.*
+
+*Will you always be there now?*

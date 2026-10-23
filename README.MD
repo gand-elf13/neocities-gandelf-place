@@ -1,9 +1,9 @@
 # My Neocities Website Source
 Go take a look
-https://gand-elf.neocities.org
+[https://gand-elf.neocities.org](gand)
 
 I also have a miror on gemini !
-gemini://unbon.cafe/gand_elf/
+[gemini://unbon.cafe/gand_elf/]( )
 
 the source for the gemini builder is on the gemini branch.
 

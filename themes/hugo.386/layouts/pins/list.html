@@ -1,0 +1,23 @@
+{{ define "main" }}
+<article class="row-fluid navmargin">
+    <header class="page-header">
+        <h1>PINS <a href="https://gand-elf.neocities.org/pins/index.xml"><img src="/img/RSS.png" alt="RSS" width="18" height="18"></a></h1>
+    </header>
+    <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+    {{.Content}}
+</article>
+<ul>
+<!-- Ranges through content/posts/*.md -->
+{{ range .Pages.ByDate.Reverse }}
+  <article class="pin">
+    <div class="pin-content">{{ .Content }}</div>
+ 
+    <time datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ .Date | time.Format ":date_long" }}
+    </time>
+    {{ range .Params.tags }}<a href="{{ "tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a> {{ end }}
+  </article>
+{{ end }}
+</ul>
+{{ end }}
+

@@ -4,10 +4,10 @@ tags:
   - GPFRS
   - man
 date: 2025-04-05
-date modified: 2026-05-21
+date modified: 2026-09-14
 date created: 2026-03-13
 title: Shoushimin
-lastmod: 2026-05-21T19:16:58.241Z
+lastmod: 2026-09-14T12:48:21.661Z
 ---
 Les cigales… comme evangelion
 
@@ -27,7 +27,7 @@ Et la on passe à la partie Spoiler, ne lisez pas regardez shoushimin, sérieuse
 
 vraiment arretez
 
-regarder le, au pire dm sur discord (@gand\_elf) je vous envoi les fichiers...
+regarder le, au pire dm sur discord (@gand\_elf) je vous envoi les fichiers…
 
 ***
 

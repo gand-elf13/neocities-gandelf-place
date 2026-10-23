@@ -33,3 +33,13 @@ h2 {
 .navbar .nav > li > .dropdown-menu:after {
   border-bottom-color: #000000;
 }
+
+.pinboard { columns: 3 260px; column-gap: 1rem; }
+.pin {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+}
+.pin time { font-size: .8rem; opacity: .6; display: block; margin-top: .5rem; }

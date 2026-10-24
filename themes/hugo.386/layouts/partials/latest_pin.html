@@ -1,5 +1,5 @@
 {{ with index (first 1 (where site.RegularPages "Section" "pins").ByDate.Reverse) 0 }}
-<aside class="latest-pin">
+<aside class="pin">
   <h2><a href="/pins/">Latest pin</a> <a href="https://gand-elf.neocities.org/pins/index.xml"><img src="/img/RSS.png" alt="RSS" width="18" height="18"></a></h2>
   <div class="pin-content">{{ .Content }}</div>
 

@@ -39,7 +39,7 @@ h2 {
   break-inside: avoid;
   margin-bottom: 1rem;
   padding: 1rem;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 0px;
 }
 .pin time { font-size: .8rem; opacity: .6; display: block; margin-top: .5rem; }

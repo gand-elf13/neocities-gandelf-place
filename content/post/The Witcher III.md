@@ -1,14 +1,29 @@
 ---
 tags: []
 date: 2026-07-09
-date modified: 2026-07-09
+date modified: 2026-10-25
 date created: 2026-07-09
 draft: false
 title: The Witcher III est déséquilibré
-extra_js: /js/fire.js
 flower: thorns_white_burned
-lastmod: 2026-07-09T15:34:48.145Z
+lastmod: 2026-10-25T13:48:59.168Z
 ---
+<div class="fx"><div class="l1"></div><div class="l2"></div><div class="l3"></div></div>
+
+<style>
+.fx{position:fixed;inset:0;pointer-events:none;z-index:9999;overflow:hidden}
+.fx div{position:absolute;inset:0;image-rendering:pixelated;
+  -webkit-mask-image:linear-gradient(to top, #000 0%, #000 25%, transparent 100%);
+  mask-image:linear-gradient(to top, #000 0%, #000 25%, transparent 100%);}
+.fx .l1{background-image:url(/img/fire/Layer-1.png);background-size:300px 300px;opacity:1;animation:fx1 10s linear infinite}
+.fx .l2{background-image:url(/img/fire/Layer-2.png);background-size:200px 200px;opacity:0.7;animation:fx2 7s linear infinite}
+.fx .l3{background-image:url(/img/fire/Layer-3.png);background-size:600px 600px;opacity:1;animation:fx3 15s linear infinite}
+@keyframes fx1{to{background-position:-300px -1500px}}
+@keyframes fx2{to{background-position:200px -600px}}
+@keyframes fx3{to{background-position:-600px -1200px}}
+@media (prefers-reduced-motion:reduce){.fx div{animation:none}}
+</style>
+
 ## Le Sorceleur 3 Chasse Sauvage
 
 Comme l'a dit le grand DJ Peach Cobbler, si on critique, c'est un compliment. Si je critique The Witcher, c'est parce-que je respecte ce jeu, il m’intéresse. Et c'est déjà ca de gagné ! Le nombre de jeu qui ne valent pas la peine d’être critiqués…

@@ -3,14 +3,37 @@ tags:
   - man
   - video_game
 date: 2026-06-29
-date modified: 2026-07-09
+date modified: 2026-10-25
 date created: 2026-06-29
 draft: false
 title: ARMACULTURE, peut-on gagner la guerre ?
-extra_js: /js/snow.js
 flower: thorns_white
-lastmod: 2026-07-09T15:35:00.911Z
+lastmod: 2026-10-25T09:23:54.506Z
 ---
+<div class="snow"></div>
+
+<style>
+  .snow {
+	 position: fixed;
+	 inset: 0;
+	 pointer-events: none;
+	 z-index: 9999;
+	 opacity: 0.7;
+	 background-image: url(/img/snow/Snow-1.png), url(/img/snow/Snow-2.png), url(/img/snow/Snow-3.png);
+	 background-size: 300px 300px, 200px 200px, 150px 150px;
+	 animation: snowfall 120s linear infinite;
+  }
+
+
+  @keyframes snowfall {
+	 to { background-position: -600px 3000px, -400px 2000px, -450px 1500px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+	 .snow { animation: none; }
+  }
+</style>
+
 Arma culture est un jeu indépendant gratuit !
 
 [armaculture](https://store.steampowered.com/app/1617190/ArmaCulture/)

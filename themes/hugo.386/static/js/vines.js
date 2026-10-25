@@ -98,7 +98,7 @@ window.VINE_CFG = {
 
   /* ── CSS SELECTORS ───────────────────────────────────────── */
   selectors: {
-    nav:       '.navbar a, .navbar-nav a, #navbar a',
+    nav:       '.navbar a, .navbar summary, .navbar-nav a, #navbar a',
     postTitle: '.post-title, h1.entry-title, .list-post-title, article h2 a',
     tag:       'a[href*="/tags/"]',
     sidebar:   '.bs-docs-sidebar a, .sidebar a, aside a',

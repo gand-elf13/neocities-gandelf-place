@@ -11,18 +11,19 @@
                     {{ range .Site.Menus.main }}
                         {{ if .HasChildren }}
                             <li class="dropdown {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    {{ .Pre }}
-                                    <span>{{ .Name }}</span>
-                                    <span class="caret"></span>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    {{ range .Children }}
-                                        <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-                                            <a href="{{ .URL }}">{{ .Name }}</a>
-                                        </li>
-                                    {{ end }}
-                                </ul>
+                                <details name="mainnav">
+                                    <summary>
+                                        {{ .Pre }}
+                                        <span>{{ .Name }}</span>
+                                    </summary>
+                                    <ul class="dropdown-menu">
+                                        {{ range .Children }}
+                                            <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+                                                <a href="{{ .URL }}">{{ .Name }}</a>
+                                            </li>
+                                        {{ end }}
+                                    </ul>
+                                </details>
                             </li>
                         {{ else }}
                             <li>

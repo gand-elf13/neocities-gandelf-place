@@ -9,7 +9,6 @@
 <script src="{{ "js/bootstrap-transition.js" | relURL }}"></script>
 <script src="{{ "js/bootstrap-alert.js" | relURL }}"></script>
 <script src="{{ "js/bootstrap-modal.js" | relURL }}"></script>
-<script src="{{ "js/bootstrap-dropdown.js" | relURL }}"></script>
 <script src="{{ "js/bootstrap-scrollspy.js" | relURL }}"></script>
 <script src="{{ "js/bootstrap-tab.js" | relURL }}"></script>
 <script src="{{ "js/bootstrap-tooltip.js" | relURL }}"></script>
@@ -30,6 +29,41 @@
     function ThisYear() {
         document.getElementById('thisyear').innerHTML = new Date().getFullYear();
     };
+</script>
+<script>
+    // The navbar dropdowns are native <details> elements, so they work
+    // without JavaScript. This only restores the old Bootstrap behaviour
+    // (close on outside click / Escape, one menu at a time) when JS is on.
+    document.addEventListener('DOMContentLoaded', function () {
+        var menus = document.querySelectorAll('.navbar details[name]');
+        if (!menus.length) return;
+
+        function closeAll(except) {
+            menus.forEach(function (menu) {
+                if (menu !== except) menu.open = false;
+            });
+        }
+
+        document.addEventListener('click', function (event) {
+            menus.forEach(function (menu) {
+                if (menu.open && !menu.contains(event.target)) menu.open = false;
+            });
+        });
+
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') closeAll(null);
+        });
+
+        // <details name="…"> is recent (2024). On older browsers, close the
+        // sibling menus manually so opening one still closes the others.
+        if (!('name' in document.createElement('details'))) {
+            menus.forEach(function (menu) {
+                menu.addEventListener('toggle', function () {
+                    if (menu.open) closeAll(menu);
+                });
+            });
+        }
+    });
 </script>
 {{- range .Site.Params.customJS }}
 <script src="{{ . | relURL }}"></script>

@@ -27,25 +27,10 @@
           height: auto !important;
           overflow: visible !important;
         }
-        /* Show dropdown menus by default (they won't be collapsible) */
-        .nav-collapse .dropdown-menu {
-          display: block !important;
+        /* Without JS the navbar cannot collapse, so let it flow with the
+           page instead of overlapping the content below. */
+        .navbar-fixed-top {
           position: static !important;
-          float: none !important;
-          max-width: none !important;
-          background: transparent !important;
-          border: none !important;
-          box-shadow: none !important;
-          padding: 8px 0 12px 30px !important;
-          margin: 6px 0 14px 0 !important;
-        }
-        /* Make dropdown toggle links look normal */
-        .nav-collapse .dropdown-toggle .caret {
-          display: none !important;
-        }
-        /* Push content down more to account for expanded fixed navbar */
-        #content.container {
-          padding-top: 110px !important;
         }
       </style>
     </noscript>

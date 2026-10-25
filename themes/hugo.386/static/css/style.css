@@ -34,6 +34,115 @@ h2 {
   border-bottom-color: #000000;
 }
 
+/* Native <details> navbar dropdowns — they work without JavaScript. */
+.navbar .nav > li > details > summary {
+  display: block;
+  padding: 0 10px;
+  color: #000000;
+  cursor: pointer;
+  list-style: none;
+}
+
+.navbar .nav > li > details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.navbar .nav > li > details > summary::marker {
+  content: "";
+}
+
+.navbar .nav > li > details > summary:hover,
+.navbar .nav > li > details > summary:focus {
+  color: #555555;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.navbar .nav > .active > details > summary,
+.navbar .nav > .active > details > summary:hover,
+.navbar .nav > .active > details > summary:focus {
+  color: #bbbbbb;
+  background-color: #bbbbbb;
+}
+
+.navbar .nav > li > details[open] > .dropdown-menu {
+  display: block;
+}
+
+.navbar .nav > li > details > .dropdown-menu:before {
+  position: absolute;
+  top: -7px;
+  left: 9px;
+  display: inline-block;
+  border-right: 7px solid transparent;
+  border-bottom: 7px solid #ccc;
+  border-left: 7px solid transparent;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+  content: '';
+}
+
+.navbar .nav > li > details > .dropdown-menu:after {
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  border-left: 6px solid transparent;
+  content: '';
+  border-bottom-color: #000000;
+}
+
+.navbar-inverse .nav > li > details > summary {
+  color: #000000;
+  text-shadow: 0;
+  background: #bbbbbb;
+}
+
+.navbar-inverse .nav > li > details > summary:hover,
+.navbar-inverse .nav > li > details > summary:focus {
+  color: #bbbbbb;
+  background: #000000;
+}
+
+.navbar-inverse .nav .active > details > summary,
+.navbar-inverse .nav .active > details > summary:hover,
+.navbar-inverse .nav .active > details > summary:focus {
+  color: #bbbbbb;
+  text-decoration: none;
+  background: #000000;
+}
+
+.navbar-inverse .nav li.dropdown details[open] > summary,
+.navbar-inverse .nav .active > details[open] > summary {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+@media (max-width: 979px) {
+  .nav-collapse .nav > li > details > summary {
+    padding: 0 10px;
+  }
+
+  .navbar-inverse .nav-collapse .nav > li > details > summary {
+    color: #000000;
+  }
+
+  .navbar-inverse .nav-collapse .nav > li > details > summary:hover,
+  .navbar-inverse .nav-collapse .nav > li > details > summary:focus {
+    color: #bbbbbb;
+    background-color: #000000;
+  }
+
+  .navbar-inverse .nav-collapse .nav > li.active > details > summary {
+    color: #bbbbbb;
+  }
+
+  .nav-collapse .nav > li > details[open] > .dropdown-menu {
+    display: block;
+  }
+}
+
 .pinboard { columns: 3 260px; column-gap: 1rem; }
 .pin {
   break-inside: avoid;

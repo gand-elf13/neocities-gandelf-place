@@ -9,7 +9,7 @@ date created: 2026-10-24
 draft: false
 title: Edgerunner 2 is good actually :)
 extra_js: /js/fire-triangles.js
-lastmod: 2026-10-25T14:35:03.267Z
+lastmod: 2026-10-25T18:50:15.813Z
 ---
 <img class="gif-bas" src="/img/D-fire.gif" alt="">
 
@@ -70,13 +70,18 @@ Et Trigger ne sont pas des méchants fatalistes, ils racontent des histoires hum
 NC est un endroit difficile qui te donne toute les manières de faire erreur, de te perdre dans des ambitions insensées, de sacrifier tout pour un faux idéal. NC est dure, Mais ca n'est pas une fin en soit, les hommes font des erreurs, et puis ils apprennent.
 
 **D** comprend que la vengeance ne répare rien, et parvient à identifier son trauma comme cause de son malheur, à force de répéter qu'il revis sans cesse le drame à Omi et Roman. Et enfin le déclic, quand Capri est entrée dans sa tête, il as enfin pu dormir tranquille, elle peut le sauver, d'ou le crackdown quand apaisé pour quelque temps, Capri disparaît, la suite lui apparaît alors claire, il doit retrouver Capri afin d'être ne paix.\
-et de vivre.\
+et de vivre.
+
+![a246f76bd456.png](/ob/attachements/a246f76bd456.png)
+
 (Capri est 100% vivante je parie que lui aussi, en tout cas sa conscience son corp bien sur n'est plus là ).
 
 **Weak** comprend qu'il n'a pas besoin d'être l'homme de la situation, le King, l'edge runner fort et efficace,  Il lui suffit d'être honnête pour être un bon père.
 
 **Talia** parvient a dialoguer avec Weak (quand il se comporte correctement) et elle quite le cercle d'autodestruction quelle avait commencé. Plus encore, Capri la guérie\
 Cela ne lui suffit pas, *"I am happy but it's not enough"* elle veut être plus forte, redevenir comme sur les images de Roman. son souhait est exaucé mais avec le petit twist de NC, ca sera de force et sa mère meurt au passage. Et le bonheur qu'elle voulait se change en vengeance et aliénation. Fort heureusement les gens dans la merde se serrent les coudes et ils parviennent à la sortir de la. Elle comprend que si les images de Roman sont belles c'est parcequ'elle était heureuse pas forte. Et que Roman l'aime comme elle est, même quand elle semble faible. Elle aussi elle peut alors s'accepter et profiter de cette longue vie qui l'attend (trust, elle reste en vie Capri la soignée…)
+
+![51ba15755d8a.png](/ob/attachements/51ba15755d8a.png)
 
 Et Oui, **vivre, ca veut dire quiter Night City.**
 
